@@ -1,0 +1,27 @@
+digraph "Plugin architecture (loop_analysis)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"LoopAnalysis" [style=filled, color=darkturquoise];
+"Options" [style=filled, color=darkturquoise];
+"Region_analysis_sig" [style=filled, color=darkturquoise];
+"Region_analysis" [style=filled, color=darkturquoise];
+"Region_analysis" -> "Region_analysis_sig";
+"Region_analysis_stmt" [style=filled, color=darkturquoise];
+"Region_analysis_stmt" -> "Region_analysis";
+"Loop_analysis" [style=filled, color=darkturquoise];
+"Loop_analysis" -> "Options";
+"Loop_analysis" -> "Region_analysis";
+"Loop_analysis" -> "Region_analysis_stmt";
+"Slevel_analysis" [style=filled, color=darkturquoise];
+"Slevel_analysis" -> "Region_analysis_stmt";
+"Slevel_analysis" -> "Region_analysis";
+"Slevel_analysis" -> "Options";
+"Slevel_analysis" -> "Loop_analysis";
+"Register" [style=filled, color=darkturquoise];
+"Register" -> "Slevel_analysis";
+"Register" -> "Options";
+"Register" -> "Loop_analysis";
+}

@@ -1,0 +1,859 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Slicing.html">
+<link rel="next" href="SlicingTypes.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html">
+<link title="Slicing" rel="Chapter" href="Slicing.html">
+<link title="SlicingInternals" rel="Chapter" href="SlicingInternals.html">
+<link title="SlicingTypes" rel="Chapter" href="SlicingTypes.html">
+<link title="SlicingParameters" rel="Chapter" href="SlicingParameters.html">
+<link title="SlicingState" rel="Chapter" href="SlicingState.html">
+<link title="SlicingMacros" rel="Chapter" href="SlicingMacros.html">
+<link title="SlicingMarks" rel="Chapter" href="SlicingMarks.html">
+<link title="SlicingActions" rel="Chapter" href="SlicingActions.html">
+<link title="Fct_slice" rel="Chapter" href="Fct_slice.html">
+<link title="PrintSlice" rel="Chapter" href="PrintSlice.html">
+<link title="SlicingProject" rel="Chapter" href="SlicingProject.html">
+<link title="SlicingTransform" rel="Chapter" href="SlicingTransform.html">
+<link title="SlicingSelect" rel="Chapter" href="SlicingSelect.html">
+<link title="SlicingCmds" rel="Chapter" href="SlicingCmds.html">
+<link title="Api" rel="Chapter" href="Api.html">
+<link title="Register_gui" rel="Chapter" href="Register_gui.html"><link title="Internals values" rel="Section" href="#2_Internalsvalues">
+<link title="About options" rel="Subsection" href="#3_Aboutoptions">
+<link title="About function slice" rel="Subsection" href="#3_Aboutfunctionslice">
+<title>SlicingInternals - Slicing plugin</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Slicing.html" title="Slicing">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="SlicingTypes.html" title="SlicingTypes">Next</a>
+</div>
+<h1>Module <a href="type_SlicingInternals.html">SlicingInternals</a></h1>
+
+<pre><span id="MODULESlicingInternals"><span class="keyword">module</span> SlicingInternals</span>: <code class="code"><span class="keyword">sig</span></code> <a href="SlicingInternals.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<h3 id="2_Internalstypes">Internals types</h3><p>Internals type definitions should be hidden to the outside world,
+    but it is not really possible to have abstract types since Slicing has to
+    use Db.Slicing functions...</p>
+</div>
+</div>
+<hr width="100%">
+<h4 id="3_Aboutoptions">About options</h4>
+<pre><code><span id="TYPElevel_option"><span class="keyword">type</span> <code class="type"></code>level_option</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlevel_option.DontSlice"><span class="constructor">DontSlice</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>don't build slice for the function :
+                  ie. always call the source function.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlevel_option.DontSliceButComputeMarks"><span class="constructor">DontSliceButComputeMarks</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>don't slice the called functions,
+   but compute the marks for them</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlevel_option.MinNbSlice"><span class="constructor">MinNbSlice</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>try to use existing slices, create at most one</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlevel_option.MaxNbSlice"><span class="constructor">MaxNbSlice</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>most precise slices
+                   (but merge slices with the same visibility,
+                    even if they don't have the same marks)</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>associate a level to each function in order to control how it will be
+ specialized. This is only a hint used when the tool has to make a choice,
+ but it doesn't forbid to the user to do whatever he wants
+ (like building slices for a <code class="code"><span class="constructor">DontSlice</span></code> function).</p>
+</div>
+</div>
+
+<h4 id="3_Aboutfunctionslice">About function slice</h4>
+<pre><code><span id="TYPEmark"><span class="keyword">type</span> <code class="type"></code>mark</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmark.Cav"><span class="constructor">Cav</span></span> <span class="keyword">of</span> <code class="type">PdgTypes.Dpd.t</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmark.Spare"><span class="constructor">Spare</span></span></code></td>
+
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>Kinds of elementary marks.</p>
+</div>
+</div>
+
+
+<pre><span id="VALcompare_mark"><span class="keyword">val</span> compare_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEmark">mark</a> -> <a href="./SlicingInternals.html#TYPEmark">mark</a> -> int</code></pre>
+<pre><code><span id="TYPEpdg_mark"><span class="keyword">type</span> <code class="type"></code>pdg_mark</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpdg_mark.m1">m1</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEmark">mark</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpdg_mark.m2">m2</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEmark">mark</a></code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>Each PDG element has 2 marks to deal with interprocedural propagation</p>
+</div>
+</div>
+
+
+<pre><span id="VALpdg_mark_packed_descr"><span class="keyword">val</span> pdg_mark_packed_descr</span> : <code class="type"><a href="../../../doc/code/html/Structural_descr.html#TYPEpack">Structural_descr.pack</a></code></pre>
+<pre><span id="VALcompare_pdg_mark"><span class="keyword">val</span> compare_pdg_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> -> <a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> -> int</code></pre>
+<pre><code><span id="TYPEfct_info"><span class="keyword">type</span> <code class="type"></code>fct_info</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_info.fi_kf">fi_kf</span>&nbsp;: <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_info.fi_def">fi_def</span>&nbsp;: <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEfundec">Cil_types.fundec</a> option</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfct_info.fi_top">fi_top</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> option</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>indicates if the function is marked top (=&gt; src visible)</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfct_info.fi_level_option">fi_level_option</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPElevel_option">level_option</a></code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>level of specialisation for this function</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfct_info.fi_init_marks">fi_init_marks</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEff_marks">ff_marks</a> option</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>the marks that must be in every slices of that function</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfct_info.fi_slices">fi_slices</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">fct_slice</a> list</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>the list of the slices already computed for this function.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfct_info.fi_next_ff_num">fi_next_ff_num</span>&nbsp;: <code class="type">int</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>the number to assign to the next slice.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfct_info.f_called_by">f_called_by</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEcalled_by">called_by</a></code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>calls in slices that call source fct</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>Type for all the informations related to any function,
+ even if we don't have its definition.</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEcalled_by"><span class="keyword">type</span> <code class="type"></code>called_by</span> = <code class="type">(<a href="./SlicingInternals.html#TYPEfct_slice">fct_slice</a> * <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a>) list</code> </pre>
+
+
+<pre><code><span id="TYPEfct_slice"><span class="keyword">type</span> <code class="type"></code>fct_slice</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_slice.ff_fct">ff_fct</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">fct_info</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_slice.ff_id">ff_id</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfct_slice.ff_marks">ff_marks</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEff_marks">ff_marks</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfct_slice.ff_called_by">ff_called_by</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEcalled_by">called_by</a></code>;</code></td>
+
+</tr></table>
+}
+
+
+
+<pre><code><span id="TYPEfct_id"><span class="keyword">type</span> <code class="type"></code>fct_id</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_id.FctSrc"><span class="constructor">FctSrc</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">fct_info</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>source function</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_id.FctSliced"><span class="constructor">FctSliced</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">fct_slice</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>sliced function</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><code><span id="TYPEcalled_fct"><span class="keyword">type</span> <code class="type"></code>called_fct</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcalled_fct.CallSrc"><span class="constructor">CallSrc</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">fct_info</a> option</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>call the source function (might be unknown if the call uses pointer)</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcalled_fct.CallSlice"><span class="constructor">CallSlice</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">fct_slice</a></code></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="TYPEcall_info"><span class="keyword">type</span> <code class="type"></code>call_info</span> = <code class="type"><a href="./SlicingInternals.html#TYPEcalled_fct">called_fct</a> option</code> </pre>
+
+
+<pre><span id="TYPEmarks_index"><span class="keyword">type</span> <code class="type"></code>marks_index</span> = <code class="type">(<a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a>, <a href="./SlicingInternals.html#TYPEcall_info">call_info</a>) PdgIndex.FctIndex.t</code> </pre>
+
+
+<pre><span id="TYPEff_marks"><span class="keyword">type</span> <code class="type"></code>ff_marks</span> = <code class="type">PdgTypes.Pdg.t * <a href="./SlicingInternals.html#TYPEmarks_index">marks_index</a></code> </pre>
+
+
+<pre><code><span id="TYPEproject"><span class="keyword">type</span> <code class="type"></code>project</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTproject.functions">functions</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">fct_info</a> Cil_datatype.Varinfo.Hashtbl.t</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTproject.actions">actions</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEcriterion">criterion</a> list</code>;</code></td>
+
+</tr></table>
+}
+
+
+
+<pre><code><span id="TYPEappli_criterion"><span class="keyword">type</span> <code class="type"></code>appli_criterion</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTappli_criterion.CaGlobalData"><span class="constructor">CaGlobalData</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Locations.Zone.html#TYPEt">Locations.Zone.t</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>select all that is necessary to compute the given location.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTappli_criterion.CaCall"><span class="constructor">CaCall</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">fct_info</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>select all that is necessary to call the given function.
+ Its application generates requests to add persistent selection
+ to all the function callers.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTappli_criterion.CaOther"><span class="constructor">CaOther</span></span></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="TYPEfct_base_criterion"><span class="keyword">type</span> <code class="type"></code>fct_base_criterion</span> = <code class="type"><a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> PdgMarks.select</code> </pre>
+
+
+<pre><span id="TYPEloc_point"><span class="keyword">type</span> <code class="type"></code>loc_point</span> = <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> * <a href="../../../doc/code/html/Locations.Zone.html#TYPEt">Locations.Zone.t</a> * bool</code> </pre>
+
+<p>List of pdg nodes to be selected (see <a href="SlicingInternals.html#TYPEfct_user_crit"><code class="code"><span class="constructor">SlicingInternals</span>.fct_user_crit</code></a>)</p>
+
+<pre><code><span id="TYPEnode_or_dpds"><span class="keyword">type</span> <code class="type"></code>node_or_dpds</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTnode_or_dpds.CwNode"><span class="constructor">CwNode</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTnode_or_dpds.CwAddrDpds"><span class="constructor">CwAddrDpds</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTnode_or_dpds.CwDataDpds"><span class="constructor">CwDataDpds</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTnode_or_dpds.CwCtrlDpds"><span class="constructor">CwCtrlDpds</span></span></code></td>
+
+</tr></table>
+
+
+
+<pre><code><span id="TYPEfct_user_crit"><span class="keyword">type</span> <code class="type"></code>fct_user_crit</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_user_crit.CuSelect"><span class="constructor">CuSelect</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> PdgMarks.select</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_user_crit.CuTop"><span class="constructor">CuTop</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>the function has probably no PDG,
+                            but we nonetheless give a mark to propagate</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><code><span id="TYPEfct_crit"><span class="keyword">type</span> <code class="type"></code>fct_crit</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_crit.CcUserMark"><span class="constructor">CcUserMark</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEfct_user_crit">fct_user_crit</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>add marks to a slice</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_crit.CcChooseCall"><span class="constructor">CcChooseCall</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>have to choose what function to call here.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_crit.CcChangeCall"><span class="constructor">CcChangeCall</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> * <a href="./SlicingInternals.html#TYPEcalled_fct">called_fct</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>call the <code class="code">called_fct</code> for the given call <code class="code"><span class="constructor">Cil_types</span>.stmt</code></p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_crit.CcMissingOutputs"><span class="constructor">CcMissingOutputs</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> * <a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> PdgMarks.select * bool</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>this call is affected to a function that doesn't compute enough
+ outputs : we will have to choose between adding outputs to that slice,
+ or call another one. The boolean tells if the modifications would
+ change the visibility of some outputs.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_crit.CcMissingInputs"><span class="constructor">CcMissingInputs</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> * <a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> PdgMarks.select * bool</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>the function calls a slice that has been modified :
+ and doesn't compute not enough inputs.
+ We will have to choose between adding marks to this function,
+ and call another slice.
+ The boolean tells if the modifications would
+ change the visibility of some inputs.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_crit.CcPropagate"><span class="constructor">CcPropagate</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> PdgMarks.select</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>simply propagate the given marks</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_crit.CcExamineCalls"><span class="constructor">CcExamineCalls</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a> PdgMarks.info_called_outputs</code></code></td>
+
+</tr></table>
+
+
+
+<pre><code><span id="TYPEfct_criterion"><span class="keyword">type</span> <code class="type"></code>fct_criterion</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_criterion.cf_fct">cf_fct</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEfct_id">fct_id</a></code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Identification of the <b>RESULT</b> of this filter.
+ When it a a slice, it might be an existing slice that will be modified,
+ or a new one will be created during application.
+ When it is the source function, it means what the criterion has to be
+ applied on each existing slice, and stored into the initial marks of
+ the function.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfct_criterion.cf_info">cf_info</span>&nbsp;: <code class="type"><a href="./SlicingInternals.html#TYPEfct_crit">fct_crit</a></code>;</code></td>
+
+</tr></table>
+}
+
+
+
+<pre><code><span id="TYPEcriterion"><span class="keyword">type</span> <code class="type"></code>criterion</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcriterion.CrAppli"><span class="constructor">CrAppli</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEappli_criterion">appli_criterion</a></code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcriterion.CrFct"><span class="constructor">CrFct</span></span> <span class="keyword">of</span> <code class="type"><a href="./SlicingInternals.html#TYPEfct_criterion">fct_criterion</a></code></code></td>
+
+</tr></table>
+
+
+<h3 id="2_Internalsvalues">Internals values</h3>
+<pre><span id="VALdummy_pdg_mark"><span class="keyword">val</span> dummy_pdg_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a></code></pre><div class="info ">
+<div class="info-desc">
+<h4 id="3_Forthejournalizationoftheseinternalstypes">For the journalization of these internals types</h4></div>
+</div>
+
+<pre><span id="VALdummy_project"><span class="keyword">val</span> dummy_project</span> : <code class="type"><a href="./SlicingInternals.html#TYPEproject">project</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The whole project.</p>
+</div>
+</div>
+
+<pre><span id="VALdummy_fct_info"><span class="keyword">val</span> dummy_fct_info</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">fct_info</a></code></pre>
+<pre><span id="VALdummy_marks_index"><span class="keyword">val</span> dummy_marks_index</span> : <code class="type">(<a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a>, <a href="./SlicingInternals.html#TYPEcall_info">call_info</a>) PdgIndex.FctIndex.t</code></pre>
+<pre><span id="VALdummy_ff_marks"><span class="keyword">val</span> dummy_ff_marks</span> : <code class="type">PdgTypes.Pdg.t *<br>       (<a href="./SlicingInternals.html#TYPEpdg_mark">pdg_mark</a>, <a href="./SlicingInternals.html#TYPEcall_info">call_info</a>) PdgIndex.FctIndex.t</code></pre>
+<pre><span id="VALdummy_fct_slice"><span class="keyword">val</span> dummy_fct_slice</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">fct_slice</a></code></pre>
+<pre><span id="VALdummy_fct_user_crit"><span class="keyword">val</span> dummy_fct_user_crit</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_user_crit">fct_user_crit</a></code></pre></body></html>

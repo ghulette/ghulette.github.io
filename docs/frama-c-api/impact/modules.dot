@@ -1,0 +1,28 @@
+digraph "Plugin architecture (impact)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Impact" [style=filled, color=darkturquoise];
+"Options" [style=filled, color=darkturquoise];
+"Pdg_aux" [style=filled, color=darkturquoise];
+"Pdg_aux" -> "Options";
+"Reason_graph" [style=filled, color=darkturquoise];
+"Reason_graph" -> "Pdg_aux";
+"Reason_graph" -> "Options";
+"Compute_impact" [style=filled, color=darkturquoise];
+"Compute_impact" -> "Options";
+"Compute_impact" -> "Reason_graph";
+"Compute_impact" -> "Pdg_aux";
+"Register" [style=filled, color=darkturquoise];
+"Register" -> "Pdg_aux";
+"Register" -> "Options";
+"Register" -> "Compute_impact";
+"Register_gui" [style=filled, color=darkturquoise];
+"Register_gui" -> "Compute_impact";
+"Register_gui" -> "Options";
+"Register_gui" -> "Pdg_aux";
+"Register_gui" -> "Reason_graph";
+"Register_gui" -> "Register";
+}

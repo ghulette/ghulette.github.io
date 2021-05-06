@@ -1,0 +1,17 @@
+digraph "Plugin architecture (scope)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Scope" [style=filled, color=darkturquoise];
+"Datascope" [style=filled, color=darkturquoise];
+"Zones" [style=filled, color=darkturquoise];
+"Zones" -> "Datascope";
+"Defs" [style=filled, color=darkturquoise];
+"Defs" -> "Datascope";
+"Dpds_gui" [style=filled, color=darkturquoise];
+"Dpds_gui" -> "Zones";
+"Dpds_gui" -> "Defs";
+"Dpds_gui" -> "Datascope";
+}

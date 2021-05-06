@@ -1,0 +1,701 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Substitute_const_globals.html">
+<link rel="next" href="Tr_offset.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Task" rel="Section" href="#2_Task">
+<link title="Monadic Constructors" rel="Section" href="#2_MonadicConstructors">
+<link title="Synchronous Command" rel="Section" href="#2_SynchronousCommand">
+<link title="System Command" rel="Section" href="#2_SystemCommand">
+<link title="Shared Tasks" rel="Section" href="#2_SharedTasks">
+<link title="Task Thread" rel="Section" href="#2_TaskThread">
+<link title="Task Pool" rel="Section" href="#2_TaskPool">
+<link title="Task Server" rel="Section" href="#2_TaskServer">
+<link title="GUI Configuration" rel="Section" href="#2_GUIConfiguration">
+<title>Task - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Substitute_const_globals.html" title="Substitute_const_globals">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Tr_offset.html" title="Tr_offset">Next</a>
+</div>
+<h1>Module <a href="type_Task.html">Task</a></h1>
+
+<pre><span id="MODULETask"><span class="keyword">module</span> Task</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Task.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>High Level Interface to Command.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Carbon-20101201</li>
+</ul>
+</div>
+<hr width="100%">
+<h3 id="2_Task">Task</h3>
+<pre><span id="TYPEtask"><span class="keyword">type</span> <code class="type">'a</code> task</span> </pre>
+
+
+<pre><code><span id="TYPEstatus"><span class="keyword">type</span> <code class="type">'a</code> status</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstatus.Timeout"><span class="constructor">Timeout</span></span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstatus.Canceled"><span class="constructor">Canceled</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstatus.Result"><span class="constructor">Result</span></span> <span class="keyword">of</span> <code class="type">'a</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstatus.Failed"><span class="constructor">Failed</span></span> <span class="keyword">of</span> <code class="type">exn</code></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="VALerror"><span class="keyword">val</span> error</span> : <code class="type">exn -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p>Extract error message form exception</p>
+</div>
+</div>
+
+<pre><span id="VALwait"><span class="keyword">val</span> wait</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> 'a <a href="./Task.html#TYPEstatus">status</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Blocks until termination.</p>
+</div>
+</div>
+
+<pre><span id="VALmap"><span class="keyword">val</span> map</span> : <code class="type">('a -> 'b) -> 'a <a href="./Task.html#TYPEstatus">status</a> -> 'b <a href="./Task.html#TYPEstatus">status</a></code></pre>
+<pre><span id="VALpretty"><span class="keyword">val</span> pretty</span> : <code class="type">(Stdlib.Format.formatter -> 'a -> unit) -><br>       Stdlib.Format.formatter -> 'a <a href="./Task.html#TYPEstatus">status</a> -> unit</code></pre><h3 id="2_MonadicConstructors">Monadic Constructors</h3>
+<pre><span id="VALnop"><span class="keyword">val</span> nop</span> : <code class="type">unit <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The task that immediately returns unit</p>
+</div>
+</div>
+
+<pre><span id="VALreturn"><span class="keyword">val</span> return</span> : <code class="type">'a -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The task that immediately returns a result</p>
+</div>
+</div>
+
+<pre><span id="VALraised"><span class="keyword">val</span> raised</span> : <code class="type">exn -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The task that immediately fails with an exception</p>
+</div>
+</div>
+
+<pre><span id="VALcanceled"><span class="keyword">val</span> canceled</span> : <code class="type">unit -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The task that is immediately canceled</p>
+</div>
+</div>
+
+<pre><span id="VALfailed"><span class="keyword">val</span> failed</span> : <code class="type">('a, Stdlib.Format.formatter, unit, 'b <a href="./Task.html#TYPEtask">task</a>) Stdlib.format4 -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p>The task that immediately fails by raising a <code class="code"><span class="constructor">Failure</span></code> exception.
+    Typically: <code class="code">[<span class="keyword">let</span>&nbsp;exit&nbsp;d&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;task&nbsp;=&nbsp;failed&nbsp;<span class="string">"exit&nbsp;status&nbsp;%d"</span>&nbsp;k]</code></p>
+</div>
+</div>
+
+<pre><span id="VALcall"><span class="keyword">val</span> call</span> : <code class="type">?canceled:('a -> unit) -> ('a -> 'b) -> 'a -> 'b <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The task that, when started, invokes a function and immediately
+    returns the result.</p>
+</div>
+</div>
+
+<pre><span id="VALlater"><span class="keyword">val</span> later</span> : <code class="type">?canceled:('a -> unit) -> ('a -> 'b <a href="./Task.html#TYPEtask">task</a>) -> 'a -> 'b <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The task that, when started, compute a task to continue with.</p>
+</div>
+</div>
+
+<pre><span id="VALtodo"><span class="keyword">val</span> todo</span> : <code class="type">?canceled:(unit -> unit) -> (unit -> 'a <a href="./Task.html#TYPEtask">task</a>) -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Specialized version of <code class="code">later</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALstatus"><span class="keyword">val</span> status</span> : <code class="type">'a <a href="./Task.html#TYPEstatus">status</a> -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The task that immediately finishes with provided status</p>
+</div>
+</div>
+
+<pre><span id="VALbind"><span class="keyword">val</span> bind</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> ('a <a href="./Task.html#TYPEstatus">status</a> -> 'b <a href="./Task.html#TYPEtask">task</a>) -> 'b <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">bind&nbsp;t&nbsp;k</code> first runs <code class="code">t</code>. Then, when <code class="code">t</code> exit with status <code class="code">s</code>,
+    it starts task <code class="code">k&nbsp;s</code>.</p>
+
+<p><b>Remark:</b> If <code class="code">t</code> was cancelled, <code class="code">k&nbsp;s</code> is still evaluated, but
+    immediately canceled as well. This allows <code class="code">finally</code>-like behaviors to
+    be implemented. To evaluate <code class="code">k&nbsp;r</code> only when <code class="code">t</code> terminates normally,
+    make use of the <code class="code">sequence</code> operator.</p>
+</div>
+</div>
+
+<pre><span id="VALsequence"><span class="keyword">val</span> sequence</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> ('a -> 'b <a href="./Task.html#TYPEtask">task</a>) -> 'b <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">sequence&nbsp;t&nbsp;k</code> first runs <code class="code">t</code>. If <code class="code">t</code> terminates with <code class="code"><span class="constructor">Result</span>&nbsp;r</code>,
+    then task <code class="code">k&nbsp;r</code> is started.
+    Otherwise, failure or cancelation of <code class="code">t</code> is returned.</p>
+</div>
+</div>
+
+<pre><span id="VALjob"><span class="keyword">val</span> job</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> unit <a href="./Task.html#TYPEtask">task</a></code></pre>
+<pre><span id="VALfinally"><span class="keyword">val</span> finally</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> ('a <a href="./Task.html#TYPEstatus">status</a> -> unit) -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">finally&nbsp;t&nbsp;cb</code> runs task <code class="code">t</code> and <i>always</i> calls <code class="code">cb&nbsp;s</code> when <code class="code">t</code> exits
+    with status <code class="code">s</code>. Then <code class="code">s</code> is returned. If the callback <code class="code">cb</code>
+    raises an exception, the returned status is emitted.</p>
+</div>
+</div>
+
+<pre><span id="VALcallback"><span class="keyword">val</span> callback</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> ('a <a href="./Task.html#TYPEstatus">status</a> -> unit) -> unit <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">finally</code> but the status of the task is discarded.</p>
+</div>
+</div>
+
+<pre><code><span id="TYPEasync"><span class="keyword">type</span> <code class="type">'a</code> async</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTasync.Yield"><span class="constructor">Yield</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>give up the control</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTasync.Wait"><span class="constructor">Wait</span></span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>wait for the number of milliseconds</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTasync.Return"><span class="constructor">Return</span></span> <span class="keyword">of</span> <code class="type">'a</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>return a value</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><code><span id="TYPEcoin"><span class="keyword">type</span> <code class="type"></code>coin</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcoin.Coin"><span class="constructor">Coin</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>continue to work</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcoin.Kill"><span class="constructor">Kill</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>stop the computation</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><span id="VALasync"><span class="keyword">val</span> async</span> : <code class="type">(<a href="./Task.html#TYPEcoin">coin</a> -> 'a <a href="./Task.html#TYPEstatus">status</a> <a href="./Task.html#TYPEasync">async</a>) -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>low level command for managing ressource with active wait</p>
+</div>
+</div>
+
+<pre><span id="VAL(>>>)"><span class="keyword">val</span> (&gt;&gt;&gt;)</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> ('a <a href="./Task.html#TYPEstatus">status</a> -> 'b <a href="./Task.html#TYPEtask">task</a>) -> 'b <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">bind</code> infix.</p>
+</div>
+</div>
+
+<pre><span id="VAL(>>=)"><span class="keyword">val</span> (&gt;&gt;=)</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> ('a -> 'b <a href="./Task.html#TYPEtask">task</a>) -> 'b <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">sequence</code> infix.</p>
+</div>
+</div>
+
+<pre><span id="VAL(>>?)"><span class="keyword">val</span> (&gt;&gt;?)</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> ('a <a href="./Task.html#TYPEstatus">status</a> -> unit) -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">finally</code> infix.</p>
+</div>
+</div>
+
+<pre><span id="VAL(>>!)"><span class="keyword">val</span> (&gt;&gt;!)</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> ('a <a href="./Task.html#TYPEstatus">status</a> -> unit) -> unit <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">callback</code> infix.</p>
+</div>
+</div>
+<h3 id="2_SynchronousCommand">Synchronous Command</h3>
+<pre><span id="TYPEmutex"><span class="keyword">type</span> <code class="type"></code>mutex</span> </pre>
+
+
+<pre><span id="VALmutex"><span class="keyword">val</span> mutex</span> : <code class="type">unit -> <a href="./Task.html#TYPEmutex">mutex</a></code></pre>
+<pre><span id="VALsync"><span class="keyword">val</span> sync</span> : <code class="type"><a href="./Task.html#TYPEmutex">mutex</a> -> (unit -> 'a <a href="./Task.html#TYPEtask">task</a>) -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Schedules a task such that only one can run simultaneously for a
+    given mutex.</p>
+</div>
+</div>
+<h3 id="2_SystemCommand">System Command</h3>
+<pre><span id="VALcommand"><span class="keyword">val</span> command</span> : <code class="type">?timeout:int -><br>       ?time:float Stdlib.ref -><br>       ?stdout:Stdlib.Buffer.t -><br>       ?stderr:Stdlib.Buffer.t -> string -> string array -> int <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Immediately launch a system-process.
+    Default timeout is <code class="code">0</code>, which means no-timeout at all.
+    Standard outputs are discarded unless optional buffers are provided.
+    To make the task start later, simply use <code class="code">todo&nbsp;(command&nbsp;...)</code>.</p>
+</div>
+</div>
+<h3 id="2_SharedTasks">Shared Tasks</h3>
+<p>When two tasks <code class="code"><span class="constructor">A</span></code> and <code class="code"><span class="constructor">B</span></code> share a common sub-task <code class="code"><span class="constructor">S</span></code>,
+    cancelling <code class="code"><span class="constructor">A</span></code> will make <code class="code"><span class="constructor">B</span></code> fail either. To prevent this, it is
+    necessary to make <code class="code"><span class="constructor">S</span></code> <i>shareable</i> and to use two distinct <i>    instances</i> of <code class="code"><span class="constructor">S</span></code> in <code class="code"><span class="constructor">A</span></code> and <code class="code"><span class="constructor">B</span></code>.</p>
+
+<p>Shared tasks manage the number of their instance and actually run
+    or cancel a unique task on demand. In particular, shared tasks can
+    be canceled and re-started later.</p>
+
+<pre><span id="TYPEshared"><span class="keyword">type</span> <code class="type">'a</code> shared</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Shareable tasks.</p>
+</div>
+</div>
+
+
+<pre><span id="VALshared"><span class="keyword">val</span> shared</span> : <code class="type">descr:string -> retry:bool -> (unit -> 'a <a href="./Task.html#TYPEtask">task</a>) -> 'a <a href="./Task.html#TYPEshared">shared</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Build a shareable task.  The build function is called whenever a new
+    instance is required but no shared instance task is actually running.
+    Interrupted tasks (by Cancel or Timeout) are retried for further
+    instances. If the task failed, it can be re-launch if <code class="code">retry</code> is <code class="code"><span class="keyword">true</span></code>.
+    Otherwise, further instances will return <code class="code"><span class="constructor">Failed</span></code> status.</p>
+</div>
+</div>
+
+<pre><span id="VALshare"><span class="keyword">val</span> share</span> : <code class="type">'a <a href="./Task.html#TYPEshared">shared</a> -> 'a <a href="./Task.html#TYPEtask">task</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>New instance of shared task.</p>
+</div>
+</div>
+<h3 id="2_TaskThread">Task Thread</h3>
+<pre><span id="TYPEthread"><span class="keyword">type</span> <code class="type"></code>thread</span> </pre>
+
+
+<pre><span id="VALthread"><span class="keyword">val</span> thread</span> : <code class="type">'a <a href="./Task.html#TYPEtask">task</a> -> <a href="./Task.html#TYPEthread">thread</a></code></pre>
+<pre><span id="VALcancel"><span class="keyword">val</span> cancel</span> : <code class="type"><a href="./Task.html#TYPEthread">thread</a> -> unit</code></pre>
+<pre><span id="VALprogress"><span class="keyword">val</span> progress</span> : <code class="type"><a href="./Task.html#TYPEthread">thread</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Make the thread progress and return <code class="code"><span class="keyword">true</span></code> if still running</p>
+</div>
+</div>
+
+<pre><span id="VALis_running"><span class="keyword">val</span> is_running</span> : <code class="type"><a href="./Task.html#TYPEthread">thread</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Don't make the thread progress, just returns <code class="code"><span class="keyword">true</span></code>
+    if not terminated or not started yet</p>
+</div>
+</div>
+
+<pre><span id="VALrun"><span class="keyword">val</span> run</span> : <code class="type"><a href="./Task.html#TYPEthread">thread</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Runs one single task in the background.
+    Typically using <code class="code">on_idle</code>.</p>
+</div>
+</div>
+<h3 id="2_TaskPool">Task Pool</h3>
+<pre><span id="TYPEpool"><span class="keyword">type</span> <code class="type"></code>pool</span> </pre>
+
+
+<pre><span id="VALpool"><span class="keyword">val</span> pool</span> : <code class="type">unit -> <a href="./Task.html#TYPEpool">pool</a></code></pre>
+<pre><span id="VALadd"><span class="keyword">val</span> add</span> : <code class="type"><a href="./Task.html#TYPEpool">pool</a> -> <a href="./Task.html#TYPEthread">thread</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Auto-flush</p>
+</div>
+</div>
+
+<pre><span id="VALiter"><span class="keyword">val</span> iter</span> : <code class="type">(<a href="./Task.html#TYPEthread">thread</a> -> unit) -> <a href="./Task.html#TYPEpool">pool</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Auto-flush</p>
+</div>
+</div>
+
+<pre><span id="VALflush"><span class="keyword">val</span> flush</span> : <code class="type"><a href="./Task.html#TYPEpool">pool</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Clean all terminated tasks</p>
+</div>
+</div>
+
+<pre><span id="VALsize"><span class="keyword">val</span> size</span> : <code class="type"><a href="./Task.html#TYPEpool">pool</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p>Auto-flush. Number of living tasks</p>
+</div>
+</div>
+<h3 id="2_TaskServer">Task Server</h3>
+<pre><span id="TYPEserver"><span class="keyword">type</span> <code class="type"></code>server</span> </pre>
+
+
+<pre><span id="VALserver"><span class="keyword">val</span> server</span> : <code class="type">?stages:int -> ?procs:int -> unit -> <a href="./Task.html#TYPEserver">server</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Creates a server of commands.</p>
+</div>
+</div>
+<div class="param_info"><code class="code">stages</code> : number of queues in the server.
+    Stage 0 tasks are issued first. Default is 1.</div>
+<div class="param_info"><code class="code">procs</code> : maximum number of running tasks. Default is 4.</div>
+
+<pre><span id="VALspawn"><span class="keyword">val</span> spawn</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> ?pool:<a href="./Task.html#TYPEpool">pool</a> -> ?stage:int -> <a href="./Task.html#TYPEthread">thread</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Schedules a task on the server.
+    The task is not immediately started.</p>
+</div>
+</div>
+
+<pre><span id="VALlaunch"><span class="keyword">val</span> launch</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Starts the server if not running yet</p>
+</div>
+</div>
+
+<pre><span id="VALcancel_all"><span class="keyword">val</span> cancel_all</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Cancel all scheduled tasks</p>
+</div>
+</div>
+
+<pre><span id="VALset_procs"><span class="keyword">val</span> set_procs</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> int -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Adjusts the maximum number of running process.</p>
+</div>
+</div>
+
+<pre><span id="VALon_server_activity"><span class="keyword">val</span> on_server_activity</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> (unit -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Idle server callback</p>
+</div>
+</div>
+
+<pre><span id="VALon_server_start"><span class="keyword">val</span> on_server_start</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> (unit -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>On-start server callback</p>
+</div>
+</div>
+
+<pre><span id="VALon_server_stop"><span class="keyword">val</span> on_server_stop</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> (unit -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>On-stop server callback</p>
+</div>
+</div>
+
+<pre><span id="VALon_server_wait"><span class="keyword">val</span> on_server_wait</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> (unit -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>On-wait server callback (all tasks are scheduled)</p>
+</div>
+</div>
+
+<pre><span id="VALscheduled"><span class="keyword">val</span> scheduled</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p>Number of scheduled process</p>
+</div>
+</div>
+
+<pre><span id="VALterminated"><span class="keyword">val</span> terminated</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p>Number of terminated process</p>
+</div>
+</div>
+
+<pre><span id="VALwaiting"><span class="keyword">val</span> waiting</span> : <code class="type"><a href="./Task.html#TYPEserver">server</a> -> int option</code></pre><div class="info ">
+<div class="info-desc">
+<p>All task scheduled and server is waiting for termination</p>
+</div>
+</div>
+<h3 id="2_GUIConfiguration">GUI Configuration</h3>
+<pre><span id="VALon_idle"><span class="keyword">val</span> on_idle</span> : <code class="type">((unit -> bool) -> unit) Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Typically modified by GUI.
+    <code class="code">!on_idle&nbsp;f</code> should repeatedly calls <code class="code">f</code> until it returns <code class="code"><span class="keyword">false</span></code>.
+    Default implementation rely on <code class="code"><span class="constructor">Unix</span>.sleep&nbsp;1</code> and <code class="code"><span class="constructor">Db</span>.progress</code>.
+    See also <code class="code"><span class="constructor">Gtk_helper</span></code> module implementation.</p>
+</div>
+</div>
+</body></html>

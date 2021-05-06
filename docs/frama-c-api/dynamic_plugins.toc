@@ -1,0 +1,1 @@
+<li><a href="dynamic_plugins/Dynamic_plugins.html">Dynamically registered plugins</a </li>

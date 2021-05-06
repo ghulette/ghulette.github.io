@@ -1,0 +1,720 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="Up" href="Hptmap_sig.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Binary predicates" rel="Section" href="#2_Binarypredicates">
+<title>Hptmap_sig.S - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="Hptmap_sig.html" title="Hptmap_sig">Up</a>
+&nbsp;</div>
+<h1>Module type <a href="type_Hptmap_sig.S.html">Hptmap_sig.S</a></h1>
+
+<pre><span id="MODULETYPES"><span class="keyword">module type</span> S</span> = <code class="code"><span class="keyword">sig</span></code> <a href="Hptmap_sig.S.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info modtype top">
+<div class="info-desc">
+<p>Signature for hptmaps from hash-consed trees to values</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="TYPEkey"><span class="keyword">type</span> <code class="type"></code>key</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>type of the keys</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEv"><span class="keyword">type</span> <code class="type"></code>v</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>type of the values</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEshape"><span class="keyword">type</span> <code class="type">'a</code> shape</span> </pre>
+
+
+<pre><span id="TYPEprefix"><span class="keyword">type</span> <code class="type"></code>prefix</span> </pre>
+
+<pre><span class="keyword">include</span> <a href="./Datatype.S_with_collections.html">Datatype.S_with_collections</a></pre>
+
+<pre><span id="VALid"><span class="keyword">val</span> id</span> : <code class="type">t -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p>Bijective function. The ids are positive.</p>
+</div>
+</div>
+
+<pre><span id="VALself"><span class="keyword">val</span> self</span> : <code class="type">State.t</code></pre>
+<pre><span id="VALempty"><span class="keyword">val</span> empty</span> : <code class="type">t</code></pre><div class="info ">
+<div class="info-desc">
+<p>the empty map</p>
+</div>
+</div>
+
+<pre><span id="VALis_empty"><span class="keyword">val</span> is_empty</span> : <code class="type">t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_empty&nbsp;m</code> returns <code class="code"><span class="keyword">true</span></code> if and only if the map <code class="code">m</code> defines no
+      bindings at all.</p>
+</div>
+</div>
+
+<pre><span id="VALadd"><span class="keyword">val</span> add</span> : <code class="type"><a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add&nbsp;k&nbsp;d&nbsp;m</code> returns a map whose bindings are all bindings in <code class="code">m</code>, plus
+      a binding of the key <code class="code">k</code> to the datum <code class="code">d</code>. If a binding already exists
+      for <code class="code">k</code>, it is overridden.</p>
+</div>
+</div>
+
+<pre><span id="VALreplace"><span class="keyword">val</span> replace</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEv">v</a> option -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> option) -><br>       <a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">replace&nbsp;f&nbsp;k&nbsp;m</code> returns a map whose bindings are all bindings in <code class="code">m</code>,
+      except for the key <code class="code">k</code> which is:</p>
+<ul>
+<li>removed from the map if <code class="code">f&nbsp;o</code> = None</li>
+<li>bound to v' if <code class="code">f&nbsp;o</code> = Some v'
+        where <code class="code">o</code> is (Some v) if <code class="code">k</code> is bound to <code class="code">v</code> in <code class="code">m</code>, or None if <code class="code">k</code>
+        is not bound in <code class="code">m</code>.</li>
+</ul>
+</div>
+</div>
+
+<pre><span id="VALfind"><span class="keyword">val</span> find</span> : <code class="type"><a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> t -> <a href="./Hptmap_sig.S.html#TYPEv">v</a></code></pre>
+<pre><span id="VALfind_check_missing"><span class="keyword">val</span> find_check_missing</span> : <code class="type"><a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> t -> <a href="./Hptmap_sig.S.html#TYPEv">v</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Both <code class="code">find&nbsp;key&nbsp;m</code> and <code class="code">find_check_missing&nbsp;key&nbsp;m</code> return the value
+      bound to <code class="code">key</code> in <code class="code">m</code>, or raise <code class="code"><span class="constructor">Not_found</span></code> is <code class="code">key</code> is unbound.
+      <code class="code">find</code> is optimised for the case where <code class="code">key</code> is bound in <code class="code">m</code>, whereas
+      <code class="code">find_check_missing</code> is more efficient for the cases where <code class="code">m</code>
+      is big and <code class="code">key</code> is missing.</p>
+</div>
+</div>
+
+<pre><span id="VALfind_key"><span class="keyword">val</span> find_key</span> : <code class="type"><a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> t -> <a href="./Hptmap_sig.S.html#TYPEkey">key</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>This function is useful where there are multiple distinct keys that
+      are equal for <code class="code"><span class="constructor">Key</span>.equal</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALremove"><span class="keyword">val</span> remove</span> : <code class="type"><a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">remove&nbsp;k&nbsp;m</code> returns the map <code class="code">m</code> deprived from any binding involving
+      <code class="code">k</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALmem"><span class="keyword">val</span> mem</span> : <code class="type"><a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">mem&nbsp;k&nbsp;m</code> returns true if <code class="code">k</code> is bound in <code class="code">m</code>, and false otherwise.</p>
+</div>
+</div>
+
+<pre><span id="VALiter"><span class="keyword">val</span> iter</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> unit) -> t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">iter&nbsp;f&nbsp;m</code> applies <code class="code">f</code> to all bindings of the map <code class="code">m</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALmap"><span class="keyword">val</span> map</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a>) -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">map&nbsp;f&nbsp;m</code> returns the map obtained by composing the map <code class="code">m</code> with the
+      function <code class="code">f</code>; that is, the map $k\mapsto f(m(k))$.</p>
+</div>
+</div>
+
+<pre><span id="VALmap'"><span class="keyword">val</span> map'</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> option) -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">map</code>, except if <code class="code">f&nbsp;k&nbsp;v</code> returns <code class="code"><span class="constructor">None</span></code>. In this case, <code class="code">k</code> is not
+      bound in the resulting map.</p>
+</div>
+</div>
+
+<pre><span id="VALfilter"><span class="keyword">val</span> filter</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> bool) -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">filter&nbsp;f&nbsp;t</code> keep only the bindings of <code class="code">m</code> whose key verify <code class="code">f</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALfold"><span class="keyword">val</span> fold</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> 'b -> 'b) -> t -> 'b -> 'b</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">fold&nbsp;f&nbsp;m&nbsp;seed</code> invokes <code class="code">f&nbsp;k&nbsp;d&nbsp;accu</code>, in turn, for each binding from
+      key <code class="code">k</code> to datum <code class="code">d</code> in the map <code class="code">m</code>. Keys are presented to <code class="code">f</code> in
+      increasing order according to the map's ordering. The initial value of
+      <code class="code">accu</code> is <code class="code">seed</code>; then, at each new call, its value is the value
+      returned by the previous invocation of <code class="code">f</code>. The value returned by
+      <code class="code">fold</code> is the final value of <code class="code">accu</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALfold_rev"><span class="keyword">val</span> fold_rev</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> 'b -> 'b) -> t -> 'b -> 'b</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">fold_rev</code> performs exactly the same job as <code class="code">fold</code>, but presents keys
+      to <code class="code">f</code> in the opposite order.</p>
+</div>
+</div>
+
+<pre><span id="VALfor_all"><span class="keyword">val</span> for_all</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> bool) -> t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">for_all&nbsp;p&nbsp;m</code> returns true if all the bindings of the map <code class="code">m</code> satisfy
+      the predicate <code class="code">p</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALexists"><span class="keyword">val</span> exists</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> bool) -> t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">for_all&nbsp;p&nbsp;m</code> returns true if at least one binding of the map <code class="code">m</code> satisfies
+      the predicate <code class="code">p</code>.</p>
+</div>
+</div>
+
+<pre><code><span id="TYPEempty_action"><span class="keyword">type</span> <code class="type"></code>empty_action</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTempty_action.Neutral"><span class="constructor">Neutral</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTempty_action.Absorbing"><span class="constructor">Absorbing</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTempty_action.Traversing"><span class="constructor">Traversing</span></span> <span class="keyword">of</span> <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> option)</code></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="VALmerge"><span class="keyword">val</span> merge</span> : <code class="type">cache:<a href="./Hptmap_sig.html#TYPEcache_type">Hptmap_sig.cache_type</a> -><br>       symmetric:bool -><br>       idempotent:bool -><br>       decide_both:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -><br>                    <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> option) -><br>       decide_left:<a href="./Hptmap_sig.S.html#TYPEempty_action">empty_action</a> -><br>       decide_right:<a href="./Hptmap_sig.S.html#TYPEempty_action">empty_action</a> -> t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Merge of two trees, parameterized by a merge function.
+      If <code class="code">symmetric</code> holds, the function must verify <code class="code">merge&nbsp;x&nbsp;y&nbsp;=&nbsp;merge&nbsp;y&nbsp;x</code>.
+      If <code class="code">idempotent</code> holds, the function must verify <code class="code">merge&nbsp;x&nbsp;x&nbsp;=&nbsp;x</code>.
+      For each key <code class="code">k</code> present in both trees, and bound to <code class="code">v1</code> and <code class="code">v2</code> in the
+      left and the right tree respectively, <code class="code">decide_both&nbsp;k&nbsp;v1&nbsp;v2</code> is called. If
+      the decide function returns <code class="code"><span class="constructor">None</span></code>, the key will not be in the resulting
+      map; otherwise, the new value computed will be bound to <code class="code">k</code>.
+      The <code class="code">decide_left</code> action is performed to the left subtree <code class="code">t</code> when a right
+      subtree is empty (and conversely for the <code class="code">decide_right</code> action when a left
+      subtree is empty):</p>
+<ul>
+<li>Neutral returns the subtree <code class="code">t</code> unchanged;</li>
+<li>Absorbing returns the empty tree;</li>
+<li>(Traversing f) applies the function <code class="code">f</code> to each binding of the remaining
+        subtree <code class="code">t</code> (see <code class="code">map'</code>).</li>
+</ul>
+<p>The results of the function may be cached, depending on <code class="code">cache</code>. If a
+      cache is used, then the merge functions must be pure.</p>
+</div>
+</div>
+
+<pre><span id="VALgeneric_join"><span class="keyword">val</span> generic_join</span> : <code class="type">cache:<a href="./Hptmap_sig.html#TYPEcache_type">Hptmap_sig.cache_type</a> -><br>       symmetric:bool -><br>       idempotent:bool -><br>       decide:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -><br>               <a href="./Hptmap_sig.S.html#TYPEv">v</a> option -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> option -> <a href="./Hptmap_sig.S.html#TYPEv">v</a>) -><br>       t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Merge of two trees, parameterized by the <code class="code">decide</code> function. If <code class="code">symmetric</code>
+      holds, the function must verify <code class="code">decide&nbsp;key&nbsp;v1&nbsp;v2&nbsp;=&nbsp;decide&nbsp;key&nbsp;v2&nbsp;v1</code>. If
+      <code class="code">idempotent</code> holds, the function must verify
+      <code class="code">decide&nbsp;k&nbsp;(<span class="constructor">Some</span>&nbsp;x)&nbsp;(<span class="constructor">Some</span>&nbsp;x)&nbsp;=&nbsp;x</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALjoin"><span class="keyword">val</span> join</span> : <code class="type">cache:<a href="./Hptmap_sig.html#TYPEcache_type">Hptmap_sig.cache_type</a> -><br>       symmetric:bool -><br>       idempotent:bool -><br>       decide:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -><br>               <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a>) -><br>       t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">generic_merge</code>, but we assume that
+      <code class="code">decide&nbsp;key&nbsp;<span class="constructor">None</span>&nbsp;(<span class="constructor">Some</span>&nbsp;v)&nbsp;=&nbsp;decide&nbsp;key&nbsp;(<span class="constructor">Some</span>&nbsp;v)&nbsp;<span class="constructor">None</span>&nbsp;=&nbsp;v</code> holds.</p>
+</div>
+</div>
+
+<pre><span id="VALinter"><span class="keyword">val</span> inter</span> : <code class="type">cache:<a href="./Hptmap_sig.html#TYPEcache_type">Hptmap_sig.cache_type</a> -><br>       symmetric:bool -><br>       idempotent:bool -><br>       decide:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -><br>               <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> option) -><br>       t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Intersection of two trees, parameterized by the <code class="code">decide</code> function. If the
+      <code class="code">decide</code> function returns <code class="code"><span class="constructor">None</span></code>, the key will not be in the resulting
+      map. Keys present in only one map are similarly unmapped in the result.</p>
+</div>
+</div>
+
+<pre><span id="VALinter_with_shape"><span class="keyword">val</span> inter_with_shape</span> : <code class="type">'a <a href="./Hptmap_sig.S.html#TYPEshape">shape</a> -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">inter_with_shape&nbsp;s&nbsp;m</code> keeps only the elements of <code class="code">m</code> that are also
+      bound in the  map <code class="code">s</code>. No caching is used, but this function is more
+      efficient than successive calls to <a href="Hptmap_sig.S.html#VALremove"><code class="code"><span class="constructor">Hptmap_sig</span>.<span class="constructor">S</span>.remove</code></a> or <a href="Hptmap_sig.S.html#VALadd"><code class="code"><span class="constructor">Hptmap_sig</span>.<span class="constructor">S</span>.add</code></a> to build the
+      resulting map.</p>
+</div>
+</div>
+
+<pre><span id="VALdiff_with_shape"><span class="keyword">val</span> diff_with_shape</span> : <code class="type">'a <a href="./Hptmap_sig.S.html#TYPEshape">shape</a> -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">diff_with_shape&nbsp;s&nbsp;m</code> keeps only the elements of <code class="code">m</code> that are not
+      bound in the map <code class="code">s</code>. No caching is used, but this function is more
+      efficient than successive calls to <a href="Hptmap_sig.S.html#VALremove"><code class="code"><span class="constructor">Hptmap_sig</span>.<span class="constructor">S</span>.remove</code></a> or <a href="Hptmap_sig.S.html#VALadd"><code class="code"><span class="constructor">Hptmap_sig</span>.<span class="constructor">S</span>.add</code></a> to build the
+      resulting map.</p>
+</div>
+</div>
+<h3 id="2_Binarypredicates">Binary predicates</h3>
+<pre><code><span id="TYPEdecide_fast"><span class="keyword">type</span> <code class="type"></code>decide_fast</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTdecide_fast.Done"><span class="constructor">Done</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTdecide_fast.Unknown"><span class="constructor">Unknown</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Shortcut for functions that decide whether a predicate holds on a tree.
+      <code class="code"><span class="constructor">Done</span></code> means that the function returns its default value, which is
+      usually <code class="code">unit</code>. <code class="code"><span class="constructor">Unknown</span></code> means that the evaluation must continue in the
+      subtrees.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><span id="VALgeneric_predicate"><span class="keyword">val</span> generic_predicate</span> : <code class="type">exn -><br>       cache:string * 'a -><br>       decide_fast:(t -> t -> <a href="./Hptmap_sig.S.html#TYPEdecide_fast">decide_fast</a>) -><br>       decide_fst:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> unit) -><br>       decide_snd:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> unit) -><br>       decide_both:(<a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> unit) -> t -> t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">generic_is_included&nbsp;e&nbsp;(cache_name,&nbsp;cache_size)&nbsp;~decide_fast<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~decide_fst&nbsp;~decide_snd&nbsp;~decide_both&nbsp;t1&nbsp;t2</code> decides whether some
+      relation holds between <code class="code">t1</code> and <code class="code">t2</code>. All <code class="code">decide</code> functions must raise
+      <code class="code">e</code> when the relation does not hold, and do nothing otherwise.</p>
+
+<p><code class="code">decide_fst</code> (resp. <code class="code">decide_snd</code>) is called when one key is present only
+      in <code class="code">t1</code> (resp. <code class="code">t2</code>).</p>
+
+<p><code class="code">decide_both</code> is called when a key is present in both trees.</p>
+
+<p><code class="code">decide_fast</code> is called on entire keys. As its name implies, it must be
+      fast; in doubt, returning <code class="code"><span class="constructor">Unknown</span></code> is always correct. Raising <code class="code">e</code> means
+      that the relation does not hold. Returning <code class="code"><span class="constructor">Done</span></code> means that the relation
+      holds.</p>
+
+<p>The computation of this relation cached. <code class="code">cache_name</code> is used to identify
+      the cache when debugging. <code class="code">cache_size</code> is currently unused.</p>
+</div>
+</div>
+
+<pre><code><span id="TYPEpredicate_type"><span class="keyword">type</span> <code class="type"></code>predicate_type</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpredicate_type.ExistentialPredicate"><span class="constructor">ExistentialPredicate</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpredicate_type.UniversalPredicate"><span class="constructor">UniversalPredicate</span></span></code></td>
+
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>Existential (<code class="code"><span class="keywordsign">||</span></code>) or universal (<code class="code"><span class="keywordsign">&amp;&amp;</span></code>) predicates.</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEpredicate_result"><span class="keyword">type</span> <code class="type"></code>predicate_result</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpredicate_result.PTrue"><span class="constructor">PTrue</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpredicate_result.PFalse"><span class="constructor">PFalse</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpredicate_result.PUnknown"><span class="constructor">PUnknown</span></span></code></td>
+
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>Does the given predicate hold or not. <code class="code"><span class="constructor">PUnknown</span></code> indicates that the result
+      is uncertain, and that the more aggressive analysis should be used.</p>
+</div>
+</div>
+
+
+<pre><span id="VALbinary_predicate"><span class="keyword">val</span> binary_predicate</span> : <code class="type"><a href="./Hptmap_sig.html#TYPEcache_type">Hptmap_sig.cache_type</a> -><br>       <a href="./Hptmap_sig.S.html#TYPEpredicate_type">predicate_type</a> -><br>       decide_fast:(t -> t -> <a href="./Hptmap_sig.S.html#TYPEpredicate_result">predicate_result</a>) -><br>       decide_fst:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> bool) -><br>       decide_snd:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> bool) -><br>       decide_both:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> bool) -><br>       t -> t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same functionality as <code class="code">generic_predicate</code> but with a different signature.
+      All decision functions return a boolean that are combined differently
+      depending on whether the predicate is existential or universal.</p>
+</div>
+</div>
+
+<pre><span id="VALgeneric_symmetric_predicate"><span class="keyword">val</span> generic_symmetric_predicate</span> : <code class="type">exn -><br>       decide_fast:(t -> t -> <a href="./Hptmap_sig.S.html#TYPEdecide_fast">decide_fast</a>) -><br>       decide_one:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> unit) -><br>       decide_both:(<a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> unit) -> t -> t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">generic_predicate</code>, but for a symmetric relation. <code class="code">decide_fst</code>
+      and <code class="code">decide_snd</code> are thus merged into <code class="code">decide_one</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALsymmetric_binary_predicate"><span class="keyword">val</span> symmetric_binary_predicate</span> : <code class="type"><a href="./Hptmap_sig.html#TYPEcache_type">Hptmap_sig.cache_type</a> -><br>       <a href="./Hptmap_sig.S.html#TYPEpredicate_type">predicate_type</a> -><br>       decide_fast:(t -> t -> <a href="./Hptmap_sig.S.html#TYPEpredicate_result">predicate_result</a>) -><br>       decide_one:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> bool) -><br>       decide_both:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> bool) -><br>       t -> t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">binary_predicate</code>, but for a symmetric relation. <code class="code">decide_fst</code>
+      and <code class="code">decide_snd</code> are thus merged into <code class="code">decide_one</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALdecide_fast_inclusion"><span class="keyword">val</span> decide_fast_inclusion</span> : <code class="type">t -> t -> <a href="./Hptmap_sig.S.html#TYPEpredicate_result">predicate_result</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Function suitable for the <code class="code">decide_fast</code> argument of <code class="code">binary_predicate</code>,
+      when testing for inclusion of the first map into the second. If the two
+      arguments are equal, or the first one is empty, the relation holds.</p>
+</div>
+</div>
+
+<pre><span id="VALdecide_fast_intersection"><span class="keyword">val</span> decide_fast_intersection</span> : <code class="type">t -> t -> <a href="./Hptmap_sig.S.html#TYPEpredicate_result">predicate_result</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Function suitable for the <code class="code">decide_fast</code> argument of
+      <code class="code">symmetric_binary_predicate</code> when testing for a non-empty intersection
+      between two maps. If one map is empty, the intersection is empty.
+      Otherwise, if the two maps are equal, the intersection is non-empty.</p>
+</div>
+</div>
+
+<pre><span id="VALcached_fold"><span class="keyword">val</span> cached_fold</span> : <code class="type">cache_name:string -><br>       temporary:bool -><br>       f:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> 'b) -><br>       joiner:('b -> 'b -> 'b) -> empty:'b -> t -> 'b</code></pre>
+<pre><span id="VALcached_map"><span class="keyword">val</span> cached_map</span> : <code class="type">cache:string * int -><br>       temporary:bool -><br>       f:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a>) -> t -> t</code></pre>
+<pre><span id="VALsingleton"><span class="keyword">val</span> singleton</span> : <code class="type"><a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">singleton&nbsp;k&nbsp;d</code> returns a map whose only binding is from <code class="code">k</code> to <code class="code">d</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALis_singleton"><span class="keyword">val</span> is_singleton</span> : <code class="type">t -> (<a href="./Hptmap_sig.S.html#TYPEkey">key</a> * <a href="./Hptmap_sig.S.html#TYPEv">v</a>) option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_singleton&nbsp;m</code> returns <code class="code"><span class="constructor">Some</span>&nbsp;(k,&nbsp;d)</code> if <code class="code">m</code> is a singleton map
+      that maps <code class="code">k</code> to <code class="code">d</code>. Otherwise, it returns <code class="code"><span class="constructor">None</span></code>.</p>
+</div>
+</div>
+
+<pre><span id="VALon_singleton"><span class="keyword">val</span> on_singleton</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> bool) -> t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">on_singleton&nbsp;f&nbsp;m</code> returns <code class="code">f&nbsp;k&nbsp;d</code> if <code class="code">m</code> is a singleton map
+      that maps <code class="code">k</code> to <code class="code">d</code>. Otherwise, it returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALcardinal"><span class="keyword">val</span> cardinal</span> : <code class="type">t -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">cardinal&nbsp;m</code> returns <code class="code">m</code>'s cardinal, that is, the number of keys it
+      binds, or, in other words, its domain's cardinal.</p>
+</div>
+</div>
+
+<pre><span id="VALmin_binding"><span class="keyword">val</span> min_binding</span> : <code class="type">t -> <a href="./Hptmap_sig.S.html#TYPEkey">key</a> * <a href="./Hptmap_sig.S.html#TYPEv">v</a></code></pre>
+<pre><span id="VALmax_binding"><span class="keyword">val</span> max_binding</span> : <code class="type">t -> <a href="./Hptmap_sig.S.html#TYPEkey">key</a> * <a href="./Hptmap_sig.S.html#TYPEv">v</a></code></pre>
+<pre><span id="VALcompositional_bool"><span class="keyword">val</span> compositional_bool</span> : <code class="type">t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Value of the compositional boolean associated to the tree, as computed
+      by the <code class="code"><span class="constructor">Compositional_bool</span></code> argument of the functor.</p>
+</div>
+</div>
+
+<pre><span id="VALclear_caches"><span class="keyword">val</span> clear_caches</span> : <code class="type">unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Clear all the persistent caches used internally by the functions of this
+      module. Those caches are not project-aware, so this function must be
+      called at least each time a project switch occurs.</p>
+</div>
+</div>
+
+<pre><span id="VALfrom_shape"><span class="keyword">val</span> from_shape</span> : <code class="type">(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> 'a -> <a href="./Hptmap_sig.S.html#TYPEv">v</a>) -> 'a <a href="./Hptmap_sig.S.html#TYPEshape">shape</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Build an entire map from another map indexed by the same keys.
+      More efficient than just performing successive <a href="Hptmap_sig.S.html#VALadd"><code class="code"><span class="constructor">Hptmap_sig</span>.<span class="constructor">S</span>.add</code></a> the elements
+      of the other map</p>
+</div>
+</div>
+
+<pre><span id="VALfrom_shape_id"><span class="keyword">val</span> from_shape_id</span> : <code class="type"><a href="./Hptmap_sig.S.html#TYPEv">v</a> <a href="./Hptmap_sig.S.html#TYPEshape">shape</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">from_shape&nbsp;(<span class="keyword">fun</span>&nbsp;_&nbsp;v&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;v)</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALshape"><span class="keyword">val</span> shape</span> : <code class="type">t -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> <a href="./Hptmap_sig.S.html#TYPEshape">shape</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Export the map as a value suitable for functions <a href="Hptmap_sig.S.html#VALinter_with_shape"><code class="code"><span class="constructor">Hptmap_sig</span>.<span class="constructor">S</span>.inter_with_shape</code></a>
+      and <a href="Hptmap_sig.S.html#VALfrom_shape"><code class="code"><span class="constructor">Hptmap_sig</span>.<span class="constructor">S</span>.from_shape</code></a></p>
+</div>
+</div>
+
+<pre><span id="VALfold2_join_heterogeneous"><span class="keyword">val</span> fold2_join_heterogeneous</span> : <code class="type">cache:<a href="./Hptmap_sig.html#TYPEcache_type">Hptmap_sig.cache_type</a> -><br>       empty_left:('a <a href="./Hptmap_sig.S.html#TYPEshape">shape</a> -> 'b) -><br>       empty_right:(t -> 'b) -><br>       both:(<a href="./Hptmap_sig.S.html#TYPEkey">key</a> -> <a href="./Hptmap_sig.S.html#TYPEv">v</a> -> 'a -> 'b) -><br>       join:('b -> 'b -> 'b) -> empty:'b -> t -> 'a <a href="./Hptmap_sig.S.html#TYPEshape">shape</a> -> 'b</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">fold2_join_heterogeneous&nbsp;~cache&nbsp;~empty_left&nbsp;~empty_right&nbsp;~both<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~join&nbsp;~empty&nbsp;m1&nbsp;m2</code> iterates simultaneously on <code class="code">m1</code> and <code class="code">m2</code>. If a subtree
+      <code class="code">t</code> is present in <code class="code">m1</code> but not in <code class="code">m2</code> (resp. in <code class="code">m2</code> but not in <code class="code">m1</code>),
+      <code class="code">empty_right&nbsp;t</code> (resp. <code class="code">empty_left&nbsp;t</code>) is called. If a key <code class="code">k</code> is present
+      in both trees, and bound to <code class="code">v1</code> and <code class="code">v2</code> respectively, <code class="code">both&nbsp;k&nbsp;v1&nbsp;v2</code> is
+      called. If both trees are empty, <code class="code">empty</code> is returned. The values of type
+      <code class="code"><span class="keywordsign">'</span>b</code> returned by the auxiliary functions are merged using <code class="code">join</code>, which is
+      called in an unspecified order. The results of the function may be cached,
+      depending on <code class="code">cache</code>.</p>
+</div>
+</div>
+</body></html>

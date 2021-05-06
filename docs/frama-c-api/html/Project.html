@@ -1,0 +1,669 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Printer_tag.html">
+<link rel="next" href="Project_manager.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Types for project" rel="Section" href="#2_Typesforproject">
+<link title="Operations on all projects" rel="Section" href="#2_Operationsonallprojects">
+<link title="Operations on one project" rel="Section" href="#2_Operationsononeproject">
+<link title="Projects are comparable values" rel="Section" href="#2_Projectsarecomparablevalues">
+<link title="Undoing" rel="Section" href="#2_Undoing">
+<link title="Inputs/Outputs" rel="Subsection" href="#3_InputsOutputs">
+<link title="Handling the selection" rel="Subsection" href="#3_Handlingtheselection">
+<title>Project - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Printer_tag.html" title="Printer_tag">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Project_manager.html" title="Project_manager">Next</a>
+</div>
+<h1>Module <a href="type_Project.html">Project</a></h1>
+
+<pre><span id="MODULEProject"><span class="keyword">module</span> Project</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Project.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>Projects management.</p>
+
+<p>A project groups together all the internal states of Frama-C. An internal
+    state is roughly the result of a computation which depends of an AST. It is
+    possible to have many projects at the same time. For registering a new
+    state in the Frama-C projects, apply the functor <a href="State_builder.Register.html"><code class="code"><span class="constructor">State_builder</span>.<span class="constructor">Register</span></code></a>.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+<hr width="100%">
+<h3 id="2_Typesforproject">Types for project</h3><pre><span class="keyword">include</span> <a href="./Datatype.S_no_copy.html">Datatype.S_no_copy</a></pre>
+
+<pre><span id="MODULEDatatype"><span class="keyword">module</span> <a href="Project.Datatype.html">Datatype</a></span>: <code class="type"><a href="./Datatype.S_with_collections.html">Datatype.S_with_collections</a></code><code class="type">  with type t = Project_skeleton.t</code></pre>
+<pre><span id="TYPEproject"><span class="keyword">type</span> <code class="type"></code>project</span> = private <code class="type"><a href="./Project_skeleton.html#TYPEt">Project_skeleton.t</a></code> = private {</pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTproject.pid">pid</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTproject.name">name</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTproject.unique_name">unique_name</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>Type of a project.</p>
+</div>
+</div>
+
+<h3 id="2_Operationsonallprojects">Operations on all projects</h3>
+<pre><span id="VALcreate"><span class="keyword">val</span> create</span> : <code class="type">string -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Create a new project with the given name and attach it after the existing
+      projects (so the current project, if existing, is unchanged).
+      The given name may be already used by another project.
+      If there is no other project, then the new one is the current one.</p>
+</div>
+</div>
+
+<pre><span id="VALregister_create_hook"><span class="keyword">val</span> register_create_hook</span> : <code class="type">(t -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">register_create_hook&nbsp;f</code> adds a hook on function <code class="code">create</code>: each time a
+      new project <code class="code">p</code> is created, <code class="code">f&nbsp;p</code> is applied.</p>
+
+<p>The order in which hooks are applied is the same than the order in which
+      hooks are registered.</p>
+</div>
+</div>
+
+<pre><span id="EXCEPTIONNoProject"><span class="keyword">exception</span> NoProject</span></pre>
+<div class="info ">
+<div class="info-desc">
+<p>May be raised by <code class="code">current</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALcurrent"><span class="keyword">val</span> current</span> : <code class="type">unit -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>The current project.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>NoProject</code> if there is no project.</li>
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALis_current"><span class="keyword">val</span> is_current</span> : <code class="type">t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Check whether the given project is the current one or not.</p>
+</div>
+</div>
+
+<pre><span id="VALiter_on_projects"><span class="keyword">val</span> iter_on_projects</span> : <code class="type">(t -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>iteration on project starting with the current one.</p>
+</div>
+</div>
+
+<pre><span id="VALfold_on_projects"><span class="keyword">val</span> fold_on_projects</span> : <code class="type">('a -> t -> 'a) -> 'a -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p>folding on project starting with the current one.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Boron-20100401</li>
+</ul>
+</div>
+
+<pre><span id="VALfind_all"><span class="keyword">val</span> find_all</span> : <code class="type">string -> t list</code></pre><div class="info ">
+<div class="info-desc">
+<p>Find all projects with the given name.</p>
+</div>
+</div>
+
+<pre><span id="VALclear_all"><span class="keyword">val</span> clear_all</span> : <code class="type">unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Clear all the projects: all the internal states of all the projects are
+      now empty (wrt the action registered with
+      <code class="code">register_todo_after_global_clear</code> and <a href="Project.html#VALregister_todo_after_clear"><code class="code"><span class="constructor">Project</span>.register_todo_after_clear</code></a>.</p>
+</div>
+</div>
+<h3 id="2_Operationsononeproject">Operations on one project</h3>
+<p>Most operations have one additional selection as argument. If it
+    is specified, the operation is only applied on the states of the
+    given selection on the given project. Beware that the project may
+    become inconsistent if your selection is incorrect.</p>
+
+<pre><span id="VALget_name"><span class="keyword">val</span> get_name</span> : <code class="type">t -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p>Project name. Two projects may have the same name.</p>
+</div>
+</div>
+
+<pre><span id="VALget_unique_name"><span class="keyword">val</span> get_unique_name</span> : <code class="type">t -> string</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Returns</b> a project name based on <code class="code">name</code> but different of each others
+      <code class="code">unique_name</code>.</li>
+</ul>
+</div>
+
+<pre><span id="VALset_name"><span class="keyword">val</span> set_name</span> : <code class="type">t -> string -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Set the name of the given project.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Boron-20100401</li>
+</ul>
+</div>
+
+<pre><span id="EXCEPTIONUnknown_project"><span class="keyword">exception</span> Unknown_project</span></pre>
+
+<pre><span id="VALfrom_unique_name"><span class="keyword">val</span> from_unique_name</span> : <code class="type">string -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Return a project based on <code class="code">unique_name</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Unknown_project</code> if no project has this unique name.</li>
+<b>Change in Sodium-20150201</b><br>
+</ul>
+</div>
+
+<pre><span id="VALset_current"><span class="keyword">val</span> set_current</span> : <code class="type">?on:bool -> ?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Set the current project with the given one.
+      The flag <code class="code">on</code> is not for casual users.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Invalid_argument</code> if the given project does not exist anymore.</li>
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALregister_after_set_current_hook"><span class="keyword">val</span> register_after_set_current_hook</span> : <code class="type">user_only:bool -> (t -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">register_after_set_current_hook&nbsp;f</code> adds a hook on function
+      <a href="Project.html#VALset_current"><code class="code"><span class="constructor">Project</span>.set_current</code></a>. The project given as argument to <code class="code">f</code> is the old current
+      project.</p>
+<ul>
+<li>If <code class="code">user_only</code> is <code class="code"><span class="keyword">true</span></code>, then each time <a href="Project.html#VALset_current"><code class="code"><span class="constructor">Project</span>.set_current</code></a> is directly
+      called by an user of this library, <code class="code">f&nbsp;()</code> is applied.</li>
+<li>If <code class="code">user_only</code> is <code class="code"><span class="keyword">false</span></code>, then each time <a href="Project.html#VALset_current"><code class="code"><span class="constructor">Project</span>.set_current</code></a> is applied
+      (even indirectly through <a href="Project.html#VALon"><code class="code"><span class="constructor">Project</span>.on</code></a>), <code class="code">f&nbsp;()</code> is applied.
+      The order in which each hook is applied is unspecified.</li>
+</ul>
+</div>
+</div>
+
+<pre><span id="VALon"><span class="keyword">val</span> on</span> : <code class="type">?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> t -> ('a -> 'b) -> 'a -> 'b</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">on&nbsp;p&nbsp;f&nbsp;x</code> sets the current project to <code class="code">p</code>, computes <code class="code">f&nbsp;x</code> then
+      restores the current project. You should use this function if you use a
+      project different of <code class="code">current&nbsp;()</code>.</p>
+</div>
+<ul class="info-attributes">
+<b>Change in Carbon-20101201</b>: replace the optional arguments <code class="code">only</code> and
+      <code class="code">except</code> by a single one <code class="code">selection</code>.<br>
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALset_keep_current"><span class="keyword">val</span> set_keep_current</span> : <code class="type">bool -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">set_keep_current&nbsp;b</code> keeps the current project forever (even after the end
+      of the current <a href="Project.html#VALon"><code class="code"><span class="constructor">Project</span>.on</code></a>) iff <code class="code">b</code> is <code class="code"><span class="keyword">true</span></code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Aluminium-20160501</li>
+</ul>
+</div>
+
+<pre><span id="VALcopy"><span class="keyword">val</span> copy</span> : <code class="type">?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> ?src:t -> t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Copy a project into another one. Default project for <code class="code">src</code> is <code class="code">current<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;()</code>. Replace the destination by <code class="code">src</code>.
+      For each state to copy, the function <code class="code">copy</code> given at state registration
+      time must be fully implemented.</p>
+</div>
+<ul class="info-attributes">
+<b>Change in Carbon-20101201</b>: replace the optional arguments <code class="code">only</code> and
+      <code class="code">except</code> by a single one <code class="code">selection</code>.<br>
+</ul>
+</div>
+
+<pre><span id="VALcreate_by_copy"><span class="keyword">val</span> create_by_copy</span> : <code class="type">?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> ?src:t -> last:bool -> string -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Return a new project with the given name by copying some states from the
+      project <code class="code">src</code>. All the other states are initialized with their default
+      values.
+      Use the save/load mechanism for copying. Thus it does not require that
+      the copy function of the copied state is implemented. All the hooks
+      applied when loading a project are applied (see <a href="Project.html#VALload"><code class="code"><span class="constructor">Project</span>.load</code></a>).
+      If <code class="code">last</code>, then remember that the returned project is the last created
+      one (see <code class="code">last_created_by_copy</code>).</p>
+</div>
+<ul class="info-attributes">
+<b>Change in Carbon-20101201</b>: replace the optional arguments <code class="code">only</code> and
+      <code class="code">except</code> by a single one <code class="code">selection</code>.<br>
+<b>Change in Sodium-20150201</b>: add the labeled argument <code class="code">last</code>.<br>
+</ul>
+</div>
+
+<pre><span id="VALcreate_by_copy_hook"><span class="keyword">val</span> create_by_copy_hook</span> : <code class="type">(t -> t -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Register a hook to call at the end of <a href="Project.html#VALcreate_by_copy"><code class="code"><span class="constructor">Project</span>.create_by_copy</code></a>. The first
+      argument of the registered function is the copy source while the
+      second one is the created project.</p>
+</div>
+</div>
+
+<pre><span id="VALclear"><span class="keyword">val</span> clear</span> : <code class="type">?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> ?project:t -> unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Clear the given project. Default project is <code class="code">current&nbsp;()</code>. All the
+      internal states of the given project are now empty (wrt the action
+      registered with <code class="code">register_todo_on_clear</code>).</p>
+</div>
+<ul class="info-attributes">
+<b>Change in Carbon-20101201</b>: replace the optional arguments <code class="code">only</code> and
+      <code class="code">except</code> by a single one <code class="code">selection</code>.<br>
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALregister_todo_before_clear"><span class="keyword">val</span> register_todo_before_clear</span> : <code class="type">(t -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Register an action performed just before clearing a project.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Boron-20100401</li>
+</ul>
+</div>
+
+<pre><span id="VALregister_todo_after_clear"><span class="keyword">val</span> register_todo_after_clear</span> : <code class="type">(t -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Register an action performed just after clearing a project.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Boron-20100401</li>
+</ul>
+</div>
+
+<pre><span id="EXCEPTIONCannot_remove"><span class="keyword">exception</span> Cannot_remove</span> <span class="keyword">of</span> <code class="type">string</code></pre>
+<div class="info ">
+<div class="info-desc">
+<p>Raised by <code class="code">remove</code></p>
+</div>
+</div>
+
+<pre><span id="VALremove"><span class="keyword">val</span> remove</span> : <code class="type">?project:t -> unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Default project is <code class="code">current&nbsp;()</code>. If the current project is removed, then
+      the new current project is the previous current project if it still
+      exists (and so on).</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Cannot_remove</code> if there is only one project.</li>
+</ul>
+</div>
+
+<pre><span id="VALregister_before_remove_hook"><span class="keyword">val</span> register_before_remove_hook</span> : <code class="type">(t -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">register_before_remove_hook&nbsp;f</code> adds a hook called just before removing
+      a project.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Beryllium-20090902</li>
+</ul>
+</div>
+<h4 id="3_InputsOutputs">Inputs/Outputs</h4>
+<pre><span id="EXCEPTIONIOError"><span class="keyword">exception</span> IOError</span> <span class="keyword">of</span> <code class="type">string</code></pre>
+
+<pre><span id="VALsave"><span class="keyword">val</span> save</span> : <code class="type">?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> ?project:t -> <a href="./Filepath.Normalized.html#TYPEt">Filepath.Normalized.t</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Save a given project in a file. Default project is <code class="code">current&nbsp;()</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>IOError</code> if the project cannot be saved.</li>
+<b>Change in Carbon-20101201</b>: replace the optional arguments <code class="code">only</code> and
+      <code class="code">except</code> by a single one <code class="code">selection</code>.<br>
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALload"><span class="keyword">val</span> load</span> : <code class="type">?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> ?name:string -> <a href="./Filepath.Normalized.html#TYPEt">Filepath.Normalized.t</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Load a file into a new project given by its name.
+      More precisely, <code class="code">load&nbsp;only&nbsp;except&nbsp;name&nbsp;file</code>:</p>
+<OL>
+<li>creates a new project;</li>
+<li>performs all the registered <code class="code">before_load</code> actions;</li>
+<li>loads the (specified) states of the project according to its
+      description; and</li>
+<li>performs all the registered <code class="code">after_load</code> actions.</li>
+</OL>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>IOError</code> if the project cannot be loaded</li>
+<li><b>Returns</b> the new project containing the loaded data.</li>
+<b>Change in Carbon-20101201</b>: replace the optional arguments <code class="code">only</code> and
+      <code class="code">except</code> by a single one <code class="code">selection</code>.<br>
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALsave_all"><span class="keyword">val</span> save_all</span> : <code class="type">?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> <a href="./Filepath.Normalized.html#TYPEt">Filepath.Normalized.t</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Save all the projects in a file.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>IOError</code> a project cannot be saved.</li>
+<b>Change in Carbon-20101201</b>: replace the optional arguments <code class="code">only</code> and
+      <code class="code">except</code> by a single one <code class="code">selection</code>.<br>
+</ul>
+</div>
+
+<pre><span id="VALload_all"><span class="keyword">val</span> load_all</span> : <code class="type">?selection:<a href="./State_selection.html#TYPEt">State_selection.t</a> -> <a href="./Filepath.Normalized.html#TYPEt">Filepath.Normalized.t</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>First remove all the existing project, then load all the projects from a
+      file. For each project to load, the specification is the same than
+      <a href="Project.html#VALload"><code class="code"><span class="constructor">Project</span>.load</code></a>. Furthermore, after loading, all the hooks registered by
+      <code class="code">register_after_set_current_hook</code> are applied.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>IOError</code> if a project cannot be loaded.</li>
+<b>Change in Carbon-20101201</b>: replace the optional arguments <code class="code">only</code> and
+      <code class="code">except</code> by a single one <code class="code">selection</code>.<br>
+</ul>
+</div>
+
+<pre><span id="VALregister_before_load_hook"><span class="keyword">val</span> register_before_load_hook</span> : <code class="type">(unit -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">register_before_load_hook&nbsp;f</code> adds a hook called just before loading
+*each project** (more precisely, the project exists and but is empty
+      while the hook is applied): if <code class="code">n</code> projects are on disk, the same hook
+      will be called <code class="code">n</code> times (one call by project).</p>
+
+<p>Besides, for each project, the order in which the hooks are applied is
+      the same than the order in which hooks are registered.</p>
+</div>
+</div>
+
+<pre><span id="VALregister_after_load_hook"><span class="keyword">val</span> register_after_load_hook</span> : <code class="type">(unit -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">register_after_load_hook&nbsp;f</code> adds a hook called just after loading
+*each project**: if <code class="code">n</code> projects are on disk, the same hook will be
+      called <code class="code">n</code> times (one call by project).</p>
+
+<p>Besides, for each project, the order in which the hooks are applied is
+      the same than the order in which hooks are registered.</p>
+</div>
+</div>
+
+<pre><span id="VALregister_after_global_load_hook"><span class="keyword">val</span> register_after_global_load_hook</span> : <code class="type">(unit -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">register_after_load_hook&nbsp;f</code> adds a hook called just after loading
+*all projects**. <code class="code">f</code> must not set the current project.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Boron-20100401</li>
+</ul>
+</div>
+<h4 id="3_Handlingtheselection">Handling the selection</h4>
+<pre><span id="VALget_current_selection"><span class="keyword">val</span> get_current_selection</span> : <code class="type">unit -> <a href="./State_selection.html#TYPEt">State_selection.t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>If an operation on a project is ongoing, then <code class="code">get_current_selection&nbsp;()</code>
+    returns the selection which is applied on.
+    The behaviour is unspecified if this function is called when no operation
+    depending on a selection is ongoing.</p>
+</div>
+</div>
+<h3 id="2_Projectsarecomparablevalues">Projects are comparable values</h3>
+<pre><span id="VALcompare"><span class="keyword">val</span> compare</span> : <code class="type">t -> t -> int</code></pre>
+<pre><span id="VALequal"><span class="keyword">val</span> equal</span> : <code class="type">t -> t -> bool</code></pre>
+<pre><span id="VALhash"><span class="keyword">val</span> hash</span> : <code class="type">t -> int</code></pre><h3 id="2_Undoing">Undoing</h3>
+<pre><span id="MODULEUndo"><span class="keyword">module</span> <a href="Project.Undo.html">Undo</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Project.Undo.html">..</a> <code class="code"><span class="keyword">end</span></code></pre></body></html>

@@ -1,0 +1,491 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Lmap_bitwise.html">
+<link rel="next" href="Locations.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="General shape" rel="Section" href="#2_Generalshape">
+<link title="Join and inclusion" rel="Section" href="#2_Joinandinclusion">
+<link title="Finding values" rel="Section" href="#2_Findingvalues">
+<link title="Binding variables" rel="Section" href="#2_Bindingvariables">
+<link title="Filters" rel="Section" href="#2_Filters">
+<link title="Iterators" rel="Section" href="#2_Iterators">
+<link title="Misc" rel="Section" href="#2_Misc">
+<link title="Cached iterators" rel="Subsection" href="#3_Cachediterators">
+<title>Lmap_sig - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Lmap_bitwise.html" title="Lmap_bitwise">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Locations.html" title="Locations">Next</a>
+</div>
+<h1>Module <a href="type_Lmap_sig.html">Lmap_sig</a></h1>
+
+<pre><span id="MODULELmap_sig"><span class="keyword">module</span> Lmap_sig</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Lmap_sig.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>Signature for maps from bases to memory maps. The memory maps are intended
+    to be those of the <code class="code"><span class="constructor">Offsetmap</span></code> module.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="TYPEv"><span class="keyword">type</span> <code class="type"></code>v</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>type of the values associated to a location</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEoffsetmap"><span class="keyword">type</span> <code class="type"></code>offsetmap</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>type of the maps associated to a base</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEwiden_hint_base"><span class="keyword">type</span> <code class="type"></code>widen_hint_base</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>widening hints for each base</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEmap"><span class="keyword">type</span> <code class="type"></code>map</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Maps from <code class="code"><span class="constructor">Base</span>.t</code> to <a href="Lmap_sig.html#TYPEoffsetmap"><code class="code"><span class="constructor">Lmap_sig</span>.offsetmap</code></a></p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPElmap"><span class="keyword">type</span> <code class="type"></code>lmap</span> = private </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlmap.Bottom"><span class="constructor">Bottom</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlmap.Top"><span class="constructor">Top</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlmap.Map"><span class="constructor">Map</span></span> <span class="keyword">of</span> <code class="type"><a href="./Lmap_sig.html#TYPEmap">map</a></code></code></td>
+
+</tr></table>
+
+
+<pre><span class="keyword">include</span> <a href="./Datatype.S_with_collections.html">Datatype.S_with_collections</a></pre>
+
+<pre><span id="VALpretty"><span class="keyword">val</span> pretty</span> : <code class="type">Stdlib.Format.formatter -> t -> unit</code></pre>
+<pre><span id="VALpretty_debug"><span class="keyword">val</span> pretty_debug</span> : <code class="type">Stdlib.Format.formatter -> t -> unit</code></pre>
+<pre><span id="VALpretty_filter"><span class="keyword">val</span> pretty_filter</span> : <code class="type">Stdlib.Format.formatter -> t -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">pretty_filter&nbsp;m&nbsp;z</code> pretties only the part of <code class="code">m</code> that correspond to
+    the bases present in <code class="code">z</code></p>
+</div>
+</div>
+
+<pre><span id="VALpretty_diff"><span class="keyword">val</span> pretty_diff</span> : <code class="type">Stdlib.Format.formatter -> t -> t -> unit</code></pre><h3 id="2_Generalshape">General shape</h3>
+<pre><span id="VALtop"><span class="keyword">val</span> top</span> : <code class="type">t</code></pre>
+<pre><span id="VALis_top"><span class="keyword">val</span> is_top</span> : <code class="type">t -> bool</code></pre>
+<pre><span id="VALempty_map"><span class="keyword">val</span> empty_map</span> : <code class="type">t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Empty map. Casual users do not need this except to create a custom
+    initial state.</p>
+</div>
+</div>
+
+<pre><span id="VALis_empty_map"><span class="keyword">val</span> is_empty_map</span> : <code class="type">t -> bool</code></pre>
+<pre><span id="VALbottom"><span class="keyword">val</span> bottom</span> : <code class="type">t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Every location is associated to the value <code class="code">bottom</code> of type <code class="code">v</code> in this
+    state. This state can be reached only in dead code.</p>
+</div>
+</div>
+
+<pre><span id="VALis_reachable"><span class="keyword">val</span> is_reachable</span> : <code class="type">t -> bool</code></pre><h3 id="2_Joinandinclusion">Join and inclusion</h3>
+<pre><span id="VALjoin"><span class="keyword">val</span> join</span> : <code class="type">t -> t -> t</code></pre>
+<pre><span id="VALis_included"><span class="keyword">val</span> is_included</span> : <code class="type">t -> t -> bool</code></pre>
+<pre><span id="MODULEMake_Narrow"><span class="keyword">module</span> <a href="Lmap_sig.Make_Narrow.html">Make_Narrow</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">X</span></code><code class="code">&nbsp;:&nbsp;</code><code class="code"><span class="keyword">sig</span></code></pre><div class="sig_block"><pre><span class="keyword">include</span> Lattice_type.With_Top</pre>
+<pre><span class="keyword">include</span> Lattice_type.With_Narrow</pre>
+
+<pre><span id="VALbottom_is_strict"><span class="keyword">val</span> bottom_is_strict</span> : <code class="type">bool</code></pre></div><pre><code class="code"><span class="keyword">end</span></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="code"><span class="keyword">sig</span></code> <a href="Lmap_sig.Make_Narrow.html">..</a> <code class="code"><span class="keyword">end</span></code></div></pre>
+<pre><span id="TYPEwiden_hint"><span class="keyword">type</span> <code class="type"></code>widen_hint</span> = <code class="type">Base.Set.t * (Base.t -> <a href="./Lmap_sig.html#TYPEwiden_hint_base">widen_hint_base</a>)</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Bases that must be widening in priority, plus widening hints for each
+    base.</p>
+</div>
+</div>
+
+
+<pre><span id="VALwiden"><span class="keyword">val</span> widen</span> : <code class="type"><a href="./Lmap_sig.html#TYPEwiden_hint">widen_hint</a> -> t -> t -> t</code></pre>
+<pre><span id="VALmerge"><span class="keyword">val</span> merge</span> : <code class="type">into:t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">merge&nbsp;~into&nbsp;t</code> adds all binding from <code class="code">t</code> into <code class="code">into</code>.</p>
+</div>
+</div>
+<h3 id="2_Findingvalues">Finding values</h3>
+<pre><span id="VALfind"><span class="keyword">val</span> find</span> : <code class="type">?conflate_bottom:bool -> t -> <a href="./Locations.html#TYPElocation">Locations.location</a> -> <a href="./Lmap_sig.html#TYPEv">v</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Error_Top</code> when the location or the state are Top, and there
+    is no Top value in the type <a href="Lmap_sig.html#TYPEv"><code class="code"><span class="constructor">Lmap_sig</span>.v</code></a>.</li>
+</ul>
+</div>
+
+<pre><span id="VALcopy_offsetmap"><span class="keyword">val</span> copy_offsetmap</span> : <code class="type">Locations.Location_Bits.t -><br>       <a href="./Integer.html#TYPEt">Integer.t</a> -> t -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> Bottom.or_bottom</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">copy_offsetmap&nbsp;alarms&nbsp;loc&nbsp;size&nbsp;m</code> returns the superposition of the
+    ranges of <code class="code">size</code> bits starting at <code class="code">loc</code> within <code class="code">m</code>. <code class="code">size</code> must be
+    strictly greater than zero. Return <code class="code"><span class="constructor">None</span></code> if all pointed addresses are
+    invalid in <code class="code">m</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Error_Top</code> when the location or the state are Top, and there
+    is no Top value in the type <a href="Lmap_sig.html#TYPEv"><code class="code"><span class="constructor">Lmap_sig</span>.v</code></a>.</li>
+</ul>
+</div>
+
+<pre><span id="VALfind_base"><span class="keyword">val</span> find_base</span> : <code class="type">Base.t -> t -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> <a href="./Bottom.Top.html#TYPEor_top_bottom">Bottom.Top.or_top_bottom</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Not_found</code> if the varid is not present in the map.</li>
+</ul>
+</div>
+
+<pre><span id="VALfind_base_or_default"><span class="keyword">val</span> find_base_or_default</span> : <code class="type">Base.t -> t -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> <a href="./Bottom.Top.html#TYPEor_top_bottom">Bottom.Top.or_top_bottom</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">find_base</code>, but return the default values for bases
+    that are not currently present in the map. Prefer the use of this function
+    to <code class="code">find_base</code>, unless you explicitly want to see if the base is bound.</p>
+</div>
+</div>
+<h3 id="2_Bindingvariables">Binding variables</h3>
+<pre><span id="VALadd_binding"><span class="keyword">val</span> add_binding</span> : <code class="type">exact:bool -> t -> <a href="./Locations.html#TYPElocation">Locations.location</a> -> <a href="./Lmap_sig.html#TYPEv">v</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add_binding&nbsp;~exact&nbsp;initial_mem&nbsp;loc&nbsp;v</code> simulates the effect of
+    writing <code class="code">v</code> at location <code class="code">loc</code>, in the initial memory state given by
+    <code class="code">initial_mem</code>.
+    If <code class="code">loc</code> is not writable, <a href="Lmap_sig.html#VALbottom"><code class="code"><span class="constructor">Lmap_sig</span>.bottom</code></a> is returned.
+    If <code class="code">exact</code> is true, and <code class="code">loc</code> is a precise location, a strong update
+    is performed.
+    Only locations that may be valid are written.
+    Returns the resulting memory after the write.</p>
+</div>
+</div>
+
+<pre><span id="VALpaste_offsetmap"><span class="keyword">val</span> paste_offsetmap</span> : <code class="type">from:<a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> -><br>       dst_loc:Locations.Location_Bits.t -> size:<a href="./Integer.html#TYPEt">Integer.t</a> -> exact:bool -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">paste_offsetmap&nbsp;~from&nbsp;~dst_loc&nbsp;~size&nbsp;~exact&nbsp;m</code>
+    copies <code class="code">from</code>, which is supposed to be exactly <code class="code">size</code> bits, and pastes
+    them at <code class="code">dst_loc</code> in <code class="code">m</code>. The copy is exact if and only if
+    <code class="code">dst_loc</code> is exact, and <code class="code">exact</code> is true. Only the locations that
+    may be valid are written.</p>
+</div>
+</div>
+
+<pre><span id="VALadd_base"><span class="keyword">val</span> add_base</span> : <code class="type">Base.t -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add_base&nbsp;b&nbsp;o&nbsp;m</code> adds base <code class="code">b</code> bound to <code class="code">o</code>, replacing any
+    previous bindings of <code class="code">b</code>. No effect on <code class="code"><span class="constructor">Top</span></code> or <code class="code"><span class="constructor">Bottom</span></code>.</p>
+</div>
+</div>
+
+<pre><span id="VALadd_base_value"><span class="keyword">val</span> add_base_value</span> : <code class="type">Base.t -> size:<a href="./Integer.html#TYPEt">Integer.t</a> -> <a href="./Lmap_sig.html#TYPEv">v</a> -> size_v:<a href="./Integer.html#TYPEt">Integer.t</a> -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Creates the offsetmap described by <code class="code">size</code>, <code class="code">v</code> and <code class="code">size_v</code>,
+    and binds it to the base. No effect on <code class="code"><span class="constructor">Top</span></code> or <code class="code"><span class="constructor">Bottom</span></code>.</p>
+</div>
+</div>
+<h3 id="2_Filters">Filters</h3>
+<pre><span id="VALfilter_base"><span class="keyword">val</span> filter_base</span> : <code class="type">(Base.t -> bool) -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Remove from the map all the bases that do not satisfy the predicate.</p>
+</div>
+</div>
+
+<pre><span id="VALfilter_by_shape"><span class="keyword">val</span> filter_by_shape</span> : <code class="type">'a Hptmap.Shape(Base.Base).t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Remove from the map all the bases that are not also present in
+    the given <code class="code"><span class="constructor">Base</span>.t</code>-indexed tree.</p>
+</div>
+</div>
+
+<pre><span id="VALremove_base"><span class="keyword">val</span> remove_base</span> : <code class="type">Base.t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Removes the base if it is present. Does nothing otherwise.</p>
+</div>
+</div>
+<h3 id="2_Iterators">Iterators</h3><p>Notice that some iterators require an argument of type <a href="Lmap_sig.html#TYPEmap"><code class="code"><span class="constructor">Lmap_sig</span>.map</code></a>: the
+    cases <code class="code"><span class="constructor">Top</span></code> and <a href="Bottom.html"><code class="code"><span class="constructor">Bottom</span></code></a> must be handled separately. All the iterators
+    below only present bases that are bound to non-default values, according
+    to the function <code class="code">is_default_offsetmap</code> of the function <code class="code"><span class="constructor">Lmap</span>.<span class="constructor">Make_Loffset</span></code>.</p>
+
+<pre><span id="VALiter"><span class="keyword">val</span> iter</span> : <code class="type">(<a href="./Base.html#TYPEbase">Base.base</a> -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> -> unit) -> <a href="./Lmap_sig.html#TYPEmap">map</a> -> unit</code></pre>
+<pre><span id="VALfold"><span class="keyword">val</span> fold</span> : <code class="type">(Base.t -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> -> 'a -> 'a) -> <a href="./Lmap_sig.html#TYPEmap">map</a> -> 'a -> 'a</code></pre><h4 id="3_Cachediterators">Cached iterators</h4><p>These functions are meant to be partially applied to all their arguments
+    but the final one (the map). They must be called at the toplevel of OCaml
+    modules, as they create persistent caches.</p>
+
+<pre><span id="VALcached_fold"><span class="keyword">val</span> cached_fold</span> : <code class="type">f:(Base.t -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> -> 'a) -><br>       cache_name:string -><br>       temporary:bool -> joiner:('a -> 'a -> 'a) -> empty:'a -> <a href="./Lmap_sig.html#TYPEmap">map</a> -> 'a</code></pre>
+<pre><span id="VALcached_map"><span class="keyword">val</span> cached_map</span> : <code class="type">f:(Base.t -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a>) -><br>       cache:string * int -> temporary:bool -> t -> t</code></pre><h3 id="2_Misc">Misc</h3>
+<pre><span id="VALremove_variables"><span class="keyword">val</span> remove_variables</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> list -> t -> t</code></pre>
+<pre><span id="VALshape"><span class="keyword">val</span> shape</span> : <code class="type"><a href="./Lmap_sig.html#TYPEmap">map</a> -> <a href="./Lmap_sig.html#TYPEoffsetmap">offsetmap</a> Hptmap.Shape(Base.Base).t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Shape of the map. This can be used for simultaneous iterations
+    on other maps indexed by type <code class="code"><span class="constructor">Base</span>.<span class="constructor">Base</span>.t</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALclear_caches"><span class="keyword">val</span> clear_caches</span> : <code class="type">unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Clear the caches local to this module. Beware that they are not
+    project-aware, and that you must call them at every project switch.</p>
+</div>
+</div>
+</body></html>

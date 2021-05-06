@@ -1,0 +1,885 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Wp.WpContext.html">
+<link rel="next" href="Wp.Repr.html">
+<link rel="Up" href="Wp.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html">
+<link title="Wp" rel="Chapter" href="Wp.html">
+<link title="Rformat" rel="Chapter" href="Rformat.html">
+<link title="Wprop" rel="Chapter" href="Wprop.html">
+<link title="Wp_parameters" rel="Chapter" href="Wp_parameters.html">
+<link title="Wp_error" rel="Chapter" href="Wp_error.html">
+<link title="Dyncall" rel="Chapter" href="Dyncall.html">
+<link title="Ctypes" rel="Chapter" href="Ctypes.html">
+<link title="Clabels" rel="Chapter" href="Clabels.html">
+<link title="Why3Provers" rel="Chapter" href="Why3Provers.html">
+<link title="Context" rel="Chapter" href="Context.html">
+<link title="Warning" rel="Chapter" href="Warning.html">
+<link title="AssignsCompleteness" rel="Chapter" href="AssignsCompleteness.html">
+<link title="MemoryContext" rel="Chapter" href="MemoryContext.html">
+<link title="WpContext" rel="Chapter" href="WpContext.html">
+<link title="LogicUsage" rel="Chapter" href="LogicUsage.html">
+<link title="RefUsage" rel="Chapter" href="RefUsage.html">
+<link title="Layout" rel="Chapter" href="Layout.html">
+<link title="Region" rel="Chapter" href="Region.html">
+<link title="RegionAnnot" rel="Chapter" href="RegionAnnot.html">
+<link title="RegionAccess" rel="Chapter" href="RegionAccess.html">
+<link title="RegionDump" rel="Chapter" href="RegionDump.html">
+<link title="RegionAnalysis" rel="Chapter" href="RegionAnalysis.html">
+<link title="Cil2cfg" rel="Chapter" href="Cil2cfg.html">
+<link title="NormAtLabels" rel="Chapter" href="NormAtLabels.html">
+<link title="WpPropId" rel="Chapter" href="WpPropId.html">
+<link title="WpStrategy" rel="Chapter" href="WpStrategy.html">
+<link title="Mcfg" rel="Chapter" href="Mcfg.html">
+<link title="Lang" rel="Chapter" href="Lang.html">
+<link title="Repr" rel="Chapter" href="Repr.html">
+<link title="Matrix" rel="Chapter" href="Matrix.html">
+<link title="Passive" rel="Chapter" href="Passive.html">
+<link title="Splitter" rel="Chapter" href="Splitter.html">
+<link title="LogicBuiltins" rel="Chapter" href="LogicBuiltins.html">
+<link title="Definitions" rel="Chapter" href="Definitions.html">
+<link title="Cmath" rel="Chapter" href="Cmath.html">
+<link title="Cint" rel="Chapter" href="Cint.html">
+<link title="Cfloat" rel="Chapter" href="Cfloat.html">
+<link title="Vset" rel="Chapter" href="Vset.html">
+<link title="Vlist" rel="Chapter" href="Vlist.html">
+<link title="Cstring" rel="Chapter" href="Cstring.html">
+<link title="Cvalues" rel="Chapter" href="Cvalues.html">
+<link title="Letify" rel="Chapter" href="Letify.html">
+<link title="Cleaning" rel="Chapter" href="Cleaning.html">
+<link title="Sigs" rel="Chapter" href="Sigs.html">
+<link title="Mstate" rel="Chapter" href="Mstate.html">
+<link title="Conditions" rel="Chapter" href="Conditions.html">
+<link title="Filtering" rel="Chapter" href="Filtering.html">
+<link title="Plang" rel="Chapter" href="Plang.html">
+<link title="Pcfg" rel="Chapter" href="Pcfg.html">
+<link title="Pcond" rel="Chapter" href="Pcond.html">
+<link title="CodeSemantics" rel="Chapter" href="CodeSemantics.html">
+<link title="LogicCompiler" rel="Chapter" href="LogicCompiler.html">
+<link title="LogicSemantics" rel="Chapter" href="LogicSemantics.html">
+<link title="LogicAssigns" rel="Chapter" href="LogicAssigns.html">
+<link title="Sigma" rel="Chapter" href="Sigma.html">
+<link title="MemLoader" rel="Chapter" href="MemLoader.html">
+<link title="MemEmpty" rel="Chapter" href="MemEmpty.html">
+<link title="MemZeroAlias" rel="Chapter" href="MemZeroAlias.html">
+<link title="MemVar" rel="Chapter" href="MemVar.html">
+<link title="MemMemory" rel="Chapter" href="MemMemory.html">
+<link title="MemTyped" rel="Chapter" href="MemTyped.html">
+<link title="MemRegion" rel="Chapter" href="MemRegion.html">
+<link title="WpReached" rel="Chapter" href="WpReached.html">
+<link title="WpRTE" rel="Chapter" href="WpRTE.html">
+<link title="WpAnnot" rel="Chapter" href="WpAnnot.html">
+<link title="WpTarget" rel="Chapter" href="WpTarget.html">
+<link title="CfgCompiler" rel="Chapter" href="CfgCompiler.html">
+<link title="StmtSemantics" rel="Chapter" href="StmtSemantics.html">
+<link title="VCS" rel="Chapter" href="VCS.html">
+<link title="Script" rel="Chapter" href="Script.html">
+<link title="Proof" rel="Chapter" href="Proof.html">
+<link title="Wpo" rel="Chapter" href="Wpo.html">
+<link title="WpReport" rel="Chapter" href="WpReport.html">
+<link title="Footprint" rel="Chapter" href="Footprint.html">
+<link title="Tactical" rel="Chapter" href="Tactical.html">
+<link title="Strategy" rel="Chapter" href="Strategy.html">
+<link title="TacSplit" rel="Chapter" href="TacSplit.html">
+<link title="TacChoice" rel="Chapter" href="TacChoice.html">
+<link title="TacRange" rel="Chapter" href="TacRange.html">
+<link title="TacArray" rel="Chapter" href="TacArray.html">
+<link title="TacCompound" rel="Chapter" href="TacCompound.html">
+<link title="TacUnfold" rel="Chapter" href="TacUnfold.html">
+<link title="TacHavoc" rel="Chapter" href="TacHavoc.html">
+<link title="TacInstance" rel="Chapter" href="TacInstance.html">
+<link title="TacLemma" rel="Chapter" href="TacLemma.html">
+<link title="TacFilter" rel="Chapter" href="TacFilter.html">
+<link title="TacCut" rel="Chapter" href="TacCut.html">
+<link title="WpTac" rel="Chapter" href="WpTac.html">
+<link title="TacNormalForm" rel="Chapter" href="TacNormalForm.html">
+<link title="TacRewrite" rel="Chapter" href="TacRewrite.html">
+<link title="TacBitwised" rel="Chapter" href="TacBitwised.html">
+<link title="TacBitrange" rel="Chapter" href="TacBitrange.html">
+<link title="TacBittest" rel="Chapter" href="TacBittest.html">
+<link title="TacShift" rel="Chapter" href="TacShift.html">
+<link title="TacCongruence" rel="Chapter" href="TacCongruence.html">
+<link title="TacOverflow" rel="Chapter" href="TacOverflow.html">
+<link title="Auto" rel="Chapter" href="Auto.html">
+<link title="ProofSession" rel="Chapter" href="ProofSession.html">
+<link title="ProofScript" rel="Chapter" href="ProofScript.html">
+<link title="ProofEngine" rel="Chapter" href="ProofEngine.html">
+<link title="ProverTask" rel="Chapter" href="ProverTask.html">
+<link title="ProverErgo" rel="Chapter" href="ProverErgo.html">
+<link title="ProverCoq" rel="Chapter" href="ProverCoq.html">
+<link title="Filter_axioms" rel="Chapter" href="Filter_axioms.html">
+<link title="Cache" rel="Chapter" href="Cache.html">
+<link title="ProverWhy3" rel="Chapter" href="ProverWhy3.html">
+<link title="Driver" rel="Chapter" href="Driver.html">
+<link title="Prover" rel="Chapter" href="Prover.html">
+<link title="ProverSearch" rel="Chapter" href="ProverSearch.html">
+<link title="ProverScript" rel="Chapter" href="ProverScript.html">
+<link title="Generator" rel="Chapter" href="Generator.html">
+<link title="Factory" rel="Chapter" href="Factory.html">
+<link title="Calculus" rel="Chapter" href="Calculus.html">
+<link title="CfgDump" rel="Chapter" href="CfgDump.html">
+<link title="CfgWP" rel="Chapter" href="CfgWP.html">
+<link title="Register" rel="Chapter" href="Register.html">
+<link title="VC" rel="Chapter" href="VC.html">
+<link title="GuiConfig" rel="Chapter" href="GuiConfig.html">
+<link title="GuiList" rel="Chapter" href="GuiList.html">
+<link title="GuiSequent" rel="Chapter" href="GuiSequent.html">
+<link title="GuiProver" rel="Chapter" href="GuiProver.html">
+<link title="GuiTactic" rel="Chapter" href="GuiTactic.html">
+<link title="GuiProof" rel="Chapter" href="GuiProof.html">
+<link title="GuiComposer" rel="Chapter" href="GuiComposer.html">
+<link title="GuiGoal" rel="Chapter" href="GuiGoal.html">
+<link title="GuiSource" rel="Chapter" href="GuiSource.html">
+<link title="GuiPanel" rel="Chapter" href="GuiPanel.html">
+<link title="GuiNavigator" rel="Chapter" href="GuiNavigator.html"><link title="Library" rel="Section" href="#2_Library">
+<link title="Naming" rel="Section" href="#2_Naming">
+<link title="Symbols" rel="Section" href="#2_Symbols">
+<link title="Sorting and Typing" rel="Section" href="#2_SortingandTyping">
+<link title="Logic Formulae" rel="Section" href="#2_LogicFormulae">
+<link title="Fresh Variables and Constraints" rel="Section" href="#2_FreshVariablesandConstraints">
+<link title="Substitutions" rel="Section" href="#2_Substitutions">
+<link title="Simplifiers" rel="Section" href="#2_Simplifiers">
+<title>Wp.Lang - Wp plugin</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Wp.WpContext.html" title="Wp.WpContext">Previous</a>
+&nbsp;<a class="up" href="Wp.html" title="Wp">Up</a>
+&nbsp;<a class="post" href="Wp.Repr.html" title="Wp.Repr">Next</a>
+</div>
+<h1>Module <a href="type_Wp.Lang.html">Wp.Lang</a></h1>
+
+<pre><span id="MODULELang"><span class="keyword">module</span> Lang</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Wp.Lang.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><hr width="100%">
+<p>Logic Language based on Qed</p>
+<h3 id="2_Library">Library</h3>
+<pre><span id="TYPElibrary"><span class="keyword">type</span> <code class="type"></code>library</span> = <code class="type">string</code> </pre>
+
+
+<pre><code><span id="TYPEinfoprover"><span class="keyword">type</span> <code class="type">'a</code> infoprover</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTinfoprover.altergo">altergo</span>&nbsp;: <code class="type">'a</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTinfoprover.why3">why3</span>&nbsp;: <code class="type">'a</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTinfoprover.coq">coq</span>&nbsp;: <code class="type">'a</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>Name for external prover.</p>
+
+<p>In case a Qed.Engine.link is used, <code class="code"><span class="constructor">F_subst</span></code> patterns
+    are not supported for Why-3.</p>
+
+<p>generic way to have different informations for the provers</p>
+</div>
+</div>
+
+
+<pre><span id="VALinfoprover"><span class="keyword">val</span> infoprover</span> : <code class="type">'a -> 'a <a href="./Wp.Lang.html#TYPEinfoprover">infoprover</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>same information for all the provers</p>
+</div>
+</div>
+<h3 id="2_Naming">Naming</h3><p>Unique identifiers.</p>
+
+<pre><span id="VALcomp_id"><span class="keyword">val</span> comp_id</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> -> string</code></pre>
+<pre><span id="VALcomp_init_id"><span class="keyword">val</span> comp_init_id</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> -> string</code></pre>
+<pre><span id="VALfield_id"><span class="keyword">val</span> field_id</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEfieldinfo">Cil_types.fieldinfo</a> -> string</code></pre>
+<pre><span id="VALfield_init_id"><span class="keyword">val</span> field_init_id</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEfieldinfo">Cil_types.fieldinfo</a> -> string</code></pre>
+<pre><span id="VALtype_id"><span class="keyword">val</span> type_id</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> string</code></pre>
+<pre><span id="VALlogic_id"><span class="keyword">val</span> logic_id</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> string</code></pre>
+<pre><span id="VALctor_id"><span class="keyword">val</span> ctor_id</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a> -> string</code></pre>
+<pre><span id="VALlemma_id"><span class="keyword">val</span> lemma_id</span> : <code class="type">string -> string</code></pre><h3 id="2_Symbols">Symbols</h3>
+<pre><code><span id="TYPEdatakind"><span class="keyword">type</span> <code class="type"></code>datakind</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTdatakind.KValue"><span class="constructor">KValue</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTdatakind.KInit"><span class="constructor">KInit</span></span></code></td>
+
+</tr></table>
+
+
+
+<pre><code><span id="TYPEadt"><span class="keyword">type</span> <code class="type"></code>adt</span> = private </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTadt.Mtype"><span class="constructor">Mtype</span></span> <span class="keyword">of</span> <code class="type"><a href="./Wp.Lang.html#TYPEmdt">mdt</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>External type</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTadt.Mrecord"><span class="constructor">Mrecord</span></span> <span class="keyword">of</span> <code class="type"><a href="./Wp.Lang.html#TYPEmdt">mdt</a> * <a href="./Wp.Lang.html#TYPEfields">fields</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>External record-type</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTadt.Atype"><span class="constructor">Atype</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Logic Type</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTadt.Comp"><span class="constructor">Comp</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> * <a href="./Wp.Lang.html#TYPEdatakind">datakind</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>C-code struct or union</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><span id="TYPEmdt"><span class="keyword">type</span> <code class="type"></code>mdt</span> = <code class="type">string <a href="./Wp.Lang.html#TYPEextern">extern</a></code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>name to print to the provers</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEextern"><span class="keyword">type</span> <code class="type">'a</code> extern</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTextern.ext_id">ext_id</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTextern.ext_link">ext_link</span>&nbsp;: <code class="type">'a <a href="./Wp.Lang.html#TYPEinfoprover">infoprover</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTextern.ext_library">ext_library</span>&nbsp;: <code class="type"><a href="./Wp.Lang.html#TYPElibrary">library</a></code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>a library which it depends on</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTextern.ext_debug">ext_debug</span>&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>just for printing during debugging</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+
+
+<pre><code><span id="TYPEfields"><span class="keyword">type</span> <code class="type"></code>fields</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTfields.fields">fields</span>&nbsp;: <code class="type"><a href="./Wp.Lang.html#TYPEfield">field</a> list</code>;</code></td>
+
+</tr></table>
+}
+
+
+
+<pre><code><span id="TYPEfield"><span class="keyword">type</span> <code class="type"></code>field</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfield.Mfield"><span class="constructor">Mfield</span></span> <span class="keyword">of</span> <code class="type"><a href="./Wp.Lang.html#TYPEmdt">mdt</a> * <a href="./Wp.Lang.html#TYPEfields">fields</a> * string * <a href="./Wp.Lang.html#TYPEtau">tau</a></code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfield.Cfield"><span class="constructor">Cfield</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEfieldinfo">Cil_types.fieldinfo</a> * <a href="./Wp.Lang.html#TYPEdatakind">datakind</a></code></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="TYPEtau"><span class="keyword">type</span> <code class="type"></code>tau</span> = <code class="type">(<a href="./Wp.Lang.html#TYPEfield">field</a>, <a href="./Wp.Lang.html#TYPEadt">adt</a>) Qed.Logic.datatype</code> </pre>
+
+
+<pre><code><span id="TYPEt_builtin"><span class="keyword">type</span> <code class="type"></code>t_builtin</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt_builtin.E_mdt"><span class="constructor">E_mdt</span></span> <span class="keyword">of</span> <code class="type"><a href="./Wp.Lang.html#TYPEmdt">mdt</a></code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt_builtin.E_poly"><span class="constructor">E_poly</span></span> <span class="keyword">of</span> <code class="type">(<a href="./Wp.Lang.html#TYPEtau">tau</a> list -> <a href="./Wp.Lang.html#TYPEtau">tau</a>)</code></code></td>
+
+</tr></table>
+
+
+
+<pre><code><span id="TYPElfun"><span class="keyword">type</span> <code class="type"></code>lfun</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlfun.ACSL"><span class="constructor">ACSL</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_info">Cil_types.logic_info</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Registered in Definition.t,
+                                     only</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlfun.CTOR"><span class="constructor">CTOR</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Not registered in Definition.t
+                                          directly converted/printed</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTlfun.Model"><span class="constructor">Model</span></span> <span class="keyword">of</span> <code class="type"><a href="./Wp.Lang.html#TYPEmodel">model</a></code></code></td>
+
+</tr></table>
+
+
+
+<pre><code><span id="TYPEmodel"><span class="keyword">type</span> <code class="type"></code>model</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmodel.m_category">m_category</span>&nbsp;: <code class="type"><a href="./Wp.Lang.html#TYPElfun">lfun</a> Qed.Logic.category</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmodel.m_params">m_params</span>&nbsp;: <code class="type">Qed.Logic.sort list</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmodel.m_result">m_result</span>&nbsp;: <code class="type">Qed.Logic.sort</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmodel.m_typeof">m_typeof</span>&nbsp;: <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a> option list -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmodel.m_source">m_source</span>&nbsp;: <code class="type"><a href="./Wp.Lang.html#TYPEsource">source</a></code>;</code></td>
+
+</tr></table>
+}
+
+
+
+<pre><code><span id="TYPEsource"><span class="keyword">type</span> <code class="type"></code>source</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTsource.Generated"><span class="constructor">Generated</span></span> <span class="keyword">of</span> <code class="type"><a href="./Wp.WpContext.html#TYPEcontext">Wp.WpContext.context</a> option * string</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTsource.Extern"><span class="constructor">Extern</span></span> <span class="keyword">of</span> <code class="type">Qed.Engine.link <a href="./Wp.Lang.html#TYPEextern">extern</a></code></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="VALmem_builtin_type"><span class="keyword">val</span> mem_builtin_type</span> : <code class="type">name:string -> bool</code></pre>
+<pre><span id="VALis_builtin"><span class="keyword">val</span> is_builtin</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> bool</code></pre>
+<pre><span id="VALis_builtin_type"><span class="keyword">val</span> is_builtin_type</span> : <code class="type">name:string -> <a href="./Wp.Lang.html#TYPEtau">tau</a> -> bool</code></pre>
+<pre><span id="VALget_builtin_type"><span class="keyword">val</span> get_builtin_type</span> : <code class="type">name:string -> <a href="./Wp.Lang.html#TYPEadt">adt</a></code></pre>
+<pre><span id="VALdatatype"><span class="keyword">val</span> datatype</span> : <code class="type">library:string -> string -> <a href="./Wp.Lang.html#TYPEadt">adt</a></code></pre>
+<pre><span id="VALrecord"><span class="keyword">val</span> record</span> : <code class="type">link:string <a href="./Wp.Lang.html#TYPEinfoprover">infoprover</a> -><br>       library:string -> (string * <a href="./Wp.Lang.html#TYPEtau">tau</a>) list -> <a href="./Wp.Lang.html#TYPEadt">adt</a></code></pre>
+<pre><span id="VALcomp"><span class="keyword">val</span> comp</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> -> <a href="./Wp.Lang.html#TYPEadt">adt</a></code></pre>
+<pre><span id="VALcomp_init"><span class="keyword">val</span> comp_init</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> -> <a href="./Wp.Lang.html#TYPEadt">adt</a></code></pre>
+<pre><span id="VALfield"><span class="keyword">val</span> field</span> : <code class="type"><a href="./Wp.Lang.html#TYPEadt">adt</a> -> string -> <a href="./Wp.Lang.html#TYPEfield">field</a></code></pre>
+<pre><span id="VALfields_of_adt"><span class="keyword">val</span> fields_of_adt</span> : <code class="type"><a href="./Wp.Lang.html#TYPEadt">adt</a> -> <a href="./Wp.Lang.html#TYPEfield">field</a> list</code></pre>
+<pre><span id="VALfields_of_tau"><span class="keyword">val</span> fields_of_tau</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a> -> <a href="./Wp.Lang.html#TYPEfield">field</a> list</code></pre>
+<pre><span id="VALfields_of_field"><span class="keyword">val</span> fields_of_field</span> : <code class="type"><a href="./Wp.Lang.html#TYPEfield">field</a> -> <a href="./Wp.Lang.html#TYPEfield">field</a> list</code></pre>
+<pre><span id="VALatype"><span class="keyword">val</span> atype</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a> list -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALadt"><span class="keyword">val</span> adt</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> <a href="./Wp.Lang.html#TYPEadt">adt</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Must not be a builtin</p>
+</div>
+</div>
+
+<pre><code><span id="TYPEbalance"><span class="keyword">type</span> <code class="type"></code>balance</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTbalance.Nary"><span class="constructor">Nary</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTbalance.Left"><span class="constructor">Left</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTbalance.Right"><span class="constructor">Right</span></span></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="VALextern_s"><span class="keyword">val</span> extern_s</span> : <code class="type">library:<a href="./Wp.Lang.html#TYPElibrary">library</a> -><br>       ?link:Qed.Engine.link <a href="./Wp.Lang.html#TYPEinfoprover">infoprover</a> -><br>       ?category:<a href="./Wp.Lang.html#TYPElfun">lfun</a> Qed.Logic.category -><br>       ?params:Qed.Logic.sort list -><br>       ?sort:Qed.Logic.sort -><br>       ?result:<a href="./Wp.Lang.html#TYPEtau">tau</a> -><br>       ?typecheck:(<a href="./Wp.Lang.html#TYPEtau">tau</a> option list -> <a href="./Wp.Lang.html#TYPEtau">tau</a>) -> string -> <a href="./Wp.Lang.html#TYPElfun">lfun</a></code></pre>
+<pre><span id="VALextern_f"><span class="keyword">val</span> extern_f</span> : <code class="type">library:<a href="./Wp.Lang.html#TYPElibrary">library</a> -><br>       ?link:Qed.Engine.link <a href="./Wp.Lang.html#TYPEinfoprover">infoprover</a> -><br>       ?balance:<a href="./Wp.Lang.html#TYPEbalance">balance</a> -><br>       ?category:<a href="./Wp.Lang.html#TYPElfun">lfun</a> Qed.Logic.category -><br>       ?params:Qed.Logic.sort list -><br>       ?sort:Qed.Logic.sort -><br>       ?result:<a href="./Wp.Lang.html#TYPEtau">tau</a> -><br>       ?typecheck:(<a href="./Wp.Lang.html#TYPEtau">tau</a> option list -> <a href="./Wp.Lang.html#TYPEtau">tau</a>) -><br>       ('a, Stdlib.Format.formatter, unit, <a href="./Wp.Lang.html#TYPElfun">lfun</a>) Stdlib.format4 -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p>balance just give a default when link is not specified</p>
+</div>
+</div>
+
+<pre><span id="VALextern_p"><span class="keyword">val</span> extern_p</span> : <code class="type">library:<a href="./Wp.Lang.html#TYPElibrary">library</a> -><br>       ?bool:string -><br>       ?prop:string -><br>       ?link:Qed.Engine.link <a href="./Wp.Lang.html#TYPEinfoprover">infoprover</a> -><br>       ?params:Qed.Logic.sort list -> unit -> <a href="./Wp.Lang.html#TYPElfun">lfun</a></code></pre>
+<pre><span id="VALextern_fp"><span class="keyword">val</span> extern_fp</span> : <code class="type">library:<a href="./Wp.Lang.html#TYPElibrary">library</a> -><br>       ?params:Qed.Logic.sort list -><br>       ?link:string <a href="./Wp.Lang.html#TYPEinfoprover">infoprover</a> -> string -> <a href="./Wp.Lang.html#TYPElfun">lfun</a></code></pre>
+<pre><span id="VALgenerated_f"><span class="keyword">val</span> generated_f</span> : <code class="type">?context:bool -><br>       ?category:<a href="./Wp.Lang.html#TYPElfun">lfun</a> Qed.Logic.category -><br>       ?params:Qed.Logic.sort list -><br>       ?sort:Qed.Logic.sort -><br>       ?result:<a href="./Wp.Lang.html#TYPEtau">tau</a> -><br>       ('a, Stdlib.Format.formatter, unit, <a href="./Wp.Lang.html#TYPElfun">lfun</a>) Stdlib.format4 -> 'a</code></pre>
+<pre><span id="VALgenerated_p"><span class="keyword">val</span> generated_p</span> : <code class="type">?context:bool -> string -> <a href="./Wp.Lang.html#TYPElfun">lfun</a></code></pre>
+<pre><span id="VALextern_t"><span class="keyword">val</span> extern_t</span> : <code class="type">string -><br>       link:string <a href="./Wp.Lang.html#TYPEinfoprover">infoprover</a> -> library:<a href="./Wp.Lang.html#TYPElibrary">library</a> -> <a href="./Wp.Lang.html#TYPEmdt">mdt</a></code></pre><h3 id="2_SortingandTyping">Sorting and Typing</h3>
+<pre><span id="VALtau_of_object"><span class="keyword">val</span> tau_of_object</span> : <code class="type"><a href="./Wp.Ctypes.html#TYPEc_object">Wp.Ctypes.c_object</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALtau_of_ctype"><span class="keyword">val</span> tau_of_ctype</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEtyp">Cil_types.typ</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALtau_of_ltype"><span class="keyword">val</span> tau_of_ltype</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALtau_of_return"><span class="keyword">val</span> tau_of_return</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALtau_of_lfun"><span class="keyword">val</span> tau_of_lfun</span> : <code class="type"><a href="./Wp.Lang.html#TYPElfun">lfun</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a> option list -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALtau_of_field"><span class="keyword">val</span> tau_of_field</span> : <code class="type"><a href="./Wp.Lang.html#TYPEfield">field</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALtau_of_record"><span class="keyword">val</span> tau_of_record</span> : <code class="type"><a href="./Wp.Lang.html#TYPEfield">field</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALinit_of_object"><span class="keyword">val</span> init_of_object</span> : <code class="type"><a href="./Wp.Ctypes.html#TYPEc_object">Wp.Ctypes.c_object</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALinit_of_ctype"><span class="keyword">val</span> init_of_ctype</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEtyp">Cil_types.typ</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_int"><span class="keyword">val</span> t_int</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_real"><span class="keyword">val</span> t_real</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_bool"><span class="keyword">val</span> t_bool</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_prop"><span class="keyword">val</span> t_prop</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_addr"><span class="keyword">val</span> t_addr</span> : <code class="type">unit -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_comp"><span class="keyword">val</span> t_comp</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_init"><span class="keyword">val</span> t_init</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_float"><span class="keyword">val</span> t_float</span> : <code class="type"><a href="./Wp.Ctypes.html#TYPEc_float">Wp.Ctypes.c_float</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_array"><span class="keyword">val</span> t_array</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_farray"><span class="keyword">val</span> t_farray</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_datatype"><span class="keyword">val</span> t_datatype</span> : <code class="type"><a href="./Wp.Lang.html#TYPEadt">adt</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a> list -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALt_matrix"><span class="keyword">val</span> t_matrix</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a> -> int -> <a href="./Wp.Lang.html#TYPEtau">tau</a></code></pre>
+<pre><span id="VALpointer"><span class="keyword">val</span> pointer</span> : <code class="type"><a href="./Wp.Lang.html#TYPEtau">tau</a> <a href="./Wp.Context.html#TYPEvalue">Wp.Context.value</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>type of pointers</p>
+</div>
+</div>
+
+<pre><span id="VALfloats"><span class="keyword">val</span> floats</span> : <code class="type">(<a href="./Wp.Ctypes.html#TYPEc_float">Wp.Ctypes.c_float</a> -> <a href="./Wp.Lang.html#TYPEtau">tau</a>) <a href="./Wp.Context.html#TYPEvalue">Wp.Context.value</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>type of floats</p>
+</div>
+</div>
+
+<pre><span id="VALpoly"><span class="keyword">val</span> poly</span> : <code class="type">string list <a href="./Wp.Context.html#TYPEvalue">Wp.Context.value</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>polymorphism</p>
+</div>
+</div>
+
+<pre><span id="VALbuiltin_types"><span class="keyword">val</span> builtin_types</span> : <code class="type">(string -> <a href="./Wp.Lang.html#TYPEt_builtin">t_builtin</a>) <a href="./Wp.Context.html#TYPEvalue">Wp.Context.value</a></code></pre>
+<pre><span id="VALparameters"><span class="keyword">val</span> parameters</span> : <code class="type">(<a href="./Wp.Lang.html#TYPElfun">lfun</a> -> Qed.Logic.sort list) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>definitions</p>
+</div>
+</div>
+
+<pre><span id="VALname_of_lfun"><span class="keyword">val</span> name_of_lfun</span> : <code class="type"><a href="./Wp.Lang.html#TYPElfun">lfun</a> -> string</code></pre>
+<pre><span id="VALname_of_field"><span class="keyword">val</span> name_of_field</span> : <code class="type"><a href="./Wp.Lang.html#TYPEfield">field</a> -> string</code></pre><h3 id="2_LogicFormulae">Logic Formulae</h3>
+<pre><span id="MODULEADT"><span class="keyword">module</span> <a href="Wp.Lang.ADT.html">ADT</a></span>: <code class="type">Logic.Data</code><code class="type">  with type t = adt</code></pre>
+<pre><span id="MODULEField"><span class="keyword">module</span> <a href="Wp.Lang.Field.html">Field</a></span>: <code class="type">Logic.Field</code><code class="type">  with type t = field</code></pre>
+<pre><span id="MODULEFun"><span class="keyword">module</span> <a href="Wp.Lang.Fun.html">Fun</a></span>: <code class="type">Logic.Function</code><code class="type">  with type t = lfun</code></pre>
+<pre><span id="TYPEidprinting"><span class="keyword">class</span> <span class="keyword">virtual</span> <a href="Wp.Lang.idprinting-c.html">idprinting</a></span> : <code class="type"></code><code class="code"><span class="keyword">object</span></code> <a href="Wp.Lang.idprinting-c.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>
+<pre><span id="MODULEF"><span class="keyword">module</span> <a href="Wp.Lang.F.html">F</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Wp.Lang.F.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>
+<pre><span id="MODULEN"><span class="keyword">module</span> <a href="Wp.Lang.N.html">N</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Wp.Lang.N.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><h3 id="2_FreshVariablesandConstraints">Fresh Variables and Constraints</h3>
+<pre><span id="TYPEgamma"><span class="keyword">type</span> <code class="type"></code>gamma</span> </pre>
+
+
+<pre><span id="VALnew_pool"><span class="keyword">val</span> new_pool</span> : <code class="type">?copy:<a href="./Wp.Lang.F.html#TYPEpool">F.pool</a> -> ?vars:F.Vars.t -> unit -> <a href="./Wp.Lang.F.html#TYPEpool">F.pool</a></code></pre>
+<pre><span id="VALnew_gamma"><span class="keyword">val</span> new_gamma</span> : <code class="type">?copy:<a href="./Wp.Lang.html#TYPEgamma">gamma</a> -> unit -> <a href="./Wp.Lang.html#TYPEgamma">gamma</a></code></pre>
+<pre><span id="VALlocal"><span class="keyword">val</span> local</span> : <code class="type">?pool:<a href="./Wp.Lang.F.html#TYPEpool">F.pool</a> -><br>       ?vars:F.Vars.t -> ?gamma:<a href="./Wp.Lang.html#TYPEgamma">gamma</a> -> ('a -> 'b) -> 'a -> 'b</code></pre>
+<pre><span id="VALfreshvar"><span class="keyword">val</span> freshvar</span> : <code class="type">?basename:string -> <a href="./Wp.Lang.F.html#TYPEtau">F.tau</a> -> <a href="./Wp.Lang.F.html#TYPEvar">F.var</a></code></pre>
+<pre><span id="VALfreshen"><span class="keyword">val</span> freshen</span> : <code class="type"><a href="./Wp.Lang.F.html#TYPEvar">F.var</a> -> <a href="./Wp.Lang.F.html#TYPEvar">F.var</a></code></pre>
+<pre><span id="VALassume"><span class="keyword">val</span> assume</span> : <code class="type"><a href="./Wp.Lang.F.html#TYPEpred">F.pred</a> -> unit</code></pre>
+<pre><span id="VALwithout_assume"><span class="keyword">val</span> without_assume</span> : <code class="type">('a -> 'b) -> 'a -> 'b</code></pre>
+<pre><span id="VALhypotheses"><span class="keyword">val</span> hypotheses</span> : <code class="type"><a href="./Wp.Lang.html#TYPEgamma">gamma</a> -> <a href="./Wp.Lang.F.html#TYPEpred">F.pred</a> list</code></pre>
+<pre><span id="VALget_pool"><span class="keyword">val</span> get_pool</span> : <code class="type">unit -> <a href="./Wp.Lang.F.html#TYPEpool">F.pool</a></code></pre>
+<pre><span id="VALget_gamma"><span class="keyword">val</span> get_gamma</span> : <code class="type">unit -> <a href="./Wp.Lang.html#TYPEgamma">gamma</a></code></pre>
+<pre><span id="VALhas_gamma"><span class="keyword">val</span> has_gamma</span> : <code class="type">unit -> bool</code></pre>
+<pre><span id="VALget_hypotheses"><span class="keyword">val</span> get_hypotheses</span> : <code class="type">unit -> <a href="./Wp.Lang.F.html#TYPEpred">F.pred</a> list</code></pre>
+<pre><span id="VALfilter_hypotheses"><span class="keyword">val</span> filter_hypotheses</span> : <code class="type"><a href="./Wp.Lang.F.html#TYPEvar">F.var</a> list -> <a href="./Wp.Lang.F.html#TYPEpred">F.pred</a> list</code></pre><h3 id="2_Substitutions">Substitutions</h3>
+<pre><span id="VALsigma"><span class="keyword">val</span> sigma</span> : <code class="type">unit -> <a href="./Wp.Lang.F.html#TYPEsigma">F.sigma</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>uses current pool</p>
+</div>
+</div>
+
+<pre><span id="VALalpha"><span class="keyword">val</span> alpha</span> : <code class="type">unit -> <a href="./Wp.Lang.F.html#TYPEsigma">F.sigma</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>freshen all variables</p>
+</div>
+</div>
+
+<pre><span id="VALsubst"><span class="keyword">val</span> subst</span> : <code class="type"><a href="./Wp.Lang.F.html#TYPEvar">F.var</a> list -> <a href="./Wp.Lang.F.html#TYPEterm">F.term</a> list -> <a href="./Wp.Lang.F.html#TYPEsigma">F.sigma</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>replace variables</p>
+</div>
+</div>
+
+<pre><span id="VALe_subst"><span class="keyword">val</span> e_subst</span> : <code class="type">(<a href="./Wp.Lang.F.html#TYPEterm">F.term</a> -> <a href="./Wp.Lang.F.html#TYPEterm">F.term</a>) -> <a href="./Wp.Lang.F.html#TYPEterm">F.term</a> -> <a href="./Wp.Lang.F.html#TYPEterm">F.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>uses current pool</p>
+</div>
+</div>
+
+<pre><span id="VALp_subst"><span class="keyword">val</span> p_subst</span> : <code class="type">(<a href="./Wp.Lang.F.html#TYPEterm">F.term</a> -> <a href="./Wp.Lang.F.html#TYPEterm">F.term</a>) -> <a href="./Wp.Lang.F.html#TYPEpred">F.pred</a> -> <a href="./Wp.Lang.F.html#TYPEpred">F.pred</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>uses current pool</p>
+</div>
+</div>
+<h3 id="2_Simplifiers">Simplifiers</h3>
+<pre><span id="EXCEPTIONContradiction"><span class="keyword">exception</span> Contradiction</span></pre>
+
+<pre><span id="VALis_literal"><span class="keyword">val</span> is_literal</span> : <code class="type"><a href="./Wp.Lang.F.html#TYPEterm">F.term</a> -> bool</code></pre>
+<pre><span id="VALiter_consequence_literals"><span class="keyword">val</span> iter_consequence_literals</span> : <code class="type">(<a href="./Wp.Lang.F.html#TYPEterm">F.term</a> -> unit) -> <a href="./Wp.Lang.F.html#TYPEterm">F.term</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">iter_consequence_literals&nbsp;assume_from_litteral&nbsp;hypothesis</code> applies
+    the function <code class="code">assume_from_litteral</code> on literals that are a consequence of the <code class="code">hypothesis</code>
+    (i.e. in the hypothesis <code class="code">not&nbsp;(<span class="constructor">A</span>&nbsp;<span class="keywordsign">&amp;&amp;</span>&nbsp;(<span class="constructor">B</span>&nbsp;<span class="keywordsign">||</span>&nbsp;<span class="constructor">C</span>)&nbsp;==&gt;&nbsp;<span class="constructor">D</span>)</code>, only <code class="code"><span class="constructor">A</span></code> and <code class="code">not&nbsp;<span class="constructor">D</span></code> are
+    considered as consequence literals).</p>
+</div>
+</div>
+
+<pre><span id="TYPEsimplifier"><span class="keyword">class type</span> <a href="Wp.Lang.simplifier-c.html">simplifier</a></span> = <code class="code"><span class="keyword">object</span></code> <a href="Wp.Lang.simplifier-c.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>
+<pre><span id="MODULEFor_export"><span class="keyword">module</span> <a href="Wp.Lang.For_export.html">For_export</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Wp.Lang.For_export.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>For why3_api but circular dependency</p>
+
+</div>
+</body></html>

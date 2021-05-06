@@ -1,0 +1,30 @@
+digraph "Plugin architecture (inout)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Inout" [style=filled, color=darkturquoise];
+"Inout_parameters" [style=filled, color=darkturquoise];
+"Cumulative_analysis" [style=filled, color=darkturquoise];
+"Cumulative_analysis" -> "Inout_parameters";
+"Operational_inputs" [style=filled, color=darkturquoise];
+"Operational_inputs" -> "Inout_type";
+"Operational_inputs" -> "Inout_parameters";
+"Operational_inputs" -> "Cumulative_analysis";
+"Outputs" [style=filled, color=darkturquoise];
+"Outputs" -> "Cumulative_analysis";
+"Outputs" -> "Inout_type";
+"Outputs" -> "Operational_inputs";
+"Inputs" [style=filled, color=darkturquoise];
+"Inputs" -> "Cumulative_analysis";
+"Derefs" [style=filled, color=darkturquoise];
+"Derefs" -> "Cumulative_analysis";
+"Register" [style=filled, color=darkturquoise];
+"Register" -> "Outputs";
+"Register" -> "Operational_inputs";
+"Register" -> "Inputs";
+"Register" -> "Inout_parameters";
+"Register" -> "Derefs";
+"Inout_type" [style=filled, color=darkgoldenrod2];
+}

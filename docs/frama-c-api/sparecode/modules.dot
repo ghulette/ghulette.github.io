@@ -1,0 +1,21 @@
+digraph "Plugin architecture (sparecode)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Sparecode" [style=filled, color=darkturquoise];
+"Sparecode_params" [style=filled, color=darkturquoise];
+"Globs" [style=filled, color=darkturquoise];
+"Globs" -> "Sparecode_params";
+"Spare_marks" [style=filled, color=darkturquoise];
+"Spare_marks" -> "Sparecode_params";
+"Transform" [style=filled, color=darkturquoise];
+"Transform" -> "Sparecode_params";
+"Transform" -> "Spare_marks";
+"Register" [style=filled, color=darkturquoise];
+"Register" -> "Transform";
+"Register" -> "Sparecode_params";
+"Register" -> "Spare_marks";
+"Register" -> "Globs";
+}

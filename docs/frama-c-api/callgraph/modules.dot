@@ -1,0 +1,38 @@
+digraph "Plugin architecture (callgraph)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Callgraph" [style=filled, color=darkturquoise];
+"Callgraph" -> "Uses";
+"Callgraph" -> "Services";
+"Callgraph" -> "Cg";
+"Options" [style=filled, color=darkturquoise];
+"Journalize" [style=filled, color=darkturquoise];
+"Subgraph" [style=filled, color=darkturquoise];
+"Subgraph" -> "Options";
+"Cg" [style=filled, color=darkturquoise];
+"Cg" -> "Journalize";
+"Cg" -> "Options";
+"Cg" -> "Subgraph";
+"Cg" -> "Callgraph_api";
+"Services" [style=filled, color=darkturquoise];
+"Services" -> "Cg";
+"Services" -> "Journalize";
+"Services" -> "Options";
+"Services" -> "Subgraph";
+"Services" -> "Callgraph_api";
+"Uses" [style=filled, color=darkturquoise];
+"Uses" -> "Cg";
+"Uses" -> "Options";
+"Register" [style=filled, color=darkturquoise];
+"Register" -> "Services";
+"Register" -> "Options";
+"Register" -> "Cg";
+"Callgraph_api" [style=filled, color=darkturquoise];
+"Cg_viewer" [style=filled, color=darkturquoise];
+"Cg_viewer" -> "Services";
+"Cg_viewer" -> "Options";
+"Cg_viewer" -> "Cg";
+}

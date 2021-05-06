@@ -1,0 +1,11 @@
+digraph "Plugin architecture (constant_propagation)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Constant_Propagation" [style=filled, color=darkturquoise];
+"PropagationParameters" [style=filled, color=darkturquoise];
+"Api" [style=filled, color=darkturquoise];
+"Api" -> "PropagationParameters";
+}

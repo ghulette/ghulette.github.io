@@ -1,0 +1,9 @@
+digraph "Plugin architecture (users)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Users" [style=filled, color=darkturquoise];
+"Users_register" [style=filled, color=darkturquoise];
+}

@@ -1,0 +1,862 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Logic_typing.html">
+<link rel="next" href="Loop.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Types" rel="Section" href="#2_Types">
+<link title="Predicates" rel="Section" href="#2_Predicates">
+<link title="Terms" rel="Section" href="#2_Terms">
+<link title="Predicates" rel="Section" href="#2_Predicates">
+<link title="Conversion from exp to term" rel="Section" href="#2_Conversionfromexptoterm">
+<link title="Various Utilities" rel="Section" href="#2_VariousUtilities">
+<link title="Code annotations" rel="Section" href="#2_Codeannotations">
+<link title="Global annotations" rel="Section" href="#2_Globalannotations">
+<link title="Contracts " rel="Section" href="#2_Contracts">
+<link title="Structural equality between annotations" rel="Section" href="#2_Structuralequalitybetweenannotations">
+<link title="Merging contracts" rel="Section" href="#2_Mergingcontracts">
+<link title="Discriminating code_annotations" rel="Section" href="#2_Discriminatingcodeannotations">
+<link title="Constant folding" rel="Section" href="#2_Constantfolding">
+<link title="Type-checking hackery" rel="Section" href="#2_Typecheckinghackery">
+<link title="Parsing hackery" rel="Section" href="#2_Parsinghackery">
+<link title="Type conversions" rel="Subsection" href="#3_Typeconversions">
+<title>Logic_utils - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Logic_typing.html" title="Logic_typing">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Loop.html" title="Loop">Next</a>
+</div>
+<h1>Module <a href="type_Logic_utils.html">Logic_utils</a></h1>
+
+<pre><span id="MODULELogic_utils"><span class="keyword">module</span> Logic_utils</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Logic_utils.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>Utilities for ACSL constructs.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+<hr width="100%">
+
+<pre><span id="EXCEPTIONNot_well_formed"><span class="keyword">exception</span> Not_well_formed</span> <span class="keyword">of</span> <code class="type"><a href="./Cil_types.html#TYPElocation">Cil_types.location</a> * string</code></pre>
+<div class="info ">
+<div class="info-desc">
+<p>exception raised when a parsed logic expression is
+    syntactically not well-formed.</p>
+</div>
+</div>
+<p>basic utilities for logic terms and predicates. See also <a href="Logic_const.html"><code class="code"><span class="constructor">Logic_const</span></code></a>
+    to build terms and predicates.</p>
+
+<pre><span id="VALadd_logic_function"><span class="keyword">val</span> add_logic_function</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>add a logic function in the environment.
+    See <a href="Logic_env.html#VALadd_logic_function_gen"><code class="code"><span class="constructor">Logic_env</span>.add_logic_function_gen</code></a></p>
+</div>
+</div>
+<h3 id="2_Types">Types</h3>
+<pre><span id="VALinstantiate"><span class="keyword">val</span> instantiate</span> : <code class="type">(string * <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a>) list -><br>       <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>instantiate type variables in a logic type.</p>
+</div>
+</div>
+
+<pre><span id="VALis_instance_of"><span class="keyword">val</span> is_instance_of</span> : <code class="type">string list -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_instance_of&nbsp;poly&nbsp;t1&nbsp;t2</code> returns <code class="code"><span class="keyword">true</span></code> if <code class="code">t1</code> can be derived from <code class="code">t2</code>
+    by instantiating some of the type variable in <code class="code">poly</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Magnesium-20151001</li>
+</ul>
+</div>
+
+<pre><span id="VALunroll_type"><span class="keyword">val</span> unroll_type</span> : <code class="type">?unroll_typedef:bool -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>expands logic type definitions. If the <code class="code">unroll_typedef</code> flag is set to
+    <code class="code"><span class="keyword">true</span></code> (this is the default), C typedef will be expanded as well.</p>
+</div>
+</div>
+
+<pre><span id="VALisLogicType"><span class="keyword">val</span> isLogicType</span> : <code class="type">(<a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> -> bool) -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">isLogicType&nbsp;test&nbsp;typ</code> is <code class="code"><span class="keyword">false</span></code> for pure logic types and the result
+    of test for C types.
+    In case of a set type, the function tests the element type.</p>
+</div>
+</div>
+
+<pre><span id="VALisLogicArrayType"><span class="keyword">val</span> isLogicArrayType</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<h4 id="3_Predefinedtestsovertypes">Predefined tests over types</h4></div>
+</div>
+
+<pre><span id="VALisLogicCharType"><span class="keyword">val</span> isLogicCharType</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Change in Chlorine-20180501</b>: old behavior renamed as <code class="code">isLogicAnyCharType</code><br>
+</ul>
+</div>
+
+<pre><span id="VALisLogicAnyCharType"><span class="keyword">val</span> isLogicAnyCharType</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Since</b> Chlorine-20180501</li>
+</ul>
+</div>
+
+<pre><span id="VALisLogicVoidType"><span class="keyword">val</span> isLogicVoidType</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre>
+<pre><span id="VALisLogicPointerType"><span class="keyword">val</span> isLogicPointerType</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre>
+<pre><span id="VALisLogicVoidPointerType"><span class="keyword">val</span> isLogicVoidPointerType</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre><h4 id="3_Typeconversions">Type conversions</h4>
+<pre><span id="VALlogicCType"><span class="keyword">val</span> logicCType</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Failure</code> if the type is purely logical</li>
+<li><b>Returns</b> the equivalent C type.</li>
+</ul>
+</div>
+
+<pre><span id="VALarray_to_ptr"><span class="keyword">val</span> array_to_ptr</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>transforms an array into pointer.</p>
+</div>
+</div>
+
+<pre><span id="VALcoerce_type"><span class="keyword">val</span> coerce_type</span> : <code class="type"><a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>C type to logic type, with implicit conversion for arithmetic types.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> 21.0-Scandium</li>
+</ul>
+</div>
+<h3 id="2_Predicates">Predicates</h3>
+<pre><span id="VALpredicate_of_identified_predicate"><span class="keyword">val</span> predicate_of_identified_predicate</span> : <code class="type"><a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a></code></pre><div class="info ">
+<div class="info-deprecated">
+<span class="warning">Deprecated.</span>use Logic_const.pred_of_id_pred instead</div>
+</div>
+
+<pre><span id="VALtranslate_old_label"><span class="keyword">val</span> translate_old_label</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>transforms \old and \at(,Old) into \at(,L) for L a label pointing
+    to the given statement, creating one if needed.</p>
+</div>
+</div>
+<h3 id="2_Terms">Terms</h3>
+<pre><span id="VALis_C_array"><span class="keyword">val</span> is_C_array</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if the term denotes a C array.</p>
+</div>
+</div>
+
+<pre><span id="VALmk_logic_StartOf"><span class="keyword">val</span> mk_logic_StartOf</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>creates a TStartOf from an TLval.</p>
+</div>
+</div>
+
+<pre><span id="VALmk_logic_AddrOf"><span class="keyword">val</span> mk_logic_AddrOf</span> : <code class="type">?loc:<a href="./Cil_types.html#TYPElocation">Cil_types.location</a> -><br>       <a href="./Cil_types.html#TYPEterm_lval">Cil_types.term_lval</a> -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>creates an AddrOf from a TLval. The given logic type is the
+    type of the lval.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Neon-20140301</li>
+</ul>
+</div>
+
+<pre><span id="VALisLogicPointer"><span class="keyword">val</span> isLogicPointer</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if the term is a pointer.</p>
+</div>
+</div>
+
+<pre><span id="VALmk_logic_pointer_or_StartOf"><span class="keyword">val</span> mk_logic_pointer_or_StartOf</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>creates either a TStartOf or the corresponding TLval.</p>
+</div>
+</div>
+
+<pre><span id="VALmk_cast"><span class="keyword">val</span> mk_cast</span> : <code class="type">?loc:<a href="./Cil_types.html#TYPElocation">Cil_types.location</a> -><br>       ?force:bool -> <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>creates a logic cast if required, with some automatic simplifications being
+    performed automatically. If <code class="code">force</code> is <code class="code"><span class="keyword">true</span></code>, the cast will always
+    be inserted. Otherwise (which is the default), <code class="code">mk_cast&nbsp;typ&nbsp;t</code> will return
+    <code class="code">t</code> if it is already of type <code class="code">typ</code></p>
+</div>
+<ul class="info-attributes">
+<b>Change in Aluminium-20160501</b>: added <code class="code">force</code> optional argument<br>
+</ul>
+</div>
+
+<pre><span id="VALarray_with_range"><span class="keyword">val</span> array_with_range</span> : <code class="type"><a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">array_with_range&nbsp;arr&nbsp;size</code> returns the logic term <code class="code">array'+{0..(size-1)}</code>,
+    <code class="code">array'</code> being <code class="code">array</code> cast to a pointer to char</p>
+</div>
+</div>
+
+<pre><span id="VALremove_logic_coerce"><span class="keyword">val</span> remove_logic_coerce</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Removes TLogic_coerce at head of term.</p>
+</div>
+</div>
+
+<pre><span id="VALnumeric_coerce"><span class="keyword">val</span> numeric_coerce</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">numeric_coerce&nbsp;typ&nbsp;t</code> returns a term with the same value as <code class="code">t</code>
+    and of type <code class="code">typ</code>.  <code class="code">typ</code> which should be <code class="code"><span class="constructor">Linteger</span></code> or
+    <code class="code"><span class="constructor">Lreal</span></code>. <code class="code">numeric_coerce</code> tries to avoid unnecessary type conversions
+    in <code class="code">t</code>. In particular, <code class="code">numeric_coerce&nbsp;(int)cst&nbsp;<span class="constructor">Linteger</span></code>, where <code class="code">cst</code>
+    fits in int will be directly <code class="code">cst</code>, without any coercion.</p>
+
+<p>Also coerce recursively the sub-terms of t-set expressions
+    (range, union, inter and comprehension) and lift the associated
+    set type.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Magnesium-20151001</li>
+<b>Change in 21.0-Scandium</b><br>
+</ul>
+</div>
+<h3 id="2_Predicates">Predicates</h3><p>\valid_index</p>
+<p>\valid_range</p>
+
+<pre><span id="VALpointer_comparable"><span class="keyword">val</span> pointer_comparable</span> : <code class="type">?loc:<a href="./Cil_types.html#TYPElocation">Cil_types.location</a> -><br>       <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>\pointer_comparable</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Fluorine-20130401</li>
+</ul>
+</div>
+<h3 id="2_Conversionfromexptoterm">Conversion from exp to term</h3>
+<pre><span id="VALexpr_to_term"><span class="keyword">val</span> expr_to_term</span> : <code class="type">?coerce:bool -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Returns a logic term that has exactly the same semantics as the
+    original C-expression. The type of the resulting term is determined
+    by the <code class="code">~coerce</code> flag as follows:</p>
+<ul>
+<li>when <code class="code">~coerce:<span class="keyword">false</span></code> is given (the default) the term has the same
+      c-type as the original expression.</li>
+<li>when <code class="code">~coerce:<span class="keyword">true</span></code> is given, if the original expression has an int or
+      float type, then the returned term is coerced into the integer or real
+      logic type, respectively.</li>
+</ul>
+<p>Remark: when the original expression is a comparison, it is evaluated as
+    an <code class="code">int</code> or an <code class="code">integer</code> depending on the <code class="code">~coerce</code> flag.
+    To obtain a boolean or predicate, use <code class="code">expr_to_boolean</code> or
+    <code class="code">expr_to_predicate</code> instead.</p>
+</div>
+<ul class="info-attributes">
+<b>Change in 21.0-Scandium</b><br>
+</ul>
+</div>
+
+<pre><span id="VALexpr_to_predicate"><span class="keyword">val</span> expr_to_predicate</span> : <code class="type"><a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Returns a predicate semantically equivalent to the condition
+    of the original C-expression.</p>
+
+<p>This is different from <code class="code">expr_to_term&nbsp;e&nbsp;|&gt;&nbsp;scalar_term_to_predicate</code>
+    since C-relations are translated into logic ones.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Sulfur-20171101</li>
+<li><b>Raises</b> <code>Fatal</code> error if the expression is not a comparison and cannot be
+           compared to zero.</li>
+<b>Change in 21.0-Scandium</b><br>
+</ul>
+</div>
+
+<pre><span id="VALexpr_to_ipredicate"><span class="keyword">val</span> expr_to_ipredicate</span> : <code class="type"><a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Returns a predicate semantically equivalent to the condition
+    of the original C-expression.</p>
+
+<p>Identical to <code class="code">expr_to_predicate&nbsp;e&nbsp;|&gt;&nbsp;<span class="constructor">Logic_const</span>.new_predicate</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Sulfur-20171101</li>
+<li><b>Raises</b> <code>Fatal</code> error if the expression is not a comparison and cannot be
+           compared to zero.</li>
+<b>Change in 21.0-Scandium</b><br>
+</ul>
+</div>
+
+<pre><span id="VALexpr_to_boolean"><span class="keyword">val</span> expr_to_boolean</span> : <code class="type"><a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Returns a boolean term semantically equivalent to the condition
+    of the original C-expression.</p>
+
+<p>This is different from <code class="code">expr_to_term&nbsp;e&nbsp;|&gt;&nbsp;scalar_term_to_predicate</code>
+    since C-relations are translated into logic ones.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Sulfur-20171101</li>
+<li><b>Raises</b> <code>Fatal</code> error if the expression is not a comparison and cannot be
+           compared to zero.</li>
+<b>Change in 21.0-Scandium</b><br>
+</ul>
+</div>
+
+<pre><span id="VALis_zero_comparable"><span class="keyword">val</span> is_zero_comparable</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if the given term has a type for which a comparison to 0 exists
+    (i.e. scalar C types, logic integers and reals).</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Sulfur-20171101</li>
+</ul>
+</div>
+
+<pre><span id="VALscalar_term_to_boolean"><span class="keyword">val</span> scalar_term_to_boolean</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Compare the given term with the constant 0 (of the appropriate type)
+    to return the result of the comparison <code class="code">e&nbsp;&lt;&gt;&nbsp;0</code> as a boolean term.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> 21.0-Scandium</li>
+<li><b>Raises</b> <code>Fatal</code> error if the argument cannot be compared to 0</li>
+</ul>
+</div>
+
+<pre><span id="VALscalar_term_to_predicate"><span class="keyword">val</span> scalar_term_to_predicate</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Compare the given term with the constant 0 (of the appropriate type)
+    to return the result of the comparison <code class="code">e&nbsp;&lt;&gt;&nbsp;0</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Sulfur-20171101</li>
+<li><b>Raises</b> <code>Fatal</code> error if the argument cannot be compared to 0</li>
+</ul>
+</div>
+
+<pre><span id="VALlval_to_term_lval"><span class="keyword">val</span> lval_to_term_lval</span> : <code class="type"><a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Cil_types.html#TYPEterm_lval">Cil_types.term_lval</a></code></pre>
+<pre><span id="VALhost_to_term_lhost"><span class="keyword">val</span> host_to_term_lhost</span> : <code class="type"><a href="./Cil_types.html#TYPElhost">Cil_types.lhost</a> -> <a href="./Cil_types.html#TYPEterm_lhost">Cil_types.term_lhost</a></code></pre>
+<pre><span id="VALoffset_to_term_offset"><span class="keyword">val</span> offset_to_term_offset</span> : <code class="type"><a href="./Cil_types.html#TYPEoffset">Cil_types.offset</a> -> <a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a></code></pre>
+<pre><span id="VALconstant_to_lconstant"><span class="keyword">val</span> constant_to_lconstant</span> : <code class="type"><a href="./Cil_types.html#TYPEconstant">Cil_types.constant</a> -> <a href="./Cil_types.html#TYPElogic_constant">Cil_types.logic_constant</a></code></pre>
+<pre><span id="VALlconstant_to_constant"><span class="keyword">val</span> lconstant_to_constant</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_constant">Cil_types.logic_constant</a> -> <a href="./Cil_types.html#TYPEconstant">Cil_types.constant</a></code></pre>
+<pre><span id="VALparse_float"><span class="keyword">val</span> parse_float</span> : <code class="type">?loc:<a href="./Cil_types.html#TYPElocation">Cil_types.location</a> -> string -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Parse the given string as a float or real logic constant.</p>
+
+<p>The parsed literal is always kept as it is in the resulting term.
+    The returned term is either a real constant or
+    real constant casted into a C-float type.</p>
+
+<p>Unsuffixed literals are considered as real numbers.
+    Literals suffixed by <code class="code">f<span class="keywordsign">|</span>d<span class="keywordsign">|</span>l</code> or <code class="code"><span class="constructor">F</span><span class="keywordsign">|</span><span class="constructor">D</span><span class="keywordsign">|</span><span class="constructor">L</span></code> are considered
+    as float constants of the associated kind.</p>
+</div>
+</div>
+<h3 id="2_VariousUtilities">Various Utilities</h3>
+<pre><span id="VALremove_term_offset"><span class="keyword">val</span> remove_term_offset</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a> -> <a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a> * <a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">remove_term_offset&nbsp;o</code> returns <code class="code">o</code> without its last offset and
+    this last offset.</p>
+</div>
+</div>
+
+<pre><span id="VALlval_contains_result"><span class="keyword">val</span> lval_contains_result</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_lhost">Cil_types.term_lhost</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>true if \result is included in the lval.</p>
+</div>
+</div>
+
+<pre><span id="VALloffset_contains_result"><span class="keyword">val</span> loffset_contains_result</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>true if \result is included in the offset.</p>
+</div>
+</div>
+
+<pre><span id="VALcontains_result"><span class="keyword">val</span> contains_result</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>true if \result is included in the term</p>
+</div>
+</div>
+
+<pre><span id="VALget_pred_body"><span class="keyword">val</span> get_pred_body</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>returns the body of the given predicate.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Not_found</code> if the logic_info is not the definition of a predicate.</li>
+</ul>
+</div>
+
+<pre><span id="VALis_result"><span class="keyword">val</span> is_result</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>true if the term is \result or an offset of \result.</p>
+</div>
+</div>
+
+<pre><span id="VALlhost_c_type"><span class="keyword">val</span> lhost_c_type</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_lhost">Cil_types.term_lhost</a> -> <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a></code></pre>
+<pre><span id="VALis_trivially_true"><span class="keyword">val</span> is_trivially_true</span> : <code class="type"><a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if the predicate is Ptrue.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Nitrogen-20111001</li>
+</ul>
+</div>
+
+<pre><span id="VALis_trivially_false"><span class="keyword">val</span> is_trivially_false</span> : <code class="type"><a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if the predicate is Pfalse</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Nitrogen-20111001</li>
+</ul>
+</div>
+<h3 id="2_Codeannotations">Code annotations</h3>
+<pre><span id="VALis_annot_next_stmt"><span class="keyword">val</span> is_annot_next_stmt</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Does the annotation apply to the next statement (e.g. a statement
+    contract). Also false for loop-related annotations.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> 21.0-Scandium</li>
+</ul>
+</div>
+<h3 id="2_Globalannotations">Global annotations</h3>
+<pre><span id="VALadd_attribute_glob_annot"><span class="keyword">val</span> add_attribute_glob_annot</span> : <code class="type"><a href="./Cil_types.html#TYPEattribute">Cil_types.attribute</a> -><br>       <a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a> -> <a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>add an attribute to a global annotation</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Phosphorus-20170501-beta1</li>
+</ul>
+</div>
+<h3 id="2_Contracts">Contracts </h3>
+<pre><span id="VALbehavior_has_only_assigns"><span class="keyword">val</span> behavior_has_only_assigns</span> : <code class="type"><a href="./Cil_types.html#TYPEbehavior">Cil_types.behavior</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if the behavior has only an assigns clause.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> 22.0-Titanium</li>
+</ul>
+</div>
+
+<pre><span id="VALfunspec_has_only_assigns"><span class="keyword">val</span> funspec_has_only_assigns</span> : <code class="type"><a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if the only non-empty fields of the contract are assigns clauses</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> 22.0-Titanium</li>
+</ul>
+</div>
+<h3 id="2_Structuralequalitybetweenannotations">Structural equality between annotations</h3>
+<pre><span id="VALis_same_list"><span class="keyword">val</span> is_same_list</span> : <code class="type">('a -> 'a -> bool) -> 'a list -> 'a list -> bool</code></pre>
+<pre><span id="VALis_same_logic_label"><span class="keyword">val</span> is_same_logic_label</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_label">Cil_types.logic_label</a> -> <a href="./Cil_types.html#TYPElogic_label">Cil_types.logic_label</a> -> bool</code></pre>
+<pre><span id="VALis_same_pconstant"><span class="keyword">val</span> is_same_pconstant</span> : <code class="type"><a href="./Logic_ptree.html#TYPEconstant">Logic_ptree.constant</a> -> <a href="./Logic_ptree.html#TYPEconstant">Logic_ptree.constant</a> -> bool</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Since</b> Nitrogen-20111001</li>
+</ul>
+</div>
+
+<pre><span id="VALis_same_type"><span class="keyword">val</span> is_same_type</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> bool</code></pre>
+<pre><span id="VALis_same_var"><span class="keyword">val</span> is_same_var</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> -> <a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> -> bool</code></pre>
+<pre><span id="VALis_same_logic_signature"><span class="keyword">val</span> is_same_logic_signature</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> <a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> bool</code></pre>
+<pre><span id="VALis_same_logic_profile"><span class="keyword">val</span> is_same_logic_profile</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> <a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> bool</code></pre>
+<pre><span id="VALis_same_builtin_profile"><span class="keyword">val</span> is_same_builtin_profile</span> : <code class="type"><a href="./Cil_types.html#TYPEbuiltin_logic_info">Cil_types.builtin_logic_info</a> -> <a href="./Cil_types.html#TYPEbuiltin_logic_info">Cil_types.builtin_logic_info</a> -> bool</code></pre>
+<pre><span id="VALis_same_logic_ctor_info"><span class="keyword">val</span> is_same_logic_ctor_info</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a> -> <a href="./Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a> -> bool</code></pre>
+<pre><span id="VALis_same_constant"><span class="keyword">val</span> is_same_constant</span> : <code class="type"><a href="./Cil_types.html#TYPEconstant">Cil_types.constant</a> -> <a href="./Cil_types.html#TYPEconstant">Cil_types.constant</a> -> bool</code></pre><div class="info ">
+<div class="info-deprecated">
+<span class="warning">Deprecated.</span>Nitrogen-20111001 use <a href="Cil.html#VALcompareConstant"><code class="code"><span class="constructor">Cil</span>.compareConstant</code></a> instead.</div>
+</div>
+
+<pre><span id="VALis_same_term"><span class="keyword">val</span> is_same_term</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> bool</code></pre>
+<pre><span id="VALis_same_logic_info"><span class="keyword">val</span> is_same_logic_info</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> <a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> bool</code></pre>
+<pre><span id="VALis_same_logic_body"><span class="keyword">val</span> is_same_logic_body</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_body">Cil_types.logic_body</a> -> <a href="./Cil_types.html#TYPElogic_body">Cil_types.logic_body</a> -> bool</code></pre>
+<pre><span id="VALis_same_indcase"><span class="keyword">val</span> is_same_indcase</span> : <code class="type">string * <a href="./Cil_types.html#TYPElogic_label">Cil_types.logic_label</a> list * string list * <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -><br>       string * <a href="./Cil_types.html#TYPElogic_label">Cil_types.logic_label</a> list * string list * <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -><br>       bool</code></pre>
+<pre><span id="VALis_same_tlval"><span class="keyword">val</span> is_same_tlval</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_lval">Cil_types.term_lval</a> -> <a href="./Cil_types.html#TYPEterm_lval">Cil_types.term_lval</a> -> bool</code></pre>
+<pre><span id="VALis_same_lhost"><span class="keyword">val</span> is_same_lhost</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_lhost">Cil_types.term_lhost</a> -> <a href="./Cil_types.html#TYPEterm_lhost">Cil_types.term_lhost</a> -> bool</code></pre>
+<pre><span id="VALis_same_offset"><span class="keyword">val</span> is_same_offset</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a> -> <a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a> -> bool</code></pre>
+<pre><span id="VALis_same_predicate_node"><span class="keyword">val</span> is_same_predicate_node</span> : <code class="type"><a href="./Cil_types.html#TYPEpredicate_node">Cil_types.predicate_node</a> -> <a href="./Cil_types.html#TYPEpredicate_node">Cil_types.predicate_node</a> -> bool</code></pre>
+<pre><span id="VALis_same_predicate"><span class="keyword">val</span> is_same_predicate</span> : <code class="type"><a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> bool</code></pre>
+<pre><span id="VALis_same_identified_predicate"><span class="keyword">val</span> is_same_identified_predicate</span> : <code class="type"><a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> bool</code></pre>
+<pre><span id="VALis_same_identified_term"><span class="keyword">val</span> is_same_identified_term</span> : <code class="type"><a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> -> <a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> -> bool</code></pre>
+<pre><span id="VALis_same_deps"><span class="keyword">val</span> is_same_deps</span> : <code class="type"><a href="./Cil_types.html#TYPEdeps">Cil_types.deps</a> -> <a href="./Cil_types.html#TYPEdeps">Cil_types.deps</a> -> bool</code></pre>
+<pre><span id="VALis_same_allocation"><span class="keyword">val</span> is_same_allocation</span> : <code class="type"><a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> -> <a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> -> bool</code></pre>
+<pre><span id="VALis_same_assigns"><span class="keyword">val</span> is_same_assigns</span> : <code class="type"><a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> bool</code></pre>
+<pre><span id="VALis_same_variant"><span class="keyword">val</span> is_same_variant</span> : <code class="type"><a href="./Cil_types.html#TYPEvariant">Cil_types.variant</a> -> <a href="./Cil_types.html#TYPEvariant">Cil_types.variant</a> -> bool</code></pre>
+<pre><span id="VALis_same_post_cond"><span class="keyword">val</span> is_same_post_cond</span> : <code class="type"><a href="./Cil_types.html#TYPEtermination_kind">Cil_types.termination_kind</a> * <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -><br>       <a href="./Cil_types.html#TYPEtermination_kind">Cil_types.termination_kind</a> * <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> bool</code></pre>
+<pre><span id="VALis_same_behavior"><span class="keyword">val</span> is_same_behavior</span> : <code class="type"><a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> -> <a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> -> bool</code></pre>
+<pre><span id="VALis_same_spec"><span class="keyword">val</span> is_same_spec</span> : <code class="type"><a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> <a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> bool</code></pre>
+<pre><span id="VALis_same_logic_type_def"><span class="keyword">val</span> is_same_logic_type_def</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type_def">Cil_types.logic_type_def</a> -> <a href="./Cil_types.html#TYPElogic_type_def">Cil_types.logic_type_def</a> -> bool</code></pre>
+<pre><span id="VALis_same_logic_type_info"><span class="keyword">val</span> is_same_logic_type_info</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> <a href="./Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> bool</code></pre>
+<pre><span id="VALis_same_loop_pragma"><span class="keyword">val</span> is_same_loop_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEloop_pragma">Cil_types.loop_pragma</a> -> <a href="./Cil_types.html#TYPEloop_pragma">Cil_types.loop_pragma</a> -> bool</code></pre>
+<pre><span id="VALis_same_slice_pragma"><span class="keyword">val</span> is_same_slice_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEslice_pragma">Cil_types.slice_pragma</a> -> <a href="./Cil_types.html#TYPEslice_pragma">Cil_types.slice_pragma</a> -> bool</code></pre>
+<pre><span id="VALis_same_impact_pragma"><span class="keyword">val</span> is_same_impact_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEimpact_pragma">Cil_types.impact_pragma</a> -> <a href="./Cil_types.html#TYPEimpact_pragma">Cil_types.impact_pragma</a> -> bool</code></pre>
+<pre><span id="VALis_same_pragma"><span class="keyword">val</span> is_same_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEpragma">Cil_types.pragma</a> -> <a href="./Cil_types.html#TYPEpragma">Cil_types.pragma</a> -> bool</code></pre>
+<pre><span id="VALis_same_code_annotation"><span class="keyword">val</span> is_same_code_annotation</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> <a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_same_global_annotation"><span class="keyword">val</span> is_same_global_annotation</span> : <code class="type"><a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a> -> <a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_same_axiomatic"><span class="keyword">val</span> is_same_axiomatic</span> : <code class="type"><a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a> list -> <a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a> list -> bool</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Since</b> Oxygen-20120901</li>
+</ul>
+</div>
+
+<pre><span id="VALis_same_model_info"><span class="keyword">val</span> is_same_model_info</span> : <code class="type"><a href="./Cil_types.html#TYPEmodel_info">Cil_types.model_info</a> -> <a href="./Cil_types.html#TYPEmodel_info">Cil_types.model_info</a> -> bool</code></pre>
+<pre><span id="VALis_same_lexpr"><span class="keyword">val</span> is_same_lexpr</span> : <code class="type"><a href="./Logic_ptree.html#TYPElexpr">Logic_ptree.lexpr</a> -> <a href="./Logic_ptree.html#TYPElexpr">Logic_ptree.lexpr</a> -> bool</code></pre>
+<pre><span id="VALhash_term"><span class="keyword">val</span> hash_term</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p>hash function compatible with is_same_term</p>
+</div>
+</div>
+
+<pre><span id="VALcompare_term"><span class="keyword">val</span> compare_term</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p>comparison compatible with is_same_term</p>
+</div>
+</div>
+
+<pre><span id="VALhash_predicate"><span class="keyword">val</span> hash_predicate</span> : <code class="type"><a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> int</code></pre>
+<pre><span id="VALcompare_predicate"><span class="keyword">val</span> compare_predicate</span> : <code class="type"><a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> int</code></pre><h3 id="2_Mergingcontracts">Merging contracts</h3>
+<pre><span id="VALget_behavior_names"><span class="keyword">val</span> get_behavior_names</span> : <code class="type"><a href="./Cil_types.html#TYPEspec">Cil_types.spec</a> -> string list</code></pre>
+<pre><span id="VALconcat_assigns"><span class="keyword">val</span> concat_assigns</span> : <code class="type"><a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Concatenates two assigns if both are defined,
+    returns WritesAny if one (or both) of them is WritesAny.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Nitrogen-20111001</li>
+</ul>
+</div>
+
+<pre><span id="VALmerge_assigns"><span class="keyword">val</span> merge_assigns</span> : <code class="type"><a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>merge assigns: take the one that is defined and select an arbitrary one
+    if both are, emitting a warning unless both are syntactically the same.</p>
+</div>
+</div>
+
+<pre><span id="VALconcat_allocation"><span class="keyword">val</span> concat_allocation</span> : <code class="type"><a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> -> <a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> -> <a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Concatenates two allocation clauses if both are defined,
+    returns FreeAllocAny if one (or both) of them is FreeAllocAny.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Nitrogen-20111001</li>
+</ul>
+</div>
+
+<pre><span id="VALmerge_allocation"><span class="keyword">val</span> merge_allocation</span> : <code class="type"><a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> -> <a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> -> <a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>merge allocation: take the one that is defined and select an arbitrary one
+    if both are, emitting a warning unless both are syntactically the same.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Oxygen-20120901</li>
+</ul>
+</div>
+
+<pre><span id="VALmerge_behaviors"><span class="keyword">val</span> merge_behaviors</span> : <code class="type">?oldloc:<a href="./Cil_types.html#TYPElocation">Cil_types.location</a> -><br>       silent:bool -><br>       <a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> list -><br>       <a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> list -> <a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> list</code></pre>
+<pre><span id="VALmerge_funspec"><span class="keyword">val</span> merge_funspec</span> : <code class="type">?oldloc:<a href="./Cil_types.html#TYPElocation">Cil_types.location</a> -><br>       ?silent_about_merging_behav:bool -><br>       <a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> <a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">merge_funspec&nbsp;?oldloc&nbsp;oldspec&nbsp;newspec</code> merges <code class="code">newspec</code> into <code class="code">oldspec</code>.
+    If the funspec belongs to a kernel function, do not forget to call
+    <code class="code"><span class="constructor">Kernel_function</span>.set_spec</code> after merging.</p>
+</div>
+<ul class="info-attributes">
+<b>Change in 20.0-Calcium</b>: add optional parameter <code class="code">oldloc</code>.<br>
+</ul>
+</div>
+
+<pre><span id="VALclear_funspec"><span class="keyword">val</span> clear_funspec</span> : <code class="type"><a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Reset the given funspec to empty.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Nitrogen-20111001</li>
+</ul>
+</div>
+<h3 id="2_Discriminatingcodeannotations">Discriminating code_annotations</h3><p>Functions below allows to test a special kind of code_annotation.
+    Use them in conjunction with <code class="code"><span class="constructor">Annotations</span>.get_filter</code> to retrieve
+    a particular kind of annotations associated to a statement.</p>
+
+<pre><span id="VALis_assert"><span class="keyword">val</span> is_assert</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_check"><span class="keyword">val</span> is_check</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_contract"><span class="keyword">val</span> is_contract</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_stmt_invariant"><span class="keyword">val</span> is_stmt_invariant</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_loop_invariant"><span class="keyword">val</span> is_loop_invariant</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_invariant"><span class="keyword">val</span> is_invariant</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_variant"><span class="keyword">val</span> is_variant</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_allocation"><span class="keyword">val</span> is_allocation</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_assigns"><span class="keyword">val</span> is_assigns</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_pragma"><span class="keyword">val</span> is_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_loop_pragma"><span class="keyword">val</span> is_loop_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_slice_pragma"><span class="keyword">val</span> is_slice_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_impact_pragma"><span class="keyword">val</span> is_impact_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_loop_annot"><span class="keyword">val</span> is_loop_annot</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_trivial_annotation"><span class="keyword">val</span> is_trivial_annotation</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> bool</code></pre>
+<pre><span id="VALis_property_pragma"><span class="keyword">val</span> is_property_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEpragma">Cil_types.pragma</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Should this pragma be proved by plugins</p>
+</div>
+</div>
+
+<pre><span id="VALextract_loop_pragma"><span class="keyword">val</span> extract_loop_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> list -> <a href="./Cil_types.html#TYPEloop_pragma">Cil_types.loop_pragma</a> list</code></pre>
+<pre><span id="VALextract_contract"><span class="keyword">val</span> extract_contract</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> list -> (string list * <a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a>) list</code></pre><h3 id="2_Constantfolding">Constant folding</h3>
+<pre><span id="VALconstFoldTermToInt"><span class="keyword">val</span> constFoldTermToInt</span> : <code class="type">?machdep:bool -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Integer.html#TYPEt">Integer.t</a> option</code></pre>
+<pre><span id="TYPEsimplify_const_lval"><span class="keyword">class</span> <a href="Logic_utils.simplify_const_lval-c.html">simplify_const_lval</a></span> : <code class="type">(<a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> <a href="./Cil_types.html#TYPEinit">Cil_types.init</a> option) -> </code><code class="type"><a href="./Cil.cilVisitor-c.html">Cil.cilVisitor</a></code></pre><div class="info">
+<p>A <code class="code">cilVisitor</code> (by copy) that simplifies expressions of the type
+   <code class="code">const&nbsp;int&nbsp;x&nbsp;=&nbsp;v</code>, where <code class="code">v</code> is an integer and <code class="code">x</code> is a global variable.</p>
+
+</div>
+<h3 id="2_Typecheckinghackery">Type-checking hackery</h3>
+<pre><span id="VALcomplete_types"><span class="keyword">val</span> complete_types</span> : <code class="type"><a href="./Cil_types.html#TYPEfile">Cil_types.file</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>give complete types to terms that refer to a variable whose type
+    has been completed after its use in an annotation. Internal use only.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Neon-20140301</li>
+</ul>
+</div>
+<h3 id="2_Parsinghackery">Parsing hackery</h3><p>Values that control the various modes of the parser and lexer for logic.
+    Use with care.</p>
+
+<pre><span id="VALkw_c_mode"><span class="keyword">val</span> kw_c_mode</span> : <code class="type">bool Stdlib.ref</code></pre>
+<pre><span id="VALenter_kw_c_mode"><span class="keyword">val</span> enter_kw_c_mode</span> : <code class="type">unit -> unit</code></pre>
+<pre><span id="VALexit_kw_c_mode"><span class="keyword">val</span> exit_kw_c_mode</span> : <code class="type">unit -> unit</code></pre>
+<pre><span id="VALis_kw_c_mode"><span class="keyword">val</span> is_kw_c_mode</span> : <code class="type">unit -> bool</code></pre>
+<pre><span id="VALrt_type_mode"><span class="keyword">val</span> rt_type_mode</span> : <code class="type">bool Stdlib.ref</code></pre>
+<pre><span id="VALenter_rt_type_mode"><span class="keyword">val</span> enter_rt_type_mode</span> : <code class="type">unit -> unit</code></pre>
+<pre><span id="VALexit_rt_type_mode"><span class="keyword">val</span> exit_rt_type_mode</span> : <code class="type">unit -> unit</code></pre>
+<pre><span id="VALis_rt_type_mode"><span class="keyword">val</span> is_rt_type_mode</span> : <code class="type">unit -> bool</code></pre></body></html>

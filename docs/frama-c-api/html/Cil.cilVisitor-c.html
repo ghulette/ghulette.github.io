@@ -1,0 +1,618 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="Up" href="Cil.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><title>Cil.cilVisitor - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="Cil.html" title="Cil">Up</a>
+&nbsp;</div>
+<h1>Class type <a href="type_Cil.cilVisitor.html">Cil.cilVisitor</a></h1>
+
+<pre><span id="TYPEcilVisitor"><span class="keyword">class type</span> cilVisitor</span> = <code class="code"><span class="keyword">object</span></code> <a href="Cil.cilVisitor-c.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info classtype top">
+<div class="info-desc">
+<p>A visitor interface for traversing CIL trees. Create instantiations of
+    this type by specializing the class <a href="Cil.nopCilVisitor-c.html"><code class="code"><span class="constructor">Cil</span>.nopCilVisitor</code></a>. Each of the
+    specialized visiting functions can also call the <code class="code">queueInstr</code> to specify
+    that some instructions should be inserted before the current statement.
+    Use syntax like <code class="code">self<span class="keywordsign">#</span>queueInstr</code> to call a method
+    associated with the current object.</p>
+
+<p><b>Important Note for Frama-C Users:</b> Unless you really know what you are
+    doing, you should probably inherit from the
+    <a href="Visitor.generic_frama_c_visitor-c.html"><code class="code"><span class="constructor">Visitor</span>.generic_frama_c_visitor</code></a> instead of <a href="Cil.genericCilVisitor-c.html"><code class="code"><span class="constructor">Cil</span>.genericCilVisitor</code></a> or
+    <a href="Cil.nopCilVisitor-c.html"><code class="code"><span class="constructor">Cil</span>.nopCilVisitor</code></a></p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+<hr width="100%">
+
+<pre><span id="METHODbehavior"><span class="keyword">method</span> behavior</span> : <code class="type"><a href="./Visitor_behavior.html#TYPEt">Visitor_behavior.t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>the kind of behavior expected for the behavior.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODproject"><span class="keyword">method</span> project</span> : <code class="type">Project.t option</code></pre><div class="info ">
+<div class="info-desc">
+<p>Project the visitor operates on. Non-nil for copy visitor.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Oxygen-20120901</li>
+</ul>
+</div>
+
+<pre><span id="METHODplain_copy_visitor"><span class="keyword">method</span> plain_copy_visitor</span> : <code class="type"><a href="./Cil.cilVisitor-c.html">cilVisitor</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>a visitor who only does copies of the nodes according to <code class="code">behavior</code></p>
+</div>
+</div>
+
+<pre><span id="METHODvfile"><span class="keyword">method</span> vfile</span> : <code class="type"><a href="./Cil_types.html#TYPEfile">Cil_types.file</a> -> <a href="./Cil_types.html#TYPEfile">Cil_types.file</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>visit a whole file.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvvdec"><span class="keyword">method</span> vvdec</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> <a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked for each variable declaration. The children to be traversed
+      are those corresponding to the type and attributes of the variable.
+      Note that variable declarations are <code class="code"><span class="constructor">GVar</span></code>, <code class="code"><span class="constructor">GVarDecl</span></code>, <code class="code"><span class="constructor">GFun</span></code> and
+      <code class="code"><span class="constructor">GFunDecl</span></code> globals, the formals of functions prototypes, and the
+      formals and locals of function definitions. This means that the list
+      of formals of a function may be traversed multiple times if there exists
+      both a declaration and a definition, or multiple declarations.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvvrbl"><span class="keyword">method</span> vvrbl</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> <a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each variable use. Here only the <code class="code"><span class="constructor">SkipChildren</span></code> and
+      <code class="code"><span class="constructor">ChangeTo</span></code> actions make sense since there are no subtrees. Note that
+      the type and attributes of the variable are not traversed for a
+      variable use.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvexpr"><span class="keyword">method</span> vexpr</span> : <code class="type"><a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each expression occurrence. The subtrees are the
+      subexpressions, the types (for a <code class="code"><span class="constructor">Cast</span></code> or <code class="code"><span class="constructor">SizeOf</span></code> expression) or the
+      variable use.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvlval"><span class="keyword">method</span> vlval</span> : <code class="type"><a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each lvalue occurrence</p>
+</div>
+</div>
+
+<pre><span id="METHODvoffs"><span class="keyword">method</span> voffs</span> : <code class="type"><a href="./Cil_types.html#TYPEoffset">Cil_types.offset</a> -> <a href="./Cil_types.html#TYPEoffset">Cil_types.offset</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each offset occurrence that is *not* as part of an
+      initializer list specification, i.e. in an lval or recursively inside an
+      offset.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvinitoffs"><span class="keyword">method</span> vinitoffs</span> : <code class="type"><a href="./Cil_types.html#TYPEoffset">Cil_types.offset</a> -> <a href="./Cil_types.html#TYPEoffset">Cil_types.offset</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each offset appearing in the list of a
+      CompoundInit initializer.</p>
+</div>
+</div>
+
+<pre><span id="METHODvinst"><span class="keyword">method</span> vinst</span> : <code class="type"><a href="./Cil_types.html#TYPEinstr">Cil_types.instr</a> -> <a href="./Cil_types.html#TYPEinstr">Cil_types.instr</a> list <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each instruction occurrence. The <code class="code"><span class="constructor">ChangeTo</span></code> action can
+      replace this instruction with a list of instructions</p>
+</div>
+</div>
+
+<pre><span id="METHODvstmt"><span class="keyword">method</span> vstmt</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Control-flow statement. The default <code class="code"><span class="constructor">DoChildren</span></code> action does not create a
+      new statement when the components change. Instead it updates the contents
+      of the original statement. This is done to preserve the sharing with
+      <code class="code"><span class="constructor">Goto</span></code> and <code class="code"><span class="constructor">Case</span></code> statements that point to the original statement. If you
+      use the <code class="code"><span class="constructor">ChangeTo</span></code> action then you should take care of preserving that
+      sharing yourself.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvblock"><span class="keyword">method</span> vblock</span> : <code class="type"><a href="./Cil_types.html#TYPEblock">Cil_types.block</a> -> <a href="./Cil_types.html#TYPEblock">Cil_types.block</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Block.</p>
+</div>
+</div>
+
+<pre><span id="METHODvfunc"><span class="keyword">method</span> vfunc</span> : <code class="type"><a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> -> <a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Function definition. Replaced in place.</p>
+</div>
+</div>
+
+<pre><span id="METHODvglob"><span class="keyword">method</span> vglob</span> : <code class="type"><a href="./Cil_types.html#TYPEglobal">Cil_types.global</a> -> <a href="./Cil_types.html#TYPEglobal">Cil_types.global</a> list <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Global (vars, types, etc.)</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvinit"><span class="keyword">method</span> vinit</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -><br>       <a href="./Cil_types.html#TYPEoffset">Cil_types.offset</a> -> <a href="./Cil_types.html#TYPEinit">Cil_types.init</a> -> <a href="./Cil_types.html#TYPEinit">Cil_types.init</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Initializers. Pass the global where this occurs, and the offset</p>
+</div>
+</div>
+
+<pre><span id="METHODvlocal_init"><span class="keyword">method</span> vlocal_init</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -><br>       <a href="./Cil_types.html#TYPElocal_init">Cil_types.local_init</a> -> <a href="./Cil_types.html#TYPElocal_init">Cil_types.local_init</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>local initializer. pass the variable under initialization.</p>
+</div>
+</div>
+
+<pre><span id="METHODvtype"><span class="keyword">method</span> vtype</span> : <code class="type"><a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> -> <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Use of some type. For typedef, struct, union and enum, the visit is
+      done once at the global defining the type. Thus, children of
+      <code class="code"><span class="constructor">TComp</span></code>, <code class="code"><span class="constructor">TEnum</span></code> and <code class="code"><span class="constructor">TNamed</span></code> are not visited again.</p>
+</div>
+</div>
+
+<pre><span id="METHODvcompinfo"><span class="keyword">method</span> vcompinfo</span> : <code class="type"><a href="./Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> -> <a href="./Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>declaration of a struct/union</p>
+</div>
+</div>
+
+<pre><span id="METHODvenuminfo"><span class="keyword">method</span> venuminfo</span> : <code class="type"><a href="./Cil_types.html#TYPEenuminfo">Cil_types.enuminfo</a> -> <a href="./Cil_types.html#TYPEenuminfo">Cil_types.enuminfo</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>declaration of an enumeration</p>
+</div>
+</div>
+
+<pre><span id="METHODvfieldinfo"><span class="keyword">method</span> vfieldinfo</span> : <code class="type"><a href="./Cil_types.html#TYPEfieldinfo">Cil_types.fieldinfo</a> -> <a href="./Cil_types.html#TYPEfieldinfo">Cil_types.fieldinfo</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>visit the declaration of a field of a structure or union</p>
+</div>
+</div>
+
+<pre><span id="METHODvenumitem"><span class="keyword">method</span> venumitem</span> : <code class="type"><a href="./Cil_types.html#TYPEenumitem">Cil_types.enumitem</a> -> <a href="./Cil_types.html#TYPEenumitem">Cil_types.enumitem</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>visit the declaration of an enumeration item</p>
+</div>
+</div>
+
+<pre><span id="METHODvattr"><span class="keyword">method</span> vattr</span> : <code class="type"><a href="./Cil_types.html#TYPEattribute">Cil_types.attribute</a> -> <a href="./Cil_types.html#TYPEattribute">Cil_types.attribute</a> list <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Attribute. Each attribute can be replaced by a list</p>
+</div>
+</div>
+
+<pre><span id="METHODvattrparam"><span class="keyword">method</span> vattrparam</span> : <code class="type"><a href="./Cil_types.html#TYPEattrparam">Cil_types.attrparam</a> -> <a href="./Cil_types.html#TYPEattrparam">Cil_types.attrparam</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Attribute parameters.</p>
+</div>
+</div>
+
+<pre><span id="METHODqueueInstr"><span class="keyword">method</span> queueInstr</span> : <code class="type"><a href="./Cil_types.html#TYPEinstr">Cil_types.instr</a> list -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Add here instructions while visiting to queue them to precede the
+      current statement being processed. Use this method only
+      when you are visiting an expression that is inside a function body, or a
+      statement, because otherwise there will no place for the visitor to place
+      your instructions.</p>
+</div>
+</div>
+
+<pre><span id="METHODunqueueInstr"><span class="keyword">method</span> unqueueInstr</span> : <code class="type">unit -> <a href="./Cil_types.html#TYPEinstr">Cil_types.instr</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>Gets the queue of instructions and resets the queue. This is done
+      automatically for you when you visit statements.</p>
+</div>
+</div>
+
+<pre><span id="METHODcurrent_stmt"><span class="keyword">method</span> current_stmt</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p>link to the current statement being visited.</p>
+
+<p><b>NB:</b> for copy visitor, the stmt is the original one (use
+      <code class="code">get_stmt</code> to obtain the corresponding copy)</p>
+</div>
+</div>
+
+<pre><span id="METHODcurrent_kinstr"><span class="keyword">method</span> current_kinstr</span> : <code class="type"><a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="constructor">Kstmt</span>&nbsp;stmt</code> when visiting statement stmt, <code class="code"><span class="constructor">Kglobal</span></code> when called outside
+      of a statement.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Carbon-20101201</li>
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODpush_stmt"><span class="keyword">method</span> push_stmt</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> unit</code></pre>
+<pre><span id="METHODpop_stmt"><span class="keyword">method</span> pop_stmt</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> unit</code></pre>
+<pre><span id="METHODcurrent_func"><span class="keyword">method</span> current_func</span> : <code class="type"><a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p>link to the current function being visited.</p>
+
+<p><b>NB:</b> for copy visitors, the fundec is the original one.</p>
+</div>
+</div>
+
+<pre><span id="METHODset_current_func"><span class="keyword">method</span> set_current_func</span> : <code class="type"><a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> -> unit</code></pre>
+<pre><span id="METHODreset_current_func"><span class="keyword">method</span> reset_current_func</span> : <code class="type">unit -> unit</code></pre>
+<pre><span id="METHODvlogic_type"><span class="keyword">method</span> vlogic_type</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvmodel_info"><span class="keyword">method</span> vmodel_info</span> : <code class="type"><a href="./Cil_types.html#TYPEmodel_info">Cil_types.model_info</a> -> <a href="./Cil_types.html#TYPEmodel_info">Cil_types.model_info</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvidentified_term"><span class="keyword">method</span> videntified_term</span> : <code class="type"><a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> -> <a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvterm"><span class="keyword">method</span> vterm</span> : <code class="type"><a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvterm_node"><span class="keyword">method</span> vterm_node</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_node">Cil_types.term_node</a> -> <a href="./Cil_types.html#TYPEterm_node">Cil_types.term_node</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvterm_lval"><span class="keyword">method</span> vterm_lval</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_lval">Cil_types.term_lval</a> -> <a href="./Cil_types.html#TYPEterm_lval">Cil_types.term_lval</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvterm_lhost"><span class="keyword">method</span> vterm_lhost</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_lhost">Cil_types.term_lhost</a> -> <a href="./Cil_types.html#TYPEterm_lhost">Cil_types.term_lhost</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvterm_offset"><span class="keyword">method</span> vterm_offset</span> : <code class="type"><a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a> -> <a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvlogic_label"><span class="keyword">method</span> vlogic_label</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_label">Cil_types.logic_label</a> -> <a href="./Cil_types.html#TYPElogic_label">Cil_types.logic_label</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvlogic_info_decl"><span class="keyword">method</span> vlogic_info_decl</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> <a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvlogic_info_use"><span class="keyword">method</span> vlogic_info_use</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> <a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvlogic_type_info_decl"><span class="keyword">method</span> vlogic_type_info_decl</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> <a href="./Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvlogic_type_info_use"><span class="keyword">method</span> vlogic_type_info_use</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> <a href="./Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvlogic_type_def"><span class="keyword">method</span> vlogic_type_def</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_type_def">Cil_types.logic_type_def</a> -> <a href="./Cil_types.html#TYPElogic_type_def">Cil_types.logic_type_def</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvlogic_ctor_info_decl"><span class="keyword">method</span> vlogic_ctor_info_decl</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a> -> <a href="./Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvlogic_ctor_info_use"><span class="keyword">method</span> vlogic_ctor_info_use</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a> -> <a href="./Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvlogic_var_decl"><span class="keyword">method</span> vlogic_var_decl</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> -> <a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvlogic_var_use"><span class="keyword">method</span> vlogic_var_use</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> -> <a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODvquantifiers"><span class="keyword">method</span> vquantifiers</span> : <code class="type"><a href="./Cil_types.html#TYPEquantifiers">Cil_types.quantifiers</a> -> <a href="./Cil_types.html#TYPEquantifiers">Cil_types.quantifiers</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvidentified_predicate"><span class="keyword">method</span> videntified_predicate</span> : <code class="type"><a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -><br>       <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvpredicate_node"><span class="keyword">method</span> vpredicate_node</span> : <code class="type"><a href="./Cil_types.html#TYPEpredicate_node">Cil_types.predicate_node</a> -> <a href="./Cil_types.html#TYPEpredicate_node">Cil_types.predicate_node</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvpredicate"><span class="keyword">method</span> vpredicate</span> : <code class="type"><a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvbehavior"><span class="keyword">method</span> vbehavior</span> : <code class="type"><a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> -> <a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvspec"><span class="keyword">method</span> vspec</span> : <code class="type"><a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> <a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvassigns"><span class="keyword">method</span> vassigns</span> : <code class="type"><a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvfrees"><span class="keyword">method</span> vfrees</span> : <code class="type"><a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> list -><br>       <a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> list <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Since</b> Oxygen-20120901</li>
+</ul>
+</div>
+
+<pre><span id="METHODvallocates"><span class="keyword">method</span> vallocates</span> : <code class="type"><a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> list -><br>       <a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> list <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Since</b> Oxygen-20120901</li>
+</ul>
+</div>
+
+<pre><span id="METHODvallocation"><span class="keyword">method</span> vallocation</span> : <code class="type"><a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> -> <a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Since</b> Oxygen-20120901</li>
+</ul>
+</div>
+
+<pre><span id="METHODvloop_pragma"><span class="keyword">method</span> vloop_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEloop_pragma">Cil_types.loop_pragma</a> -> <a href="./Cil_types.html#TYPEloop_pragma">Cil_types.loop_pragma</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvslice_pragma"><span class="keyword">method</span> vslice_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEslice_pragma">Cil_types.slice_pragma</a> -> <a href="./Cil_types.html#TYPEslice_pragma">Cil_types.slice_pragma</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvimpact_pragma"><span class="keyword">method</span> vimpact_pragma</span> : <code class="type"><a href="./Cil_types.html#TYPEimpact_pragma">Cil_types.impact_pragma</a> -> <a href="./Cil_types.html#TYPEimpact_pragma">Cil_types.impact_pragma</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvdeps"><span class="keyword">method</span> vdeps</span> : <code class="type"><a href="./Cil_types.html#TYPEdeps">Cil_types.deps</a> -> <a href="./Cil_types.html#TYPEdeps">Cil_types.deps</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvfrom"><span class="keyword">method</span> vfrom</span> : <code class="type"><a href="./Cil_types.html#TYPEfrom">Cil_types.from</a> -> <a href="./Cil_types.html#TYPEfrom">Cil_types.from</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvcode_annot"><span class="keyword">method</span> vcode_annot</span> : <code class="type"><a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> <a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODvannotation"><span class="keyword">method</span> vannotation</span> : <code class="type"><a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a> -> <a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a> <a href="./Cil.html#TYPEvisitAction">visitAction</a></code></pre>
+<pre><span id="METHODfill_global_tables"><span class="keyword">method</span> fill_global_tables</span> : <code class="type">unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>fill the global environment tables at the end of a full copy in a
+      new project.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="METHODget_filling_actions"><span class="keyword">method</span> get_filling_actions</span> : <code class="type">(unit -> unit) Stdlib.Queue.t</code></pre><div class="info ">
+<div class="info-desc">
+<p>get the queue of actions to be performed at the end of a full copy.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+</body></html>

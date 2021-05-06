@@ -1,0 +1,892 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Mstate.html">
+<link rel="next" href="Filtering.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html">
+<link title="Wp" rel="Chapter" href="Wp.html">
+<link title="Rformat" rel="Chapter" href="Rformat.html">
+<link title="Wprop" rel="Chapter" href="Wprop.html">
+<link title="Wp_parameters" rel="Chapter" href="Wp_parameters.html">
+<link title="Wp_error" rel="Chapter" href="Wp_error.html">
+<link title="Dyncall" rel="Chapter" href="Dyncall.html">
+<link title="Ctypes" rel="Chapter" href="Ctypes.html">
+<link title="Clabels" rel="Chapter" href="Clabels.html">
+<link title="Why3Provers" rel="Chapter" href="Why3Provers.html">
+<link title="Context" rel="Chapter" href="Context.html">
+<link title="Warning" rel="Chapter" href="Warning.html">
+<link title="AssignsCompleteness" rel="Chapter" href="AssignsCompleteness.html">
+<link title="MemoryContext" rel="Chapter" href="MemoryContext.html">
+<link title="WpContext" rel="Chapter" href="WpContext.html">
+<link title="LogicUsage" rel="Chapter" href="LogicUsage.html">
+<link title="RefUsage" rel="Chapter" href="RefUsage.html">
+<link title="Layout" rel="Chapter" href="Layout.html">
+<link title="Region" rel="Chapter" href="Region.html">
+<link title="RegionAnnot" rel="Chapter" href="RegionAnnot.html">
+<link title="RegionAccess" rel="Chapter" href="RegionAccess.html">
+<link title="RegionDump" rel="Chapter" href="RegionDump.html">
+<link title="RegionAnalysis" rel="Chapter" href="RegionAnalysis.html">
+<link title="Cil2cfg" rel="Chapter" href="Cil2cfg.html">
+<link title="NormAtLabels" rel="Chapter" href="NormAtLabels.html">
+<link title="WpPropId" rel="Chapter" href="WpPropId.html">
+<link title="WpStrategy" rel="Chapter" href="WpStrategy.html">
+<link title="Mcfg" rel="Chapter" href="Mcfg.html">
+<link title="Lang" rel="Chapter" href="Lang.html">
+<link title="Repr" rel="Chapter" href="Repr.html">
+<link title="Matrix" rel="Chapter" href="Matrix.html">
+<link title="Passive" rel="Chapter" href="Passive.html">
+<link title="Splitter" rel="Chapter" href="Splitter.html">
+<link title="LogicBuiltins" rel="Chapter" href="LogicBuiltins.html">
+<link title="Definitions" rel="Chapter" href="Definitions.html">
+<link title="Cmath" rel="Chapter" href="Cmath.html">
+<link title="Cint" rel="Chapter" href="Cint.html">
+<link title="Cfloat" rel="Chapter" href="Cfloat.html">
+<link title="Vset" rel="Chapter" href="Vset.html">
+<link title="Vlist" rel="Chapter" href="Vlist.html">
+<link title="Cstring" rel="Chapter" href="Cstring.html">
+<link title="Cvalues" rel="Chapter" href="Cvalues.html">
+<link title="Letify" rel="Chapter" href="Letify.html">
+<link title="Cleaning" rel="Chapter" href="Cleaning.html">
+<link title="Sigs" rel="Chapter" href="Sigs.html">
+<link title="Mstate" rel="Chapter" href="Mstate.html">
+<link title="Conditions" rel="Chapter" href="Conditions.html">
+<link title="Filtering" rel="Chapter" href="Filtering.html">
+<link title="Plang" rel="Chapter" href="Plang.html">
+<link title="Pcfg" rel="Chapter" href="Pcfg.html">
+<link title="Pcond" rel="Chapter" href="Pcond.html">
+<link title="CodeSemantics" rel="Chapter" href="CodeSemantics.html">
+<link title="LogicCompiler" rel="Chapter" href="LogicCompiler.html">
+<link title="LogicSemantics" rel="Chapter" href="LogicSemantics.html">
+<link title="LogicAssigns" rel="Chapter" href="LogicAssigns.html">
+<link title="Sigma" rel="Chapter" href="Sigma.html">
+<link title="MemLoader" rel="Chapter" href="MemLoader.html">
+<link title="MemEmpty" rel="Chapter" href="MemEmpty.html">
+<link title="MemZeroAlias" rel="Chapter" href="MemZeroAlias.html">
+<link title="MemVar" rel="Chapter" href="MemVar.html">
+<link title="MemMemory" rel="Chapter" href="MemMemory.html">
+<link title="MemTyped" rel="Chapter" href="MemTyped.html">
+<link title="MemRegion" rel="Chapter" href="MemRegion.html">
+<link title="WpReached" rel="Chapter" href="WpReached.html">
+<link title="WpRTE" rel="Chapter" href="WpRTE.html">
+<link title="WpAnnot" rel="Chapter" href="WpAnnot.html">
+<link title="WpTarget" rel="Chapter" href="WpTarget.html">
+<link title="CfgCompiler" rel="Chapter" href="CfgCompiler.html">
+<link title="StmtSemantics" rel="Chapter" href="StmtSemantics.html">
+<link title="VCS" rel="Chapter" href="VCS.html">
+<link title="Script" rel="Chapter" href="Script.html">
+<link title="Proof" rel="Chapter" href="Proof.html">
+<link title="Wpo" rel="Chapter" href="Wpo.html">
+<link title="WpReport" rel="Chapter" href="WpReport.html">
+<link title="Footprint" rel="Chapter" href="Footprint.html">
+<link title="Tactical" rel="Chapter" href="Tactical.html">
+<link title="Strategy" rel="Chapter" href="Strategy.html">
+<link title="TacSplit" rel="Chapter" href="TacSplit.html">
+<link title="TacChoice" rel="Chapter" href="TacChoice.html">
+<link title="TacRange" rel="Chapter" href="TacRange.html">
+<link title="TacArray" rel="Chapter" href="TacArray.html">
+<link title="TacCompound" rel="Chapter" href="TacCompound.html">
+<link title="TacUnfold" rel="Chapter" href="TacUnfold.html">
+<link title="TacHavoc" rel="Chapter" href="TacHavoc.html">
+<link title="TacInstance" rel="Chapter" href="TacInstance.html">
+<link title="TacLemma" rel="Chapter" href="TacLemma.html">
+<link title="TacFilter" rel="Chapter" href="TacFilter.html">
+<link title="TacCut" rel="Chapter" href="TacCut.html">
+<link title="WpTac" rel="Chapter" href="WpTac.html">
+<link title="TacNormalForm" rel="Chapter" href="TacNormalForm.html">
+<link title="TacRewrite" rel="Chapter" href="TacRewrite.html">
+<link title="TacBitwised" rel="Chapter" href="TacBitwised.html">
+<link title="TacBitrange" rel="Chapter" href="TacBitrange.html">
+<link title="TacBittest" rel="Chapter" href="TacBittest.html">
+<link title="TacShift" rel="Chapter" href="TacShift.html">
+<link title="TacCongruence" rel="Chapter" href="TacCongruence.html">
+<link title="TacOverflow" rel="Chapter" href="TacOverflow.html">
+<link title="Auto" rel="Chapter" href="Auto.html">
+<link title="ProofSession" rel="Chapter" href="ProofSession.html">
+<link title="ProofScript" rel="Chapter" href="ProofScript.html">
+<link title="ProofEngine" rel="Chapter" href="ProofEngine.html">
+<link title="ProverTask" rel="Chapter" href="ProverTask.html">
+<link title="ProverErgo" rel="Chapter" href="ProverErgo.html">
+<link title="ProverCoq" rel="Chapter" href="ProverCoq.html">
+<link title="Filter_axioms" rel="Chapter" href="Filter_axioms.html">
+<link title="Cache" rel="Chapter" href="Cache.html">
+<link title="ProverWhy3" rel="Chapter" href="ProverWhy3.html">
+<link title="Driver" rel="Chapter" href="Driver.html">
+<link title="Prover" rel="Chapter" href="Prover.html">
+<link title="ProverSearch" rel="Chapter" href="ProverSearch.html">
+<link title="ProverScript" rel="Chapter" href="ProverScript.html">
+<link title="Generator" rel="Chapter" href="Generator.html">
+<link title="Factory" rel="Chapter" href="Factory.html">
+<link title="Calculus" rel="Chapter" href="Calculus.html">
+<link title="CfgDump" rel="Chapter" href="CfgDump.html">
+<link title="CfgWP" rel="Chapter" href="CfgWP.html">
+<link title="Register" rel="Chapter" href="Register.html">
+<link title="VC" rel="Chapter" href="VC.html">
+<link title="GuiConfig" rel="Chapter" href="GuiConfig.html">
+<link title="GuiList" rel="Chapter" href="GuiList.html">
+<link title="GuiSequent" rel="Chapter" href="GuiSequent.html">
+<link title="GuiProver" rel="Chapter" href="GuiProver.html">
+<link title="GuiTactic" rel="Chapter" href="GuiTactic.html">
+<link title="GuiProof" rel="Chapter" href="GuiProof.html">
+<link title="GuiComposer" rel="Chapter" href="GuiComposer.html">
+<link title="GuiGoal" rel="Chapter" href="GuiGoal.html">
+<link title="GuiSource" rel="Chapter" href="GuiSource.html">
+<link title="GuiPanel" rel="Chapter" href="GuiPanel.html">
+<link title="GuiNavigator" rel="Chapter" href="GuiNavigator.html"><link title="Predicate Introduction" rel="Section" href="#2_PredicateIntroduction">
+<link title="Sequent" rel="Section" href="#2_Sequent">
+<link title="Transformations" rel="Section" href="#2_Transformations">
+<link title="Bundles" rel="Section" href="#2_Bundles">
+<link title="Simplifiers" rel="Section" href="#2_Simplifiers">
+<title>Conditions - Wp plugin</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Mstate.html" title="Mstate">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Filtering.html" title="Filtering">Next</a>
+</div>
+<h1>Module <a href="type_Conditions.html">Conditions</a></h1>
+
+<pre><span id="MODULEConditions"><span class="keyword">module</span> Conditions</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Conditions.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><hr width="100%">
+<h3 id="2_PredicateIntroduction">Predicate Introduction</h3>
+<pre><span id="VALforall_intro"><span class="keyword">val</span> forall_intro</span> : <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> list * <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Introduce universally quantified formulae: head forall quantifiers
+    are instanciated to fresh variables in current pool and left-implies are
+    extracted, recursively.</p>
+</div>
+</div>
+
+<pre><span id="VALexist_intro"><span class="keyword">val</span> exist_intro</span> : <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Introduce existential quantified formulae: head exist quantifiers
+    are instanciated to fresh variables, recursively.</p>
+</div>
+</div>
+<h3 id="2_Sequent">Sequent</h3>
+<pre><code><span id="TYPEstep"><span class="keyword">type</span> <code class="type"></code>step</span> = private {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTstep.id">id</span>&nbsp;: <code class="type">int</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>See <code class="code">index</code></p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstep.size">size</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstep.vars">vars</span>&nbsp;: <code class="type">Lang.F.Vars.t</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstep.stmt">stmt</span>&nbsp;: <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> option</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstep.descr">descr</span>&nbsp;: <code class="type">string option</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstep.deps">deps</span>&nbsp;: <code class="type">Property.t list</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstep.warn">warn</span>&nbsp;: <code class="type">Warning.Set.t</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTstep.condition">condition</span>&nbsp;: <code class="type"><a href="./Conditions.html#TYPEcondition">condition</a></code>;</code></td>
+
+</tr></table>
+}
+
+
+
+<pre><code><span id="TYPEcondition"><span class="keyword">type</span> <code class="type"></code>condition</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcondition.Type"><span class="constructor">Type</span></span> <span class="keyword">of</span> <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Type section, not constraining for filtering</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcondition.Have"><span class="constructor">Have</span></span> <span class="keyword">of</span> <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Normal assumptions section</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcondition.When"><span class="constructor">When</span></span> <span class="keyword">of</span> <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Assumptions introduced after simplifications</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcondition.Core"><span class="constructor">Core</span></span> <span class="keyword">of</span> <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Common hypotheses gather from parallel branches</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcondition.Init"><span class="constructor">Init</span></span> <span class="keyword">of</span> <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Initializers assumptions</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcondition.Branch"><span class="constructor">Branch</span></span> <span class="keyword">of</span> <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> * <a href="./Conditions.html#TYPEsequence">sequence</a> * <a href="./Conditions.html#TYPEsequence">sequence</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>If-Then-Else</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcondition.Either"><span class="constructor">Either</span></span> <span class="keyword">of</span> <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> list</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Disjunction</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcondition.State"><span class="constructor">State</span></span> <span class="keyword">of</span> <code class="type"><a href="./Mstate.html#TYPEstate">Mstate.state</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Memory Model snapshot</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><span id="TYPEsequence"><span class="keyword">type</span> <code class="type"></code>sequence</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>List of steps</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEsequent"><span class="keyword">type</span> <code class="type"></code>sequent</span> = <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> * <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code> </pre>
+
+
+<pre><span id="VALpretty"><span class="keyword">val</span> pretty</span> : <code class="type">(Stdlib.Format.formatter -> <a href="./Conditions.html#TYPEsequent">sequent</a> -> unit) Stdlib.ref</code></pre>
+<pre><span id="VALstep"><span class="keyword">val</span> step</span> : <code class="type">?descr:string -><br>       ?stmt:<a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -><br>       ?deps:Property.t list -><br>       ?warn:Warning.Set.t -> <a href="./Conditions.html#TYPEcondition">condition</a> -> <a href="./Conditions.html#TYPEstep">step</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Creates a single step</p>
+</div>
+</div>
+
+<pre><span id="VALupdate_cond"><span class="keyword">val</span> update_cond</span> : <code class="type">?descr:string -><br>       ?deps:Property.t list -><br>       ?warn:Warning.Set.t -><br>       <a href="./Conditions.html#TYPEstep">step</a> -> <a href="./Conditions.html#TYPEcondition">condition</a> -> <a href="./Conditions.html#TYPEstep">step</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Updates the condition of a step and merges <code class="code">descr</code>, <code class="code">deps</code> and <code class="code">warn</code></p>
+</div>
+</div>
+
+<pre><span id="VALis_true"><span class="keyword">val</span> is_true</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Contains only true or empty steps</p>
+</div>
+</div>
+
+<pre><span id="VALis_empty"><span class="keyword">val</span> is_empty</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>No step at all</p>
+</div>
+</div>
+
+<pre><span id="VALvars_hyp"><span class="keyword">val</span> vars_hyp</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> Lang.F.Vars.t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Pre-computed and available in constant time.</p>
+</div>
+</div>
+
+<pre><span id="VALvars_seq"><span class="keyword">val</span> vars_seq</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> Lang.F.Vars.t</code></pre><div class="info ">
+<div class="info-desc">
+<p>At the cost of the union of hypotheses and goal.</p>
+</div>
+</div>
+
+<pre><span id="VALempty"><span class="keyword">val</span> empty</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>empty sequence, equivalent to true assumption</p>
+</div>
+</div>
+
+<pre><span id="VALtrivial"><span class="keyword">val</span> trivial</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>empty implies true</p>
+</div>
+</div>
+
+<pre><span id="VALsequence"><span class="keyword">val</span> sequence</span> : <code class="type"><a href="./Conditions.html#TYPEstep">step</a> list -> <a href="./Conditions.html#TYPEsequence">sequence</a></code></pre>
+<pre><span id="VALseq_branch"><span class="keyword">val</span> seq_branch</span> : <code class="type">?stmt:<a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -><br>       <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -><br>       <a href="./Conditions.html#TYPEsequence">sequence</a> -> <a href="./Conditions.html#TYPEsequence">sequence</a> -> <a href="./Conditions.html#TYPEsequence">sequence</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Creates an If-Then-Else branch located at the provided stmt, if any.</p>
+</div>
+</div>
+
+<pre><span id="VALappend"><span class="keyword">val</span> append</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> <a href="./Conditions.html#TYPEsequence">sequence</a> -> <a href="./Conditions.html#TYPEsequence">sequence</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Conjunction</p>
+</div>
+</div>
+
+<pre><span id="VALconcat"><span class="keyword">val</span> concat</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> list -> <a href="./Conditions.html#TYPEsequence">sequence</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>List conjunction</p>
+</div>
+</div>
+
+<pre><span id="VALiter"><span class="keyword">val</span> iter</span> : <code class="type">(<a href="./Conditions.html#TYPEstep">step</a> -> unit) -> <a href="./Conditions.html#TYPEsequence">sequence</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Iterate only over the head steps of the sequence.
+    Does not go deeper inside branches and disjunctions.</p>
+</div>
+</div>
+
+<pre><span id="VALlist"><span class="keyword">val</span> list</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> <a href="./Conditions.html#TYPEstep">step</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same domain than <code class="code">iter</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALsize"><span class="keyword">val</span> size</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p>Compute the <i>total</i> number of steps in the sequence, including
+    nested sequences from branches and disjunctions.
+    Pre-computed and available in constant time.</p>
+</div>
+</div>
+
+<pre><span id="VALsteps"><span class="keyword">val</span> steps</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p>Attributes unique indices to every <code class="code">step.id</code> in the sequence,
+    starting from zero. Recursively
+    Returns the number of steps in the sequence.</p>
+</div>
+</div>
+
+<pre><span id="VALindex"><span class="keyword">val</span> index</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Compute steps' id of sequent left hand-side.
+    Same as <code class="code">ignore&nbsp;(steps&nbsp;(fst&nbsp;s))</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALstep_at"><span class="keyword">val</span> step_at</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> int -> <a href="./Conditions.html#TYPEstep">step</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Retrieve a step by <code class="code">id</code> in the sequence.
+    The <code class="code">index</code> function <i>must</i> have been called on the sequence before
+    retrieving the index properly.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Not_found</code> if the index is out of bounds.</li>
+</ul>
+</div>
+
+<pre><span id="VALis_trivial"><span class="keyword">val</span> is_trivial</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Goal is true or hypotheses contains false.</p>
+</div>
+</div>
+<h3 id="2_Transformations">Transformations</h3>
+<pre><span id="VALmap_condition"><span class="keyword">val</span> map_condition</span> : <code class="type">(<a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a>) -> <a href="./Conditions.html#TYPEcondition">condition</a> -> <a href="./Conditions.html#TYPEcondition">condition</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Rewrite all root predicates in condition</p>
+</div>
+</div>
+
+<pre><span id="VALmap_step"><span class="keyword">val</span> map_step</span> : <code class="type">(<a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a>) -> <a href="./Conditions.html#TYPEstep">step</a> -> <a href="./Conditions.html#TYPEstep">step</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Rewrite all root predicates in step</p>
+</div>
+</div>
+
+<pre><span id="VALmap_sequence"><span class="keyword">val</span> map_sequence</span> : <code class="type">(<a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a>) -> <a href="./Conditions.html#TYPEsequence">sequence</a> -> <a href="./Conditions.html#TYPEsequence">sequence</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Rewrite all root predicates in sequence</p>
+</div>
+</div>
+
+<pre><span id="VALmap_sequent"><span class="keyword">val</span> map_sequent</span> : <code class="type">(<a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a>) -> <a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Rewrite all root predocates in hypotheses and goal</p>
+</div>
+</div>
+
+<pre><span id="VALinsert"><span class="keyword">val</span> insert</span> : <code class="type">?at:int -> <a href="./Conditions.html#TYPEstep">step</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Insert a step in the sequent immediately <code class="code">at</code> the specified position.
+    Parameter <code class="code">at</code> can be <code class="code">size</code> to insert at the end of the sequent (default).</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Invalid_argument</code> if the index is out of bounds.</li>
+</ul>
+</div>
+
+<pre><span id="VALreplace"><span class="keyword">val</span> replace</span> : <code class="type">at:int -> <a href="./Conditions.html#TYPEstep">step</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>replace a step in the sequent, the one <code class="code">at</code> the specified position.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Invalid_argument</code> if the index is out of bounds.</li>
+</ul>
+</div>
+
+<pre><span id="VALsubst"><span class="keyword">val</span> subst</span> : <code class="type">(<a href="./Lang.F.html#TYPEterm">Lang.F.term</a> -> <a href="./Lang.F.html#TYPEterm">Lang.F.term</a>) -> <a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Apply the atomic substitution recursively using <code class="code"><span class="constructor">Lang</span>.<span class="constructor">F</span>.p_subst&nbsp;f</code>.
+    Function <code class="code">f</code> should only transform the head of the predicate, and can assume
+    its sub-terms have been already substituted. The atomic substitution is also applied
+    to predicates.
+    <code class="code">f</code> should raise <code class="code"><span class="constructor">Not_found</span></code> on terms that must not be replaced</p>
+</div>
+</div>
+
+<pre><span id="VALintroduction"><span class="keyword">val</span> introduction</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p>Performs existential, universal and hypotheses introductions</p>
+</div>
+</div>
+
+<pre><span id="VALintroduction_eq"><span class="keyword">val</span> introduction_eq</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">introduction</code> but returns the same sequent is None</p>
+</div>
+</div>
+
+<pre><span id="VALlemma"><span class="keyword">val</span> lemma</span> : <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Performs existential, universal and hypotheses introductions</p>
+</div>
+</div>
+
+<pre><span id="VALhead"><span class="keyword">val</span> head</span> : <code class="type"><a href="./Conditions.html#TYPEstep">step</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Predicate for Have and such, Condition for Branch, True for Either</p>
+</div>
+</div>
+
+<pre><span id="VALhave"><span class="keyword">val</span> have</span> : <code class="type"><a href="./Conditions.html#TYPEstep">step</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Predicate for Have and such, True for any other</p>
+</div>
+</div>
+
+<pre><span id="VALcondition"><span class="keyword">val</span> condition</span> : <code class="type"><a href="./Conditions.html#TYPEsequence">sequence</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>With free variables kept.</p>
+</div>
+</div>
+
+<pre><span id="VALclose"><span class="keyword">val</span> close</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>With free variables <i>quantified</i>.</p>
+</div>
+</div>
+
+<pre><span id="VALat_closure"><span class="keyword">val</span> at_closure</span> : <code class="type">(<a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a>) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>register a transformation applied just before close</p>
+</div>
+</div>
+<h3 id="2_Bundles">Bundles</h3>
+<p>Bundles are <i>mergeable</i> pre-sequences.
+    This the key structure for merging hypotheses with linear complexity
+    during backward weakest pre-condition calculus.</p>
+
+<p>Bundle are constructed in backward order with respect to program
+    control-flow, as driven by the wp calculus.</p>
+
+<pre><span id="TYPEbundle"><span class="keyword">type</span> <code class="type"></code>bundle</span> </pre>
+
+
+<pre><span id="TYPEattributed"><span class="keyword">type</span> <code class="type">'a</code> attributed</span> = <code class="type">?descr:string -><br>       ?stmt:<a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> ?deps:Property.t list -> ?warn:Warning.Set.t -> 'a</code> </pre>
+
+
+<pre><span id="VALnil"><span class="keyword">val</span> nil</span> : <code class="type"><a href="./Conditions.html#TYPEbundle">bundle</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as empty</p>
+</div>
+</div>
+
+<pre><span id="VALoccurs"><span class="keyword">val</span> occurs</span> : <code class="type"><a href="./Lang.F.html#TYPEvar">Lang.F.var</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a> -> bool</code></pre>
+<pre><span id="VALintersect"><span class="keyword">val</span> intersect</span> : <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Variables of predicate and the bundle intersects</p>
+</div>
+</div>
+
+<pre><span id="VALmerge"><span class="keyword">val</span> merge</span> : <code class="type"><a href="./Conditions.html#TYPEbundle">bundle</a> list -> <a href="./Conditions.html#TYPEbundle">bundle</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Performs a diff-based disjunction, introducing If-Then-Else or Either
+    branches when possible.
+    Linear complexity is achieved by assuming bundle ordering is consistent
+    over the list.</p>
+</div>
+</div>
+
+<pre><span id="VALdomain"><span class="keyword">val</span> domain</span> : <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> list -> <a href="./Conditions.html#TYPEbundle">bundle</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Assumes a list of predicates in a <code class="code"><span class="constructor">Type</span></code> section on top of the bundle.</p>
+</div>
+</div>
+
+<pre><span id="VALintros"><span class="keyword">val</span> intros</span> : <code class="type"><a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> list -> <a href="./Conditions.html#TYPEbundle">bundle</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Assumes a list of predicates in a <code class="code"><span class="constructor">Have</span></code> section on top of the bundle.</p>
+</div>
+</div>
+
+<pre><span id="VALstate"><span class="keyword">val</span> state</span> : <code class="type">?descr:string -><br>       ?stmt:<a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -><br>       <a href="./Mstate.html#TYPEstate">Mstate.state</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Stack a memory model state on top of the bundle.</p>
+</div>
+</div>
+
+<pre><span id="VALassume"><span class="keyword">val</span> assume</span> : <code class="type">(?init:bool -><br>        ?domain:bool -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a>)<br>       <a href="./Conditions.html#TYPEattributed">attributed</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Assumes a predicate in the specified section,
+    with the specified decorations. On <code class="code">~init:<span class="keyword">true</span></code>, the predicate is placed
+    in an <code class="code"><span class="constructor">Init</span></code> section. On <code class="code">~domain:<span class="keyword">true</span></code>, the predicate is placed in a <code class="code"><span class="constructor">Type</span></code>
+    section. Otherwized, it is placed in a standard <code class="code"><span class="constructor">Have</span></code> section.</p>
+</div>
+</div>
+
+<pre><span id="VALbranch"><span class="keyword">val</span> branch</span> : <code class="type">(<a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a> -> <a href="./Conditions.html#TYPEbundle">bundle</a>)<br>       <a href="./Conditions.html#TYPEattributed">attributed</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Construct a branch bundle, with merging of all common parts.</p>
+</div>
+</div>
+
+<pre><span id="VALeither"><span class="keyword">val</span> either</span> : <code class="type">(<a href="./Conditions.html#TYPEbundle">bundle</a> list -> <a href="./Conditions.html#TYPEbundle">bundle</a>) <a href="./Conditions.html#TYPEattributed">attributed</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Construct a disjunction bundle, with merging of all common parts.</p>
+</div>
+</div>
+
+<pre><span id="VALextract"><span class="keyword">val</span> extract</span> : <code class="type"><a href="./Conditions.html#TYPEbundle">bundle</a> -> <a href="./Lang.F.html#TYPEpred">Lang.F.pred</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>Computes a formulae equivalent to the bundle. For debugging purpose only.</p>
+</div>
+</div>
+
+<pre><span id="VALbundle"><span class="keyword">val</span> bundle</span> : <code class="type"><a href="./Conditions.html#TYPEbundle">bundle</a> -> <a href="./Conditions.html#TYPEsequence">sequence</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Closes the bundle and promote it into a well-formed sequence.</p>
+</div>
+</div>
+<h3 id="2_Simplifiers">Simplifiers</h3>
+<pre><span id="VALclean"><span class="keyword">val</span> clean</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre>
+<pre><span id="VALfilter"><span class="keyword">val</span> filter</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre>
+<pre><span id="VALparasite"><span class="keyword">val</span> parasite</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre>
+<pre><span id="VALinit_filter"><span class="keyword">val</span> init_filter</span> : <code class="type"><a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre>
+<pre><span id="VALsimplify"><span class="keyword">val</span> simplify</span> : <code class="type">?solvers:<a href="./Lang.simplifier-c.html">Lang.simplifier</a> list -><br>       ?intros:int -> <a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre>
+<pre><span id="VALpruning"><span class="keyword">val</span> pruning</span> : <code class="type">?solvers:<a href="./Lang.simplifier-c.html">Lang.simplifier</a> list -> <a href="./Conditions.html#TYPEsequent">sequent</a> -> <a href="./Conditions.html#TYPEsequent">sequent</a></code></pre></body></html>

@@ -1,0 +1,25 @@
+digraph "Plugin architecture (from)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"From" [style=filled, color=darkturquoise];
+"From_parameters" [style=filled, color=darkturquoise];
+"From_compute" [style=filled, color=darkturquoise];
+"From_compute" -> "From_parameters";
+"From_compute" -> "Function_Froms";
+"Functionwise" [style=filled, color=darkturquoise];
+"Functionwise" -> "From_compute";
+"Functionwise" -> "From_parameters";
+"Functionwise" -> "Function_Froms";
+"Callwise" [style=filled, color=darkturquoise];
+"Callwise" -> "From_compute";
+"Callwise" -> "From_parameters";
+"Callwise" -> "Function_Froms";
+"From_register" [style=filled, color=darkturquoise];
+"From_register" -> "From_parameters";
+"From_register" -> "Function_Froms";
+"Function_Froms" [style=filled, color=darkgoldenrod2];
+"From_register_gui" [style=filled, color=darkturquoise];
+}

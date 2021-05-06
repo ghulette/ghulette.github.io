@@ -1,0 +1,16 @@
+digraph "Plugin architecture (studia)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Studia" [style=filled, color=darkturquoise];
+"Options" [style=filled, color=darkturquoise];
+"Writes" [style=filled, color=darkturquoise];
+"Reads" [style=filled, color=darkturquoise];
+"Reads" -> "Writes";
+"Studia_gui" [style=filled, color=darkturquoise];
+"Studia_gui" -> "Options";
+"Studia_gui" -> "Reads";
+"Studia_gui" -> "Writes";
+}

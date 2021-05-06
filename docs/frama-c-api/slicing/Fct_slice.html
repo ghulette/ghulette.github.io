@@ -1,0 +1,448 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="SlicingActions.html">
+<link rel="next" href="PrintSlice.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html">
+<link title="Slicing" rel="Chapter" href="Slicing.html">
+<link title="SlicingInternals" rel="Chapter" href="SlicingInternals.html">
+<link title="SlicingTypes" rel="Chapter" href="SlicingTypes.html">
+<link title="SlicingParameters" rel="Chapter" href="SlicingParameters.html">
+<link title="SlicingState" rel="Chapter" href="SlicingState.html">
+<link title="SlicingMacros" rel="Chapter" href="SlicingMacros.html">
+<link title="SlicingMarks" rel="Chapter" href="SlicingMarks.html">
+<link title="SlicingActions" rel="Chapter" href="SlicingActions.html">
+<link title="Fct_slice" rel="Chapter" href="Fct_slice.html">
+<link title="PrintSlice" rel="Chapter" href="PrintSlice.html">
+<link title="SlicingProject" rel="Chapter" href="SlicingProject.html">
+<link title="SlicingTransform" rel="Chapter" href="SlicingTransform.html">
+<link title="SlicingSelect" rel="Chapter" href="SlicingSelect.html">
+<link title="SlicingCmds" rel="Chapter" href="SlicingCmds.html">
+<link title="Api" rel="Chapter" href="Api.html">
+<link title="Register_gui" rel="Chapter" href="Register_gui.html"><title>Fct_slice - Slicing plugin</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="SlicingActions.html" title="SlicingActions">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="PrintSlice.html" title="PrintSlice">Next</a>
+</div>
+<h1>Module <a href="type_Fct_slice.html">Fct_slice</a></h1>
+
+<pre><span id="MODULEFct_slice"><span class="keyword">module</span> Fct_slice</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Fct_slice.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>This module deals with slice computation.
+ It computes a mapping between the PDG nodes and some marks
+ (see <code class="code"><span class="constructor">Fct_slice</span>.<span class="constructor">FctMarks</span></code>),
+ and also manage interprocedural propagation (<code class="code"><span class="constructor">Fct_slice</span>.<span class="constructor">CallInfo</span></code>).</p>
+
+<p>Most high level function, named <code class="code">apply_xxx</code>,
+ like <code class="code">apply_change_call</code>, <code class="code">apply_missing_outputs</code>, ...,
+ correspond the actions defined in the
+ <a href="../../slicing/index.html">specification report</a>.</p>
+
+<p>Many functions are modifying the marks of a slice,
+ so they can return a list of actions to be applied in order to deal with
+ the propagation in the calls and callers.</p>
+
+<p>Moreover, some function (named <code class="code">get_xxx_mark</code>) are provided to retrieve
+ the mark of the slice elements.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="VALis_src_fun_called"><span class="keyword">val</span> is_src_fun_called</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Return <code class="code"><span class="keyword">true</span></code> if the source function is called
+ (even indirectly via transitivity) from a <code class="code"><span class="constructor">Slice</span>.t</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALis_src_fun_visible"><span class="keyword">val</span> is_src_fun_visible</span> : <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Return <code class="code"><span class="keyword">true</span></code> if the source function is visible
+ (even indirectly via transitivity) from a <code class="code"><span class="constructor">Slice</span>.t</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b><ul><li><code>SlicingTypes.ExternalFunction</code> if the function has no source code,
+        because there cannot be any slice for it.</li>
+<li><code>SlicingTypes.NoPdg</code> when there is no PDG for the function.</li>
+</ul></li>
+</ul>
+</div>
+
+<pre><span id="VALmake_new_ff"><span class="keyword">val</span> make_new_ff</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">SlicingInternals.fct_info</a> -><br>       bool -> <a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> * <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>build a new empty slice in the given <code class="code">fct_info</code>.
+ If the function has some persistent selection, let's copy it in the new slice.
+ Notice that there can be at most one slice for the application entry point
+ (main), but we allow to have several slice for a library entry point.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>SlicingTypes.NoPdg</code> (see <code class="code">new_slice</code>)</li>
+</ul>
+</div>
+<div class="param_info"><code class="code">build_actions</code> : (bool) is useful if the function has some persistent
+ selection : if the new slice marks will be modified just after that,
+ it is not useful to do <code class="code">examine_calls</code>, but if it is finished,
+ we must generate those actions to choose the calls.</div>
+
+<pre><span id="VALmerge_slices"><span class="keyword">val</span> merge_slices</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> * <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>Build a new slice which marks are a join between <code class="code">ff1</code> marks and <code class="code">ff2</code>
+ marks. The result <code class="code">ff</code> is not called at the end of this action.
+ <code class="code">examine_calls</code> is called to generate the actions to choose the calls.</p>
+</div>
+</div>
+
+<pre><span id="VALcopy_slice"><span class="keyword">val</span> copy_slice</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> <a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a></code></pre>
+<pre><span id="VALfilter_already_in"><span class="keyword">val</span> filter_already_in</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="./SlicingInternals.html#TYPEfct_base_criterion">SlicingInternals.fct_base_criterion</a> -> <a href="./SlicingInternals.html#TYPEfct_base_criterion">SlicingInternals.fct_base_criterion</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>a function that doesn't modify anything but test if the <code class="code">nodes_marks</code>
+ are already in the slice or not.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Returns</b> the <code class="code">nodes_marks</code> that are not already in.</li>
+</ul>
+</div>
+
+<pre><span id="VALapply_add_marks"><span class="keyword">val</span> apply_add_marks</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="./SlicingInternals.html#TYPEfct_base_criterion">SlicingInternals.fct_base_criterion</a> -> <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>main function to build or modify a slice.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Returns</b> a list of the filters to add to the worklist.</li>
+</ul>
+</div>
+
+<pre><span id="VALadd_marks_to_fi"><span class="keyword">val</span> add_marks_to_fi</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">SlicingInternals.fct_info</a> -><br>       <a href="./SlicingInternals.html#TYPEfct_base_criterion">SlicingInternals.fct_base_criterion</a> -><br>       bool -><br>       <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list -> bool * <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>add the marks to the persistent marks to be used when new slices will be
+ created. The actions to add the marks to the existing slices are generated
+ in slicingProject.
+ If it is the first persistent selection for this function,
+ and <code class="code">propagate=<span class="keyword">true</span></code>, also generates the actions to make every calls to this
+ function visible.</p>
+</div>
+</div>
+
+<pre><span id="VALadd_top_mark_to_fi"><span class="keyword">val</span> add_top_mark_to_fi</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">SlicingInternals.fct_info</a> -><br>       <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a> -><br>       bool -> <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list -> <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre>
+<pre><span id="VALcheck_outputs_before_change_call"><span class="keyword">val</span> check_outputs_before_change_call</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -><br>       <a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>When the user wants to make a <code class="code">change_call</code> to a function that doesn't
+ compute enough outputs, he can call <code class="code">check_outputs_before_change_call</code> in
+ order to build the action the add those outputs.</p>
+</div>
+</div>
+
+<pre><span id="VALapply_change_call"><span class="keyword">val</span> apply_change_call</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -><br>       <a href="./SlicingInternals.html#TYPEcalled_fct">SlicingInternals.called_fct</a> -> <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>check if <code class="code">f_to_call</code> is ok for this call, and if so,
+ change the function call and propagate missing marks in the inputs
+ if needed.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>ChangeCallErr</code> if <code class="code">f_to_call</code> doesn't compute enough outputs.</li>
+</ul>
+</div>
+
+<pre><span id="VALapply_choose_call"><span class="keyword">val</span> apply_choose_call</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p>Choose the function (slice or source) to call according to the
+   slicing level of the called function.
+ Does nothing if there is already a called function :
+   this is useful because we can sometime generate several <code class="code">choose_call</code>
+   for the same call, and we want to do something only the first time.
+ Build an action <code class="code">change_call</code> to really call it.
+ If the chosen function doesn't compute enough output,
+   build an action to add outputs to it.</p>
+</div>
+</div>
+
+<pre><span id="VALapply_missing_inputs"><span class="keyword">val</span> apply_missing_inputs</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -><br>       <a href="./SlicingInternals.html#TYPEfct_base_criterion">SlicingInternals.fct_base_criterion</a> * bool -> <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">ff</code> calls a slice <code class="code">g</code> that needs more inputs than those computed by <code class="code">ff</code>.
+ The slicing level of <code class="code">ff</code> is used in order to know if we have to modify <code class="code">ff</code>
+ or to call another function.</p>
+</div>
+</div>
+
+<pre><span id="VALapply_missing_outputs"><span class="keyword">val</span> apply_missing_outputs</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -><br>       <a href="./SlicingInternals.html#TYPEfct_base_criterion">SlicingInternals.fct_base_criterion</a> -><br>       bool -> <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">ff</code> calls a slice <code class="code">g</code> that doesn't compute enough outputs for the <code class="code">call</code>.
+ The missing marks are <code class="code">output_marks</code>.
+ The slicing level has to be used to choose either to modify the called
+ function <code class="code">g</code> or to change it.</p>
+</div>
+</div>
+
+<pre><span id="VALapply_examine_calls"><span class="keyword">val</span> apply_examine_calls</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a> PdgMarks.info_called_outputs -><br>       <a href="./SlicingInternals.html#TYPEcriterion">SlicingInternals.criterion</a> list</code></pre>
+<pre><span id="VALget_called_slice"><span class="keyword">val</span> get_called_slice</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> <a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> option * bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Inform about the called slice or else calls to source functions.</p>
+</div>
+</div>
+
+<pre><span id="VALget_node_mark"><span class="keyword">val</span> get_node_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> PdgTypes.Node.t -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALget_node_key_mark"><span class="keyword">val</span> get_node_key_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> PdgIndex.Key.t -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALget_top_input_mark"><span class="keyword">val</span> get_top_input_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_info">SlicingInternals.fct_info</a> -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALget_stmt_mark"><span class="keyword">val</span> get_stmt_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALget_label_mark"><span class="keyword">val</span> get_label_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -><br>       <a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> <a href="../../../doc/code/html/Cil_types.html#TYPElabel">Cil_types.label</a> -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALget_param_mark"><span class="keyword">val</span> get_param_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> int -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALget_local_var_mark"><span class="keyword">val</span> get_local_var_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> <a href="../../../doc/code/html/Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALget_input_loc_under_mark"><span class="keyword">val</span> get_input_loc_under_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> <a href="../../../doc/code/html/Locations.Zone.html#TYPEt">Locations.Zone.t</a> -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALget_mark_from_src_fun"><span class="keyword">val</span> get_mark_from_src_fun</span> : <code class="type">Kernel_function.t -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>The mark <code class="code">m</code> related to all statements of a source function <code class="code">kf</code>.
+    Property : <code class="code">is_bottom&nbsp;(get_from_func&nbsp;kf)&nbsp;=&nbsp;not&nbsp;(is_src_fun_called&nbsp;kf)&nbsp;</code></p>
+</div>
+</div>
+
+<pre><span id="VALmerge_inputs_m1_mark"><span class="keyword">val</span> merge_inputs_m1_mark</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> <a href="./SlicingInternals.html#TYPEpdg_mark">SlicingInternals.pdg_mark</a></code></pre>
+<pre><span id="VALclear_ff"><span class="keyword">val</span> clear_ff</span> : <code class="type"><a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">ff</code> has to be removed. We have to check if it is not called
+ and to remove the called function in <code class="code">ff</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>SlicingTypes.CantRemoveCalledFf</code> if the slice is called.</li>
+</ul>
+</div>
+
+<pre><span id="VALprint_ff_sig"><span class="keyword">val</span> print_ff_sig</span> : <code class="type">Stdlib.Format.formatter -> <a href="./SlicingInternals.html#TYPEfct_slice">SlicingInternals.fct_slice</a> -> unit</code></pre></body></html>

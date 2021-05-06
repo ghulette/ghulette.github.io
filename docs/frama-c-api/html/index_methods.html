@@ -1,0 +1,1991 @@
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><title>Index of class methods - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Index of class methods</h1>
+<table>
+<tr><td align="left"><div>A</div></td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODadd">add</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td><div class="info">
+<p>Register an entry</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.notebook-c.html#METHODadd">add</a> [<a href="Wpane.notebook-c.html">Wpane.notebook</a>]</td>
+<td></td></tr>
+<tr><td><a href="Menu_manager.item-c.html#METHODadd_accelerator">add_accelerator</a> [<a href="Menu_manager.item-c.html">Menu_manager.item</a>]</td>
+<td><div class="info">
+<p>Add an accelerator iff there is a menu item.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.dialog-c.html#METHODadd_block">add_block</a> [<a href="Wpane.dialog-c.html">Wpane.dialog</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODadd_column_empty">add_column_empty</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td><div class="info">
+<p>Add an empty column that always appears after the columns created
+        by the other <code class="code">add_column</code> methods.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODadd_column_pixbuf">add_column_pixbuf</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODadd_column_text">add_column_text</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODadd_column_toggle">add_column_toggle</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODadd_debug">add_debug</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+<p>Add entries to the menu dedicated to debugging tools.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODadd_entries">add_entries</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+<p>Add entries in the given menu.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.form-c.html#METHODadd_field">add_field</a> [<a href="Wpane.form-c.html">Wpane.form</a>]</td>
+<td><div class="info">
+<p>Inserts an entry in the form.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wfile.dialog-c.html#METHODadd_filter">add_filter</a> [<a href="Wfile.dialog-c.html">Wfile.dialog</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODadd_global_filter">add_global_filter</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p><code class="code">add_global_filter&nbsp;text&nbsp;key&nbsp;f</code> adds a filter for the visibility of
+        the globals, according to <code class="code">f</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.popup-c.html#METHODadd_item">add_item</a> [<a href="Widget.popup-c.html">Widget.popup</a>]</td>
+<td><div class="info">
+<p>Adds an item.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.form-c.html#METHODadd_label">add_label</a> [<a href="Wpane.form-c.html">Wpane.form</a>]</td>
+<td><div class="info">
+<p>Inserts a field name.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.form-c.html#METHODadd_label_widget">add_label_widget</a> [<a href="Wpane.form-c.html">Wpane.form</a>]</td>
+<td><div class="info">
+<p>Inserts a small (fixed) widget in place of a label.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODadd_menu">add_menu</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Wpane.form-c.html#METHODadd_newline">add_newline</a> [<a href="Wpane.form-c.html">Wpane.form</a>]</td>
+<td><div class="info">
+<p>Inserts an empty line.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODadd_plugin">add_plugin</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+<p>Add entries dedicated to a plug-in.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.group-c.html#METHODadd_radio">add_radio</a> [<a href="Widget.group-c.html">Widget.group</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.dialog-c.html#METHODadd_row">add_row</a> [<a href="Wpane.dialog-c.html">Wpane.dialog</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.form-c.html#METHODadd_row">add_row</a> [<a href="Wpane.form-c.html">Wpane.form</a>]</td>
+<td><div class="info">
+<p>Inserts a wide entry in the form, spanning the two columns.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.form-c.html#METHODadd_section">add_section</a> [<a href="Wpane.form-c.html">Wpane.form</a>]</td>
+<td><div class="info">
+<p>Starts a new section.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODadd_select_function">add_select_function</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Register a callback that is called whenever an element of the file tree
+        is selected or unselected.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.popup-c.html#METHODadd_separator">add_separator</a> [<a href="Widget.popup-c.html">Widget.popup</a>]</td>
+<td><div class="info">
+<p>Inserts a separator.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.group-c.html#METHODadd_toggle">add_toggle</a> [<a href="Widget.group-c.html">Widget.group</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpalette.panel-c.html#METHODadd_tool">add_tool</a> [<a href="Wpalette.panel-c.html">Wpalette.panel</a>]</td>
+<td><div class="info">
+<p>Append a palette-tool.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpalette.panel-c.html#METHODadd_widget">add_widget</a> [<a href="Wpalette.panel-c.html">Wpalette.panel</a>]</td>
+<td><div class="info">
+<p>Append an arbitrary widget among other widget tools.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODallocation">allocation</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>first parameter is the introducing keyword
+      (e.g.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODannot_window">annot_window</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The information panel.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODannotated_stmt">annotated_stmt</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Print an annotated statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.warray-c.html#METHODappend">append</a> [<a href="Wpane.warray-c.html">Wpane.warray</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODappend_pixbuf_column">append_pixbuf_column</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p><code class="code">append_pixbuf_column&nbsp;title&nbsp;f&nbsp;visible</code> appends a new column with name
+      <code class="code">title</code> to the file tree and registers <code class="code">f</code> as a callback computing the
+      list of properties for this column.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODappend_text_column">append_text_column</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p><code class="code">append_text_column&nbsp;~title&nbsp;~tooltip&nbsp;~visible&nbsp;~text&nbsp;~sort</code> appends a new
+      column with name <code class="code">title</code> to the file tree, and registers <code class="code">text</code> as a
+      callback computing the text for each global variable.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODassigns">assigns</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>first parameter is the introducing keyword (e.g.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODassumes">assumes</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODattribute">attribute</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Attribute.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODattributes">attributes</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Attribute lists</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODattrparam">attrparam</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Attribute parameter</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>B</div></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODbehavior">behavior</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODbehavior">behavior</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>the kind of behavior expected for the behavior.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODbinop">binop</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODblock">block</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Prints a block.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.reactive_buffer-c.html#METHODbuffer">buffer</a> [<a href="Design.reactive_buffer-c.html">Design.reactive_buffer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODbuiltin_logic_info">builtin_logic_info</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.dialog-c.html#METHODbutton">button</a> [<a href="Wpane.dialog-c.html">Wpane.dialog</a>]</td>
+<td><div class="info">
+<p>Closes the dialog.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>C</div></td></tr>
+<tr><td><a href="Menu_manager.item-c.html#METHODcheck_menu_item">check_menu_item</a> [<a href="Menu_manager.item-c.html">Menu_manager.item</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Wtable.treemodel-c.html#METHODchild_at">child_at</a> [<a href="Wtable.treemodel-c.html">Wtable.treemodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.treemodel-c.html#METHODchildren">children</a> [<a href="Wtable.treemodel-c.html">Wtable.treemodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODclear">clear</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.popup-c.html#METHODclear">clear</a> [<a href="Widget.popup-c.html">Widget.popup</a>]</td>
+<td><div class="info">
+<p>Remove all items</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODclear">clear</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODclear_action">clear_action</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td><div class="info">
+<p>Deactivate and hide the <i>action</i> button.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODcode_annotation">code_annotation</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.widget-c.html#METHODcoerce">coerce</a> [<a href="Wutil.widget-c.html">Wutil.widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODcoerce">coerce</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td><div class="info">
+<p>widget of the scroll</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.widget-c.html#METHODcoerce">coerce</a> [<a href="Widget.widget-c.html">Widget.widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODcompinfo">compinfo</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODcomplete_behaviors">complete_behaviors</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.signal-c.html#METHODconnect">connect</a> [<a href="Wutil.signal-c.html">Wutil.signal</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.handler-c.html#METHODconnect">connect</a> [<a href="Wutil.handler-c.html">Wutil.handler</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODconnect">connect</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.signal-c.html#METHODconnect">connect</a> [<a href="Widget.signal-c.html">Widget.signal</a>]</td>
+<td><div class="info">
+<p><code class="code">connect&nbsp;f</code> calls <code class="code">f&nbsp;s</code> on each signal <code class="code">s</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wbox.splitter-c.html#METHODconnect">connect</a> [<a href="Wbox.splitter-c.html">Wbox.splitter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.Configuration.selector-c.html#METHODconnect">connect</a> [<a href="Gtk_helper.Configuration.selector-c.html">Gtk_helper.Configuration.selector</a>]</td>
+<td><div class="info">
+<p>Register a callback invoked by the widget each time the value is edited.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODconstant">constant</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODcount_selected">count_selected</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODcurrent_behavior">current_behavior</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODcurrent_func">current_func</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>link to the current function being visited.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODcurrent_function">current_function</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Visitor.frama_c_visitor-c.html#METHODcurrent_kf">current_kf</a> [<a href="Visitor.frama_c_visitor-c.html">Visitor.frama_c_visitor</a>]</td>
+<td><div class="info">
+<p>link to the kernel function currently being visited.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODcurrent_kinstr">current_kinstr</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p><code class="code"><span class="constructor">Kstmt</span>&nbsp;stmt</code> when visiting statement stmt, <code class="code"><span class="constructor">Kglobal</span></code> when called outside
+      of a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODcurrent_stmt">current_stmt</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODcurrent_stmt">current_stmt</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>link to the current statement being visited.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_decode_iter">custom_decode_iter</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_encode_iter">custom_encode_iter</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_get_iter">custom_get_iter</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_get_path">custom_get_path</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_iter_children">custom_iter_children</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_iter_has_child">custom_iter_has_child</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_iter_n_children">custom_iter_n_children</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_iter_next">custom_iter_next</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_iter_nth_child">custom_iter_nth_child</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_iter_parent">custom_iter_parent</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODcustom_value">custom_value</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>D</div></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODdecreases">decreases</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.button-c.html#METHODdefault">default</a> [<a href="Widget.button-c.html">Widget.button</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.entry-c.html#METHODdelete">delete</a> [<a href="Wpane.entry-c.html">Wpane.entry</a>]</td>
+<td><div class="info">
+<p>When removed</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODdisjoint_behaviors">disjoint_behaviors</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.view_code-c.html#METHODdisplay_globals">display_globals</a> [<a href="Design.view_code-c.html">Design.view_code</a>]</td>
+<td><div class="info">
+<p>Display the given globals in the pretty-printed source viewer.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>E</div></td></tr>
+<tr><td><a href="Gtk_helper.host-c.html#METHODerror">error</a> [<a href="Gtk_helper.host-c.html">Gtk_helper.host</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODerror">error</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Popup a modal dialog displaying an error message.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODexp">exp</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Print expressions</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODextended">extended</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>F</div></td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODfactory">factory</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODfield">field</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODfieldinfo">fieldinfo</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>A field declaration</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODfile">file</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODfile_tree">file_tree</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The tree containing the list of files and functions</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODfile_tree_view">file_tree_view</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The tree view containing the list of files and functions</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODfill_global_tables">fill_global_tables</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>fill the global environment tables at the end of a full copy in a
+      new project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODfind_visible_global">find_visible_global</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p><code class="code">find_visible_global&nbsp;str</code> searches for the next occurrence of a visible
+        global whose name contains <code class="code">str</code>, starting at the currently selected
+        element.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wutil.signal-c.html#METHODfire">fire</a> [<a href="Wutil.signal-c.html">Wutil.signal</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.signal-c.html#METHODfire">fire</a> [<a href="Widget.signal-c.html">Widget.signal</a>]</td>
+<td><div class="info">
+<p>Emits the signal to all connected listeners, if enabled and not locked.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODfkind">fkind</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODflat_mode">flat_mode</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Return <code class="code"><span class="keyword">true</span></code> if the filetree currently displays all globals in
+        flat mode (all children of the same node), <code class="code"><span class="keyword">false</span></code> otherwise
+        (children of the file they are declared in).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODfmt">fmt</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>The formatter used by <code class="code">printf</code> method.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODforce_brace">force_brace</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p><code class="code">self<span class="keywordsign">#</span>force_brace&nbsp;printer&nbsp;fmt&nbsp;x</code> pretty prints <code class="code">x</code> by using <code class="code">printer</code>,
+        but add some extra braces '{' and '}' which are hidden by default.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor.frama_c_visitor-c.html#METHODframa_c_plain_copy">frama_c_plain_copy</a> [<a href="Visitor.frama_c_visitor-c.html">Visitor.frama_c_visitor</a>]</td>
+<td><div class="info">
+<p>same as plain_copy_visitor but for frama-c specific methods</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODfrom">from</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>prints an assignment with its dependencies.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_helper.host-c.html#METHODfull_protect">full_protect</a> [<a href="Gtk_helper.host-c.html">Gtk_helper.host</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODfull_protect">full_protect</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Lock the GUI ; run the function ; catch all exceptions ; Unlock GUI ;
+      returns <code class="code">f&nbsp;()</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODfundec">fundec</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODfunspec">funspec</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>G</div></td></tr>
+<tr><td><a href="Wutil.selector-c.html#METHODget">get</a> [<a href="Wutil.selector-c.html">Wutil.selector</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.listmodel-c.html#METHODget">get</a> [<a href="Wtable.listmodel-c.html">Wtable.listmodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.warray-c.html#METHODget">get</a> [<a href="Wpane.warray-c.html">Wpane.warray</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.selector-c.html#METHODget">get</a> [<a href="Widget.selector-c.html">Widget.selector</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wbox.splitter-c.html#METHODget">get</a> [<a href="Wbox.splitter-c.html">Wbox.splitter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODget_file_globals">get_file_globals</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Return the names and the attributes (currently only the strikethrough
+        property) of the globals in the file passed as argument</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODget_filling_actions">get_filling_actions</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>get the queue of actions to be performed at the end of a full copy.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODget_instr_terminator">get_instr_terminator</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>What terminator to print after an instruction.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.menu-c.html#METHODget_items">get_items</a> [<a href="Widget.menu-c.html">Widget.menu</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODget_view">get_view</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Returns the viewer object (and the buffer it contains).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODglobal">global</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Global (vars, types, etc.).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODglobal_annotation">global_annotation</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>H</div></td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODhas_action">has_action</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODhas_annot">has_annot</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p><code class="code"><span class="keyword">true</span></code> if <code class="code">current_stmt</code> has some annotations attached to it.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.treemodel-c.html#METHODhas_child">has_child</a> [<a href="Wtable.treemodel-c.html">Wtable.treemodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODhelp_message">help_message</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Help message displayed when entering the widget</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODhrule">hrule</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Print an horizontal rule.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>I</div></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODidentified_predicate">identified_predicate</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODidentified_term">identified_term</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODikind">ikind</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODin_ghost_if_needed">in_ghost_if_needed</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Open a ghost context if the the first <code class="code">bool</code> is true and we are not
+      already in a ghost context.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.treemodel-c.html#METHODindex">index</a> [<a href="Wtable.treemodel-c.html">Wtable.treemodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.listmodel-c.html#METHODindex">index</a> [<a href="Wtable.listmodel-c.html">Wtable.listmodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODinit">init</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Print initializers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODinitinfo">initinfo</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODinline_block">inline_block</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Wpane.warray-c.html#METHODinsert">insert</a> [<a href="Wpane.warray-c.html">Wpane.warray</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html#METHODinsert">insert</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class-c.html">Gtk_helper.MAKE_CUSTOM_LIST.custom_list_class</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODinsert_row">insert_row</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODinstr">instr</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Invoked on each instruction occurrence.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODis_active">is_active</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODis_selected">is_selected</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_form.form-c.html#METHODitem">item</a> [<a href="Gtk_form.form-c.html">Gtk_form.form</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODiter_selected">iter_selected</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>L</div></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlabel">label</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_form.form-c.html#METHODlabel">label</a> [<a href="Gtk_form.form-c.html">Gtk_form.form</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODlauncher">launcher</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Display the analysis configuration dialog and offer the
+      opportunity to launch to the user</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODline_directive">line_directive</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Print a line-number.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODlines">lines</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODlinks">links</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlocation">location</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.signal-c.html#METHODlock">lock</a> [<a href="Wutil.signal-c.html">Wutil.signal</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.signal-c.html#METHODlock">lock</a> [<a href="Widget.signal-c.html">Widget.signal</a>]</td>
+<td><div class="info">
+<p>If not locked,
+        lock and execute the continuation and <i>finally</i> release the lock.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.reactive_buffer-c.html#METHODlocs">locs</a> [<a href="Design.reactive_buffer-c.html">Design.reactive_buffer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_builtin_label">logic_builtin_label</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_constant">logic_constant</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_ctor_info">logic_ctor_info</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_info">logic_info</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_label">logic_label</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_type">logic_type</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_type_def">logic_type_def</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_type_info">logic_type_info</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlogic_var">logic_var</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODlower_notebook">lower_notebook</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The lower notebook with messages tabs</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODlval">lval</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Invoked on each lvalue occurrence</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>M</div></td></tr>
+<tr><td><a href="Launcher.basic_main-c.html#METHODmain_window">main_window</a> [<a href="Launcher.basic_main-c.html">Launcher.basic_main</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.source_files_chooser_host-c.html#METHODmain_window">main_window</a> [<a href="Gtk_helper.source_files_chooser_host-c.html">Gtk_helper.source_files_chooser_host</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODmain_window">main_window</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The main window</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODmark">mark</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td><div class="info">
+<p>Register the entry around the pretty-printed material.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODmarker">marker</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODmay_be_skipped">may_be_skipped</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>This is called to check that a given statement may be
+      compacted with another one.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.warray-c.html#METHODmem">mem</a> [<a href="Wpane.warray-c.html">Wpane.warray</a>]</td>
+<td></td></tr>
+<tr><td><a href="Menu_manager.item-c.html#METHODmenu">menu</a> [<a href="Menu_manager.item-c.html">Menu_manager.item</a>]</td>
+<td><div class="info">
+<p>Return the menu in which the item has been inserted, if meaningful</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.item-c.html#METHODmenu_item">menu_item</a> [<a href="Menu_manager.item-c.html">Menu_manager.item</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.item-c.html#METHODmenu_item_skel">menu_item_skel</a> [<a href="Menu_manager.item-c.html">Menu_manager.item</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODmenu_manager">menu_manager</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The object managing the menubar and the toolbar.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODmenubar">menubar</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODmodel">model</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODmodel_field">model_field</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODmodel_info">model_info</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>N</div></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODnext_stmt">next_stmt</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>O</div></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODoffset">offset</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODoffset">offset</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Invoked on each offset occurrence.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODon_active">on_active</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODon_add">on_add</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.handler-c.html#METHODon_check">on_check</a> [<a href="Wutil.handler-c.html">Wutil.handler</a>]</td>
+<td><div class="info">
+<p><code class="code">on_check&nbsp;v</code> emits boolean signal <code class="code">(s=v)</code> on signal <code class="code">s</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.signal-c.html#METHODon_check">on_check</a> [<a href="Widget.signal-c.html">Widget.signal</a>]</td>
+<td><div class="info">
+<p><code class="code">on_check&nbsp;v</code> fires a boolean signal <code class="code">(s=v)</code> on signal <code class="code">s</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODon_click">on_click</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODon_click">on_click</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODon_double_click">on_double_click</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODon_double_click">on_double_click</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.handler-c.html#METHODon_event">on_event</a> [<a href="Wutil.handler-c.html">Wutil.handler</a>]</td>
+<td><div class="info">
+<p><code class="code">on_event</code> emits a unit signal on any signal <code class="code">s</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.signal-c.html#METHODon_event">on_event</a> [<a href="Widget.signal-c.html">Widget.signal</a>]</td>
+<td><div class="info">
+<p><code class="code">on_event</code> fires a unit signal on any signal.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.notebook-c.html#METHODon_focus">on_focus</a> [<a href="Wpane.notebook-c.html">Wpane.notebook</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODon_link">on_link</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Short cut to <code class="code">links<span class="keywordsign">#</span>on_click</code> (callback without range).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODon_right_click">on_right_click</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODon_right_click">on_right_click</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODon_selection">on_selection</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODon_shift_click">on_shift_click</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.handler-c.html#METHODon_value">on_value</a> [<a href="Wutil.handler-c.html">Wutil.handler</a>]</td>
+<td><div class="info">
+<p><code class="code">on_value&nbsp;v</code> emits a unit signal on signal <code class="code">s=v</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.signal-c.html#METHODon_value">on_value</a> [<a href="Widget.signal-c.html">Widget.signal</a>]</td>
+<td><div class="info">
+<p><code class="code">on_value&nbsp;v</code> fires a unit signal on signal <code class="code">s</code> when <code class="code">s=v</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODopt_funspec">opt_funspec</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODoriginal_source_viewer">original_source_viewer</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The multi-tab source file display widget containing the
+      original source.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>P</div></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODpack">pack</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td><div class="info">
+<p>packs the scroll</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.treemodel-c.html#METHODparent">parent</a> [<a href="Wtable.treemodel-c.html">Wtable.treemodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODplain_copy_visitor">plain_copy_visitor</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>a visitor who only does copies of the nodes according to <code class="code">behavior</code></p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODpop_info">pop_info</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Remove last temporary information in the status bar</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODpop_stmt">pop_stmt</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.layout-c.html#METHODpopulate">populate</a> [<a href="Wutil.layout-c.html">Wutil.layout</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODpost_cond">post_cond</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>pretty prints a post condition according to the exit kind it represents</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODpp_acsl_keyword">pp_acsl_keyword</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>All ACSL keywords except logic types</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODpp_close_annotation">pp_close_annotation</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Called before/after printing an annotation comment.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODpp_keyword">pp_keyword</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Modifying pretty-printer behavior</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODpp_open_annotation">pp_open_annotation</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODpredicate">predicate</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODpredicate_node">predicate_node</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODpretty_information">pretty_information</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Pretty print a message in the <code class="code">annot_window</code>,
+      optionally scrolling it to the beginning of the message.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODprintf">printf</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Append material to the text buffer, optionally scrolling it to the
+        beginning of the message (defaults to autoscrolling setting).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODproject">project</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Project the visitor operates on.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_helper.host-c.html#METHODprotect">protect</a> [<a href="Gtk_helper.host-c.html">Gtk_helper.host</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODprotect">protect</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Lock the GUI ; run the function ; catch all exceptions ; Unlock GUI
+      The parent window must be set if this method is not called directly
+      by the main window: it will ensure that error dialogs are transient
+      for the right window.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODpush_info">push_info</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Pretty print a temporary information in the status bar</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODpush_stmt">push_stmt</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>Q</div></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODquantifiers">quantifiers</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODqueueInstr">queueInstr</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Add here instructions while visiting to queue them to precede the
+      current statement being processed.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>R</div></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODreactive_buffer">reactive_buffer</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The buffer containing the AST.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.reactive_buffer-c.html#METHODredisplay">redisplay</a> [<a href="Design.reactive_buffer-c.html">Design.reactive_buffer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODredisplay">redisplay</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODrefresh">refresh</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+<p>Reset the activation state of the buttons</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODrefresh_columns">refresh_columns</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Refresh the state of all the non-source columns of the filetree,
+        by hiding those that should be hidden, and displaying the
+        others.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODregister_panel">register_panel</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p><code class="code">register_panel&nbsp;(name,&nbsp;widget,&nbsp;refresh)</code> registers a panel in GUI.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODregister_reset_extension">register_reset_extension</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Register a function to be called whenever the reset method of the
+      filetree is called.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODregister_source_highlighter">register_source_highlighter</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>register an highlighting function to run on a given localizable
+      between start and stop in the given buffer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODregister_source_selector">register_source_selector</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>register an action to perform when button is released on a given
+      localizable.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.reactive_buffer-c.html#METHODrehighlight">rehighlight</a> [<a href="Design.reactive_buffer-c.html">Design.reactive_buffer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODrehighlight">rehighlight</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Force to rehighlight the current displayed buffer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODrelation">relation</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.treemodel-c.html#METHODreload">reload</a> [<a href="Wtable.treemodel-c.html">Wtable.treemodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.listmodel-c.html#METHODreload">reload</a> [<a href="Wtable.listmodel-c.html">Wtable.listmodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODreload">reload</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td><div class="info">
+<p>Structure has changed</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.warray-c.html#METHODremove">remove</a> [<a href="Wpane.warray-c.html">Wpane.warray</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODremove_all">remove_all</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODremove_style">remove_style</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODrequire_braces">require_braces</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODrequires">requires</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODreset">reset</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Launcher.basic_main-c.html#METHODreset">reset</a> [<a href="Launcher.basic_main-c.html">Launcher.basic_main</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.source_files_chooser_host-c.html#METHODreset">reset</a> [<a href="Gtk_helper.source_files_chooser_host-c.html">Gtk_helper.source_files_chooser_host</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODreset">reset</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Resynchronize the tree view with the current project state.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODreset">reset</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>Reset the GUI and its extensions to its initial state</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODreset_current_func">reset_current_func</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Visitor.frama_c_visitor-c.html#METHODreset_current_kf">reset_current_kf</a> [<a href="Visitor.frama_c_visitor-c.html">Visitor.frama_c_visitor</a>]</td>
+<td><div class="info">
+<p>Internal use only.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_form.form-c.html#METHODrow">row</a> [<a href="Gtk_form.form-c.html">Gtk_form.form</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.dialog-c.html#METHODrun">run</a> [<a href="Wpane.dialog-c.html">Wpane.dialog</a>]</td>
+<td><div class="info">
+<p>Opens the dialog (asynchronously).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.popup-c.html#METHODrun">run</a> [<a href="Widget.popup-c.html">Widget.popup</a>]</td>
+<td><div class="info">
+<p>Run the menu.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>S</div></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODscroll">scroll</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Default line is last one.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODscroll">scroll</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td><div class="info">
+<p>scrolled tree (build on demand)</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.view_code-c.html#METHODscroll">scroll</a> [<a href="Design.view_code-c.html">Design.view_code</a>]</td>
+<td><div class="info">
+<p>Move the pretty-printed source viewer to the given localizable
+      if possible.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODselect">select</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>When <code class="code">scroll:<span class="keyword">false</span></code> (default), only minimal scrolling is performed to make
+        the selection visible.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.dialog-c.html#METHODselect">select</a> [<a href="Wpane.dialog-c.html">Wpane.dialog</a>]</td>
+<td><div class="info">
+<p>Closes the dialog.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wfile.dialog-c.html#METHODselect">select</a> [<a href="Wfile.dialog-c.html">Wfile.dialog</a>]</td>
+<td><div class="info">
+<p>Open the dialog.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODselect_global">select_global</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Selects the given global in the tree view and run the associated
+      callbacks.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.view_code-c.html#METHODselect_or_display_global">select_or_display_global</a> [<a href="Design.view_code-c.html">Design.view_code</a>]</td>
+<td><div class="info">
+<p>This function tries to select the global in the treeview.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODselected_globals">selected_globals</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Wutil.selector-c.html#METHODsend">send</a> [<a href="Wutil.selector-c.html">Wutil.selector</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.selector-c.html#METHODsend">send</a> [<a href="Widget.selector-c.html">Widget.selector</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.selector-c.html#METHODset">set</a> [<a href="Wutil.selector-c.html">Wutil.selector</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.warray-c.html#METHODset">set</a> [<a href="Wpane.warray-c.html">Wpane.warray</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.selector-c.html#METHODset">set</a> [<a href="Widget.selector-c.html">Widget.selector</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wbox.splitter-c.html#METHODset">set</a> [<a href="Wbox.splitter-c.html">Wbox.splitter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.Configuration.selector-c.html#METHODset">set</a> [<a href="Gtk_helper.Configuration.selector-c.html">Gtk_helper.Configuration.selector</a>]</td>
+<td><div class="info">
+<p>Set's widget value to given one.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODset_action">set_action</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td><div class="info">
+<p>Makes the <i>action</i> button visible.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODset_active">set_active</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODset_autoscroll">set_autoscroll</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Automatically scroll to lastly inserted text (console behavior).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.label-c.html#METHODset_bg">set_bg</a> [<a href="Widget.label-c.html">Widget.label</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.toggle-c.html#METHODset_border">set_border</a> [<a href="Widget.toggle-c.html">Widget.toggle</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.button-c.html#METHODset_border">set_border</a> [<a href="Widget.button-c.html">Widget.button</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODset_content">set_content</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td><div class="info">
+<p>Shall be used at most once, and before <code class="code"><span class="keywordsign">#</span>coerce</code> or <code class="code"><span class="keywordsign">#</span>widget</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODset_css">set_css</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Override properties for the given tag name.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODset_current_func">set_current_func</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Visitor.frama_c_visitor-c.html#METHODset_current_kf">set_current_kf</a> [<a href="Visitor.frama_c_visitor-c.html">Visitor.frama_c_visitor</a>]</td>
+<td><div class="info">
+<p>Internal use only.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wfile.button-c.html#METHODset_display">set_display</a> [<a href="Wfile.button-c.html">Wfile.button</a>]</td>
+<td><div class="info">
+<p>Set the pretty-printer for button.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wutil.widget-c.html#METHODset_enabled">set_enabled</a> [<a href="Wutil.widget-c.html">Wutil.widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.signal-c.html#METHODset_enabled">set_enabled</a> [<a href="Wutil.signal-c.html">Wutil.signal</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.signal-c.html#METHODset_enabled">set_enabled</a> [<a href="Widget.signal-c.html">Widget.signal</a>]</td>
+<td><div class="info">
+<p>Turns emission of signals <i>on</i> or <i>off</i>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.widget-c.html#METHODset_enabled">set_enabled</a> [<a href="Widget.widget-c.html">Widget.widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.warray-c.html#METHODset_entry">set_entry</a> [<a href="Wpane.warray-c.html">Wpane.warray</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.label-c.html#METHODset_fg">set_fg</a> [<a href="Widget.label-c.html">Widget.label</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODset_file_attribute">set_file_attribute</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Manually set some attributes of the given filename.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODset_focus">set_focus</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODset_font">set_font</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Set the font used to display the text.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODset_global_attribute">set_global_attribute</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>Manually set some attributes of the given variable.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODset_hover">set_hover</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td><div class="info">
+<p>The style of hovered entries.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.toggle-c.html#METHODset_icon">set_icon</a> [<a href="Widget.toggle-c.html">Widget.toggle</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.button-c.html#METHODset_icon">set_icon</a> [<a href="Widget.button-c.html">Widget.button</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.image-c.html#METHODset_icon">set_icon</a> [<a href="Widget.image-c.html">Widget.image</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODset_indent">set_indent</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODset_instr_terminator">set_instr_terminator</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.menu-c.html#METHODset_items">set_items</a> [<a href="Widget.menu-c.html">Widget.menu</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODset_label">set_label</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.toggle-c.html#METHODset_label">set_label</a> [<a href="Widget.toggle-c.html">Widget.toggle</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.button-c.html#METHODset_label">set_label</a> [<a href="Widget.button-c.html">Widget.button</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.spinner-c.html#METHODset_max">set_max</a> [<a href="Widget.spinner-c.html">Widget.spinner</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.spinner-c.html#METHODset_min">set_min</a> [<a href="Widget.spinner-c.html">Widget.spinner</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODset_monospace">set_monospace</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Set a monospace font</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.menu-c.html#METHODset_options">set_options</a> [<a href="Widget.menu-c.html">Widget.menu</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.menu-c.html#METHODset_render">set_render</a> [<a href="Widget.menu-c.html">Widget.menu</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.host-c.html#METHODset_reset">set_reset</a> [<a href="Gtk_helper.host-c.html">Gtk_helper.host</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODset_selection_mode">set_selection_mode</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODset_sensitive">set_sensitive</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+<p>Set the sensitive property of all the entries.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODset_status">set_status</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODset_style">set_style</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td><div class="info">
+<p>The style of added entries.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODset_style">set_style</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.label-c.html#METHODset_text">set_text</a> [<a href="Widget.label-c.html">Widget.label</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wutil.gobj_action-c.html#METHODset_tooltip">set_tooltip</a> [<a href="Wutil.gobj_action-c.html">Wutil.gobj_action</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODset_tooltip">set_tooltip</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.action-c.html#METHODset_tooltip">set_tooltip</a> [<a href="Widget.action-c.html">Widget.action</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.label-c.html#METHODset_tooltip">set_tooltip</a> [<a href="Widget.label-c.html">Widget.label</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wfile.button-c.html#METHODset_tooltip">set_tooltip</a> [<a href="Wfile.button-c.html">Wfile.button</a>]</td>
+<td><div class="info">
+<p>Set the pretty-printer for tooltip.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wutil.widget-c.html#METHODset_visible">set_visible</a> [<a href="Wutil.widget-c.html">Wutil.widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.widget-c.html#METHODset_visible">set_visible</a> [<a href="Widget.widget-c.html">Widget.widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODset_width">set_width</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODshort_extended">short_extended</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODshow_ids">show_ids</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>If <code class="code"><span class="keyword">true</span></code>, the messages shown in the GUI can mention internal ids
+      (vid, sid, etc.).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.listmodel-c.html#METHODsize">size</a> [<a href="Wtable.listmodel-c.html">Wtable.listmodel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODsource_viewer">source_viewer</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The <code class="code"><span class="constructor">GText</span>.view</code> showing the AST.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODsource_viewer_scroll">source_viewer_scroll</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The scrolling of the <code class="code"><span class="constructor">GText</span>.view</code> showing the AST.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODstmt">stmt</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Control-flow statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODstmt_has_annot">stmt_has_annot</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p><code class="code"><span class="keyword">true</span></code> if the given statement has some annotations attached to it.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODstmt_labels">stmt_labels</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Print only the labels of the statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODstmtkind">stmtkind</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Print a statement kind.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODstorage">storage</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>T</div></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODterm">term</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODterm_binop">term_binop</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODterm_lhost">term_lhost</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODterm_lval">term_lval</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODterm_node">term_node</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODterm_offset">term_offset</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODterminates">terminates</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Menu_manager.item-c.html#METHODtoggle_tool_button">toggle_tool_button</a> [<a href="Menu_manager.item-c.html">Menu_manager.item</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Wpalette.tool-c.html#METHODtool">tool</a> [<a href="Wpalette.tool-c.html">Wpalette.tool</a>]</td>
+<td><div class="info">
+<p>Self cast</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.item-c.html#METHODtool_button">tool_button</a> [<a href="Menu_manager.item-c.html">Menu_manager.item</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.item-c.html#METHODtool_button_skel">tool_button_skel</a> [<a href="Menu_manager.item-c.html">Menu_manager.item</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.menu_manager-c.html#METHODtoolbar">toolbar</a> [<a href="Menu_manager.menu_manager-c.html">Menu_manager.menu_manager</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Design.main_window_extension_points-c.html#METHODtoplevel">toplevel</a> [<a href="Design.main_window_extension_points-c.html">Design.main_window_extension_points</a>]</td>
+<td><div class="info">
+<p>The whole GUI aka self</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODtyp">typ</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Use of some type in some declaration.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>U</div></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODunop">unop</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODunqueueInstr">unqueueInstr</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Gets the queue of instructions and resets the queue.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.entry-c.html#METHODupdate">update</a> [<a href="Wpane.entry-c.html">Wpane.entry</a>]</td>
+<td><div class="info">
+<p>On array request</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.warray-c.html#METHODupdate">update</a> [<a href="Wpane.warray-c.html">Wpane.warray</a>]</td>
+<td><div class="info">
+<p>Request update on each entry.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODupdate_all">update_all</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td><div class="info">
+<p>(only) Content of rows has changed</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODupdate_row">update_row</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>V</div></td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvEnterScope">vEnterScope</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvExitScope">vExitScope</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvallocates">vallocates</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvallocation">vallocation</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvannotation">vannotation</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODvariant">variant</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODvarinfo">varinfo</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Invoked on each variable use.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODvarname">varname</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Invoked each time an identifier name is to be printed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvassigns">vassigns</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvattr">vattr</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Attribute.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvattr">vattr</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvattrparam">vattrparam</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Attribute parameters.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvbehavior">vbehavior</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvblock">vblock</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Block.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvblock">vblock</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvcode_annot">vcode_annot</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvcompinfo">vcompinfo</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>declaration of a struct/union</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODvdecl">vdecl</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p>Invoked for each variable declaration.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvdecltype">vdecltype</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvdef">vdef</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvdeps">vdeps</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvenuminfo">venuminfo</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>declaration of an enumeration</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvenumitem">venumitem</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>visit the declaration of an enumeration item</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvexpr">vexpr</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Invoked on each expression occurrence.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvexpr">vexpr</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvfieldinfo">vfieldinfo</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>visit the declaration of a field of a structure or union</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvfile">vfile</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>visit a whole file.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvfrees">vfrees</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvfrom">vfrom</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvfunc">vfunc</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Function definition.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvglob">vglob</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Global (vars, types, etc.)</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor.frama_c_visitor-c.html#METHODvglob_aux">vglob_aux</a> [<a href="Visitor.frama_c_visitor-c.html">Visitor.frama_c_visitor</a>]</td>
+<td><div class="info">
+<p>Replacement of vglob.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvidentified_predicate">videntified_predicate</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvidentified_term">videntified_term</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.columns-c.html#METHODview">view</a> [<a href="Wtable.columns-c.html">Wtable.columns</a>]</td>
+<td><div class="info">
+<p>the tree</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.t-c.html#METHODview">view</a> [<a href="Filetree.t-c.html">Filetree.t</a>]</td>
+<td><div class="info">
+<p>The tree view associated in which the file tree is packed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.view_code-c.html#METHODview_original">view_original</a> [<a href="Design.view_code-c.html">Design.view_code</a>]</td>
+<td><div class="info">
+<p>Display the given location in the original_source_viewer</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.view_code-c.html#METHODview_original_stmt">view_original_stmt</a> [<a href="Design.view_code-c.html">Design.view_code</a>]</td>
+<td><div class="info">
+<p>Display the given <code class="code">stmt</code> in the original source viewer</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.view_code-c.html#METHODview_stmt">view_stmt</a> [<a href="Design.view_code-c.html">Design.view_code</a>]</td>
+<td><div class="info">
+<p>Display the given <code class="code">stmt</code> in the <code class="code">source_viewer</code> and in the
+      <code class="code">original_source_viewer</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvimpact_pragma">vimpact_pragma</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvinit">vinit</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Initializers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvinitexpr">vinitexpr</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvinitoffs">vinitoffs</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Invoked on each offset appearing in the list of a
+      CompoundInit initializer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvinst">vinst</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Invoked on each instruction occurrence.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlocal_init">vlocal_init</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>local initializer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_ctor_info_decl">vlogic_ctor_info_decl</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_ctor_info_use">vlogic_ctor_info_use</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_info_decl">vlogic_info_decl</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_info_use">vlogic_info_use</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_label">vlogic_label</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_type">vlogic_type</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_type_def">vlogic_type_def</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_type_info_decl">vlogic_type_info_decl</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_type_info_use">vlogic_type_info_use</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_var_decl">vlogic_var_decl</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlogic_var_use">vlogic_var_use</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvloop_pragma">vloop_pragma</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvlval">vlval</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Invoked on each lvalue occurrence</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvmodel_info">vmodel_info</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvname">vname</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvoffs">voffs</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Invoked on each offset occurrence that is *not* as part of an
+      initializer list specification, i.e.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvpredicate">vpredicate</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvpredicate_node">vpredicate_node</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvquantifiers">vquantifiers</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvslice_pragma">vslice_pragma</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvspec">vspec</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvspec">vspec</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvstmt">vstmt</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Control-flow statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvstmt">vstmt</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Visitor.frama_c_visitor-c.html#METHODvstmt_aux">vstmt_aux</a> [<a href="Visitor.frama_c_visitor-c.html">Visitor.frama_c_visitor</a>]</td>
+<td><div class="info">
+<p>Replacement of vstmt.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvterm">vterm</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvterm_lhost">vterm_lhost</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvterm_lval">vterm_lval</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvterm_node">vterm_node</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvterm_offset">vterm_offset</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvtype">vtype</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Use of some type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvtypespec">vtypespec</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabsvisit.cabsVisitor-c.html#METHODvvar">vvar</a> [<a href="Cabsvisit.cabsVisitor-c.html">Cabsvisit.cabsVisitor</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvvdec">vvdec</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Invoked for each variable declaration.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.cilVisitor-c.html#METHODvvrbl">vvrbl</a> [<a href="Cil.cilVisitor-c.html">Cil.cilVisitor</a>]</td>
+<td><div class="info">
+<p>Invoked on each variable use.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>W</div></td></tr>
+<tr><td><a href="Wutil.widget-c.html#METHODwidget">widget</a> [<a href="Wutil.widget-c.html">Wutil.widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wpane.entry-c.html#METHODwidget">widget</a> [<a href="Wpane.entry-c.html">Wpane.entry</a>]</td>
+<td><div class="info">
+<p>Returns the widget</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.widget-c.html#METHODwidget">widget</a> [<a href="Widget.widget-c.html">Widget.widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.extensible_printer_type-c.html#METHODwithout_annot">without_annot</a> [<a href="Printer_api.extensible_printer_type-c.html">Printer_api.extensible_printer_type</a>]</td>
+<td><div class="info">
+<p><code class="code">self<span class="keywordsign">#</span>without_annot&nbsp;printer&nbsp;fmt&nbsp;x</code> pretty prints <code class="code">x</code> by using <code class="code">printer</code>,
+      without pretty-printing its function contracts and code annotations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.marker-c.html#METHODwrap">wrap</a> [<a href="Wtext.marker-c.html">Wtext.marker</a>]</td>
+<td><div class="info">
+<p>Register with <code class="code"><span class="keywordsign">#</span>add</code> an entry around its pretty-print.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.text-c.html#METHODwrap">wrap</a> [<a href="Wtext.text-c.html">Wtext.text</a>]</td>
+<td><div class="info">
+<p>Print with a callback to the actual bounds of the printed material
+        after boxing.</p>
+
+</div>
+</td></tr>
+</table>
+</body>
+</html>

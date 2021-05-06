@@ -1,0 +1,543 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Translate_lightweight.html">
+<link rel="next" href="Typed_parameter.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Type declaration" rel="Section" href="#2_Typedeclaration">
+<link title="Pretty printing materials" rel="Section" href="#2_Prettyprintingmaterials">
+<link title="Constructor and getters" rel="Section" href="#2_Constructorandgetters">
+<link title="Type values are comparable" rel="Section" href="#2_Typevaluesarecomparable">
+<link title="Polymorphic type values" rel="Section" href="#2_Polymorphictypevalues">
+<link title="Heterogeneous Tables" rel="Section" href="#2_HeterogeneousTables">
+<title>Type - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Translate_lightweight.html" title="Translate_lightweight">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Typed_parameter.html" title="Typed_parameter">Next</a>
+</div>
+<h1>Module <a href="type_Type.html">Type</a></h1>
+
+<pre><span id="MODULEType"><span class="keyword">module</span> Type</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Type.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>Type value. A type value is a value representing a static ML monomorphic
+    type. This API is quite low level. Prefer to use module <a href="Datatype.html"><code class="code"><span class="constructor">Datatype</span></code></a> instead
+    whenever possible.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+<hr width="100%">
+<h3 id="2_Typedeclaration">Type declaration</h3>
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type">'a</code> t</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Type of type values. For each monomorphic type <code class="code">ty</code>, a value of type <code class="code">ty<br>
+&nbsp;&nbsp;&nbsp;&nbsp;t</code> dynamically represents the type <code class="code">ty</code>. Such a value is called a type
+    value and should be unique for each static monomorphic type.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+
+<pre><span id="TYPEty"><span class="keyword">type</span> <code class="type">'a</code> ty</span> = <code class="type">'a <a href="./Type.html#TYPEt">t</a></code> </pre>
+
+<h3 id="2_Prettyprintingmaterials">Pretty printing materials</h3>
+<pre><code><span id="TYPEprecedence"><span class="keyword">type</span> <code class="type"></code>precedence</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTprecedence.Basic"><span class="constructor">Basic</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTprecedence.Call"><span class="constructor">Call</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTprecedence.Tuple"><span class="constructor">Tuple</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTprecedence.List"><span class="constructor">List</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTprecedence.NoPar"><span class="constructor">NoPar</span></span></code></td>
+
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>Precedences used for generating the minimal number of parenthesis in
+    combination with function <a href="Type.html#VALpar"><code class="code"><span class="constructor">Type</span>.par</code></a> below.</p>
+</div>
+</div>
+
+
+<pre><span id="VALpar"><span class="keyword">val</span> par</span> : <code class="type"><a href="./Type.html#TYPEprecedence">precedence</a> -><br>       <a href="./Type.html#TYPEprecedence">precedence</a> -><br>       Stdlib.Format.formatter -> (Stdlib.Format.formatter -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">par&nbsp;context&nbsp;myself&nbsp;fmt&nbsp;pp</code> puts parenthesis around the verbatim
+    prints by <code class="code">pp</code> according to the precedence <code class="code">myself</code> of the verbatim and to
+    the precedence <code class="code">context</code> of the caller of the pretty printer. <code class="code">fmt</code> is the
+    output formatter.</p>
+
+<p>The typical use is the following:
+    <code class="code"><span class="keyword">let</span>&nbsp;pretty_print&nbsp;p_caller&nbsp;fmt&nbsp;x&nbsp;=<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;pp&nbsp;fmt&nbsp;=&nbsp;<span class="constructor">Format</span>.fprintf&nbsp;<span class="string">"..."</span>&nbsp;...&nbsp;x&nbsp;...&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;myself&nbsp;=&nbsp;<span class="constructor">Call</span>&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;par&nbsp;p_caller&nbsp;myself&nbsp;fmt&nbsp;pp</code></p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALpar_ty_name"><span class="keyword">val</span> par_ty_name</span> : <code class="type">('a <a href="./Type.html#TYPEt">t</a> -> bool) -> 'a <a href="./Type.html#TYPEt">t</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">par_ty_name&nbsp;f&nbsp;ty</code> puts parenthesis around the name of the <code class="code">ty</code> iff <code class="code">f&nbsp;ty</code>
+    is <code class="code"><span class="keyword">true</span></code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Carbon-20101201</li>
+</ul>
+</div>
+<h3 id="2_Constructorandgetters">Constructor and getters</h3>
+<pre><span id="EXCEPTIONAlreadyExists"><span class="keyword">exception</span> AlreadyExists</span> <span class="keyword">of</span> <code class="type">string</code></pre>
+<div class="info ">
+<div class="info-desc">
+<p>May be raised by <a href="Type.html#VALregister"><code class="code"><span class="constructor">Type</span>.register</code></a>.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALregister"><span class="keyword">val</span> register</span> : <code class="type">?closure:bool -><br>       name:string -><br>       ml_name:string option -> <a href="./Structural_descr.html#TYPEt">Structural_descr.t</a> -> 'a list -> 'a <a href="./Type.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">register&nbsp;?closure&nbsp;~name&nbsp;~ml_name&nbsp;descr&nbsp;reprs</code> registers
+    a new type value. Should not be used directly. Use one of functors of
+    module <a href="Datatype.html"><code class="code"><span class="constructor">Datatype</span></code></a> instead.
+    <code class="code">closure</code> is true iff the type is a function type.
+    <code class="code">name</code> is the name of the type. Must be a valid OCaml type name (eventually
+    prefixed by a module path).
+    <code class="code">ml_name</code> is the OCaml name of the registered type value.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b><ul><li><code>AlreadyExists</code> if the given name is already used by another type.</li>
+<li><code>Invalid_argument</code> if <code class="code">reprs</code> is the empty list</li>
+</ul></li>
+<b>Change in Boron-20100401</b>: request a list of representant, not only a single
+    one<br>
+<b>Change in Carbon-20101201</b>: <code class="code">value_name</code> is now <code class="code">ml_name</code>. Must provide a
+    structural descriptor. Argument <code class="code">pp</code> does not exist anymore.<br>
+</ul>
+</div>
+
+<pre><span id="EXCEPTIONNo_abstract_type"><span class="keyword">exception</span> No_abstract_type</span> <span class="keyword">of</span> <code class="type">string</code></pre>
+
+<pre><span id="MODULEAbstract"><span class="keyword">module</span> <a href="Type.Abstract.html">Abstract</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">T</span></code><code class="code">&nbsp;:&nbsp;</code><code class="code"><span class="keyword">sig</span></code></pre><div class="sig_block">
+<pre><span id="VALname"><span class="keyword">val</span> name</span> : <code class="type">string</code></pre></div><pre><code class="code"><span class="keyword">end</span></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="code"><span class="keyword">sig</span></code> <a href="Type.Abstract.html">..</a> <code class="code"><span class="keyword">end</span></code></div></pre><div class="info">
+<p>Apply this functor to access to the abstract type of the given name.</p>
+
+</div>
+
+<pre><span id="VALname"><span class="keyword">val</span> name</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> string</code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALstructural_descr"><span class="keyword">val</span> structural_descr</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> <a href="./Structural_descr.html#TYPEt">Structural_descr.t</a></code></pre>
+<pre><span id="VALreprs"><span class="keyword">val</span> reprs</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> 'a list</code></pre><div class="info ">
+<div class="info-desc">
+<p>Not usable in the "no-obj" mode</p>
+</div>
+</div>
+
+<pre><span id="VALdigest"><span class="keyword">val</span> digest</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> Stdlib.Digest.t</code></pre>
+<pre><span id="VALget_embedded_type_names"><span class="keyword">val</span> get_embedded_type_names</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> string list</code></pre><div class="info ">
+<div class="info-desc">
+<p>Get the list of names containing in the type represented by the given type
+    value. For instance <code class="code">get_embedded_type_names&nbsp;(<span class="constructor">Datatype</span>.func&nbsp;<span class="constructor">Datatype</span>.unit<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(<span class="constructor">Datatype</span>.list&nbsp;<span class="constructor">Datatype</span>.int))</code> returns <code class="code">&nbsp;<span class="string">"unit&nbsp;-&gt;&nbsp;int&nbsp;list"</span>;&nbsp;<span class="string">"unit"</span>;&nbsp;<span class="string">"int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list"</span>;&nbsp;<span class="string">"int"</span>&nbsp;</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Oxygen-20120901</li>
+</ul>
+</div>
+
+<pre><span id="VALml_name"><span class="keyword">val</span> ml_name</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> string</code></pre>
+<pre><span id="VALpp_ml_name"><span class="keyword">val</span> pp_ml_name</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> <a href="./Type.html#TYPEprecedence">precedence</a> -> Stdlib.Format.formatter -> unit</code></pre>
+<pre><span id="VALset_ml_name"><span class="keyword">val</span> set_ml_name</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> string option -> unit</code></pre>
+<pre><span id="VALset_name"><span class="keyword">val</span> set_name</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> string -> unit</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Since</b> Neon-20140301</li>
+</ul>
+</div>
+<h3 id="2_Typevaluesarecomparable">Type values are comparable</h3>
+<pre><span id="VALequal"><span class="keyword">val</span> equal</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> 'b <a href="./Type.html#TYPEt">t</a> -> bool</code></pre>
+<pre><span id="VALcompare"><span class="keyword">val</span> compare</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> 'b <a href="./Type.html#TYPEt">t</a> -> int</code></pre>
+<pre><span id="VALhash"><span class="keyword">val</span> hash</span> : <code class="type">'a <a href="./Type.html#TYPEt">t</a> -> int</code></pre><h3 id="2_Polymorphictypevalues">Polymorphic type values</h3>
+<p>Functors for handling polymorphic type: one type value must be registered
+    for each monomorphic instance of a polymorphic type.</p>
+
+<pre><span id="MODULETYPEPolymorphic_input"><span class="keyword">module type</span> <a href="Type.Polymorphic_input.html">Polymorphic_input</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Polymorphic_input.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>
+<pre><span id="MODULETYPEPolymorphic"><span class="keyword">module type</span> <a href="Type.Polymorphic.html">Polymorphic</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Polymorphic.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>For a polymorphic type value with one type variable, you must use an
+    implementation of this signature.</p>
+
+</div>
+
+<pre><span id="MODULEPolymorphic"><span class="keyword">module</span> <a href="Type.Polymorphic.html">Polymorphic</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">T</span></code><code class="code">&nbsp;:&nbsp;</code><code class="type"><a href="./Type.Polymorphic_input.html">Polymorphic_input</a></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="type"><a href="./Type.Polymorphic.html">Polymorphic</a></code><code class="type">  with type 'a poly = 'a T.t</code></div></pre><div class="info">
+<p>Generic implementation of polymorphic type value.</p>
+
+</div>
+
+<pre><span id="MODULETYPEPolymorphic2_input"><span class="keyword">module type</span> <a href="Type.Polymorphic2_input.html">Polymorphic2_input</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Polymorphic2_input.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>See module <a href="Type.Polymorphic_input.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic_input</span></code></a>: very same functions with one additional
+    argument corresponding to the second type variable.</p>
+
+</div>
+
+<pre><span id="MODULETYPEPolymorphic2"><span class="keyword">module type</span> <a href="Type.Polymorphic2.html">Polymorphic2</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Polymorphic2.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>Same as <a href="Type.Polymorphic.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic</span></code></a> for polymorphic types with two type variables.</p>
+
+</div>
+
+<pre><span id="MODULEPolymorphic2"><span class="keyword">module</span> <a href="Type.Polymorphic2.html">Polymorphic2</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">T</span></code><code class="code">&nbsp;:&nbsp;</code><code class="type"><a href="./Type.Polymorphic2_input.html">Polymorphic2_input</a></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="type"><a href="./Type.Polymorphic2.html">Polymorphic2</a></code><code class="type">  with type ('a, 'b) poly = ('a, 'b) T.t</code></div></pre><div class="info">
+<p>Generic implementation of polymorphic type value with two type variables.</p>
+
+</div>
+
+<pre><span id="MODULEFunction"><span class="keyword">module</span> <a href="Type.Function.html">Function</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Type.Function.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>Instance of <a href="Type.Polymorphic2.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic2</span></code></a> for functions: same signature than
+    <a href="Type.Polymorphic2.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic2</span></code></a> with possibility to specify a label for the function
+    parameter.</p>
+
+</div>
+
+<pre><span id="MODULETYPEPolymorphic3_input"><span class="keyword">module type</span> <a href="Type.Polymorphic3_input.html">Polymorphic3_input</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Polymorphic3_input.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>See module <a href="Type.Polymorphic_input.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic_input</span></code></a>: very same functions with two additional
+    arguments corresponding to the second and third type variables.</p>
+
+</div>
+
+<pre><span id="MODULETYPEPolymorphic3"><span class="keyword">module type</span> <a href="Type.Polymorphic3.html">Polymorphic3</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Polymorphic3.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>Same as <a href="Type.Polymorphic.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic</span></code></a> for polymorphic types with three type variables.</p>
+
+</div>
+
+<pre><span id="MODULEPolymorphic3"><span class="keyword">module</span> <a href="Type.Polymorphic3.html">Polymorphic3</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">T</span></code><code class="code">&nbsp;:&nbsp;</code><code class="type"><a href="./Type.Polymorphic3_input.html">Polymorphic3_input</a></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="type"><a href="./Type.Polymorphic3.html">Polymorphic3</a></code><code class="type">  with type ('a, 'b, 'c) poly = ('a, 'b, 'c) T.t</code></div></pre><div class="info">
+<p>Generic implementation of polymorphic type value with three type
+    variables.</p>
+
+</div>
+
+<pre><span id="MODULETYPEPolymorphic4_input"><span class="keyword">module type</span> <a href="Type.Polymorphic4_input.html">Polymorphic4_input</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Polymorphic4_input.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>See module <a href="Type.Polymorphic_input.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic_input</span></code></a>: very same functions with three additional
+    arguments corresponding to the additional type variables.</p>
+
+</div>
+
+<pre><span id="MODULETYPEPolymorphic4"><span class="keyword">module type</span> <a href="Type.Polymorphic4.html">Polymorphic4</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Polymorphic4.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>Same as <a href="Type.Polymorphic.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic</span></code></a> for polymorphic types with four type variables.</p>
+
+</div>
+
+<pre><span id="MODULEPolymorphic4"><span class="keyword">module</span> <a href="Type.Polymorphic4.html">Polymorphic4</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">T</span></code><code class="code">&nbsp;:&nbsp;</code><code class="type"><a href="./Type.Polymorphic4_input.html">Polymorphic4_input</a></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="type"><a href="./Type.Polymorphic4.html">Polymorphic4</a></code><code class="type">  with type ('a, 'b, 'c, 'd) poly = ('a, 'b, 'c, 'd) T.t</code></div></pre><div class="info">
+<p>Generic implementation of polymorphic type value with four type
+    variables.</p>
+
+</div>
+<h3 id="2_HeterogeneousTables">Heterogeneous Tables</h3>
+<p>These tables are safe to use but nevertheless not for casual users.</p>
+
+<pre><span id="MODULETYPEHeterogeneous_table"><span class="keyword">module type</span> <a href="Type.Heterogeneous_table.html">Heterogeneous_table</a></span> = <code class="code"><span class="keyword">sig</span></code> <a href="Type.Heterogeneous_table.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+</div>
+
+<pre><span id="MODULEMake_tbl"><span class="keyword">module</span> <a href="Type.Make_tbl.html">Make_tbl</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">Key</span></code><code class="code">&nbsp;:&nbsp;</code><code class="code"><span class="keyword">sig</span></code></pre><div class="sig_block"><pre><span class="keyword">include</span> Hashtbl.HashedType</pre>
+
+<pre><span id="VALto_string"><span class="keyword">val</span> to_string</span> : <code class="type"><a href="./Type.html#TYPEt">Type.t</a> -> string</code></pre></div><pre><code class="code"><span class="keyword">end</span></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">Info</span></code><code class="code">&nbsp;:&nbsp;</code><code class="code"><span class="keyword">sig</span></code></pre><div class="sig_block">
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type">'a</code> t</span> </pre>
+
+</div><pre><code class="code"><span class="keyword">end</span></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="type"><a href="./Type.Heterogeneous_table.html">Heterogeneous_table</a></code><code class="type">  with type key = Key.t and type 'a info = 'a Info.t</code></div></div></pre><div class="info">
+<p>Build an heterogeneous table associating keys to info.</p>
+
+</div>
+
+<pre><span id="MODULEString_tbl"><span class="keyword">module</span> <a href="Type.String_tbl.html">String_tbl</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">Info</span></code><code class="code">&nbsp;:&nbsp;</code><code class="code"><span class="keyword">sig</span></code></pre><div class="sig_block">
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type">'a</code> t</span> </pre>
+
+</div><pre><code class="code"><span class="keyword">end</span></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="type"><a href="./Type.Heterogeneous_table.html">Heterogeneous_table</a></code><code class="type">  with type key = string and type 'a info = 'a Info.t</code></div></pre><div class="info">
+<p>Heterogeneous tables indexed by string.</p>
+
+</div>
+
+<pre><span id="MODULETy_tbl"><span class="keyword">module</span> <a href="Type.Ty_tbl.html">Ty_tbl</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">Info</span></code><code class="code">&nbsp;:&nbsp;</code><code class="code"><span class="keyword">sig</span></code></pre><div class="sig_block">
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type">'a</code> t</span> </pre>
+
+</div><pre><code class="code"><span class="keyword">end</span></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="code"><span class="keyword">sig</span></code> <a href="Type.Ty_tbl.html">..</a> <code class="code"><span class="keyword">end</span></code></div></pre><div class="info">
+<p>Heterogeneous tables indexed by type value.</p>
+
+</div>
+
+<pre><span id="MODULEObj_tbl"><span class="keyword">module</span> <a href="Type.Obj_tbl.html">Obj_tbl</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Type.Obj_tbl.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>Heterogeneous table for the keys, but polymorphic for the values.</p>
+
+</div>
+</body></html>

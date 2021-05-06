@@ -1,0 +1,14 @@
+digraph "Plugin architecture (security_slicing)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Security_slicing" [style=filled, color=darkturquoise];
+"Security_slicing_parameters" [style=filled, color=darkturquoise];
+"Components" [style=filled, color=darkturquoise];
+"Components" -> "Security_slicing_parameters";
+"Register_gui" [style=filled, color=darkturquoise];
+"Register_gui" -> "Components";
+"Register_gui" -> "Security_slicing_parameters";
+}

@@ -1,0 +1,682 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Auto_loop_unroll.html">
+<link rel="next" href="Partitioning_parameters.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html">
+<link title="Eva" rel="Chapter" href="Eva.html">
+<link title="Split_strategy" rel="Chapter" href="Split_strategy.html">
+<link title="Domain_mode" rel="Chapter" href="Domain_mode.html">
+<link title="Value_parameters" rel="Chapter" href="Value_parameters.html">
+<link title="Value_perf" rel="Chapter" href="Value_perf.html">
+<link title="Eva_annotations" rel="Chapter" href="Eva_annotations.html">
+<link title="Value_util" rel="Chapter" href="Value_util.html">
+<link title="Red_statuses" rel="Chapter" href="Red_statuses.html">
+<link title="Mark_noresults" rel="Chapter" href="Mark_noresults.html">
+<link title="Widen_hints_ext" rel="Chapter" href="Widen_hints_ext.html">
+<link title="Widen" rel="Chapter" href="Widen.html">
+<link title="Split_return" rel="Chapter" href="Split_return.html">
+<link title="Per_stmt_slevel" rel="Chapter" href="Per_stmt_slevel.html">
+<link title="Library_functions" rel="Chapter" href="Library_functions.html">
+<link title="Eval_typ" rel="Chapter" href="Eval_typ.html">
+<link title="Backward_formals" rel="Chapter" href="Backward_formals.html">
+<link title="Alarmset" rel="Chapter" href="Alarmset.html">
+<link title="Eval" rel="Chapter" href="Eval.html">
+<link title="Structure" rel="Chapter" href="Structure.html">
+<link title="Abstract" rel="Chapter" href="Abstract.html">
+<link title="Value_product" rel="Chapter" href="Value_product.html">
+<link title="Location_lift" rel="Chapter" href="Location_lift.html">
+<link title="Cvalue_forward" rel="Chapter" href="Cvalue_forward.html">
+<link title="Cvalue_backward" rel="Chapter" href="Cvalue_backward.html">
+<link title="Main_values" rel="Chapter" href="Main_values.html">
+<link title="Main_locations" rel="Chapter" href="Main_locations.html">
+<link title="Offsm_value" rel="Chapter" href="Offsm_value.html">
+<link title="Sign_value" rel="Chapter" href="Sign_value.html">
+<link title="Eval_op" rel="Chapter" href="Eval_op.html">
+<link title="Function_args" rel="Chapter" href="Function_args.html">
+<link title="Domain_store" rel="Chapter" href="Domain_store.html">
+<link title="Domain_builder" rel="Chapter" href="Domain_builder.html">
+<link title="Domain_product" rel="Chapter" href="Domain_product.html">
+<link title="Domain_lift" rel="Chapter" href="Domain_lift.html">
+<link title="Unit_domain" rel="Chapter" href="Unit_domain.html">
+<link title="Printer_domain" rel="Chapter" href="Printer_domain.html">
+<link title="Traces_domain" rel="Chapter" href="Traces_domain.html">
+<link title="Simple_memory" rel="Chapter" href="Simple_memory.html">
+<link title="Octagons" rel="Chapter" href="Octagons.html">
+<link title="Gauges_domain" rel="Chapter" href="Gauges_domain.html">
+<link title="Hcexprs" rel="Chapter" href="Hcexprs.html">
+<link title="Equality" rel="Chapter" href="Equality.html">
+<link title="Equality_domain" rel="Chapter" href="Equality_domain.html">
+<link title="Offsm_domain" rel="Chapter" href="Offsm_domain.html">
+<link title="Symbolic_locs" rel="Chapter" href="Symbolic_locs.html">
+<link title="Sign_domain" rel="Chapter" href="Sign_domain.html">
+<link title="Warn" rel="Chapter" href="Warn.html">
+<link title="Locals_scoping" rel="Chapter" href="Locals_scoping.html">
+<link title="Cvalue_offsetmap" rel="Chapter" href="Cvalue_offsetmap.html">
+<link title="Value_results" rel="Chapter" href="Value_results.html">
+<link title="Builtins" rel="Chapter" href="Builtins.html">
+<link title="Builtins_malloc" rel="Chapter" href="Builtins_malloc.html">
+<link title="Builtins_string" rel="Chapter" href="Builtins_string.html">
+<link title="Builtins_misc" rel="Chapter" href="Builtins_misc.html">
+<link title="Builtins_memory" rel="Chapter" href="Builtins_memory.html">
+<link title="Builtins_print_c" rel="Chapter" href="Builtins_print_c.html">
+<link title="Builtins_watchpoint" rel="Chapter" href="Builtins_watchpoint.html">
+<link title="Builtins_float" rel="Chapter" href="Builtins_float.html">
+<link title="Builtins_split" rel="Chapter" href="Builtins_split.html">
+<link title="Inout_domain" rel="Chapter" href="Inout_domain.html">
+<link title="Eval_terms" rel="Chapter" href="Eval_terms.html">
+<link title="Eval_annots" rel="Chapter" href="Eval_annots.html">
+<link title="Powerset" rel="Chapter" href="Powerset.html">
+<link title="Transfer_logic" rel="Chapter" href="Transfer_logic.html">
+<link title="Cvalue_transfer" rel="Chapter" href="Cvalue_transfer.html">
+<link title="Cvalue_init" rel="Chapter" href="Cvalue_init.html">
+<link title="Cvalue_specification" rel="Chapter" href="Cvalue_specification.html">
+<link title="Cvalue_domain" rel="Chapter" href="Cvalue_domain.html">
+<link title="Subdivided_evaluation" rel="Chapter" href="Subdivided_evaluation.html">
+<link title="Evaluation" rel="Chapter" href="Evaluation.html">
+<link title="Abstractions" rel="Chapter" href="Abstractions.html">
+<link title="Recursion" rel="Chapter" href="Recursion.html">
+<link title="Transfer_stmt" rel="Chapter" href="Transfer_stmt.html">
+<link title="Transfer_specification" rel="Chapter" href="Transfer_specification.html">
+<link title="Auto_loop_unroll" rel="Chapter" href="Auto_loop_unroll.html">
+<link title="Partition" rel="Chapter" href="Partition.html">
+<link title="Partitioning_parameters" rel="Chapter" href="Partitioning_parameters.html">
+<link title="Partitioning_index" rel="Chapter" href="Partitioning_index.html">
+<link title="Trace_partitioning" rel="Chapter" href="Trace_partitioning.html">
+<link title="Mem_exec" rel="Chapter" href="Mem_exec.html">
+<link title="Iterator" rel="Chapter" href="Iterator.html">
+<link title="Initialization" rel="Chapter" href="Initialization.html">
+<link title="Compute_functions" rel="Chapter" href="Compute_functions.html">
+<link title="Analysis" rel="Chapter" href="Analysis.html">
+<link title="Register" rel="Chapter" href="Register.html">
+<link title="General_requests" rel="Chapter" href="General_requests.html">
+<link title="Unit_tests" rel="Chapter" href="Unit_tests.html">
+<link title="Values_request" rel="Chapter" href="Values_request.html">
+<link title="Apron_domain" rel="Chapter" href="Apron_domain.html">
+<link title="Numerors_utils" rel="Chapter" href="Numerors_utils.html">
+<link title="Numerors_float" rel="Chapter" href="Numerors_float.html">
+<link title="Numerors_interval" rel="Chapter" href="Numerors_interval.html">
+<link title="Numerors_arithmetics" rel="Chapter" href="Numerors_arithmetics.html">
+<link title="Numerors_value" rel="Chapter" href="Numerors_value.html">
+<link title="Numerors_domain" rel="Chapter" href="Numerors_domain.html">
+<link title="Abstract_value" rel="Chapter" href="Abstract_value.html">
+<link title="Abstract_location" rel="Chapter" href="Abstract_location.html">
+<link title="Abstract_domain" rel="Chapter" href="Abstract_domain.html">
+<link title="Simpler_domains" rel="Chapter" href="Simpler_domains.html">
+<link title="CilE" rel="Chapter" href="CilE.html">
+<link title="Cvalue" rel="Chapter" href="Cvalue.html">
+<link title="Precise_locs" rel="Chapter" href="Precise_locs.html">
+<link title="Value_types" rel="Chapter" href="Value_types.html">
+<link title="Widen_type" rel="Chapter" href="Widen_type.html">
+<link title="Gui_types" rel="Chapter" href="Gui_types.html">
+<link title="Gui_eval" rel="Chapter" href="Gui_eval.html">
+<link title="Gui_callstacks_filters" rel="Chapter" href="Gui_callstacks_filters.html">
+<link title="Gui_callstacks_manager" rel="Chapter" href="Gui_callstacks_manager.html">
+<link title="Gui_red" rel="Chapter" href="Gui_red.html">
+<link title="Register_gui" rel="Chapter" href="Register_gui.html"><link title="Keys and partitions." rel="Section" href="#2_Keysandpartitions">
+<link title="Partitioning actions." rel="Section" href="#2_Partitioningactions">
+<link title="Flows." rel="Section" href="#2_Flows">
+<title>Partition - Eva plugin</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Auto_loop_unroll.html" title="Auto_loop_unroll">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Partitioning_parameters.html" title="Partitioning_parameters">Next</a>
+</div>
+<h1>Module <a href="type_Partition.html">Partition</a></h1>
+
+<pre><span id="MODULEPartition"><span class="keyword">module</span> Partition</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Partition.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>A partition is a collection of states, each identified by a unique key.
+    The keys define the states partition: states with identical keys are joined
+    together, while states with different keys are maintained separate.
+    A key contains the reason for which a state must be kept separate from
+    others, or joined with similar states.</p>
+
+<p>Partitioning actions allow updating the keys or spliting some states to
+    define or change the partition. Actions are applied to flows, in which
+    states with the same key are *not* automatically joined. This allows
+    applying mutliple actions before recomputing the partitions. Flows can then
+    be converted into partitions, thus merging states with identical keys.</p>
+
+<p>Flows are used to transfer states from one partition to another. Transfer
+    functions can be applied to flows; keys are maintained through transfer
+    functions, until partitioning actions update them.</p>
+</div>
+</div>
+<hr width="100%">
+<h3 id="2_Keysandpartitions">Keys and partitions.</h3>
+<pre><span id="TYPEkey"><span class="keyword">type</span> <code class="type"></code>key</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Partitioning keys attached to states.</p>
+</div>
+</div>
+
+
+<pre><span id="MODULEKey"><span class="keyword">module</span> <a href="Partition.Key.html">Key</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Partition.Key.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>
+<pre><span id="TYPEpartition"><span class="keyword">type</span> <code class="type">'state</code> partition</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Collection of states, each identified by a unique key.</p>
+</div>
+</div>
+
+
+<pre><span id="VALempty"><span class="keyword">val</span> empty</span> : <code class="type">'a <a href="./Partition.html#TYPEpartition">partition</a></code></pre>
+<pre><span id="VALis_empty"><span class="keyword">val</span> is_empty</span> : <code class="type">'a <a href="./Partition.html#TYPEpartition">partition</a> -> bool</code></pre>
+<pre><span id="VALsize"><span class="keyword">val</span> size</span> : <code class="type">'a <a href="./Partition.html#TYPEpartition">partition</a> -> int</code></pre>
+<pre><span id="VALto_list"><span class="keyword">val</span> to_list</span> : <code class="type">'a <a href="./Partition.html#TYPEpartition">partition</a> -> 'a list</code></pre>
+<pre><span id="VALfind"><span class="keyword">val</span> find</span> : <code class="type"><a href="./Partition.html#TYPEkey">key</a> -> 'a <a href="./Partition.html#TYPEpartition">partition</a> -> 'a</code></pre>
+<pre><span id="VALreplace"><span class="keyword">val</span> replace</span> : <code class="type"><a href="./Partition.html#TYPEkey">key</a> -> 'a -> 'a <a href="./Partition.html#TYPEpartition">partition</a> -> 'a <a href="./Partition.html#TYPEpartition">partition</a></code></pre>
+<pre><span id="VALmerge"><span class="keyword">val</span> merge</span> : <code class="type">(<a href="./Partition.html#TYPEkey">key</a> -> 'a option -> 'b option -> 'c option) -><br>       'a <a href="./Partition.html#TYPEpartition">partition</a> -> 'b <a href="./Partition.html#TYPEpartition">partition</a> -> 'c <a href="./Partition.html#TYPEpartition">partition</a></code></pre>
+<pre><span id="VALiter"><span class="keyword">val</span> iter</span> : <code class="type">(<a href="./Partition.html#TYPEkey">key</a> -> 'a -> unit) -> 'a <a href="./Partition.html#TYPEpartition">partition</a> -> unit</code></pre>
+<pre><span id="VALfilter"><span class="keyword">val</span> filter</span> : <code class="type">(<a href="./Partition.html#TYPEkey">key</a> -> 'a -> bool) -><br>       'a <a href="./Partition.html#TYPEpartition">partition</a> -> 'a <a href="./Partition.html#TYPEpartition">partition</a></code></pre>
+<pre><span id="VALmap"><span class="keyword">val</span> map</span> : <code class="type">('a -> 'a) -> 'a <a href="./Partition.html#TYPEpartition">partition</a> -> 'a <a href="./Partition.html#TYPEpartition">partition</a></code></pre><h3 id="2_Partitioningactions">Partitioning actions.</h3>
+<pre><span id="TYPEbranch"><span class="keyword">type</span> <code class="type"></code>branch</span> = <code class="type">int</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Junction branch id in the control flow</p>
+</div>
+</div>
+
+
+<pre><span id="TYPErationing"><span class="keyword">type</span> <code class="type"></code>rationing</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Rationing are used to keep separate the <code class="code">n</code> first states propagated at
+    a point, by creating unique stamp until the limit is reached.
+    Implementation of the option -eva-slevel.</p>
+</div>
+</div>
+
+
+<pre><span id="VALnew_rationing"><span class="keyword">val</span> new_rationing</span> : <code class="type">limit:int -> merge:bool -> <a href="./Partition.html#TYPErationing">rationing</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Creates a new rationing, that can be used successively on several flows.</p>
+</div>
+</div>
+
+<pre><code><span id="TYPEunroll_limit"><span class="keyword">type</span> <code class="type"></code>unroll_limit</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTunroll_limit.ExpLimit"><span class="constructor">ExpLimit</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEexp">Cil_types.exp</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Value of the expression for each incoming state. The expression must
+      evaluate to a singleton integer in each state.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTunroll_limit.IntLimit"><span class="constructor">IntLimit</span></span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Integer limit.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTunroll_limit.AutoUnroll"><span class="constructor">AutoUnroll</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEstmt">Cil_types.stmt</a> * int * int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="constructor">AutoUnroll</span>(stmt,&nbsp;min,&nbsp;max)</code> requests to find a "good" unrolling limit
+      between <code class="code">min</code> and <code class="code">max</code> for the loop <code class="code">stmt</code>.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>The unroll limit of a loop.</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEsplit_kind"><span class="keyword">type</span> <code class="type"></code>split_kind</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTsplit_kind.Static"><span class="constructor">Static</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTsplit_kind.Dynamic"><span class="constructor">Dynamic</span></span></code></td>
+
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>Splits on an expression can be static or dynamic:</p>
+<ul>
+<li>static splits are processed once: the expression is only evaluated at the
+      split point, and the key is then kept unchanged until a merge.</li>
+<li>dynamic splits are regularly redone: the expression is re-evaluated, and
+      states are then split or merged accordingly.</li>
+</ul>
+</div>
+</div>
+
+
+<pre><span id="TYPEsplit_monitor"><span class="keyword">type</span> <code class="type"></code>split_monitor</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Split monitor: prevents splits from generating too many states.</p>
+</div>
+</div>
+
+
+<pre><span id="VALnew_monitor"><span class="keyword">val</span> new_monitor</span> : <code class="type">split_limit:int -> <a href="./Partition.html#TYPEsplit_monitor">split_monitor</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Creates a new monitor that allows to split up to <code class="code">split_limit</code> states.</p>
+</div>
+</div>
+
+<pre><code><span id="TYPEaction"><span class="keyword">type</span> <code class="type"></code>action</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Enter_loop"><span class="constructor">Enter_loop</span></span> <span class="keyword">of</span> <code class="type"><a href="./Partition.html#TYPEunroll_limit">unroll_limit</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Enters a loop in which the n first iterations will be kept separate:
+      creates an iteration counter at 0 for each states in the flow; states at
+      different iterations will be kept separate, untill reaching the
+      <code class="code">unroll_limit</code>. Counters are incremented by the <code class="code"><span class="constructor">Incr_loop</span></code> action.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Leave_loop"><span class="constructor">Leave_loop</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Leaves the current loop: removes its iteration counter. States that were
+      kept separate only by this iteration counter will be joined together.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Incr_loop"><span class="constructor">Incr_loop</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Increments the iteration counter of the current loop for all states in
+      the flow. States with different iteration counter are kept separate.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Branch"><span class="constructor">Branch</span></span> <span class="keyword">of</span> <code class="type"><a href="./Partition.html#TYPEbranch">branch</a> * int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Identifies all the states in the flow as coming from <code class="code">branch</code>.
+      They will be kept separated from states coming from other branches.
+      The integer is the maximum number of successive branches kept in the keys:
+      this action also removes the oldest branches from the keys to meet this
+      constraint.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Ration"><span class="constructor">Ration</span></span> <span class="keyword">of</span> <code class="type"><a href="./Partition.html#TYPErationing">rationing</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Ensures that the first states encountered are kept separate, by creating a
+      unique ration stamp for each new state until the <code class="code">limit</code> is reached. The
+      same rationing can be used on multiple flows. Applying a new rationing
+      replaces the previous one.
+      If the rationing has been created with <code class="code">merge:<span class="keyword">true</span></code>, all the states from
+      each flow receive the same stamp, but states from different flows receive
+      different stamps, until <code class="code">limit</code> states have been tagged.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Restrict"><span class="constructor">Restrict</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEexp">Cil_types.exp</a> * <a href="../../../doc/code/html/Integer.html#TYPEt">Integer.t</a> list</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="constructor">Restrict</span>&nbsp;(exp,&nbsp;list)</code> restricts the rationing according to the evaluation
+      of the expression <code class="code">exp</code>:
+      – for each integer <code class="code">i</code> in <code class="code">list</code>, states in which <code class="code">exp</code> evaluates exactly
+        to the singleton <code class="code">i</code> receive the same unique stamp, and will thus be
+        joined together but kept separate from other states;
+      – all other states are joined together.
+      Previous rationing is erased and replaced by this new stamping.
+      Implementation of the option -eva-split-return.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Split"><span class="constructor">Split</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEexp">Cil_types.exp</a> * <a href="./Partition.html#TYPEsplit_kind">split_kind</a> * <a href="./Partition.html#TYPEsplit_monitor">split_monitor</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="constructor">Split</span>&nbsp;(exp,&nbsp;kind,&nbsp;monitor)</code> tries to separate states such as the <code class="code">exp</code>
+      evaluates to a singleton value in each state in the flow. If necessary and
+      possible, splits states into multiple states. States in which the <code class="code">exp</code>
+      evaluates to different values will be kept separate. Gives up the split
+      if <code class="code">exp</code> evaluates to more than <code class="code">limit</code> values, <code class="code">limit</code> being the split
+      limit of the <code class="code">monitor</code>. A same monitor can be used for successive splits
+      on different flows.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Merge"><span class="constructor">Merge</span></span> <span class="keyword">of</span> <code class="type"><a href="../../../doc/code/html/Cil_types.html#TYPEexp">Cil_types.exp</a> * <a href="./Partition.html#TYPEsplit_kind">split_kind</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Forgets the split of an expression: states that were kept separate only
+      by the split of this expression will be joined together.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaction.Update_dynamic_splits"><span class="constructor">Update_dynamic_splits</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Updates dynamic splits by evaluating the expression and spliting the
+      states accordingly.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>These actions redefine the partitioning by updating keys or spliting states.
+    They are applied to all the pair (key, state) in a flow.</p>
+</div>
+</div>
+
+
+<pre><span id="EXCEPTIONInvalidAction"><span class="keyword">exception</span> InvalidAction</span></pre>
+<h3 id="2_Flows">Flows.</h3>
+<pre><span id="MODULEMakeFlow"><span class="keyword">module</span> <a href="Partition.MakeFlow.html">MakeFlow</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">Abstract</span></code><code class="code">&nbsp;:&nbsp;</code><code class="type"><a href="./Abstractions.Eva.html">Abstractions.Eva</a></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="code"><span class="keyword">sig</span></code> <a href="Partition.MakeFlow.html">..</a> <code class="code"><span class="keyword">end</span></code></div></pre><div class="info">
+<p>Flows are used to transfer states from one partition to another, by
+    applying transfer functions and partitioning actions.</p>
+
+</div>
+</body></html>

@@ -1,0 +1,658 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Db.Toplevel.html">
+<link rel="next" href="Db.From.html">
+<link rel="Up" href="Db.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Parameterization" rel="Section" href="#3_Parameterization">
+<link title="Getters" rel="Section" href="#3_Getters">
+<link title="Evaluations" rel="Section" href="#3_Evaluations">
+<link title="Values and kernel functions" rel="Section" href="#3_Valuesandkernelfunctions">
+<link title="Reachability" rel="Section" href="#3_Reachability">
+<link title="About kernel functions" rel="Section" href="#3_Aboutkernelfunctions">
+<link title="State before a kinstr" rel="Section" href="#3_Statebeforeakinstr">
+<link title="Locations of left values" rel="Section" href="#3_Locationsofleftvalues">
+<link title="Callbacks" rel="Section" href="#3_Callbacks">
+<link title="Pretty printing" rel="Section" href="#3_Prettyprinting">
+<link title="Arguments of the main function" rel="Subsection" href="#4_Argumentsofthemainfunction">
+<link title="Initial state of the analysis" rel="Subsection" href="#4_Initialstateoftheanalysis">
+<title>Db.Value - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Db.Toplevel.html" title="Db.Toplevel">Previous</a>
+&nbsp;<a class="up" href="Db.html" title="Db">Up</a>
+&nbsp;<a class="post" href="Db.From.html" title="Db.From">Next</a>
+</div>
+<h1>Module <a href="type_Db.Value.html">Db.Value</a></h1>
+
+<pre><span id="MODULEValue"><span class="keyword">module</span> Value</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Db.Value.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>The Value analysis itself.</p>
+</div>
+<ul class="info-attributes">
+<li><b>See also</b> <a href="../value/index.html">internal documentation.</a></li>
+</ul>
+</div>
+<hr width="100%">
+
+<pre><span id="TYPEstate"><span class="keyword">type</span> <code class="type"></code>state</span> = <code class="type">Cvalue.Model.t</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Internal state of the value analysis.</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> = <code class="type">Cvalue.V.t</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Internal representation of a value.</p>
+</div>
+</div>
+
+
+<pre><span id="EXCEPTIONAborted"><span class="keyword">exception</span> Aborted</span></pre>
+
+<pre><span id="VALemitter"><span class="keyword">val</span> emitter</span> : <code class="type">Emitter.t Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Emitter used by Value to emit statuses</p>
+</div>
+</div>
+
+<pre><span id="VALself"><span class="keyword">val</span> self</span> : <code class="type">State.t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Internal state of the value analysis from projects viewpoint.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALmark_as_computed"><span class="keyword">val</span> mark_as_computed</span> : <code class="type">unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Indicate that the value analysis has been done already.</p>
+</div>
+</div>
+
+<pre><span id="VALcompute"><span class="keyword">val</span> compute</span> : <code class="type">(unit -> unit) Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Compute the value analysis using the entry point of the current
+        project. You may set it with <a href="Globals.html#VALset_entry_point"><code class="code"><span class="constructor">Globals</span>.set_entry_point</code></a>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b><ul><li><code>Globals.No_such_entry_point</code> if the entry point is incorrect</li>
+<li><code>Db.Value.Incorrect_number_of_arguments</code> if some arguments are
+        specified for the entry point using <a href="Db.Value.html#VALfun_set_args"><code class="code"><span class="constructor">Db</span>.<span class="constructor">Value</span>.fun_set_args</code></a>, and
+        an incorrect number of them is given.</li>
+</ul></li>
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALis_computed"><span class="keyword">val</span> is_computed</span> : <code class="type">unit -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Return <code class="code"><span class="keyword">true</span></code> iff the value analysis has been done.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="MODULETable_By_Callstack"><span class="keyword">module</span> <a href="Db.Value.Table_By_Callstack.html">Table_By_Callstack</a></span>: <code class="type"><a href="./State_builder.Hashtbl.html">State_builder.Hashtbl</a></code><code class="type">  with type key = stmt
+                          and type data = state Value_types.Callstack.Hashtbl.t</code></pre><div class="info">
+<p>Table containing the results of the value analysis, ie.</p>
+
+</div>
+
+<pre><span id="MODULEAfterTable_By_Callstack"><span class="keyword">module</span> <a href="Db.Value.AfterTable_By_Callstack.html">AfterTable_By_Callstack</a></span>: <code class="type"><a href="./State_builder.Hashtbl.html">State_builder.Hashtbl</a></code><code class="type">  with type key = stmt
+                          and type data = state Value_types.Callstack.Hashtbl.t</code></pre><div class="info">
+<p>Table containing the state of the value analysis after the evaluation
+        of each reachable and evaluable statement.</p>
+
+</div>
+
+<pre><span id="VALignored_recursive_call"><span class="keyword">val</span> ignored_recursive_call</span> : <code class="type"><a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>This functions returns true if the value analysis found and ignored
+      a recursive call to this function during the analysis.</p>
+</div>
+</div>
+
+<pre><span id="VALcondition_truth_value"><span class="keyword">val</span> condition_truth_value</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> bool * bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Provided <code class="code">stmt</code> is an 'if' construct, <code class="code">fst&nbsp;(condition_truth_value&nbsp;stmt)</code>
+      (resp. snd) is true if and only if the condition of the 'if' has been
+      evaluated to true (resp. false) at least once during the analysis.</p>
+</div>
+</div>
+<h4 id="3_Parameterization">Parameterization</h4>
+<pre><span id="EXCEPTIONOutside_builtin_possibilities"><span class="keyword">exception</span> Outside_builtin_possibilities</span></pre>
+
+<pre><span id="TYPEbuiltin_type"><span class="keyword">type</span> <code class="type"></code>builtin_type</span> = <code class="type">unit -> <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> * <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> list</code> </pre>
+
+
+<pre><span id="TYPEbuiltin"><span class="keyword">type</span> <code class="type"></code>builtin</span> = <code class="type"><a href="./Db.Value.html#TYPEstate">state</a> -><br>       (<a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> * Cvalue.V.t * Cvalue.V_Offsetmap.t) list -><br>       Value_types.call_result</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Type for an Eva builtin function</p>
+</div>
+</div>
+
+
+<pre><span id="VALregister_builtin"><span class="keyword">val</span> register_builtin</span> : <code class="type">(string -><br>        ?replace:string -> ?typ:<a href="./Db.Value.html#TYPEbuiltin_type">builtin_type</a> -> <a href="./Db.Value.html#TYPEbuiltin">builtin</a> -> unit)<br>       Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">!register_builtin&nbsp;name&nbsp;?replace&nbsp;?typ&nbsp;f</code> registers an abstract function
+      <code class="code">f</code> to use everytime a C function named <code class="code">name</code> of type <code class="code">typ</code> is called in
+      the program.  If <code class="code">replace</code> is supplied and option <code class="code">-eva-builtins-auto</code> is
+      active, calls to <code class="code">replace</code> will also be substituted by the builtin.  See
+      also option <code class="code">-eva-builtin</code></p>
+</div>
+</div>
+
+<pre><span id="VALregistered_builtins"><span class="keyword">val</span> registered_builtins</span> : <code class="type">(unit -> (string * <a href="./Db.Value.html#TYPEbuiltin">builtin</a>) list) Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Returns a list of the pairs (name, builtin) registered via
+      <code class="code">register_builtin</code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Aluminium-20160501</li>
+</ul>
+</div>
+
+<pre><span id="VALmem_builtin"><span class="keyword">val</span> mem_builtin</span> : <code class="type">(string -> bool) Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>returns whether there is an abstract function registered by
+      <a href="Db.Value.html#VALregister_builtin"><code class="code"><span class="constructor">Db</span>.<span class="constructor">Value</span>.register_builtin</code></a> with the given name.</p>
+</div>
+</div>
+
+<pre><span id="VALuse_spec_instead_of_definition"><span class="keyword">val</span> use_spec_instead_of_definition</span> : <code class="type">(<a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> bool) Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>To be called by derived analyses to determine if they must use
+      the body of the function (if available), or only its spec. Used for
+      value builtins, and option -val-use-spec.</p>
+</div>
+</div>
+<h5 id="4_Argumentsofthemainfunction">Arguments of the main function</h5><p>The functions below are related to the arguments that are passed to the
+      function that is analysed by the value analysis. Specific arguments
+      are set by <code class="code">fun_set_args</code>. Arguments reset to default values when
+      <code class="code">fun_use_default_args</code> is called, when the ast is changed, or
+      if the options <code class="code">-libentry</code> or <code class="code">-main</code> are changed.</p>
+
+<pre><span id="VALfun_set_args"><span class="keyword">val</span> fun_set_args</span> : <code class="type"><a href="./Db.Value.html#TYPEt">t</a> list -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Specify the arguments to use. This function is not journalized, and
+      will generate an error when the journal is replayed</p>
+</div>
+</div>
+
+<pre><span id="VALfun_use_default_args"><span class="keyword">val</span> fun_use_default_args</span> : <code class="type">unit -> unit</code></pre>
+<pre><span id="VALfun_get_args"><span class="keyword">val</span> fun_get_args</span> : <code class="type">unit -> <a href="./Db.Value.html#TYPEt">t</a> list option</code></pre><div class="info ">
+<div class="info-desc">
+<p>For this function, the result <code class="code"><span class="constructor">None</span></code> means that
+      default values are used for the arguments.</p>
+</div>
+</div>
+
+<pre><span id="EXCEPTIONIncorrect_number_of_arguments"><span class="keyword">exception</span> Incorrect_number_of_arguments</span></pre>
+<div class="info ">
+<div class="info-desc">
+<p>Raised by <code class="code"><span class="constructor">Db</span>.<span class="constructor">Compute</span></code> when the arguments set by <code class="code">fun_set_args</code>
+      are not coherent with the prototype of the function (if there are
+      too few or too many of them)</p>
+</div>
+</div>
+<h5 id="4_Initialstateoftheanalysis">Initial state of the analysis</h5><p>The functions below are related to the value of the global variables
+      when the value analysis is started. If <code class="code">globals_set_initial_state</code> has not
+      been called, the given state is used. A default state (which depends on
+      the option <code class="code">-libentry</code>) is used when <code class="code">globals_use_default_initial_state</code>
+      is called, or when the ast changes.</p>
+
+<pre><span id="VALglobals_set_initial_state"><span class="keyword">val</span> globals_set_initial_state</span> : <code class="type"><a href="./Db.Value.html#TYPEstate">state</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Specify the initial state to use. This function is not journalized,
+      and will generate an error when the journal is replayed</p>
+</div>
+</div>
+
+<pre><span id="VALglobals_use_default_initial_state"><span class="keyword">val</span> globals_use_default_initial_state</span> : <code class="type">unit -> unit</code></pre>
+<pre><span id="VALglobals_state"><span class="keyword">val</span> globals_state</span> : <code class="type">unit -> <a href="./Db.Value.html#TYPEstate">state</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Initial state used by the analysis</p>
+</div>
+</div>
+
+<pre><span id="VALglobals_use_supplied_state"><span class="keyword">val</span> globals_use_supplied_state</span> : <code class="type">unit -> bool</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Returns</b> <code class="code"><span class="keyword">true</span></code> if the initial state for globals used by the value
+      analysis has been supplied by the user (through
+      <code class="code">globals_set_initial_state</code>), or <code class="code"><span class="keyword">false</span></code> if it is automatically
+      computed by the value analysis</li>
+</ul>
+</div>
+<h4 id="3_Getters">Getters</h4><p>State of the analysis at various points</p>
+
+<pre><span id="VALget_initial_state"><span class="keyword">val</span> get_initial_state</span> : <code class="type"><a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> <a href="./Db.Value.html#TYPEstate">state</a></code></pre>
+<pre><span id="VALget_initial_state_callstack"><span class="keyword">val</span> get_initial_state_callstack</span> : <code class="type"><a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -><br>       <a href="./Db.Value.html#TYPEstate">state</a> Value_types.Callstack.Hashtbl.t option</code></pre>
+<pre><span id="VALget_state"><span class="keyword">val</span> get_state</span> : <code class="type">?after:bool -> <a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -> <a href="./Db.Value.html#TYPEstate">state</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">after</code> is false by default.</p>
+</div>
+</div>
+
+<pre><span id="VALget_stmt_state_callstack"><span class="keyword">val</span> get_stmt_state_callstack</span> : <code class="type">after:bool -><br>       <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> <a href="./Db.Value.html#TYPEstate">state</a> Value_types.Callstack.Hashtbl.t option</code></pre>
+<pre><span id="VALget_stmt_state"><span class="keyword">val</span> get_stmt_state</span> : <code class="type">?after:bool -> <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> <a href="./Db.Value.html#TYPEstate">state</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">after</code> is false by default.</p>
+</div>
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALfold_stmt_state_callstack"><span class="keyword">val</span> fold_stmt_state_callstack</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -> 'a -> 'a) -> 'a -> after:bool -> <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> 'a</code></pre>
+<pre><span id="VALfold_state_callstack"><span class="keyword">val</span> fold_state_callstack</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -> 'a -> 'a) -> 'a -> after:bool -> <a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -> 'a</code></pre>
+<pre><span id="VALfind"><span class="keyword">val</span> find</span> : <code class="type"><a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Locations.html#TYPElocation">Locations.location</a> -> <a href="./Db.Value.html#TYPEt">t</a></code></pre><h4 id="3_Evaluations">Evaluations</h4>
+<pre><span id="VALeval_lval"><span class="keyword">val</span> eval_lval</span> : <code class="type">(?with_alarms:CilE.warn_mode -><br>        <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> option -><br>        <a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> option * <a href="./Db.Value.html#TYPEt">t</a>)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALeval_expr"><span class="keyword">val</span> eval_expr</span> : <code class="type">(?with_alarms:CilE.warn_mode -> <a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Db.Value.html#TYPEt">t</a>)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALeval_expr_with_state"><span class="keyword">val</span> eval_expr_with_state</span> : <code class="type">(?with_alarms:CilE.warn_mode -><br>        <a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Db.Value.html#TYPEstate">state</a> * <a href="./Db.Value.html#TYPEt">t</a>)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALreduce_by_cond"><span class="keyword">val</span> reduce_by_cond</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> bool -> <a href="./Db.Value.html#TYPEstate">state</a>) Stdlib.ref</code></pre>
+<pre><span id="VALfind_lv_plus"><span class="keyword">val</span> find_lv_plus</span> : <code class="type">(Cvalue.Model.t -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> (<a href="./Cil_types.html#TYPElval">Cil_types.lval</a> * <a href="./Ival.html#TYPEt">Ival.t</a>) list)<br>       Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>returns the list of all decompositions of <code class="code">expr</code> into the sum an lvalue
+      and an interval.</p>
+</div>
+</div>
+<h4 id="3_Valuesandkernelfunctions">Values and kernel functions</h4>
+<pre><span id="VALexpr_to_kernel_function"><span class="keyword">val</span> expr_to_kernel_function</span> : <code class="type">(<a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -><br>        ?with_alarms:CilE.warn_mode -><br>        deps:<a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> option -><br>        <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> * Kernel_function.Hptset.t)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALexpr_to_kernel_function_state"><span class="keyword">val</span> expr_to_kernel_function_state</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -><br>        deps:<a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> option -><br>        <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> * Kernel_function.Hptset.t)<br>       Stdlib.ref</code></pre>
+<pre><span id="EXCEPTIONNot_a_call"><span class="keyword">exception</span> Not_a_call</span></pre>
+
+<pre><span id="VALcall_to_kernel_function"><span class="keyword">val</span> call_to_kernel_function</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> Kernel_function.Hptset.t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Return the functions that can be called from this call.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Not_a_call</code> if the statement is not a call.</li>
+</ul>
+</div>
+
+<pre><span id="VALvalid_behaviors"><span class="keyword">val</span> valid_behaviors</span> : <code class="type">(<a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> <a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> list)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALadd_formals_to_state"><span class="keyword">val</span> add_formals_to_state</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -><br>        <a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> list -> <a href="./Db.Value.html#TYPEstate">state</a>)<br>       Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add_formals_to_state&nbsp;state&nbsp;kf&nbsp;exps</code> evaluates <code class="code">exps</code> in <code class="code">state</code>
+        and binds them to the formal arguments of <code class="code">kf</code> in the resulting
+        state</p>
+</div>
+</div>
+<h4 id="3_Reachability">Reachability</h4>
+<pre><span id="VALis_accessible"><span class="keyword">val</span> is_accessible</span> : <code class="type"><a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -> bool</code></pre>
+<pre><span id="VALis_reachable"><span class="keyword">val</span> is_reachable</span> : <code class="type"><a href="./Db.Value.html#TYPEstate">state</a> -> bool</code></pre><div class="info ">
+<ul class="info-attributes">
+<b>Consult the <a href="http://www.frama-c.com/download/frama-c-plugin-development-guide.pdf">Plugin Development Guide</a></b> for additional details.<br>
+</ul>
+</div>
+
+<pre><span id="VALis_reachable_stmt"><span class="keyword">val</span> is_reachable_stmt</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> bool</code></pre><h4 id="3_Aboutkernelfunctions">About kernel functions</h4>
+<pre><span id="EXCEPTIONVoid_Function"><span class="keyword">exception</span> Void_Function</span></pre>
+
+<pre><span id="VALfind_return_loc"><span class="keyword">val</span> find_return_loc</span> : <code class="type"><a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> <a href="./Locations.html#TYPElocation">Locations.location</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Return the location of the returned lvalue of the given function.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Void_Function</code> if the function does not return any value.</li>
+</ul>
+</div>
+
+<pre><span id="VALis_called"><span class="keyword">val</span> is_called</span> : <code class="type">(<a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> bool) Stdlib.ref</code></pre>
+<pre><span id="VALcallers"><span class="keyword">val</span> callers</span> : <code class="type">(<a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -><br>        (<a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> * <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> list) list)<br>       Stdlib.ref</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Returns</b> the list of callers with their call sites. Each function is
+        present only once in the list.</li>
+</ul>
+</div>
+<h4 id="3_Statebeforeakinstr">State before a kinstr</h4>
+<pre><span id="VALaccess"><span class="keyword">val</span> access</span> : <code class="type">(<a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Db.Value.html#TYPEt">t</a>) Stdlib.ref</code></pre>
+<pre><span id="VALaccess_expr"><span class="keyword">val</span> access_expr</span> : <code class="type">(<a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> <a href="./Db.Value.html#TYPEt">t</a>) Stdlib.ref</code></pre>
+<pre><span id="VALaccess_location"><span class="keyword">val</span> access_location</span> : <code class="type">(<a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -> <a href="./Locations.html#TYPElocation">Locations.location</a> -> <a href="./Db.Value.html#TYPEt">t</a>) Stdlib.ref</code></pre><h4 id="3_Locationsofleftvalues">Locations of left values</h4>
+<pre><span id="VALlval_to_loc"><span class="keyword">val</span> lval_to_loc</span> : <code class="type">(<a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -><br>        ?with_alarms:CilE.warn_mode -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.html#TYPElocation">Locations.location</a>)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALlval_to_loc_with_deps"><span class="keyword">val</span> lval_to_loc_with_deps</span> : <code class="type">(<a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -><br>        ?with_alarms:CilE.warn_mode -><br>        deps:<a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> -><br>        <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> * <a href="./Locations.html#TYPElocation">Locations.location</a>)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALlval_to_loc_with_deps_state"><span class="keyword">val</span> lval_to_loc_with_deps_state</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -><br>        deps:<a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> -><br>        <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> * <a href="./Locations.html#TYPElocation">Locations.location</a>)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALlval_to_loc_state"><span class="keyword">val</span> lval_to_loc_state</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.html#TYPElocation">Locations.location</a>) Stdlib.ref</code></pre>
+<pre><span id="VALlval_to_offsetmap"><span class="keyword">val</span> lval_to_offsetmap</span> : <code class="type">(<a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -><br>        ?with_alarms:CilE.warn_mode -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> Cvalue.V_Offsetmap.t option)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALlval_to_offsetmap_state"><span class="keyword">val</span> lval_to_offsetmap_state</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> Cvalue.V_Offsetmap.t option) Stdlib.ref</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Since</b> Carbon-20110201</li>
+</ul>
+</div>
+
+<pre><span id="VALlval_to_zone"><span class="keyword">val</span> lval_to_zone</span> : <code class="type">(<a href="./Cil_types.html#TYPEkinstr">Cil_types.kinstr</a> -><br>        ?with_alarms:CilE.warn_mode -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a>)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALlval_to_zone_state"><span class="keyword">val</span> lval_to_zone_state</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a>) Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Does not emit alarms.</p>
+</div>
+</div>
+
+<pre><span id="VALlval_to_zone_with_deps_state"><span class="keyword">val</span> lval_to_zone_with_deps_state</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -><br>        for_writing:bool -><br>        deps:<a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> option -><br>        <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> * <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> * bool)<br>       Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">lval_to_zone_with_deps_state&nbsp;state&nbsp;~for_writing&nbsp;~deps&nbsp;lv</code> computes
+      <code class="code">res_deps,&nbsp;zone_lv,&nbsp;exact</code>, where <code class="code">res_deps</code> are the memory zones needed
+      to evaluate <code class="code">lv</code> in <code class="code">state</code> joined  with <code class="code">deps</code>. <code class="code">zone_lv</code> contains the
+      valid memory zones that correspond to the location that <code class="code">lv</code> evaluates
+      to in <code class="code">state</code>. If <code class="code">for_writing</code> is true, <code class="code">zone_lv</code> is restricted to
+      memory zones that are writable. <code class="code">exact</code> indicates that <code class="code">lv</code> evaluates
+      to a valid location of cardinal at most one.</p>
+</div>
+</div>
+
+<pre><span id="VALlval_to_precise_loc_state"><span class="keyword">val</span> lval_to_precise_loc_state</span> : <code class="type">(?with_alarms:CilE.warn_mode -><br>        <a href="./Db.Value.html#TYPEstate">state</a> -><br>        <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -><br>        <a href="./Db.Value.html#TYPEstate">state</a> * Precise_locs.precise_location * <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a>)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALlval_to_precise_loc_with_deps_state"><span class="keyword">val</span> lval_to_precise_loc_with_deps_state</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -><br>        deps:<a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> option -><br>        <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a> * Precise_locs.precise_location)<br>       Stdlib.ref</code></pre>
+<pre><span id="VALassigns_inputs_to_zone"><span class="keyword">val</span> assigns_inputs_to_zone</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a>) Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Evaluation of the <code class="code">\from</code> clause of an <code class="code">assigns</code> clause.</p>
+</div>
+</div>
+
+<pre><span id="VALassigns_outputs_to_zone"><span class="keyword">val</span> assigns_outputs_to_zone</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -><br>        result:<a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> option -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Locations.Zone.html#TYPEt">Locations.Zone.t</a>)<br>       Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Evaluation of the left part of <code class="code">assigns</code> clause (without <code class="code">\from</code>).</p>
+</div>
+</div>
+
+<pre><span id="VALassigns_outputs_to_locations"><span class="keyword">val</span> assigns_outputs_to_locations</span> : <code class="type">(<a href="./Db.Value.html#TYPEstate">state</a> -><br>        result:<a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> option -><br>        <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> <a href="./Locations.html#TYPElocation">Locations.location</a> list)<br>       Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Evaluation of the left part of <code class="code">assigns</code> clause (without <code class="code">\from</code>). Each
+      assigns term results in one location.</p>
+</div>
+</div>
+
+<pre><span id="VALverify_assigns_froms"><span class="keyword">val</span> verify_assigns_froms</span> : <code class="type">(Kernel_function.t -> pre:<a href="./Db.Value.html#TYPEstate">state</a> -> Function_Froms.t -> unit)<br>       Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>For internal use only. Evaluate the <code class="code">assigns</code> clause of the
+      given function in the given prestate, compare it with the
+      computed froms, return warning and set statuses.</p>
+</div>
+</div>
+
+<pre><span id="MODULELogic"><span class="keyword">module</span> <a href="Db.Value.Logic.html">Logic</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Db.Value.Logic.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+<p>Evaluation of logic terms and predicates</p>
+
+</div>
+<h4 id="3_Callbacks">Callbacks</h4>
+<pre><span id="TYPEcallstack"><span class="keyword">type</span> <code class="type"></code>callstack</span> = <code class="type">Value_types.callstack</code> </pre>
+
+<p>Actions to perform at end of each function analysis. Not compatible with
+      option <code class="code">-memexec-all</code></p>
+
+<pre><span id="MODULERecord_Value_Callbacks"><span class="keyword">module</span> <a href="Db.Value.Record_Value_Callbacks.html">Record_Value_Callbacks</a></span>: <code class="type"><a href="./Hook.Iter_hook.html">Hook.Iter_hook</a></code><code class="type">  with type param = callstack * (state Stmt.Hashtbl.t) Lazy.t</code></pre>
+<pre><span id="MODULERecord_Value_Superposition_Callbacks"><span class="keyword">module</span> <a href="Db.Value.Record_Value_Superposition_Callbacks.html">Record_Value_Superposition_Callbacks</a></span>: <code class="type"><a href="./Hook.Iter_hook.html">Hook.Iter_hook</a></code><code class="type">  with type param = callstack * (state list Stmt.Hashtbl.t) Lazy.t</code></pre>
+<pre><span id="MODULERecord_Value_After_Callbacks"><span class="keyword">module</span> <a href="Db.Value.Record_Value_After_Callbacks.html">Record_Value_After_Callbacks</a></span>: <code class="type"><a href="./Hook.Iter_hook.html">Hook.Iter_hook</a></code><code class="type">  with type param = callstack * (state Stmt.Hashtbl.t) Lazy.t</code></pre>
+<pre><span id="VALno_results"><span class="keyword">val</span> no_results</span> : <code class="type">(<a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> -> bool) Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>Returns <code class="code"><span class="keyword">true</span></code> if the user has requested that no results should
+      be recorded for this function. If possible, hooks registered
+      on <code class="code"><span class="constructor">Record_Value_Callbacks</span></code> and <code class="code"><span class="constructor">Record_Value_Callbacks_New</span></code>
+      should not force their lazy argument</p>
+</div>
+</div>
+
+<pre><span id="MODULECall_Value_Callbacks"><span class="keyword">module</span> <a href="Db.Value.Call_Value_Callbacks.html">Call_Value_Callbacks</a></span>: <code class="type"><a href="./Hook.Iter_hook.html">Hook.Iter_hook</a></code><code class="type">  with type param = state * callstack</code></pre><div class="info">
+<span class="deprecated"><p>Actions to perform at each treatment of a "call"
+      statement.</p>
+
+</span></div>
+
+<pre><span id="MODULECall_Type_Value_Callbacks"><span class="keyword">module</span> <a href="Db.Value.Call_Type_Value_Callbacks.html">Call_Type_Value_Callbacks</a></span>: <code class="type"><a href="./Hook.Iter_hook.html">Hook.Iter_hook</a></code><code class="type">  with type param =
+    [`Builtin of Value_types.call_result | `Spec of funspec | `Def | `Memexec]
+    * state * callstack</code></pre><div class="info">
+<p>Actions to perform at each treatment of a "call"
+      statement.</p>
+
+</div>
+
+<pre><span id="MODULECompute_Statement_Callbacks"><span class="keyword">module</span> <a href="Db.Value.Compute_Statement_Callbacks.html">Compute_Statement_Callbacks</a></span>: <code class="type"><a href="./Hook.Iter_hook.html">Hook.Iter_hook</a></code><code class="type">  with type param = stmt * callstack * state list</code></pre><div class="info">
+<p>Actions to perform whenever a statement is handled.</p>
+
+</div>
+
+<pre><span id="VALrm_asserts"><span class="keyword">val</span> rm_asserts</span> : <code class="type">(unit -> unit) Stdlib.ref</code></pre><h4 id="3_Prettyprinting">Pretty printing</h4>
+<pre><span id="VALpretty"><span class="keyword">val</span> pretty</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Db.Value.html#TYPEt">t</a> -> unit</code></pre>
+<pre><span id="VALpretty_state"><span class="keyword">val</span> pretty_state</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Db.Value.html#TYPEstate">state</a> -> unit</code></pre>
+<pre><span id="VALdisplay"><span class="keyword">val</span> display</span> : <code class="type">(Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEkernel_function">Cil_types.kernel_function</a> -> unit) Stdlib.ref</code></pre></body></html>

@@ -1,0 +1,24 @@
+digraph "Plugin architecture (report)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Report" [style=filled, color=darkturquoise];
+"Report_parameters" [style=filled, color=darkturquoise];
+"Scan" [style=filled, color=darkturquoise];
+"Scan" -> "Report_parameters";
+"Dump" [style=filled, color=darkturquoise];
+"Dump" -> "Report_parameters";
+"Dump" -> "Scan";
+"Csv" [style=filled, color=darkturquoise];
+"Csv" -> "Report_parameters";
+"Csv" -> "Scan";
+"Classify" [style=filled, color=darkturquoise];
+"Classify" -> "Report_parameters";
+"Classify" -> "Scan";
+"Register" [style=filled, color=darkturquoise];
+"Register" -> "Dump";
+"Register" -> "Report_parameters";
+"Register" -> "Scan";
+}

@@ -1,0 +1,731 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Bag.html">
+<link rel="next" href="Binary_cache.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Validity" rel="Section" href="#2_Validity">
+<link title="Finding bases" rel="Section" href="#2_Findingbases">
+<link title="Origin of the variable underlying a base" rel="Section" href="#2_Originofthevariableunderlyingabase">
+<link title="NULL base" rel="Section" href="#2_NULLbase">
+<link title="Size of a base" rel="Section" href="#2_Sizeofabase">
+<link title="Misc" rel="Section" href="#2_Misc">
+<link title="Registering bases" rel="Section" href="#2_Registeringbases">
+<title>Base - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Bag.html" title="Bag">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Binary_cache.html" title="Binary_cache">Next</a>
+</div>
+<h1>Module <a href="type_Base.html">Base</a></h1>
+
+<pre><span id="MODULEBase"><span class="keyword">module</span> Base</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Base.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>Abstraction of the base of an addressable memory zone, together with
+    the validity of the zone.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><code><span id="TYPEcstring"><span class="keyword">type</span> <code class="type"></code>cstring</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcstring.CSString"><span class="constructor">CSString</span></span> <span class="keyword">of</span> <code class="type">string</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcstring.CSWstring"><span class="constructor">CSWstring</span></span> <span class="keyword">of</span> <code class="type"><a href="./Escape.html#TYPEwstring">Escape.wstring</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>This type abstracts over the two kinds of constant strings present
+    in strings. It is used in a few modules below Base.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><code><span id="TYPEvariable_validity"><span class="keyword">type</span> <code class="type"></code>variable_validity</span> = private {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTvariable_validity.weak">weak</span>&nbsp;: <code class="type">bool</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Indicate that the variable is weak, i.e. that
+                          it may represent multiple memory locations</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTvariable_validity.min_alloc">min_alloc</span>&nbsp;: <code class="type">Abstract_interp.Int.t</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>First bit guaranteed to be valid; can be -1</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span><span id="TYPEELTvariable_validity.max_alloc">max_alloc</span>&nbsp;: <code class="type">Abstract_interp.Int.t</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Last possibly valid bit</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTvariable_validity.max_allocable">max_allocable</span>&nbsp;: <code class="type">Abstract_interp.Int.t</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Maximum valid bit after size increase</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>Validity for variables that might change size.</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEdeallocation"><span class="keyword">type</span> <code class="type"></code>deallocation</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTdeallocation.Malloc"><span class="constructor">Malloc</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTdeallocation.VLA"><span class="constructor">VLA</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTdeallocation.Alloca"><span class="constructor">Alloca</span></span></code></td>
+
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>Whether the allocated base has been obtained via calls to
+    malloc/calloc/realloc (<code class="code"><span class="constructor">Malloc</span></code>), alloca (<code class="code"><span class="constructor">Alloca</span></code>), or is related to a
+    variable-length array (<code class="code"><span class="constructor">VLA</span></code>).</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEbase"><span class="keyword">type</span> <code class="type"></code>base</span> = private </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTbase.Var"><span class="constructor">Var</span></span> <span class="keyword">of</span> <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> * <a href="./Base.html#TYPEvalidity">validity</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Base for a standard C variable.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTbase.CLogic_Var"><span class="constructor">CLogic_Var</span></span> <span class="keyword">of</span> <code class="type"><a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> * <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> * <a href="./Base.html#TYPEvalidity">validity</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Base for a logic variable that has a C type.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTbase.Null"><span class="constructor">Null</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Base for an address like <code class="code">(int*&nbsp;)0x123</code></p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTbase.String"><span class="constructor">String</span></span> <span class="keyword">of</span> <code class="type">int * <a href="./Base.html#TYPEcstring">cstring</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>contents of the constant string</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTbase.Allocated"><span class="constructor">Allocated</span></span> <span class="keyword">of</span> <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> * <a href="./Base.html#TYPEdeallocation">deallocation</a> * <a href="./Base.html#TYPEvalidity">validity</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Base for a variable dynamically allocated via malloc/calloc/realloc/alloca</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><code><span id="TYPEvalidity"><span class="keyword">type</span> <code class="type"></code>validity</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTvalidity.Empty"><span class="constructor">Empty</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>For 0-sized bases</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTvalidity.Known"><span class="constructor">Known</span></span> <span class="keyword">of</span> <code class="type">Abstract_interp.Int.t * Abstract_interp.Int.t</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Valid between those two bits</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTvalidity.Unknown"><span class="constructor">Unknown</span></span> <span class="keyword">of</span> <code class="type">Abstract_interp.Int.t * Abstract_interp.Int.t option * Abstract_interp.Int.t</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Unknown(b,k,e) indicates:
+          If k is <code class="code"><span class="constructor">None</span></code>, potentially valid between b and e
+          If k is <code class="code"><span class="constructor">Some</span>&nbsp;k</code>, then b &lt;= k &lt;= e, and the base is</p>
+<ul>
+<li>valid between b and k;</li>
+<li>potentially valid between k+1 and e:
+          Accesses on potentially valid parts will succeed, but will also
+          raise an alarm.</li>
+</ul>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTvalidity.Variable"><span class="constructor">Variable</span></span> <span class="keyword">of</span> <code class="type"><a href="./Base.html#TYPEvariable_validity">variable_validity</a></code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Variable(min_alloc, max_alloc) means:</p>
+<ul>
+<li>all offsets between <code class="code">0</code> and <code class="code">min_alloc</code> are valid; min_alloc can
+              be -1, in which case no offsets are guaranteed to be valid.</li>
+<li>offsets between <code class="code">min_alloc+1</code> and <code class="code">max_alloc</code> are potentially valid;</li>
+<li>offsets above <code class="code">max_alloc+1</code> are invalid.</li>
+</ul>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTvalidity.Invalid"><span class="constructor">Invalid</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Valid nowhere. Typically used for the NULL base, or for
+                function pointers.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><span id="MODULEBase"><span class="keyword">module</span> <a href="Base.Base.html">Base</a></span>: <code class="code"><span class="keyword">sig</span></code> <a href="Base.Base.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><pre><span class="keyword">include</span> <a href="./Datatype.S_with_collections.html">Datatype.S_with_collections</a></pre>
+
+<pre><span id="MODULEHptset"><span class="keyword">module</span> <a href="Base.Hptset.html">Hptset</a></span>: <code class="type"><a href="./Hptset.S.html">Hptset.S</a></code><code class="type"> 
+  with type elt = t
+  and type 'a shape = 'a <a href="./Hptmap.Shape.html">Hptmap.Shape</a>(Base).t</code></pre>
+<pre><span id="MODULESetLattice"><span class="keyword">module</span> <a href="Base.SetLattice.html">SetLattice</a></span>: <code class="type"><a href="./Lattice_type.Lattice_Set.html">Lattice_type.Lattice_Set</a></code><code class="type">  with module O = Hptset</code></pre>
+<pre><span id="MODULEValidity"><span class="keyword">module</span> <a href="Base.Validity.html">Validity</a></span>: <code class="type"><a href="./Datatype.S.html">Datatype.S</a></code><code class="type">  with type t = validity</code></pre>
+<pre><span id="VALpretty_addr"><span class="keyword">val</span> pretty_addr</span> : <code class="type">Stdlib.Format.formatter -> t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">pretty_addr&nbsp;fmt&nbsp;base</code> pretty-prints the name of <code class="code">base</code> on <code class="code">fmt</code>, with 
+    a leading ampersand if it is a variable</p>
+</div>
+</div>
+
+<pre><span id="VALtypeof"><span class="keyword">val</span> typeof</span> : <code class="type">t -> <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p>Type of the memory block that starts from the given base. Useful to give to
+    the function <a href="Bit_utils.html#VALpretty_bits"><code class="code"><span class="constructor">Bit_utils</span>.pretty_bits</code></a>, typically.</p>
+</div>
+</div>
+<h3 id="2_Validity">Validity</h3>
+<pre><span id="VALpretty_validity"><span class="keyword">val</span> pretty_validity</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Base.html#TYPEvalidity">validity</a> -> unit</code></pre>
+<pre><span id="VALvalidity"><span class="keyword">val</span> validity</span> : <code class="type">t -> <a href="./Base.html#TYPEvalidity">validity</a></code></pre>
+<pre><span id="VALvalidity_from_size"><span class="keyword">val</span> validity_from_size</span> : <code class="type">Abstract_interp.Int.t -> <a href="./Base.html#TYPEvalidity">validity</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">validity_from_size&nbsp;size</code> returns <code class="code"><span class="constructor">Empty</span></code> if <code class="code">size</code> is zero,
+    or <code class="code"><span class="constructor">Known</span>&nbsp;(0,&nbsp;size-1)</code> if <code class="code">size&nbsp;&gt;&nbsp;0</code>.
+    <code class="code">size</code> must not be negative.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Aluminium-20160501</li>
+</ul>
+</div>
+
+<pre><span id="VALvalidity_from_type"><span class="keyword">val</span> validity_from_type</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> <a href="./Base.html#TYPEvalidity">validity</a></code></pre>
+<pre><code><span id="TYPErange_validity"><span class="keyword">type</span> <code class="type"></code>range_validity</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTrange_validity.Invalid_range"><span class="constructor">Invalid_range</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTrange_validity.Valid_range"><span class="constructor">Valid_range</span></span> <span class="keyword">of</span> <code class="type"><a href="./Int_Intervals_sig.html#TYPEitv">Int_Intervals_sig.itv</a> option</code></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="VALvalid_range"><span class="keyword">val</span> valid_range</span> : <code class="type"><a href="./Base.html#TYPEvalidity">validity</a> -> <a href="./Base.html#TYPErange_validity">range_validity</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">valid_range&nbsp;v</code> returns <code class="code"><span class="constructor">Invalid_range</span></code> if <code class="code">v</code> is <code class="code"><span class="constructor">Invalid</span></code>,
+    <code class="code"><span class="constructor">Valid_range</span>&nbsp;<span class="constructor">None</span></code> if <code class="code">v</code> is <code class="code"><span class="constructor">Empty</span></code>, or <code class="code"><span class="constructor">Valid_range</span>&nbsp;(<span class="constructor">Some</span>&nbsp;(mn,&nbsp;mx))</code>
+    otherwise, where <code class="code">mn</code> and <code class="code">mx</code> are the minimum and maximum (possibly)
+    valid bounds of <code class="code">v</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALis_weak_validity"><span class="keyword">val</span> is_weak_validity</span> : <code class="type"><a href="./Base.html#TYPEvalidity">validity</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_weak_validity&nbsp;v</code> returns true iff <code class="code">v</code> is a <code class="code"><span class="constructor">Weak</span></code> validity.</p>
+</div>
+</div>
+
+<pre><span id="VALcreate_variable_validity"><span class="keyword">val</span> create_variable_validity</span> : <code class="type">weak:bool -><br>       min_alloc:Abstract_interp.Int.t -><br>       max_alloc:Abstract_interp.Int.t -> <a href="./Base.html#TYPEvariable_validity">variable_validity</a></code></pre>
+<pre><span id="VALupdate_variable_validity"><span class="keyword">val</span> update_variable_validity</span> : <code class="type"><a href="./Base.html#TYPEvariable_validity">variable_validity</a> -><br>       weak:bool -><br>       min_alloc:Abstract_interp.Int.t -> max_alloc:Abstract_interp.Int.t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Update the corresponding fields of the variable validity. Bases
+    already weak cannot be made 'strong' through this function, and the
+    validity bounds can only grow.</p>
+</div>
+</div>
+<h3 id="2_Findingbases">Finding bases</h3>
+<pre><span id="VALof_varinfo"><span class="keyword">val</span> of_varinfo</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> t</code></pre>
+<pre><span id="VALof_string_exp"><span class="keyword">val</span> of_string_exp</span> : <code class="type"><a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> t</code></pre>
+<pre><span id="VALof_c_logic_var"><span class="keyword">val</span> of_c_logic_var</span> : <code class="type"><a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Must only be called on logic variables that have a C type</p>
+</div>
+</div>
+<h3 id="2_Originofthevariableunderlyingabase">Origin of the variable underlying a base</h3>
+<pre><span id="EXCEPTIONNot_a_C_variable"><span class="keyword">exception</span> Not_a_C_variable</span></pre>
+
+<pre><span id="VALto_varinfo"><span class="keyword">val</span> to_varinfo</span> : <code class="type">t -> <a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a></code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Raises</b> <code>Not_a_C_variable</code> otherwise.</li>
+<li><b>Returns</b> the variable's varinfo if the base corresponds to a C variable
+      (in particular, not a logic variable).</li>
+</ul>
+</div>
+
+<pre><span id="VALis_formal_or_local"><span class="keyword">val</span> is_formal_or_local</span> : <code class="type">t -> <a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> -> bool</code></pre>
+<pre><span id="VALis_any_formal_or_local"><span class="keyword">val</span> is_any_formal_or_local</span> : <code class="type">t -> bool</code></pre>
+<pre><span id="VALis_any_local"><span class="keyword">val</span> is_any_local</span> : <code class="type">t -> bool</code></pre>
+<pre><span id="VALis_global"><span class="keyword">val</span> is_global</span> : <code class="type">t -> bool</code></pre>
+<pre><span id="VALis_formal_of_prototype"><span class="keyword">val</span> is_formal_of_prototype</span> : <code class="type">t -> <a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> bool</code></pre>
+<pre><span id="VALis_local"><span class="keyword">val</span> is_local</span> : <code class="type">t -> <a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> -> bool</code></pre>
+<pre><span id="VALis_formal"><span class="keyword">val</span> is_formal</span> : <code class="type">t -> <a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> -> bool</code></pre>
+<pre><span id="VALis_block_local"><span class="keyword">val</span> is_block_local</span> : <code class="type">t -> <a href="./Cil_types.html#TYPEblock">Cil_types.block</a> -> bool</code></pre>
+<pre><span id="VALis_function"><span class="keyword">val</span> is_function</span> : <code class="type">t -> bool</code></pre><h3 id="2_NULLbase">NULL base</h3>
+<pre><span id="VALnull"><span class="keyword">val</span> null</span> : <code class="type">t</code></pre>
+<pre><span id="VALis_null"><span class="keyword">val</span> is_null</span> : <code class="type">t -> bool</code></pre>
+<pre><span id="VALnull_set"><span class="keyword">val</span> null_set</span> : <code class="type">Hptset.t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Set containing only the base <a href="Base.html#VALnull"><code class="code"><span class="constructor">Base</span>.null</code></a>.</p>
+</div>
+</div>
+
+<pre><span id="VALmin_valid_absolute_address"><span class="keyword">val</span> min_valid_absolute_address</span> : <code class="type">unit -> Abstract_interp.Int.t</code></pre>
+<pre><span id="VALmax_valid_absolute_address"><span class="keyword">val</span> max_valid_absolute_address</span> : <code class="type">unit -> Abstract_interp.Int.t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Bounds for option absolute-valid-range</p>
+</div>
+</div>
+<h3 id="2_Sizeofabase">Size of a base</h3>
+<pre><span id="VALbits_sizeof"><span class="keyword">val</span> bits_sizeof</span> : <code class="type">t -> Int_Base.t</code></pre>
+<pre><code><span id="TYPEaccess"><span class="keyword">type</span> <code class="type"></code>access</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaccess.Read"><span class="constructor">Read</span></span> <span class="keyword">of</span> <code class="type">Abstract_interp.Int.t</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaccess.Write"><span class="constructor">Write</span></span> <span class="keyword">of</span> <code class="type">Abstract_interp.Int.t</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTaccess.No_access"><span class="constructor">No_access</span></span></code></td>
+
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>Access kind: read/write of k bits, or no access.
+    Without any access, an offset must point into or just beyond the base ("one
+    past the last element of the array object", non-array object being viewed as
+    array of one element).</p>
+</div>
+</div>
+
+
+<pre><span id="VALis_valid_offset"><span class="keyword">val</span> is_valid_offset</span> : <code class="type"><a href="./Base.html#TYPEaccess">access</a> -> t -> <a href="./Ival.html#TYPEt">Ival.t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_valid_offset&nbsp;access&nbsp;b&nbsp;offset</code> holds iff the ival <code class="code">offset</code> (expressed in
+    bits) is completely valid for the <code class="code">access</code> of base <code class="code">b</code> (it only represents
+    valid offsets for such an access). Returns false if <code class="code">offset</code> may be invalid
+    for such an access.</p>
+</div>
+</div>
+
+<pre><span id="VALvalid_offset"><span class="keyword">val</span> valid_offset</span> : <code class="type">?bitfield:bool -> <a href="./Base.html#TYPEaccess">access</a> -> t -> <a href="./Ival.html#TYPEt">Ival.t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Computes all offsets that may be valid for an <code class="code">access</code> of base <code class="code">t</code>.
+    For bases with variable or unknown validity, the result may not satisfy
+    <code class="code">is_valid_offset</code>, as some offsets may be valid or invalid.
+    <code class="code">bitfield</code> is true by default: the computed offset may be offsets of
+    bitfields. If it is set to false, the computed offsets are byte aligned
+    (they are all congruent to 0 modulo 8).</p>
+</div>
+</div>
+<h3 id="2_Misc">Misc</h3>
+<pre><span id="VALis_read_only"><span class="keyword">val</span> is_read_only</span> : <code class="type">t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Is the base valid as a read/write location, or only for reading.
+    The <code class="code">const</code> attribute is not currently taken into account.</p>
+</div>
+</div>
+
+<pre><span id="VALis_weak"><span class="keyword">val</span> is_weak</span> : <code class="type">t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Is the given base a weak one (in the sens that its validity is <a href="Weak.html"><code class="code"><span class="constructor">Weak</span></code></a>).
+    Only possible for <code class="code"><span class="constructor">Allocated</span></code> bases.</p>
+</div>
+</div>
+
+<pre><span id="VALid"><span class="keyword">val</span> id</span> : <code class="type">t -> int</code></pre>
+<pre><span id="VALis_aligned_by"><span class="keyword">val</span> is_aligned_by</span> : <code class="type">t -> Abstract_interp.Int.t -> bool</code></pre><h3 id="2_Registeringbases">Registering bases</h3><p>This is only useful to create an initial memory state for analysis,
+    and is never needed for normal users.</p>
+
+<pre><span id="VALregister_allocated_var"><span class="keyword">val</span> register_allocated_var</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> <a href="./Base.html#TYPEdeallocation">deallocation</a> -> <a href="./Base.html#TYPEvalidity">validity</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Allocated variables are variables not present in the source of the
+      program, but instead created through dynamic allocation. Their field
+      <code class="code">vsource</code> is set to false.</p>
+</div>
+</div>
+
+<pre><span id="VALregister_memory_var"><span class="keyword">val</span> register_memory_var</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> <a href="./Base.html#TYPEvalidity">validity</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Memory variables are variables not present in the source of the program.
+      They are created only to fill the contents of another variable.
+      Their field <code class="code">vsource</code> is set to false.</p>
+</div>
+</div>
+</body></html>

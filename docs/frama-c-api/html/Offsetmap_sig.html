@@ -1,0 +1,562 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Offsetmap_lattice_with_isotropy.html">
+<link rel="next" href="Oneret.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Pretty-printing" rel="Section" href="#2_Prettyprinting">
+<link title="Creating basic offsetmaps" rel="Section" href="#2_Creatingbasicoffsetmaps">
+<link title="Iterators" rel="Section" href="#2_Iterators">
+<link title="Interval-unaware iterators" rel="Section" href="#2_Intervalunawareiterators">
+<link title="Join and inclusion testing" rel="Section" href="#2_Joinandinclusiontesting">
+<link title="Narrowing" rel="Section" href="#2_Narrowing">
+<link title="Searching values" rel="Section" href="#2_Searchingvalues">
+<link title="Adding values" rel="Section" href="#2_Addingvalues">
+<link title="Shape" rel="Section" href="#2_Shape">
+<link title="Misc" rel="Section" href="#2_Misc">
+<title>Offsetmap_sig - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Offsetmap_lattice_with_isotropy.html" title="Offsetmap_lattice_with_isotropy">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Oneret.html" title="Oneret">Next</a>
+</div>
+<h1>Module <a href="type_Offsetmap_sig.html">Offsetmap_sig</a></h1>
+
+<pre><span id="MODULEOffsetmap_sig"><span class="keyword">module</span> Offsetmap_sig</span>: <code class="code"><span class="keyword">sig</span></code> <a href="Offsetmap_sig.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+<div class="info-desc">
+<p>Signature for <a href="Offsetmap.html"><code class="code"><span class="constructor">Offsetmap</span></code></a> module, that implement efficient maps from
+    intervals to arbitrary values.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="TYPEv"><span class="keyword">type</span> <code class="type"></code>v</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>Type of the values stored in the offsetmap</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEwiden_hint"><span class="keyword">type</span> <code class="type"></code>widen_hint</span> </pre>
+
+<pre><span class="keyword">include</span> <a href="./Datatype.S.html">Datatype.S</a></pre>
+<p>Datatype for the offsetmaps</p>
+<h3 id="2_Prettyprinting">Pretty-printing</h3>
+<pre><span id="VALpretty_generic"><span class="keyword">val</span> pretty_generic</span> : <code class="type">?typ:<a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> -><br>       ?pretty_v:(<a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> option -><br>                  Stdlib.Format.formatter -> <a href="./Offsetmap_sig.html#TYPEv">v</a> -> unit) -><br>       ?skip_v:(<a href="./Offsetmap_sig.html#TYPEv">v</a> -> bool) -><br>       ?sep:string -> unit -> Stdlib.Format.formatter -> t -> unit</code></pre><h3 id="2_Creatingbasicoffsetmaps">Creating basic offsetmaps</h3>
+<pre><span id="VALcreate"><span class="keyword">val</span> create</span> : <code class="type">size:Abstract_interp.Int.t -><br>       <a href="./Offsetmap_sig.html#TYPEv">v</a> -> size_v:Abstract_interp.Int.t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">create&nbsp;~size&nbsp;v&nbsp;~size_v</code> creates an offsetmap of size <code class="code">size</code> in which the
+    intervals <code class="code">k*size_v&nbsp;..&nbsp;(k+1)*size_v-1</code> with <code class="code">0&lt;=&nbsp;k&nbsp;&lt;=&nbsp;size/size_v</code> are all
+    mapped to <code class="code">v</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALcreate_isotropic"><span class="keyword">val</span> create_isotropic</span> : <code class="type">size:Abstract_interp.Int.t -> <a href="./Offsetmap_sig.html#TYPEv">v</a> -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <a href="Offsetmap_sig.html#VALcreate"><code class="code"><span class="constructor">Offsetmap_sig</span>.create</code></a>, but for values that are isotropic. In this case,
+    <code class="code">size_v</code> is automatically computed.</p>
+</div>
+</div>
+
+<pre><span id="VALof_list"><span class="keyword">val</span> of_list</span> : <code class="type">((t -> <a href="./Offsetmap_sig.html#TYPEv">v</a> -> t) -> t -> 'l -> t) -><br>       'l -> Abstract_interp.Int.t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">from_list&nbsp;fold&nbsp;c&nbsp;size</code> creates an offsetmap by applying the iterator
+    <code class="code">fold</code> to the container <code class="code">c</code>, the elements of <code class="code">c</code> being supposed to
+    be of size <code class="code">size</code>. <code class="code">c</code> must be such that <code class="code">fold</code> is called at least
+    once.</p>
+</div>
+</div>
+
+<pre><span id="VALempty"><span class="keyword">val</span> empty</span> : <code class="type">t</code></pre><div class="info ">
+<div class="info-desc">
+<p>offsetmap containing no interval.</p>
+</div>
+</div>
+
+<pre><span id="VALsize_from_validity"><span class="keyword">val</span> size_from_validity</span> : <code class="type"><a href="./Base.html#TYPEvalidity">Base.validity</a> -> <a href="./Integer.html#TYPEt">Integer.t</a> Bottom.or_bottom</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">size_from_validity&nbsp;v</code> returns the size to be used when creating a
+    new offsetmap for a base with validity <code class="code">v</code>. This is a convention that
+    must be shared by all modules that create offsetmaps, because operations
+    such as <code class="code">join</code> or <code class="code">is_included</code> require offsetmaps of the same .
+    Returns <code class="code"><span class="keywordsign">`</span><span class="constructor">Bottom</span></code> iff <code class="code">v</code> is <code class="code"><span class="constructor">Base</span>.<span class="constructor">Invalid</span></code>.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Aluminium-20160501</li>
+</ul>
+</div>
+<h3 id="2_Iterators">Iterators</h3>
+<pre><span id="VALiter"><span class="keyword">val</span> iter</span> : <code class="type">(Abstract_interp.Int.t * Abstract_interp.Int.t -><br>        <a href="./Offsetmap_sig.html#TYPEv">v</a> * Abstract_interp.Int.t * <a href="./Abstract_interp.Rel.html#TYPEt">Abstract_interp.Rel.t</a> -> unit) -><br>       t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">iter&nbsp;f&nbsp;m</code> calls <code class="code">f</code> on all the intervals bound in <code class="code">m</code>, in increasing
+    order. The arguments of <code class="code">f&nbsp;(min,&nbsp;max)&nbsp;(v,&nbsp;size,&nbsp;offset)</code> are as follows:</p>
+<ul>
+<li><code class="code">(start,&nbsp;stop)</code> are the bounds of the interval, inclusive.</li>
+<li><code class="code">v</code> is the value bound to the interval, and <code class="code">size</code> its size;  if <code class="code">size</code>
+      is less than <code class="code">stop-start+1</code>, <code class="code">v</code> repeats itself until <code class="code">stop</code>.</li>
+<li><code class="code">offset</code> is the offset at which <code class="code">v</code> starts in the interval;
+      it ranges over <code class="code">0..size-1</code>. If <code class="code">offset</code> is <code class="code">0</code>, <code class="code">v</code> starts
+      at the beginning of the interval. Otherwise, it starts at <code class="code">offset-size</code>.</li>
+</ul>
+</div>
+</div>
+
+<pre><span id="VALfold"><span class="keyword">val</span> fold</span> : <code class="type">(Abstract_interp.Int.t * Abstract_interp.Int.t -><br>        <a href="./Offsetmap_sig.html#TYPEv">v</a> * Abstract_interp.Int.t * <a href="./Abstract_interp.Rel.html#TYPEt">Abstract_interp.Rel.t</a> -> 'a -> 'a) -><br>       t -> 'a -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">iter</code>, but with an accumulator.</p>
+</div>
+</div>
+
+<pre><span id="VALfold_between"><span class="keyword">val</span> fold_between</span> : <code class="type">?direction:[ `LTR | `RTL ] -><br>       entire:bool -><br>       Abstract_interp.Int.t * Abstract_interp.Int.t -><br>       (Abstract_interp.Int.t * Abstract_interp.Int.t -><br>        <a href="./Offsetmap_sig.html#TYPEv">v</a> * Abstract_interp.Int.t * <a href="./Abstract_interp.Rel.html#TYPEt">Abstract_interp.Rel.t</a> -> 'a -> 'a) -><br>       t -> 'a -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">fold_between&nbsp;~direction:<span class="keywordsign">`</span><span class="constructor">LTR</span>&nbsp;~entire&nbsp;(start,&nbsp;stop)&nbsp;m&nbsp;acc</code> is similar to
+    <code class="code">fold&nbsp;f&nbsp;m&nbsp;acc</code>, except that only the intervals that intersect <code class="code">start..stop</code>
+    (inclusive) are presented. If <code class="code">entire</code> is true, intersecting intervals are
+    presented whole (ie. they may be bigger than <code class="code">start..stop</code>). If <code class="code">entire</code>
+    is <code class="code"><span class="keyword">false</span></code>, only the intersection with <code class="code">ib..ie</code> is presented.
+    <code class="code">fold_between&nbsp;~direction:<span class="keywordsign">`</span><span class="constructor">RTL</span></code> reverses the iteration order: interval
+    are passed in decreasing order. Default is <code class="code"><span class="keywordsign">`</span><span class="constructor">LTR</span></code>.</p>
+</div>
+</div>
+<h3 id="2_Intervalunawareiterators">Interval-unaware iterators</h3>
+<pre><span id="VALiter_on_values"><span class="keyword">val</span> iter_on_values</span> : <code class="type">(<a href="./Offsetmap_sig.html#TYPEv">v</a> -> unit) -> t -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">iter_on_values&nbsp;f&nbsp;m</code> iterates on the entire contents of <code class="code">m</code>, but <code class="code">f</code>
+    receives only the value bound to each interval. Interval bounds, the
+    alignment of the value and its size are not computed.</p>
+</div>
+</div>
+
+<pre><span id="VALfold_on_values"><span class="keyword">val</span> fold_on_values</span> : <code class="type">(<a href="./Offsetmap_sig.html#TYPEv">v</a> -> 'a -> 'a) -> t -> 'a -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <code class="code">iter_on_values</code> but with an accumulator</p>
+</div>
+</div>
+
+<pre><span id="VALmap_on_values"><span class="keyword">val</span> map_on_values</span> : <code class="type">(<a href="./Offsetmap_sig.html#TYPEv">v</a> -> <a href="./Offsetmap_sig.html#TYPEv">v</a>) -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">map_on_values&nbsp;f&nbsp;m&nbsp;</code> creates the map derived from <code class="code">m</code> by applying <code class="code">f</code> to
+    each interval. For each interval, the size of the new value and its offset
+    relative to the beginning of the interval is kept unchanged.</p>
+</div>
+</div>
+
+<pre><code><span id="TYPEmap2_decide"><span class="keyword">type</span> <code class="type"></code>map2_decide</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmap2_decide.ReturnLeft"><span class="constructor">ReturnLeft</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmap2_decide.ReturnRight"><span class="constructor">ReturnRight</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmap2_decide.ReturnConstant"><span class="constructor">ReturnConstant</span></span> <span class="keyword">of</span> <code class="type"><a href="./Offsetmap_sig.html#TYPEv">v</a></code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmap2_decide.Recurse"><span class="constructor">Recurse</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>This type describes different possibilities to accelerate a simultaneous
+    iteration on two offsetmaps. <code class="code"><span class="constructor">ReturnLeft</span></code> (resp. <code class="code"><span class="constructor">ReturnRight</span></code>) means
+    'return the left (resp. right) operand unchanged, and stop the recursive
+    descent'. <code class="code"><span class="constructor">ReturnConstant</span>&nbsp;v</code> means 'return a constant offsetmap of the good
+    size and that contains <code class="code">v</code> everywhere'. It is always correct to return
+    <code class="code"><span class="constructor">Recurse</span></code>, which will force the recursion until the maps have been fully
+    decomposed.</p>
+
+<p>Typical usage include functions that verify <code class="code">f&nbsp;v&nbsp;v&nbsp;=&nbsp;v</code>, maps <code class="code">m</code> such that
+    <code class="code">f&nbsp;m&nbsp;m'&nbsp;=&nbsp;m'</code>, etc.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><span id="VALmap2_on_values"><span class="keyword">val</span> map2_on_values</span> : <code class="type"><a href="./Hptmap_sig.html#TYPEcache_type">Hptmap_sig.cache_type</a> -><br>       (t -> t -> <a href="./Offsetmap_sig.html#TYPEmap2_decide">map2_decide</a>) -><br>       (<a href="./Offsetmap_sig.html#TYPEv">v</a> -> <a href="./Offsetmap_sig.html#TYPEv">v</a> -> <a href="./Offsetmap_sig.html#TYPEv">v</a>) -> t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">map2_on_values&nbsp;cache&nbsp;decide&nbsp;join&nbsp;m1&nbsp;m2</code> applies <code class="code">join</code> pointwise to
+    all the elements of <code class="code">m1</code> and <code class="code">m2</code> and builds the resulting map. This function
+    can only be called if <code class="code">m1</code> and <code class="code">m2</code> contain isotropic values. <code class="code">decide</code>
+    is called during the iteration, and can be used to return early; it is
+    always correct to return <code class="code"><span class="constructor">Recurse</span></code>. Depending on <code class="code">cache</code>, the results of
+    the partially applied function <code class="code">map2_on_values&nbsp;cache&nbsp;decide&nbsp;join</code> will be
+    cached between different calls.</p>
+</div>
+</div>
+<h3 id="2_Joinandinclusiontesting">Join and inclusion testing</h3><pre><span class="keyword">include</span> <a href="./Lattice_type.Join_Semi_Lattice.html">Lattice_type.Join_Semi_Lattice</a></pre>
+
+<pre><span id="VALwiden"><span class="keyword">val</span> widen</span> : <code class="type"><a href="./Offsetmap_sig.html#TYPEwiden_hint">widen_hint</a> -> t -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">widen&nbsp;wh&nbsp;m1&nbsp;m2</code> performs a widening step on <code class="code">m2</code>, assuming that
+    <code class="code">m1</code> was the previous state. The relation <code class="code">is_included&nbsp;m1&nbsp;m2</code> must hold</p>
+</div>
+</div>
+<h3 id="2_Narrowing">Narrowing</h3>
+<pre><span id="MODULEMake_Narrow"><span class="keyword">module</span> <a href="Offsetmap_sig.Make_Narrow.html">Make_Narrow</a></span>: <div class="sig_block"><code class="code"><span class="keyword">functor</span>&nbsp;(</code><code class="code"><span class="constructor">X</span></code><code class="code">&nbsp;:&nbsp;</code><code class="code"><span class="keyword">sig</span></code></pre><div class="sig_block"><pre><span class="keyword">include</span> Lattice_type.With_Top</pre>
+<pre><span class="keyword">include</span> Lattice_type.With_Narrow</pre>
+</div><pre><code class="code"><span class="keyword">end</span></code><code class="code">)&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;</code><code class="code"><span class="keyword">sig</span></code> <a href="Offsetmap_sig.Make_Narrow.html">..</a> <code class="code"><span class="keyword">end</span></code></div></pre><h3 id="2_Searchingvalues">Searching values</h3>
+<pre><span id="VALfind"><span class="keyword">val</span> find</span> : <code class="type">validity:<a href="./Base.html#TYPEvalidity">Base.validity</a> -><br>       ?conflate_bottom:bool -><br>       offsets:<a href="./Ival.html#TYPEt">Ival.t</a> -> size:<a href="./Integer.html#TYPEt">Integer.t</a> -> t -> <a href="./Offsetmap_sig.html#TYPEv">v</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Find the value bound to a set of intervals, expressed as an ival, in the
+    given rangemap.</p>
+</div>
+</div>
+
+<pre><span id="VALfind_imprecise"><span class="keyword">val</span> find_imprecise</span> : <code class="type">validity:<a href="./Base.html#TYPEvalidity">Base.validity</a> -> t -> <a href="./Offsetmap_sig.html#TYPEv">v</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">find_imprecise&nbsp;~validity&nbsp;m</code> returns an imprecise join of the values bound
+    in <code class="code">m</code>, in the range described by <code class="code">validity</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALfind_imprecise_everywhere"><span class="keyword">val</span> find_imprecise_everywhere</span> : <code class="type">t -> <a href="./Offsetmap_sig.html#TYPEv">v</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>Returns an imprecise join of all the values bound in the offsetmap.</p>
+</div>
+</div>
+
+<pre><span id="VALcopy_slice"><span class="keyword">val</span> copy_slice</span> : <code class="type">validity:<a href="./Base.html#TYPEvalidity">Base.validity</a> -><br>       offsets:<a href="./Ival.html#TYPEt">Ival.t</a> -> size:<a href="./Integer.html#TYPEt">Integer.t</a> -> t -> t Bottom.or_bottom</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">copy_slice&nbsp;~validity&nbsp;~offsets&nbsp;~size&nbsp;m</code> copies and merges the slices of
+    <code class="code">m</code> starting at offsets <code class="code">offsets</code> and of size <code class="code">size</code>. Offsets invalid
+    according to <code class="code">validity</code> are removed. <code class="code">size</code> must be strictly greater
+    than zero.</p>
+</div>
+</div>
+<h3 id="2_Addingvalues">Adding values</h3>
+<pre><span id="VALadd"><span class="keyword">val</span> add</span> : <code class="type">?exact:bool -><br>       Abstract_interp.Int.t * Abstract_interp.Int.t -><br>       <a href="./Offsetmap_sig.html#TYPEv">v</a> * Abstract_interp.Int.t * <a href="./Abstract_interp.Rel.html#TYPEt">Abstract_interp.Rel.t</a> -> t -> t</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add&nbsp;(min,&nbsp;max)&nbsp;(v,&nbsp;size,&nbsp;offset)&nbsp;m</code> maps the interval
+    <code class="code">min..max</code> (inclusive) to the value <code class="code">v</code> in <code class="code">m</code>. <code class="code">v</code> is assumed as having
+    size <code class="code">size</code>. If <code class="code">stop-start+1</code> is greater than <code class="code">size</code>, <code class="code">v</code> repeats itself
+    until the entire interval is filled. <code class="code">offset</code> is the offset at which <code class="code">v</code>
+    starts in the interval, interpreted as for <a href="Offsetmap_sig.html#VALiter"><code class="code"><span class="constructor">Offsetmap_sig</span>.iter</code></a>. Offsetmaps cannot
+    contain holes, so <code class="code">m</code> must already bind at least the intervals <code class="code">0..start-1</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALupdate"><span class="keyword">val</span> update</span> : <code class="type">?origin:Origin.t -><br>       validity:<a href="./Base.html#TYPEvalidity">Base.validity</a> -><br>       exact:bool -><br>       offsets:<a href="./Ival.html#TYPEt">Ival.t</a> -><br>       size:Abstract_interp.Int.t -> <a href="./Offsetmap_sig.html#TYPEv">v</a> -> t -> t Bottom.or_bottom</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">update&nbsp;?origin&nbsp;~validity&nbsp;~exact&nbsp;~offsets&nbsp;~size&nbsp;v&nbsp;m</code> writes <code class="code">v</code>,
+    of size <code class="code">size</code>, each <code class="code">offsets</code> in <code class="code">m</code>; <code class="code">m</code> must be of the size implied by
+    <code class="code">validity</code>. <code class="code">~exact=<span class="keyword">true</span></code> results in a strong update, while
+    <code class="code">~exact=<span class="keyword">false</span></code> performs a weak update. If <code class="code">offsets</code> contains too many
+    offsets, or if <code class="code">offsets</code> and <code class="code">size</code> are not compatible, <code class="code">offsets</code> and/or
+    <code class="code">v</code> are over-approximated. In this case, <code class="code">origin</code> is used as the source of
+    the resulting imprecision. Returns <code class="code"><span class="keywordsign">`</span><span class="constructor">Bottom</span></code> when all offsets are invalid.</p>
+</div>
+</div>
+
+<pre><span id="VALupdate_under"><span class="keyword">val</span> update_under</span> : <code class="type">validity:<a href="./Base.html#TYPEvalidity">Base.validity</a> -><br>       exact:bool -><br>       offsets:<a href="./Ival.html#TYPEt">Ival.t</a> -><br>       size:Abstract_interp.Int.t -> <a href="./Offsetmap_sig.html#TYPEv">v</a> -> t -> t Bottom.or_bottom</code></pre><div class="info ">
+<div class="info-desc">
+<p>Same as <a href="Offsetmap_sig.html#VALupdate"><code class="code"><span class="constructor">Offsetmap_sig</span>.update</code></a>, except that no over-approximation on the set
+    of offsets or on the value written occurs. In case of imprecision,
+    <code class="code">m</code> is not updated.</p>
+</div>
+</div>
+
+<pre><span id="VALupdate_imprecise_everywhere"><span class="keyword">val</span> update_imprecise_everywhere</span> : <code class="type">validity:<a href="./Base.html#TYPEvalidity">Base.validity</a> -><br>       Origin.t -> <a href="./Offsetmap_sig.html#TYPEv">v</a> -> t -> t Bottom.or_bottom</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">update_everywhere&nbsp;~validity&nbsp;o&nbsp;v&nbsp;m</code> computes the offsetmap resulting
+    from imprecisely writing <code class="code">v</code> potentially anywhere where <code class="code">m</code> is valid
+    according to <code class="code">validity</code>. If a value becomes too imprecise, <code class="code">o</code> is used
+    as origin.</p>
+</div>
+</div>
+
+<pre><span id="VALpaste_slice"><span class="keyword">val</span> paste_slice</span> : <code class="type">validity:<a href="./Base.html#TYPEvalidity">Base.validity</a> -><br>       exact:bool -><br>       from:t -><br>       size:Abstract_interp.Int.t -> offsets:<a href="./Ival.html#TYPEt">Ival.t</a> -> t -> t Bottom.or_bottom</code></pre><h3 id="2_Shape">Shape</h3>
+<pre><span id="VALcardinal_zero_or_one"><span class="keyword">val</span> cardinal_zero_or_one</span> : <code class="type">t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Returns <code class="code"><span class="keyword">true</span></code> if and only if all the interval bound in the
+    offsetmap are mapped to values with cardinal at most 1.</p>
+</div>
+</div>
+
+<pre><span id="VALis_single_interval"><span class="keyword">val</span> is_single_interval</span> : <code class="type">t -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_single_interval&nbsp;o</code> is true if the offsetmap <code class="code">o</code> contains a single
+    binding.</p>
+</div>
+</div>
+
+<pre><span id="VALsingle_interval_value"><span class="keyword">val</span> single_interval_value</span> : <code class="type">t -> <a href="./Offsetmap_sig.html#TYPEv">v</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">single_interval_value&nbsp;o</code> returns <code class="code"><span class="constructor">Some</span>&nbsp;v</code> if <code class="code">o</code> contains a single
+    interval, to which <code class="code">v</code> is bound, and <code class="code"><span class="constructor">None</span></code> otherwise.</p>
+</div>
+</div>
+
+<pre><span id="VALis_same_value"><span class="keyword">val</span> is_same_value</span> : <code class="type">t -> <a href="./Offsetmap_sig.html#TYPEv">v</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_same_value&nbsp;o&nbsp;v</code> is true if the offsetmap <code class="code">o</code> contains a single
+    binding to <code class="code">v</code>, or is the empty offsetmap.</p>
+</div>
+</div>
+<h3 id="2_Misc">Misc</h3>
+<pre><span id="VALimprecise_write_msg"><span class="keyword">val</span> imprecise_write_msg</span> : <code class="type">string Stdlib.ref</code></pre><div class="info ">
+<div class="info-desc">
+<p>The message "more than N &lt;imprecise_msg_write&gt;. Approximating." is displayed
+    when the offsetmap must update too many locations in one operation.</p>
+</div>
+</div>
+
+<pre><span id="VALclear_caches"><span class="keyword">val</span> clear_caches</span> : <code class="type">unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Clear the caches local to this module. Beware that they are not
+    project-aware, and that you must call them at every project switch.</p>
+</div>
+</div>
+</body></html>

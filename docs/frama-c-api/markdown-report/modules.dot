@@ -1,0 +1,26 @@
+digraph "Plugin architecture (markdown-report)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Markdown_report" [style=filled, color=darkturquoise];
+"Sarif" [style=filled, color=darkturquoise];
+"Mdr_params" [style=filled, color=darkturquoise];
+"Parse_remarks" [style=filled, color=darkturquoise];
+"Parse_remarks" -> "Mdr_params";
+"Eva_coverage" [style=filled, color=darkturquoise];
+"Eva_coverage" -> "Mdr_params";
+"Md_gen" [style=filled, color=darkturquoise];
+"Md_gen" -> "Eva_coverage";
+"Md_gen" -> "Mdr_params";
+"Md_gen" -> "Parse_remarks";
+"Sarif_gen" [style=filled, color=darkturquoise];
+"Sarif_gen" -> "Mdr_params";
+"Sarif_gen" -> "Parse_remarks";
+"Sarif_gen" -> "Sarif";
+"Mdr_register" [style=filled, color=darkturquoise];
+"Mdr_register" -> "Md_gen";
+"Mdr_register" -> "Mdr_params";
+"Mdr_register" -> "Sarif_gen";
+}

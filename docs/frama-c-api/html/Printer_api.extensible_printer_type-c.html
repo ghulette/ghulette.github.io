@@ -1,0 +1,635 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="Up" href="Printer_api.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><link title="Useful functions for building pretty-printers" rel="Section" href="#3_Usefulfunctionsforbuildingprettyprinters">
+<link title="Pretty-printing of C code" rel="Section" href="#3_PrettyprintingofCcode">
+<link title="Pretty-printing of annotations" rel="Section" href="#3_Prettyprintingofannotations">
+<title>Printer_api.extensible_printer_type - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="Printer_api.html" title="Printer_api">Up</a>
+&nbsp;</div>
+<h1>Class type <a href="type_Printer_api.extensible_printer_type.html">Printer_api.extensible_printer_type</a></h1>
+
+<pre><span id="TYPEextensible_printer_type"><span class="keyword">class type</span> extensible_printer_type</span> = <code class="code"><span class="keyword">object</span></code> <a href="Printer_api.extensible_printer_type-c.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info classtype top">
+<div class="info-desc">
+<p>The class type that a printer must implement.</p>
+</div>
+</div>
+<hr width="100%">
+<h4 id="3_Usefulfunctionsforbuildingprettyprinters">Useful functions for building pretty-printers</h4>
+<pre><span id="ATTlogic_printer_enabled"><span class="keyword">val</span> <span class="keyword">mutable</span> logic_printer_enabled</span> : <code class="type">bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Local logical annotation (function specifications and code annotations
+      are printed only if <code class="code">logic_printer_enabled</code> is set to <code class="code"><span class="keyword">true</span></code>.</p>
+</div>
+</div>
+
+<pre><span id="ATTforce_brace"><span class="keyword">val</span> <span class="keyword">mutable</span> force_brace</span> : <code class="type">bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>If set to <code class="code"><span class="keyword">true</span></code> (default is <code class="code"><span class="keyword">false</span></code>, some additional braces are
+      printed.</p>
+</div>
+</div>
+
+<pre><span id="ATTverbose"><span class="keyword">val</span> <span class="keyword">mutable</span> verbose</span> : <code class="type">bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>more info is displayed when on verbose mode. This flag is synchronized
+      with Frama-C's kernel being on debug mode.</p>
+</div>
+</div>
+
+<pre><span id="ATTis_ghost"><span class="keyword">val</span> <span class="keyword">mutable</span> is_ghost</span> : <code class="type">bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>are we printing ghost code?</p>
+</div>
+</div>
+
+<pre><span id="METHODreset"><span class="keyword">method</span> reset</span> : <code class="type">unit -> unit</code></pre>
+<pre><span id="METHODcurrent_function"><span class="keyword">method</span> <span class="keyword">private</span> current_function</span> : <code class="type"><a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> option</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Returns</b> the <code class="code">varinfo</code> corresponding to the function being printed</li>
+</ul>
+</div>
+
+<pre><span id="METHODcurrent_behavior"><span class="keyword">method</span> <span class="keyword">private</span> current_behavior</span> : <code class="type"><a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> option</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Returns</b> the <code class="code">funbehavior</code> being pretty-printed.</li>
+</ul>
+</div>
+
+<pre><span id="METHODstmt_has_annot"><span class="keyword">method</span> <span class="keyword">private</span> stmt_has_annot</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if the given statement has some annotations attached to it.</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Phosphorus-20170501-beta1</li>
+</ul>
+</div>
+
+<pre><span id="METHODhas_annot"><span class="keyword">method</span> <span class="keyword">private</span> has_annot</span> : <code class="type">bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code"><span class="keyword">true</span></code> if <code class="code">current_stmt</code> has some annotations attached to it.</p>
+</div>
+</div>
+
+<pre><span id="METHODin_ghost_if_needed"><span class="keyword">method</span> <span class="keyword">private</span> in_ghost_if_needed</span> : <code class="type">Stdlib.Format.formatter -><br>       bool -><br>       ?break_ghost:bool -><br>       post_fmt:((Stdlib.Format.formatter -> unit) -> unit, Stdlib.Format.formatter,<br>                 unit)<br>                Stdlib.format -><br>       ?block:bool -> (unit -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Open a ghost context if the the first <code class="code">bool</code> is true and we are not
+      already in a ghost context. <code class="code">break_ghost</code> indicates whether we should
+      break after the <code class="code">ghost</code> keyword, defaults to true. <code class="code">post_fmt</code> is a format
+      like <code class="code"><span class="string">"%t"</span></code> and is used to define the format at the end of the ghost
+      context. <code class="code">block</code> indicates whether we should open a C block or not
+      (defaults to <code class="code"><span class="keyword">true</span></code>). The last parameter is the function to be applied in
+      the ghost context (generally some AST element).</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> 20.0-Calcium</li>
+</ul>
+</div>
+
+<pre><span id="METHODcurrent_stmt"><span class="keyword">method</span> <span class="keyword">private</span> current_stmt</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> option</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Returns</b> the <code class="code">stmt</code> being printed</li>
+</ul>
+</div>
+
+<pre><span id="METHODmay_be_skipped"><span class="keyword">method</span> <span class="keyword">private</span> may_be_skipped</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>This is called to check that a given statement may be
+      compacted with another one.
+      For example this is called whenever a <code class="code"><span class="keyword">while</span>(1)</code> followed by a
+      conditional <code class="code"><span class="keyword">if</span>&nbsp;(cond)&nbsp;break;</code> may be compacted into <code class="code"><span class="keyword">while</span>&nbsp;(cond)</code>.</p>
+</div>
+</div>
+
+<pre><span id="METHODrequire_braces"><span class="keyword">method</span> <span class="keyword">private</span> require_braces</span> : <code class="type"><a href="./Printer_api.html#TYPEblock_ctxt">block_ctxt</a> -> <a href="./Cil_types.html#TYPEblock">Cil_types.block</a> -> bool</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Returns</b> <code class="code"><span class="keyword">true</span></code> if the given block must be enclosed in a pair of braces,
+      given the context in which it appears.</li>
+<b>Change in Fluorine-20130401</b>: optional arguments has been modified.<br>
+<b>Change in Phosphorus-20170501-beta1</b>: use proper context to determine result<br>
+</ul>
+</div>
+
+<pre><span id="METHODinline_block"><span class="keyword">method</span> <span class="keyword">private</span> inline_block</span> : <code class="type"><a href="./Printer_api.html#TYPEblock_ctxt">block_ctxt</a> -> <a href="./Cil_types.html#TYPEblock">Cil_types.block</a> -> bool</code></pre><div class="info ">
+<ul class="info-attributes">
+<li><b>Returns</b> <code class="code"><span class="keyword">true</span></code> if the given block may be inlined in a single line.
+      <code class="code">has_annot</code> indicates if the stmt corresponding to the block may have
+      annotations (default is <code class="code"><span class="keyword">true</span></code>).</li>
+<b>Change in Fluorine-20130401</b>: optional arguments has been modified.<br>
+<b>Change in Phosphorus-20170501-beta1</b>: use proper context to determine result<br>
+</ul>
+</div>
+
+<pre><span id="METHODget_instr_terminator"><span class="keyword">method</span> <span class="keyword">private</span> get_instr_terminator</span> : <code class="type">unit -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p>What terminator to print after an instruction. sometimes we want to
+      print sequences of instructions separated by comma</p>
+</div>
+</div>
+
+<pre><span id="METHODset_instr_terminator"><span class="keyword">method</span> <span class="keyword">private</span> set_instr_terminator</span> : <code class="type">string -> unit</code></pre>
+<pre><span id="METHODopt_funspec"><span class="keyword">method</span> <span class="keyword">private</span> opt_funspec</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> unit</code></pre><h4 id="3_PrettyprintingofCcode">Pretty-printing of C code</h4>
+<pre><span id="METHODlocation"><span class="keyword">method</span> location</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElocation">Cil_types.location</a> -> unit</code></pre>
+<pre><span id="METHODconstant"><span class="keyword">method</span> constant</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEconstant">Cil_types.constant</a> -> unit</code></pre>
+<pre><span id="METHODvarname"><span class="keyword">method</span> varname</span> : <code class="type">Stdlib.Format.formatter -> string -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked each time an identifier name is to be printed. Allows for
+      various manipulation of the name, such as unmangling.</p>
+</div>
+</div>
+
+<pre><span id="METHODvdecl"><span class="keyword">method</span> vdecl</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked for each variable declaration. Note that variable  declarations
+      are all the <code class="code"><span class="constructor">GVar</span></code>, <code class="code"><span class="constructor">GVarDecl</span></code>, <code class="code"><span class="constructor">GFun</span></code>, <code class="code"><span class="constructor">GFunDecl</span></code>,  all the <code class="code">varinfo</code>
+      in formals of function types, and the formals and locals for function
+      definitions.</p>
+</div>
+</div>
+
+<pre><span id="METHODvarinfo"><span class="keyword">method</span> varinfo</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each variable use.</p>
+</div>
+</div>
+
+<pre><span id="METHODlval"><span class="keyword">method</span> lval</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElval">Cil_types.lval</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each lvalue occurrence</p>
+</div>
+</div>
+
+<pre><span id="METHODfield"><span class="keyword">method</span> field</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfieldinfo">Cil_types.fieldinfo</a> -> unit</code></pre>
+<pre><span id="METHODoffset"><span class="keyword">method</span> offset</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEoffset">Cil_types.offset</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each offset occurrence. The second argument is the base.</p>
+</div>
+</div>
+
+<pre><span id="METHODglobal"><span class="keyword">method</span> global</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEglobal">Cil_types.global</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Global (vars, types, etc.). This can be slow.</p>
+</div>
+</div>
+
+<pre><span id="METHODfieldinfo"><span class="keyword">method</span> fieldinfo</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfieldinfo">Cil_types.fieldinfo</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>A field declaration</p>
+</div>
+</div>
+
+<pre><span id="METHODstorage"><span class="keyword">method</span> storage</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEstorage">Cil_types.storage</a> -> unit</code></pre>
+<pre><span id="METHODikind"><span class="keyword">method</span> ikind</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEikind">Cil_types.ikind</a> -> unit</code></pre>
+<pre><span id="METHODfkind"><span class="keyword">method</span> fkind</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfkind">Cil_types.fkind</a> -> unit</code></pre>
+<pre><span id="METHODtyp"><span class="keyword">method</span> typ</span> : <code class="type">?fundecl:<a href="./Cil_types.html#TYPEvarinfo">Cil_types.varinfo</a> -><br>       (Stdlib.Format.formatter -> unit) option -><br>       Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEtyp">Cil_types.typ</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Use of some type in some declaration.  <code class="code">fundecl</code> is the name of the
+      function which is declared with the corresponding type.  The second
+      argument is used to print the declared element, or is None if we are just
+      printing a type with no name being declared.  If <code class="code">fundecl</code> is not None,
+      second argument must also have a value.</p>
+</div>
+</div>
+
+<pre><span id="METHODattrparam"><span class="keyword">method</span> attrparam</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEattrparam">Cil_types.attrparam</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Attribute parameter</p>
+</div>
+</div>
+
+<pre><span id="METHODattribute"><span class="keyword">method</span> attribute</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEattribute">Cil_types.attribute</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>Attribute. Also return an indication whether this attribute must be
+      printed inside the __attribute__ list or not.</p>
+</div>
+</div>
+
+<pre><span id="METHODattributes"><span class="keyword">method</span> attributes</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEattributes">Cil_types.attributes</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Attribute lists</p>
+</div>
+</div>
+
+<pre><span id="METHODlabel"><span class="keyword">method</span> label</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElabel">Cil_types.label</a> -> unit</code></pre>
+<pre><span id="METHODcompinfo"><span class="keyword">method</span> compinfo</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEcompinfo">Cil_types.compinfo</a> -> unit</code></pre>
+<pre><span id="METHODinitinfo"><span class="keyword">method</span> initinfo</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEinitinfo">Cil_types.initinfo</a> -> unit</code></pre>
+<pre><span id="METHODfundec"><span class="keyword">method</span> fundec</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfundec">Cil_types.fundec</a> -> unit</code></pre>
+<pre><span id="METHODline_directive"><span class="keyword">method</span> line_directive</span> : <code class="type">?forcefile:bool -> Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElocation">Cil_types.location</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Print a line-number. This is assumed to come always on an empty line. If
+      the forcefile argument is present and is true then the file name will be
+      printed always. Otherwise the file name is printed only if it is
+      different from the last time this function is called. The last file
+      name is stored in a private field inside the cilPrinter object.</p>
+</div>
+</div>
+
+<pre><span id="METHODstmt_labels"><span class="keyword">method</span> stmt_labels</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Print only the labels of the statement. Used by <code class="code">annotated_stmt</code>.</p>
+</div>
+</div>
+
+<pre><span id="METHODannotated_stmt"><span class="keyword">method</span> annotated_stmt</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Print an annotated statement. The code to be printed is given in the
+      last <a href="Cil_types.html#TYPEstmt"><code class="code"><span class="constructor">Cil_types</span>.stmt</code></a> argument. The initial <a href="Cil_types.html#TYPEstmt"><code class="code"><span class="constructor">Cil_types</span>.stmt</code></a> argument
+      records the statement which follows the one being printed.</p>
+</div>
+</div>
+
+<pre><span id="METHODstmtkind"><span class="keyword">method</span> stmtkind</span> : <code class="type"><a href="./Cil_types.html#TYPEattributes">Cil_types.attributes</a> -><br>       <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEstmtkind">Cil_types.stmtkind</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Print a statement kind. The code to be printed is given in the
+      <a href="Cil_types.html#TYPEstmtkind"><code class="code"><span class="constructor">Cil_types</span>.stmtkind</code></a> argument.  The initial <a href="Cil_types.html#TYPEstmt"><code class="code"><span class="constructor">Cil_types</span>.stmt</code></a> argument
+      records the statement which follows the one being printed;
+      <code class="code">defaultCilPrinterClass</code> uses this information to prettify statement
+      printing in certain special cases. The boolean flag indicated whether
+      the statement has labels (which have already been printed)</p>
+</div>
+</div>
+
+<pre><span id="METHODinstr"><span class="keyword">method</span> instr</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEinstr">Cil_types.instr</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Invoked on each instruction occurrence.</p>
+</div>
+</div>
+
+<pre><span id="METHODstmt"><span class="keyword">method</span> stmt</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Control-flow statement. <code class="code">annot</code> is <code class="code"><span class="keyword">true</span></code> iff the printer prints the
+      annotations of the stmt.</p>
+</div>
+</div>
+
+<pre><span id="METHODnext_stmt"><span class="keyword">method</span> next_stmt</span> : <code class="type"><a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEstmt">Cil_types.stmt</a> -> unit</code></pre>
+<pre><span id="METHODblock"><span class="keyword">method</span> block</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEblock">Cil_types.block</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Prints a block.</p>
+</div>
+<ul class="info-attributes">
+<b>Change in Fluorine-20130401</b>: optional arguments has been modified.<br>
+<b>Change in Phosphorus-20170501-beta1</b>: no more options for pretty-printing<br>
+</ul>
+</div>
+
+<pre><span id="METHODexp"><span class="keyword">method</span> exp</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEexp">Cil_types.exp</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Print expressions</p>
+</div>
+</div>
+
+<pre><span id="METHODunop"><span class="keyword">method</span> unop</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEunop">Cil_types.unop</a> -> unit</code></pre>
+<pre><span id="METHODbinop"><span class="keyword">method</span> binop</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEbinop">Cil_types.binop</a> -> unit</code></pre>
+<pre><span id="METHODinit"><span class="keyword">method</span> init</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEinit">Cil_types.init</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Print initializers. This can be slow.</p>
+</div>
+</div>
+
+<pre><span id="METHODfile"><span class="keyword">method</span> file</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfile">Cil_types.file</a> -> unit</code></pre><h4 id="3_Prettyprintingofannotations">Pretty-printing of annotations</h4>
+<pre><span id="METHODlogic_constant"><span class="keyword">method</span> logic_constant</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_constant">Cil_types.logic_constant</a> -> unit</code></pre>
+<pre><span id="METHODlogic_type"><span class="keyword">method</span> logic_type</span> : <code class="type">(Stdlib.Format.formatter -> unit) option -><br>       Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_type">Cil_types.logic_type</a> -> unit</code></pre>
+<pre><span id="METHODlogic_type_def"><span class="keyword">method</span> logic_type_def</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_type_def">Cil_types.logic_type_def</a> -> unit</code></pre>
+<pre><span id="METHODmodel_info"><span class="keyword">method</span> model_info</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEmodel_info">Cil_types.model_info</a> -> unit</code></pre>
+<pre><span id="METHODterm_binop"><span class="keyword">method</span> term_binop</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEbinop">Cil_types.binop</a> -> unit</code></pre>
+<pre><span id="METHODrelation"><span class="keyword">method</span> relation</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPErelation">Cil_types.relation</a> -> unit</code></pre>
+<pre><span id="METHODidentified_term"><span class="keyword">method</span> identified_term</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEidentified_term">Cil_types.identified_term</a> -> unit</code></pre>
+<pre><span id="METHODterm"><span class="keyword">method</span> term</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> unit</code></pre>
+<pre><span id="METHODterm_node"><span class="keyword">method</span> term_node</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEterm">Cil_types.term</a> -> unit</code></pre>
+<pre><span id="METHODterm_lval"><span class="keyword">method</span> term_lval</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEterm_lval">Cil_types.term_lval</a> -> unit</code></pre>
+<pre><span id="METHODterm_lhost"><span class="keyword">method</span> term_lhost</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEterm_lhost">Cil_types.term_lhost</a> -> unit</code></pre>
+<pre><span id="METHODmodel_field"><span class="keyword">method</span> model_field</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEmodel_info">Cil_types.model_info</a> -> unit</code></pre>
+<pre><span id="METHODterm_offset"><span class="keyword">method</span> term_offset</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEterm_offset">Cil_types.term_offset</a> -> unit</code></pre>
+<pre><span id="METHODlogic_builtin_label"><span class="keyword">method</span> logic_builtin_label</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_builtin_label">Cil_types.logic_builtin_label</a> -> unit</code></pre>
+<pre><span id="METHODlogic_label"><span class="keyword">method</span> logic_label</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_label">Cil_types.logic_label</a> -> unit</code></pre>
+<pre><span id="METHODlogic_info"><span class="keyword">method</span> logic_info</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_info">Cil_types.logic_info</a> -> unit</code></pre>
+<pre><span id="METHODbuiltin_logic_info"><span class="keyword">method</span> builtin_logic_info</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEbuiltin_logic_info">Cil_types.builtin_logic_info</a> -> unit</code></pre>
+<pre><span id="METHODlogic_type_info"><span class="keyword">method</span> logic_type_info</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_type_info">Cil_types.logic_type_info</a> -> unit</code></pre>
+<pre><span id="METHODlogic_ctor_info"><span class="keyword">method</span> logic_ctor_info</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_ctor_info">Cil_types.logic_ctor_info</a> -> unit</code></pre>
+<pre><span id="METHODlogic_var"><span class="keyword">method</span> logic_var</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPElogic_var">Cil_types.logic_var</a> -> unit</code></pre>
+<pre><span id="METHODquantifiers"><span class="keyword">method</span> quantifiers</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEquantifiers">Cil_types.quantifiers</a> -> unit</code></pre>
+<pre><span id="METHODpredicate_node"><span class="keyword">method</span> predicate_node</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEpredicate_node">Cil_types.predicate_node</a> -> unit</code></pre>
+<pre><span id="METHODpredicate"><span class="keyword">method</span> predicate</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEpredicate">Cil_types.predicate</a> -> unit</code></pre>
+<pre><span id="METHODidentified_predicate"><span class="keyword">method</span> identified_predicate</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> unit</code></pre>
+<pre><span id="METHODbehavior"><span class="keyword">method</span> behavior</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfunbehavior">Cil_types.funbehavior</a> -> unit</code></pre>
+<pre><span id="METHODrequires"><span class="keyword">method</span> requires</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> unit</code></pre>
+<pre><span id="METHODcomplete_behaviors"><span class="keyword">method</span> complete_behaviors</span> : <code class="type">Stdlib.Format.formatter -> string list -> unit</code></pre>
+<pre><span id="METHODdisjoint_behaviors"><span class="keyword">method</span> disjoint_behaviors</span> : <code class="type">Stdlib.Format.formatter -> string list -> unit</code></pre>
+<pre><span id="METHODterminates"><span class="keyword">method</span> terminates</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> unit</code></pre>
+<pre><span id="METHODpost_cond"><span class="keyword">method</span> post_cond</span> : <code class="type">Stdlib.Format.formatter -><br>       <a href="./Cil_types.html#TYPEtermination_kind">Cil_types.termination_kind</a> * <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>pretty prints a post condition according to the exit kind it represents</p>
+</div>
+<ul class="info-attributes">
+<b>Change in Boron-20100401</b>: replaces <code class="code">pEnsures</code><br>
+</ul>
+</div>
+
+<pre><span id="METHODassumes"><span class="keyword">method</span> assumes</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEidentified_predicate">Cil_types.identified_predicate</a> -> unit</code></pre>
+<pre><span id="METHODextended"><span class="keyword">method</span> extended</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEacsl_extension">Cil_types.acsl_extension</a> -> unit</code></pre>
+<pre><span id="METHODshort_extended"><span class="keyword">method</span> short_extended</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEacsl_extension">Cil_types.acsl_extension</a> -> unit</code></pre>
+<pre><span id="METHODfunspec"><span class="keyword">method</span> funspec</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfunspec">Cil_types.funspec</a> -> unit</code></pre>
+<pre><span id="METHODassigns"><span class="keyword">method</span> assigns</span> : <code class="type">string -> Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEassigns">Cil_types.assigns</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>first parameter is the introducing keyword (e.g. loop_assigns or
+      assigns).</p>
+</div>
+</div>
+
+<pre><span id="METHODallocation"><span class="keyword">method</span> allocation</span> : <code class="type">isloop:bool -> Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEallocation">Cil_types.allocation</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>first parameter is the introducing keyword
+      (e.g. loop_allocates, loop_frees, allocates or free)</p>
+</div>
+<ul class="info-attributes">
+<li><b>Since</b> Oxygen-20120901.</li>
+</ul>
+</div>
+
+<pre><span id="METHODfrom"><span class="keyword">method</span> from</span> : <code class="type">string -> Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEfrom">Cil_types.from</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>prints an assignment with its dependencies.</p>
+</div>
+</div>
+
+<pre><span id="METHODcode_annotation"><span class="keyword">method</span> code_annotation</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEcode_annotation">Cil_types.code_annotation</a> -> unit</code></pre>
+<pre><span id="METHODglobal_annotation"><span class="keyword">method</span> global_annotation</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEglobal_annotation">Cil_types.global_annotation</a> -> unit</code></pre>
+<pre><span id="METHODdecreases"><span class="keyword">method</span> decreases</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEvariant">Cil_types.variant</a> -> unit</code></pre>
+<pre><span id="METHODvariant"><span class="keyword">method</span> variant</span> : <code class="type">Stdlib.Format.formatter -> <a href="./Cil_types.html#TYPEvariant">Cil_types.variant</a> -> unit</code></pre>
+<pre><span id="METHODpp_keyword"><span class="keyword">method</span> pp_keyword</span> : <code class="type">Stdlib.Format.formatter -> string -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<h4 id="3_Modifyingprettyprinterbehavior">Modifying pretty-printer behavior</h4>
+<p>All C99 keywords except types "char", "int", "long", "signed",
+      "short", "unsigned", "void" and "_XXX" (like "_Bool") *</p>
+</div>
+</div>
+
+<pre><span id="METHODpp_acsl_keyword"><span class="keyword">method</span> pp_acsl_keyword</span> : <code class="type">Stdlib.Format.formatter -> string -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>All ACSL keywords except logic types</p>
+</div>
+</div>
+
+<pre><span id="METHODpp_open_annotation"><span class="keyword">method</span> pp_open_annotation</span> : <code class="type">?block:bool -> ?pre:<a href="./Pretty_utils.html#TYPEsformat">Pretty_utils.sformat</a> -> Stdlib.Format.formatter -> unit</code></pre>
+<pre><span id="METHODpp_close_annotation"><span class="keyword">method</span> pp_close_annotation</span> : <code class="type">?block:bool -> ?suf:<a href="./Pretty_utils.html#TYPEsformat">Pretty_utils.sformat</a> -> Stdlib.Format.formatter -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Called before/after printing an annotation comment.
+      Put the annotation in a block according to the optional argument. If
+      it is not set, the annotation is put in a block.  *</p>
+</div>
+</div>
+
+<pre><span id="METHODwithout_annot"><span class="keyword">method</span> without_annot</span> : <code class="type">'a.<br>         (Stdlib.Format.formatter -> 'a -> unit) -><br>         Stdlib.Format.formatter -> 'a -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">self<span class="keywordsign">#</span>without_annot&nbsp;printer&nbsp;fmt&nbsp;x</code> pretty prints <code class="code">x</code> by using <code class="code">printer</code>,
+      without pretty-printing its function contracts and code annotations.</p>
+</div>
+</div>
+
+<pre><span id="METHODforce_brace"><span class="keyword">method</span> force_brace</span> : <code class="type">'a.<br>         (Stdlib.Format.formatter -> 'a -> unit) -><br>         Stdlib.Format.formatter -> 'a -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">self<span class="keywordsign">#</span>force_brace&nbsp;printer&nbsp;fmt&nbsp;x</code> pretty prints <code class="code">x</code> by using <code class="code">printer</code>,
+        but add some extra braces '{' and '}' which are hidden by default.</p>
+</div>
+</div>
+</body></html>

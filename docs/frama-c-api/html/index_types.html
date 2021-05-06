@@ -1,0 +1,2506 @@
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><title>Index of types - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Index of types</h1>
+<table>
+<tr><td align="left"><div>A</div></td></tr>
+<tr><td><a href="Locations.html#TYPEaccess">access</a> [<a href="Locations.html">Locations</a>]</td>
+<td><div class="info">
+<p>Kind of memory access.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Base.html#TYPEaccess">access</a> [<a href="Base.html">Base</a>]</td>
+<td><div class="info">
+<p>Access kind: read/write of k bits, or no access.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Alarms.html#TYPEaccess_kind">access_kind</a> [<a href="Alarms.html">Alarms</a>]</td>
+<td></td></tr>
+<tr><td><a href="Typed_parameter.html#TYPEaccessor">accessor</a> [<a href="Typed_parameter.html">Typed_parameter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_category.html#TYPEaccessor">accessor</a> [<a href="Parameter_category.html">Parameter_category</a>]</td>
+<td><div class="info">
+<p>Type explaining how to manipulate the elements of the category.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEacsl_extension">acsl_extension</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Extension to standard ACSL clause with an unique identifier.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEacsl_extension_kind">acsl_extension_kind</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Wpane.html#TYPEaction">action</a> [<a href="Wpane.html">Wpane</a>]</td>
+<td><div class="info">
+<p>Button for dialog options</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dataflow2.html#TYPEaction">action</a> [<a href="Dataflow2.html">Dataflow2</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptset.S.html#TYPEaction">action</a> [<a href="Hptset.S.html">Hptset.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Alarms.html#TYPEalarm">alarm</a> [<a href="Alarms.html">Alarms</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Widget.html#TYPEalign">align</a> [<a href="Widget.html">Widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Pretty_utils.html#TYPEalign">align</a> [<a href="Pretty_utils.html">Pretty_utils</a>]</td>
+<td></td></tr>
+<tr><td><a href="Markdown.html#TYPEalign">align</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td><div class="info">
+<p>Table columns alignment</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEallocation">allocation</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>allocates and frees.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEallocation">allocation</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>allocates and frees.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Alpha.html#TYPEalphaTable">alphaTable</a> [<a href="Alpha.html">Alpha</a>]</td>
+<td><div class="info">
+<p>type for alpha conversion table.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Alpha.html#TYPEalphaTableData">alphaTableData</a> [<a href="Alpha.html">Alpha</a>]</td>
+<td><div class="info">
+<p>This is the type of the elements of the alpha renaming table.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEannot">annot</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>all kind of annotations</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEannotation">annotation</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEarray_size">array_size</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>size of logic array.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEasm_details">asm_details</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEassert_kind">assert_kind</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEassigns">assigns</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>zone assigned with its dependencies.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEassigns">assigns</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>zone assigned with its dependencies.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Task.html#TYPEasync">async</a> [<a href="Task.html">Task</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dotgraph.html#TYPEattr">attr</a> [<a href="Dotgraph.html">Dotgraph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEattribute">attribute</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEattribute">attribute</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.html#TYPEattributeClass">attributeClass</a> [<a href="Cil.html">Cil</a>]</td>
+<td><div class="info">
+<p>Various classes of attributes</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEattributes">attributes</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Attributes are lists sorted by the attribute name.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEattrparam">attrparam</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>The type of parameters of attributes</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEautomaton">automaton</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>B</div></td></tr>
+<tr><td><a href="Base.html#TYPEbase">base</a> [<a href="Base.html">Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEbehavior">behavior</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>Behavior in a specification.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEbehavior">behavior</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Behavior of a function or statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Annotations.html#TYPEbehavior_component_addition">behavior_component_addition</a> [<a href="Annotations.html">Annotations</a>]</td>
+<td><div class="info">
+<p>type for functions adding a part of a <code class="code">behavior</code> inside a contract.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEbehavior_or_loop">behavior_or_loop</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+<p>assigns can belong either to a contract or a loop annotation</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEbinary_operator">binary_operator</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEbinop">binop</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>arithmetic and logic binary operators.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEbinop">binop</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Binary operations</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEbitsSizeofTyp">bitsSizeofTyp</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>This is used to cache the computation of the size of types in bits.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEbitsSizeofTypCache">bitsSizeofTypCache</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Markdown.html#TYPEblock">block</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEblock">block</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>A block is a sequence of statements with the control falling through from
+    one element to the next.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEblock">block</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_api.html#TYPEblock_ctxt">block_ctxt</a> [<a href="Printer_api.html">Printer_api</a>]</td>
+<td><div class="info">
+<p>context in which a block will be printed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Markdown.html#TYPEblock_element">block_element</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td></td></tr>
+<tr><td><a href="Alarms.html#TYPEbound_kind">bound_kind</a> [<a href="Alarms.html">Alarms</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wbox.html#TYPEbox">box</a> [<a href="Wbox.html">Wbox</a>]</td>
+<td><div class="info">
+<p>A packed widget with its layout directives</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Sanitizer.html#TYPEbuffer">buffer</a> [<a href="Sanitizer.html">Sanitizer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Rich_text.html#TYPEbuffer">buffer</a> [<a href="Rich_text.html">Rich_text</a>]</td>
+<td><div class="info">
+<p>Buffer for creating messages.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dotgraph.html#TYPEbuffer">buffer</a> [<a href="Dotgraph.html">Dotgraph</a>]</td>
+<td><div class="info">
+<p>A text buffer to compose labels and attributes.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Value.html#TYPEbuiltin">builtin</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<p>Type for an Eva builtin function</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEbuiltin_logic_info">builtin_logic_info</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Value.html#TYPEbuiltin_type">builtin_type</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>C</div></td></tr>
+<tr><td><a href="Floating_point.html#TYPEc_rounding_mode">c_rounding_mode</a> [<a href="Floating_point.html">Floating_point</a>]</td>
+<td><div class="info">
+<p>Rounding modes defined in the C99 standard.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEcabsexp">cabsexp</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEcabsloc">cabsloc</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptmap_sig.html#TYPEcache_type">cache_type</a> [<a href="Hptmap_sig.html">Hptmap_sig</a>]</td>
+<td><div class="info">
+<p>Some functions of this module may optionally use internal caches.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Oneret.html#TYPEcallback">callback</a> [<a href="Oneret.html">Oneret</a>]</td>
+<td></td></tr>
+<tr><td><a href="Menu_manager.html#TYPEcallback_state">callback_state</a> [<a href="Menu_manager.html">Menu_manager</a>]</td>
+<td><div class="info">
+<p>Callback for the buttons that can be in the menus.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Value.html#TYPEcallstack">callstack</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEcatch_binder">catch_binder</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Kind of exceptions that are caught by a given clause.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Log.Messages.html#TYPEcategory">category</a> [<a href="Log.Messages.html">Log.Messages</a>]</td>
+<td><div class="info">
+<p>category for debugging/verbose messages.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Log.html#TYPEchannel">channel</a> [<a href="Log.html">Log</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Gtk_helper.html#TYPEchooser">chooser</a> [<a href="Gtk_helper.html">Gtk_helper</a>]</td>
+<td><div class="info">
+<p>The created widget is packed in the box.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEcil_function">cil_function</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Internal representation of decorated C functions</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEcode_annot">code_annot</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>all annotations that can be found in the code.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEcode_annotation">code_annotation</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>code annotation with an unique identifier.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEcode_annotation_node">code_annotation_node</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>all annotations that can be found in the code.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="File.html#TYPEcode_transformation_category">code_transformation_category</a> [<a href="File.html">File</a>]</td>
+<td><div class="info">
+<p>type of registered code transformations</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Task.html#TYPEcoin">coin</a> [<a href="Task.html">Task</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.html#TYPEcolor">color</a> [<a href="Widget.html">Widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtable.html#TYPEcolumn">column</a> [<a href="Wtable.html">Wtable</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEcompinfo">compinfo</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>The definition of a structure or union type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wto.html#TYPEcomponent">component</a> [<a href="Wto.html">Wto</a>]</td>
+<td><div class="info">
+<p>Each component of the graph is either an individual node of the graph
+    (without) self loop, or a strongly connected component where a node is
+    designed as the head of the component and the remaining nodes are given
+    by a list of components topologically ordered.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_helper.Configuration.html#TYPEconfigData">configData</a> [<a href="Gtk_helper.Configuration.html">Gtk_helper.Configuration</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cilconfig.html#TYPEconfigData">configData</a> [<a href="Cilconfig.html">Cilconfig</a>]</td>
+<td><div class="info">
+<p>The configuration data can be of several types *</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property_status.Consolidation.html#TYPEconsolidated_status">consolidated_status</a> [<a href="Property_status.Consolidation.html">Property_status.Consolidation</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEconstant">constant</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEconstant">constant</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Literal constants</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEconstant">constant</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEconstructor_kind">constructor_kind</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Annotations.html#TYPEcontract_component_addition">contract_component_addition</a> [<a href="Annotations.html">Annotations</a>]</td>
+<td><div class="info">
+<p>type for functions adding a part of a contract (either for global function
+    or for a given <code class="code">stmt</code>).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="File.html#TYPEcpp_opt_kind">cpp_opt_kind</a> [<a href="File.html">File</a>]</td>
+<td><div class="info">
+<p>Whether a given preprocessor supports gcc options used in some
+    configurations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Base.html#TYPEcstring">cstring</a> [<a href="Base.html">Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.html#TYPEcustom_list">custom_list</a> [<a href="Gtk_helper.MAKE_CUSTOM_LIST.html">Gtk_helper.MAKE_CUSTOM_LIST</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEcustom_tree">custom_tree</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEcustom_tree">custom_tree</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEcvspec">cvspec</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>D</div></td></tr>
+<tr><td><a href="Db.html#TYPEdaemon">daemon</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Registered daemon on progress.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Weak_hashtbl.html#TYPEdata">data</a> [<a href="State_builder.Weak_hashtbl.html">State_builder.Weak_hashtbl</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Sub_caml_weak_hashtbl.html#TYPEdata">data</a> [<a href="Datatype.Sub_caml_weak_hashtbl.html">Datatype.Sub_caml_weak_hashtbl</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dataflow2.StmtStartData.html#TYPEdata">data</a> [<a href="Dataflow2.StmtStartData.html">Dataflow2.StmtStartData</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Ref.html#TYPEdata">data</a> [<a href="State_builder.Ref.html">State_builder.Ref</a>]</td>
+<td><div class="info">
+<p>Type of the referenced value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Hashtbl.html#TYPEdata">data</a> [<a href="State_builder.Hashtbl.html">State_builder.Hashtbl</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.List_ref.html#TYPEdata_in_list">data_in_list</a> [<a href="State_builder.List_ref.html">State_builder.List_ref</a>]</td>
+<td></td></tr>
+<tr><td><a href="Base.html#TYPEdeallocation">deallocation</a> [<a href="Base.html">Base</a>]</td>
+<td><div class="info">
+<p>Whether the allocated base has been obtained via calls to
+    malloc/calloc/realloc (<code class="code"><span class="constructor">Malloc</span></code>), alloca (<code class="code"><span class="constructor">Alloca</span></code>), or is related to a
+    variable-length array (<code class="code"><span class="constructor">VLA</span></code>).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptmap_sig.S.html#TYPEdecide_fast">decide_fast</a> [<a href="Hptmap_sig.S.html">Hptmap_sig.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEdecl">decl</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>global declarations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEdecl_node">decl_node</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEdecl_type">decl_type</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lmap.html#TYPEdefault_contents">default_contents</a> [<a href="Lmap.html">Lmap</a>]</td>
+<td><div class="info">
+<p>Contents of a variable when it is not present in the state.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEdefinition">definition</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_form.html#TYPEdemon">demon</a> [<a href="Gtk_form.html">Gtk_form</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEdeps">deps</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>dependencies of an assigned location.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEdeps">deps</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>dependencies of an assigned location.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dotgraph.html#TYPEdot">dot</a> [<a href="Dotgraph.html">Dotgraph</a>]</td>
+<td><div class="info">
+<p>Buffer to a <code class="code">dot</code> file with a graph environment (nodes, edges, etc.)</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>E</div></td></tr>
+<tr><td><a href="Service_graph.html#TYPEedge">edge</a> [<a href="Service_graph.html">Service_graph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEedge">edge</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Markdown.html#TYPEelement">element</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td></td></tr>
+<tr><td><a href="Markdown.html#TYPEelements">elements</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Hashcons.html#TYPEelt">elt</a> [<a href="State_builder.Hashcons.html">State_builder.Hashcons</a>]</td>
+<td><div class="info">
+<p>The type of the elements that are hash-consed</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Array.html#TYPEelt">elt</a> [<a href="State_builder.Array.html">State_builder.Array</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Queue.html#TYPEelt">elt</a> [<a href="State_builder.Queue.html">State_builder.Queue</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Collection.html#TYPEelt">elt</a> [<a href="Parameter_sig.Collection.html">Parameter_sig.Collection</a>]</td>
+<td><div class="info">
+<p>Element in the collection.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Collection_category.html#TYPEelt">elt</a> [<a href="Parameter_sig.Collection_category.html">Parameter_sig.Collection_category</a>]</td>
+<td><div class="info">
+<p>Element in the category</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptset.S_Basic_Compare.html#TYPEelt">elt</a> [<a href="Hptset.S_Basic_Compare.html">Hptset.S_Basic_Compare</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Set_ref.html#TYPEelt">elt</a> [<a href="State_builder.Set_ref.html">State_builder.Set_ref</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property_status.html#TYPEemitted_status">emitted_status</a> [<a href="Property_status.html">Property_status</a>]</td>
+<td><div class="info">
+<p>Type of status emitted by analyzers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lattice_messages.html#TYPEemitter">emitter</a> [<a href="Lattice_messages.html">Lattice_messages</a>]</td>
+<td></td></tr>
+<tr><td><a href="Emitter.html#TYPEemitter">emitter</a> [<a href="Emitter.html">Emitter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property_status.html#TYPEemitter_with_properties">emitter_with_properties</a> [<a href="Property_status.html">Property_status</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptmap_sig.S.html#TYPEempty_action">empty_action</a> [<a href="Hptmap_sig.S.html">Hptmap_sig.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wtext.html#TYPEentry">entry</a> [<a href="Wtext.html">Wtext</a>]</td>
+<td></td></tr>
+<tr><td><a href="Rgmap.html#TYPEentry">entry</a> [<a href="Rgmap.html">Rgmap</a>]</td>
+<td><div class="info">
+<p>Entry <code class="code">(a,b,v)</code> maps range <code class="code">a..b</code> (both included) to value <code class="code">v</code> in the map.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.html#TYPEentry">entry</a> [<a href="Menu_manager.html">Menu_manager</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEenum_item">enum_item</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEenuminfo">enuminfo</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Information about an enumeration.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEenumitem">enumitem</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Log.html#TYPEevent">event</a> [<a href="Log.html">Log</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Filepath.html#TYPEexistence">existence</a> [<a href="Filepath.html">Filepath</a>]</td>
+<td><div class="info">
+<p>Existence requirement on a file.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.html#TYPEexistsAction">existsAction</a> [<a href="Cil.html">Cil</a>]</td>
+<td><div class="info">
+<p>A datatype to be used in conjunction with <code class="code">existsType</code></p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cmdline.html#TYPEexit">exit</a> [<a href="Cmdline.html">Cmdline</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEexp">exp</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Expressions (Side-effect free)</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEexp_info">exp_info</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Additional information on an expression</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEexp_node">exp_node</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wbox.html#TYPEexpand">expand</a> [<a href="Wbox.html">Wbox</a>]</td>
+<td><div class="info">
+<p>Expansion Modes.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEexpression">expression</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEext_category">ext_category</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Where are we expected to find corresponding extension keyword.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEext_code_annot_context">ext_code_annot_context</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEext_decl">ext_decl</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>ACSL extension for external spec file *</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEext_function">ext_function</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEext_module">ext_module</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEext_spec">ext_spec</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEextended_asm">extended_asm</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>GNU extended-asm information: a list of outputs, each of which is an lvalue with optional names and
+      constraints., a list of input expressions along with constraints, clobbered registers, Possible destinations statements</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEextended_decl">extended_decl</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEextended_loc">extended_loc</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEextension">extension</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Acsl_extension.html#TYPEextension_preprocessor">extension_preprocessor</a> [<a href="Acsl_extension.html">Acsl_extension</a>]</td>
+<td><div class="info">
+<p>Untyped ACSL extensions transformers</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Acsl_extension.html#TYPEextension_preprocessor_block">extension_preprocessor_block</a> [<a href="Acsl_extension.html">Acsl_extension</a>]</td>
+<td></td></tr>
+<tr><td><a href="Acsl_extension.html#TYPEextension_printer">extension_printer</a> [<a href="Acsl_extension.html">Acsl_extension</a>]</td>
+<td></td></tr>
+<tr><td><a href="Acsl_extension.html#TYPEextension_typer">extension_typer</a> [<a href="Acsl_extension.html">Acsl_extension</a>]</td>
+<td><div class="info">
+<p>Transformers from untyped to typed ACSL extension</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Acsl_extension.html#TYPEextension_typer_block">extension_typer_block</a> [<a href="Acsl_extension.html">Acsl_extension</a>]</td>
+<td><div class="info">
+<p>Pretty printers for ACSL extensions</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Acsl_extension.html#TYPEextension_visitor">extension_visitor</a> [<a href="Acsl_extension.html">Acsl_extension</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>F</div></td></tr>
+<tr><td><a href="Filter.RemoveInfo.html#TYPEfct">fct</a> [<a href="Filter.RemoveInfo.html">Filter.RemoveInfo</a>]</td>
+<td><div class="info">
+<p>some type for a function information</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpane.html#TYPEfield">field</a> [<a href="Wpane.html">Wpane</a>]</td>
+<td><div class="info">
+<p>The expansible attribute of a field.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_form.html#TYPEfield">field</a> [<a href="Gtk_form.html">Gtk_form</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEfield_group">field_group</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEfieldinfo">fieldinfo</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Information about a struct/union field.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="File.html#TYPEfile">file</a> [<a href="File.html">File</a>]</td>
+<td><div class="info">
+<p>File type, according to how it will be preprocessed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEfile">file</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>The top-level representation of a CIL source file (and the result of the
+    parsing and elaboration).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEfile">file</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td><div class="info">
+<p>the file name, and then the list of toplevel forms.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wfile.html#TYPEfilekind">filekind</a> [<a href="Wfile.html">Wfile</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filetree.html#TYPEfiletree_node">filetree_node</a> [<a href="Filetree.html">Filetree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEfkind">fkind</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Various kinds of floating-point numbers</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Float_interval_sig.S.html#TYPEfloat">float</a> [<a href="Float_interval_sig.S.html">Float_interval_sig.S</a>]</td>
+<td><div class="info">
+<p>Type of the interval bounds.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEfor_clause">for_clause</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.html#TYPEformatArg">formatArg</a> [<a href="Cil.html">Cil</a>]</td>
+<td><div class="info">
+<p>The type of argument for the interpreter</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Pretty_utils.html#TYPEformatter">formatter</a> [<a href="Pretty_utils.html">Pretty_utils</a>]</td>
+<td></td></tr>
+<tr><td><a href="Pretty_utils.html#TYPEformatter2">formatter2</a> [<a href="Pretty_utils.html">Pretty_utils</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEfrom">from</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEfrom">from</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEfunbehavior">funbehavior</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>behavior of a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEfundec">fundec</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Function definitions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEfunspec">funspec</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEfunspec">funspec</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Rangemap.html#TYPEfuzzy_order">fuzzy_order</a> [<a href="Rangemap.html">Rangemap</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>G</div></td></tr>
+<tr><td><a href="Typed_parameter.html#TYPEgen_accessor">gen_accessor</a> [<a href="Typed_parameter.html">Typed_parameter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Int_val.html#TYPEgeneric_widen_hint">generic_widen_hint</a> [<a href="Int_val.html">Int_val</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEglobal">global</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>The main type for representing global declarations and definitions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEglobal_annotation">global_annotation</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>global annotations, not attached to a statement or a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEglobal_extension">global_extension</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Oneret.html#TYPEgoto_annot">goto_annot</a> [<a href="Oneret.html">Oneret</a>]</td>
+<td></td></tr>
+<tr><td><a href="Service_graph.S.html#TYPEgraph">graph</a> [<a href="Service_graph.S.html">Service_graph.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEgraph">graph</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEguard_kind">guard_kind</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dataflow2.html#TYPEguardaction">guardaction</a> [<a href="Dataflow2.html">Dataflow2</a>]</td>
+<td><div class="info">
+<p>For if statements</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>H</div></td></tr>
+<tr><td><a href="History.html#TYPEhistory_elt">history_elt</a> [<a href="History.html">History</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.html#TYPEhow_to_journalize">how_to_journalize</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>How to journalize the given function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Markdown.html#TYPEhref">href</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td><div class="info">
+<p>Local refs and URLs</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>I</div></td></tr>
+<tr><td><a href="Int_Base.html#TYPEi">i</a> [<a href="Int_Base.html">Int_Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.html#TYPEicon">icon</a> [<a href="Widget.html">Widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hook.S_ordered.html#TYPEid">id</a> [<a href="Hook.S_ordered.html">Hook.S_ordered</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_allocation">identified_allocation</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_assigns">identified_assigns</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_axiom">identified_axiom</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_axiomatic">identified_axiomatic</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_behavior">identified_behavior</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+<p>for statement contract, the set of parent behavior for which the
+    contract is active is part of its identification.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEidentified_code_annotation">identified_code_annotation</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+<p>Only AAssert, AInvariant, or APragma.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEidentified_complete">identified_complete</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+<p>Same as for <a href="Property.html#TYPEidentified_behavior"><code class="code"><span class="constructor">Property</span>.identified_behavior</code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEidentified_decrease">identified_decrease</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+<p>code_annotation is None for decreases and <code class="code"><span class="constructor">Some</span>&nbsp;{&nbsp;<span class="constructor">AVariant</span>&nbsp;}</code> for
+    loop variant.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEidentified_disjoint">identified_disjoint</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_extended">identified_extended</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_from">identified_from</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_global_invariant">identified_global_invariant</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_instance">identified_instance</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+<p>Specialization of a property at a given point, identified by a statement
+    and a function, along with the predicate transposed at this point (if it
+    can be) and the original property.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEidentified_lemma">identified_lemma</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_other">identified_other</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_predicate">identified_predicate</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEidentified_predicate">identified_predicate</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>predicate with an unique identifier.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEidentified_property">identified_property</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEidentified_reachable">identified_reachable</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+<p><code class="code"><span class="constructor">None</span>,&nbsp;<span class="constructor">Kglobal</span></code> --&gt; global property
+    <code class="code"><span class="constructor">None</span>,&nbsp;<span class="constructor">Some</span>&nbsp;ki</code> --&gt; impossible
+    <code class="code"><span class="constructor">Some</span>&nbsp;kf,&nbsp;<span class="constructor">Kglobal</span></code> --&gt; property of a function without code
+    <code class="code"><span class="constructor">Some</span>&nbsp;kf,&nbsp;<span class="constructor">Kstmt</span>&nbsp;stmt</code> --&gt; reachability of the given stmt (and the attached
+    properties)</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEidentified_term">identified_term</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>tsets with an unique identifier.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEidentified_type_invariant">identified_type_invariant</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEikind">ikind</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Various kinds of integers</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEimpact_pragma">impact_pragma</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>Pragmas for the impact plugin of Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEimpact_pragma">impact_pragma</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Pragmas for the impact plugin of Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property_status.html#TYPEinconsistent">inconsistent</a> [<a href="Property_status.html">Property_status</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Heterogeneous_table.html#TYPEinfo">info</a> [<a href="Type.Heterogeneous_table.html">Type.Heterogeneous_table</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEinfo">info</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEinit">init</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Initializers for global variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEinit_expression">init_expression</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEinit_name">init_name</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEinit_name_group">init_name_group</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEinitinfo">initinfo</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>We want to be able to update an initializer in a global variable, so we
+    define it as a mutable field</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEinitwhat">initwhat</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Markdown.html#TYPEinline">inline</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEinstr">instr</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Instructions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Emitter.Make_table.html#TYPEinternal_tbl">internal_tbl</a> [<a href="Emitter.Make_table.html">Emitter.Make_table</a>]</td>
+<td></td></tr>
+<tr><td><a href="Offsetmap_bitwise_sig.html#TYPEintervals">intervals</a> [<a href="Offsetmap_bitwise_sig.html">Offsetmap_bitwise_sig</a>]</td>
+<td></td></tr>
+<tr><td><a href="Int_Intervals_sig.html#TYPEitv">itv</a> [<a href="Int_Intervals_sig.html">Int_Intervals_sig</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>J</div></td></tr>
+<tr><td><a href="Json.html#TYPEjson">json</a> [<a href="Json.html">Json</a>]</td>
+<td><div class="info">
+<p>Json Objects</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>K</div></td></tr>
+<tr><td><a href="Cil_types.html#TYPEkernel_function">kernel_function</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Only field <code class="code">fundec</code> can be used directly.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Heterogeneous_table.html#TYPEkey">key</a> [<a href="Type.Heterogeneous_table.html">Type.Heterogeneous_table</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Rangemap.S.html#TYPEkey">key</a> [<a href="Rangemap.S.html">Rangemap.S</a>]</td>
+<td><div class="info">
+<p>The type of the map keys.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Multiple_value_datatype.html#TYPEkey">key</a> [<a href="Parameter_sig.Multiple_value_datatype.html">Parameter_sig.Multiple_value_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Value_datatype.html#TYPEkey">key</a> [<a href="Parameter_sig.Value_datatype.html">Parameter_sig.Value_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Multiple_map.html#TYPEkey">key</a> [<a href="Parameter_sig.Multiple_map.html">Parameter_sig.Multiple_map</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.MapSet_Lattice.html#TYPEkey">key</a> [<a href="Map_lattice.MapSet_Lattice.html">Map_lattice.MapSet_Lattice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.MapSet_Lattice_with_cardinality.html#TYPEkey">key</a> [<a href="Map_lattice.MapSet_Lattice_with_cardinality.html">Map_lattice.MapSet_Lattice_with_cardinality</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.Map_Lattice_with_cardinality.html#TYPEkey">key</a> [<a href="Map_lattice.Map_Lattice_with_cardinality.html">Map_lattice.Map_Lattice_with_cardinality</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.Location_Bytes.M.html#TYPEkey">key</a> [<a href="Locations.Location_Bytes.M.html">Locations.Location_Bytes.M</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Map.html#TYPEkey">key</a> [<a href="Parameter_sig.Map.html">Parameter_sig.Map</a>]</td>
+<td><div class="info">
+<p>Type of keys of the map.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptmap_sig.S.html#TYPEkey">key</a> [<a href="Hptmap_sig.S.html">Hptmap_sig.S</a>]</td>
+<td><div class="info">
+<p>type of the keys</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hook.S_ordered.html#TYPEkey">key</a> [<a href="Hook.S_ordered.html">Hook.S_ordered</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dotgraph.Map.html#TYPEkey">key</a> [<a href="Dotgraph.Map.html">Dotgraph.Map</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Hashtbl.html#TYPEkey">key</a> [<a href="State_builder.Hashtbl.html">State_builder.Hashtbl</a>]</td>
+<td></td></tr>
+<tr><td><a href="Description.html#TYPEkf">kf</a> [<a href="Description.html">Description</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Proxy.html#TYPEkind">kind</a> [<a href="State_builder.Proxy.html">State_builder.Proxy</a>]</td>
+<td></td></tr>
+<tr><td><a href="Origin.html#TYPEkind">kind</a> [<a href="Origin.html">Origin</a>]</td>
+<td></td></tr>
+<tr><td><a href="Log.html#TYPEkind">kind</a> [<a href="Log.html">Log</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.Icon.html#TYPEkind">kind</a> [<a href="Gtk_helper.Icon.html">Gtk_helper.Icon</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fval.html#TYPEkind">kind</a> [<a href="Fval.html">Fval</a>]</td>
+<td></td></tr>
+<tr><td><a href="Emitter.html#TYPEkind">kind</a> [<a href="Emitter.html">Emitter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEkinstr">kinstr</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>L</div></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Base.html#TYPEl">l</a> [<a href="Lattice_type.Lattice_Base.html">Lattice_type.Lattice_Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPElabel">label</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Labels</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPElabels">labels</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>Maps binding the labels from an annotation to the vertices they refer to in
+    the graph.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPElexpr">lexpr</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>logical expression.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPElexpr_node">lexpr_node</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPElhost">lhost</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>The host part of an <a href="Cil_types.html#TYPElval"><code class="code"><span class="constructor">Cil_types</span>.lval</code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.html#TYPEline_directive_style">line_directive_style</a> [<a href="Printer_api.html">Printer_api</a>]</td>
+<td><div class="info">
+<p>Styles of printing line directives</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dotgraph.html#TYPElink">link</a> [<a href="Dotgraph.html">Dotgraph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lmap_sig.html#TYPElmap">lmap</a> [<a href="Lmap_sig.html">Lmap_sig</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lmap_bitwise.Location_map_bitwise.html#TYPElmap">lmap</a> [<a href="Lmap_bitwise.Location_map_bitwise.html">Lmap_bitwise.Location_map_bitwise</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs2cil.html#TYPElocal_env">local_env</a> [<a href="Cabs2cil.html">Cabs2cil</a>]</td>
+<td><div class="info">
+<p>local information needed to typecheck expressions and statements</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElocal_init">local_init</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Initializers for local variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElocalisation">localisation</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_tag.html#TYPElocalizable">localizable</a> [<a href="Printer_tag.html">Printer_tag</a>]</td>
+<td><div class="info">
+<p>The kind of object that can be selected in the source viewer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Pretty_source.html#TYPElocalizable">localizable</a> [<a href="Pretty_source.html">Pretty_source</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPElocation">location</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.html#TYPElocation">location</a> [<a href="Locations.html">Locations</a>]</td>
+<td><div class="info">
+<p>A <code class="code"><span class="constructor">Location_Bits</span>.t</code> and a size in bits.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElocation">location</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Describes a location in a source file</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_body">logic_body</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_builtin_label">logic_builtin_label</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>builtin logic labels defined in ACSL.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_constant">logic_constant</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_ctor_info">logic_ctor_info</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Description of a constructor of a logic sum-type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_info">logic_info</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>description of a logic function or predicate.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_label">logic_label</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>logic label referring to a particular program point.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_real">logic_real</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Real constants.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPElogic_type">logic_type</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>logic types.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_type">logic_type</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Types of logic terms.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_type_def">logic_type_def</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_type_info">logic_type_info</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Description of a logic type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_var">logic_var</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>description of a logic variable</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElogic_var_kind">logic_var_kind</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>origin of a logic variable.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEloop_invariant">loop_invariant</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEloop_pragma">loop_pragma</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEloop_pragma">loop_pragma</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Pragmas for the value analysis plugin of Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPElval">lval</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>M</div></td></tr>
+<tr><td><a href="Cil_types.html#TYPEmach">mach</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Definition of a machine model (architecture + compiler).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Map_lattice.MapSet_Lattice.html#TYPEmap">map</a> [<a href="Map_lattice.MapSet_Lattice.html">Map_lattice.MapSet_Lattice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lmap_sig.html#TYPEmap">map</a> [<a href="Lmap_sig.html">Lmap_sig</a>]</td>
+<td><div class="info">
+<p>Maps from <code class="code"><span class="constructor">Base</span>.t</code> to <a href="Lmap_sig.html#TYPEoffsetmap"><code class="code"><span class="constructor">Lmap_sig</span>.offsetmap</code></a></p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lmap_bitwise.Location_map_bitwise.html#TYPEmap">map</a> [<a href="Lmap_bitwise.Location_map_bitwise.html">Lmap_bitwise.Location_map_bitwise</a>]</td>
+<td></td></tr>
+<tr><td><a href="Offsetmap_sig.html#TYPEmap2_decide">map2_decide</a> [<a href="Offsetmap_sig.html">Offsetmap_sig</a>]</td>
+<td></td></tr>
+<tr><td><a href="Offsetmap_bitwise_sig.html#TYPEmap2_decide">map2_decide</a> [<a href="Offsetmap_bitwise_sig.html">Offsetmap_bitwise_sig</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.Zone.html#TYPEmap_t">map_t</a> [<a href="Locations.Zone.html">Locations.Zone</a>]</td>
+<td></td></tr>
+<tr><td><a href="Pretty_utils.html#TYPEmarger">marger</a> [<a href="Pretty_utils.html">Pretty_utils</a>]</td>
+<td><div class="info">
+<p>Margin accumulator (low-level API to <code class="code">pp_items</code>).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Rich_text.html#TYPEmessage">message</a> [<a href="Rich_text.html">Rich_text</a>]</td>
+<td><div class="info">
+<p>Message with tags</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEmodel_annot">model_annot</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>model field.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEmodel_info">model_info</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>model field.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Task.html#TYPEmutex">mutex</a> [<a href="Task.html">Task</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>N</div></td></tr>
+<tr><td><a href="Cabs.html#TYPEname">name</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabsvisit.html#TYPEnameKind">nameKind</a> [<a href="Cabsvisit.html">Cabsvisit</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEname_group">name_group</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Service_graph.S.html#TYPEnode">node</a> [<a href="Service_graph.S.html">Service_graph.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dotgraph.html#TYPEnode">node</a> [<a href="Dotgraph.html">Dotgraph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Offsetmap_lattice_with_isotropy.html#TYPEnumerical_widen_hint">numerical_widen_hint</a> [<a href="Offsetmap_lattice_with_isotropy.html">Offsetmap_lattice_with_isotropy</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.Location_Bytes.html#TYPEnumerical_widen_hint">numerical_widen_hint</a> [<a href="Locations.Location_Bytes.html">Locations.Location_Bytes</a>]</td>
+<td></td></tr>
+<tr><td><a href="Ival.html#TYPEnumerical_widen_hint">numerical_widen_hint</a> [<a href="Ival.html">Ival</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>O</div></td></tr>
+<tr><td><a href="Cil_types.html#TYPEoffset">offset</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>The offset part of an <a href="Cil_types.html#TYPElval"><code class="code"><span class="constructor">Cil_types</span>.lval</code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Bit_utils.html#TYPEoffset_match">offset_match</a> [<a href="Bit_utils.html">Bit_utils</a>]</td>
+<td><div class="info">
+<p>We want to find a symbolic offset that corresponds to a numeric one, with
+    one additional criterion:</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lmap_sig.html#TYPEoffsetmap">offsetmap</a> [<a href="Lmap_sig.html">Lmap_sig</a>]</td>
+<td><div class="info">
+<p>type of the maps associated to a base</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Log.html#TYPEontty">ontty</a> [<a href="Log.html">Log</a>]</td>
+<td></td></tr>
+<tr><td><a href="Bottom.Type.html#TYPEor_bottom">or_bottom</a> [<a href="Bottom.Type.html">Bottom.Type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Bottom.Top.html#TYPEor_top_bottom">or_top_bottom</a> [<a href="Bottom.Top.html">Bottom.Top</a>]</td>
+<td></td></tr>
+<tr><td><a href="Ordered_stmt.html#TYPEordered_stmt">ordered_stmt</a> [<a href="Ordered_stmt.html">Ordered_stmt</a>]</td>
+<td><div class="info">
+<p>An <code class="code">ordered_stmt</code> is an int representing a stmt in a particular
+    function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ordered_stmt.html#TYPEordered_stmt_array">ordered_stmt_array</a> [<a href="Ordered_stmt.html">Ordered_stmt</a>]</td>
+<td><div class="info">
+<p>As <code class="code">ordered_stmts</code> are contiguous and start from 0, they are
+    suitable for use by index in a array.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ordered_stmt.html#TYPEordered_to_stmt">ordered_to_stmt</a> [<a href="Ordered_stmt.html">Ordered_stmt</a>]</td>
+<td><div class="info">
+<p>Types of conversion tables between stmt and ordered_stmt.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Origin.html#TYPEorigin">origin</a> [<a href="Origin.html">Origin</a>]</td>
+<td><div class="info">
+<p>List of possible origins.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEother_loc">other_loc</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Alarms.html#TYPEoverflow_kind">overflow_kind</a> [<a href="Alarms.html">Alarms</a>]</td>
+<td><div class="info">
+<p>Only signed overflows and pointer downcasts are really RTEs.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>P</div></td></tr>
+<tr><td><a href="Structural_descr.html#TYPEpack">pack</a> [<a href="Structural_descr.html">Structural_descr</a>]</td>
+<td><div class="info">
+<p>Structural descriptor used inside structures.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Markdown.html#TYPEpandoc_markdown">pandoc_markdown</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hook.S.html#TYPEparam">param</a> [<a href="Hook.S.html">Hook.S</a>]</td>
+<td><div class="info">
+<p>Type of the parameter of the functions registered in the hook.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Typed_parameter.html#TYPEparameter">parameter</a> [<a href="Typed_parameter.html">Typed_parameter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_lexer.html#TYPEparse">parse</a> [<a href="Logic_lexer.html">Logic_lexer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Floating_point.html#TYPEparsed_float">parsed_float</a> [<a href="Floating_point.html">Floating_point</a>]</td>
+<td><div class="info">
+<p>If <code class="code">s</code> is parsed as <code class="code">(n,&nbsp;l,&nbsp;u)</code>, then <code class="code">n</code> is the nearest approximation of
+    <code class="code">s</code> with the desired precision.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wto.html#TYPEpartition">partition</a> [<a href="Wto.html">Wto</a>]</td>
+<td><div class="info">
+<p>A list of strongly connected components, sorted topologically</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEpath_elt">path_elt</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>kind of expression.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property_status.Consolidation.html#TYPEpending">pending</a> [<a href="Property_status.Consolidation.html">Property_status.Consolidation</a>]</td>
+<td><div class="info">
+<p>who do the job and, for each of them, who find which issues.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Plugin.html#TYPEplugin">plugin</a> [<a href="Plugin.html">Plugin</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Type.Polymorphic4.html#TYPEpoly">poly</a> [<a href="Type.Polymorphic4.html">Type.Polymorphic4</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Polymorphic3.html#TYPEpoly">poly</a> [<a href="Type.Polymorphic3.html">Type.Polymorphic3</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Function.html#TYPEpoly">poly</a> [<a href="Type.Function.html">Type.Function</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Polymorphic2.html#TYPEpoly">poly</a> [<a href="Type.Polymorphic2.html">Type.Polymorphic2</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Polymorphic.html#TYPEpoly">poly</a> [<a href="Type.Polymorphic.html">Type.Polymorphic</a>]</td>
+<td><div class="info">
+<p>Type of the polymorphic type (for instance <code class="code"><span class="keywordsign">'</span>a&nbsp;list</code>).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Task.html#TYPEpool">pool</a> [<a href="Task.html">Task</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filepath.html#TYPEposition">position</a> [<a href="Filepath.html">Filepath</a>]</td>
+<td><div class="info">
+<p>Describes a position in a source file.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEpragma">pragma</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>The various kinds of pragmas.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEpragma">pragma</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>The various kinds of pragmas.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Float_sig.html#TYPEprec">prec</a> [<a href="Float_sig.html">Float_sig</a>]</td>
+<td><div class="info">
+<p>Precision of floating-point numbers: the 'single', 'double' and 'long double' C types;, the ACSL 'real' type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Float_interval_sig.html#TYPEprec">prec</a> [<a href="Float_interval_sig.html">Float_interval_sig</a>]</td>
+<td><div class="info">
+<p>Precision of the intervals.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.html#TYPEprecedence">precedence</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Precedences used for generating the minimal number of parenthesis in
+    combination with function <a href="Type.html#VALpar"><code class="code"><span class="constructor">Type</span>.par</code></a> below.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEpredicate">predicate</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>predicates with a location and an optional list of names</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html#TYPEpredicate_kind">predicate_kind</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEpredicate_node">predicate_node</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>predicates</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptmap_sig.S.html#TYPEpredicate_result">predicate_result</a> [<a href="Hptmap_sig.S.html">Hptmap_sig.S</a>]</td>
+<td><div class="info">
+<p>Does the given predicate hold or not.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptmap_sig.S.html#TYPEpredicate_type">predicate_type</a> [<a href="Hptmap_sig.S.html">Hptmap_sig.S</a>]</td>
+<td><div class="info">
+<p>Existential (<code class="code"><span class="keywordsign">||</span></code>) or universal (<code class="code"><span class="keywordsign">&amp;&amp;</span></code>) predicates.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wto.Make.html#TYPEpref">pref</a> [<a href="Wto.Make.html">Wto.Make</a>]</td>
+<td><div class="info">
+<p>partial order of preference for the choice of the head of a loop</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptmap_sig.S.html#TYPEprefix">prefix</a> [<a href="Hptmap_sig.S.html">Hptmap_sig.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Log.html#TYPEpretty_aborter">pretty_aborter</a> [<a href="Log.html">Log</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Log.html#TYPEpretty_printer">pretty_printer</a> [<a href="Log.html">Log</a>]</td>
+<td><div class="info">
+<p>Generic type for the various logging channels which are not aborting
+    Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#TYPEprivate_ops">private_ops</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Command.html#TYPEprocess_result">process_result</a> [<a href="Command.html">Command</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property.html#TYPEprogram_point">program_point</a> [<a href="Property.html">Property</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filter.RemoveInfo.html#TYPEproj">proj</a> [<a href="Filter.RemoveInfo.html">Filter.RemoveInfo</a>]</td>
+<td><div class="info">
+<p>some type for the whole project information</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Project_skeleton.html#TYPEproject">project</a> [<a href="Project_skeleton.html">Project_skeleton</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Project.html#TYPEproject">project</a> [<a href="Project.html">Project</a>]</td>
+<td><div class="info">
+<p>Type of a project.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>Q</div></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEquantifiers">quantifiers</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>quantifier-bound variables</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEquantifiers">quantifiers</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>variables bound by a quantifier.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>R</div></td></tr>
+<tr><td><a href="Base.html#TYPErange_validity">range_validity</a> [<a href="Base.html">Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Rangemap.S.html#TYPErangemap">rangemap</a> [<a href="Rangemap.S.html">Rangemap.S</a>]</td>
+<td><div class="info">
+<p>The type of maps from type <code class="code">key</code> to type <code class="code">value</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEraw_statement">raw_statement</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dotgraph.html#TYPErecord">record</a> [<a href="Dotgraph.html">Dotgraph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Structural_descr.html#TYPErecursive">recursive</a> [<a href="Structural_descr.html">Structural_descr</a>]</td>
+<td><div class="info">
+<p>Type used for handling (possibly mutually) recursive structural
+    descriptors.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPErelation">relation</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>comparison operators.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPErelation">relation</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>comparison relations</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hook.S.html#TYPEresult">result</a> [<a href="Hook.S.html">Hook.S</a>]</td>
+<td><div class="info">
+<p>Type of the result of the functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Abstract_interp.Comp.html#TYPEresult">result</a> [<a href="Abstract_interp.Comp.html">Abstract_interp.Comp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Oneret.html#TYPEreturns_clause">returns_clause</a> [<a href="Oneret.html">Oneret</a>]</td>
+<td></td></tr>
+<tr><td><a href="Float_sig.html#TYPEround">round</a> [<a href="Float_sig.html">Float_sig</a>]</td>
+<td><div class="info">
+<p>Rounding modes defined in the C99 standard.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>S</div></td></tr>
+<tr><td><a href="Task.html#TYPEserver">server</a> [<a href="Task.html">Task</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.MapSet_Lattice.html#TYPEset">set</a> [<a href="Map_lattice.MapSet_Lattice.html">Map_lattice.MapSet_Lattice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Int_set.html#TYPEset_or_top">set_or_top</a> [<a href="Int_set.html">Int_set</a>]</td>
+<td><div class="info">
+<p>Sets whose cardinal exceeds a certain limit must be converted into
+    intervals.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Int_set.html#TYPEset_or_top_or_bottom">set_or_top_or_bottom</a> [<a href="Int_set.html">Int_set</a>]</td>
+<td></td></tr>
+<tr><td><a href="Pretty_utils.html#TYPEsformat">sformat</a> [<a href="Pretty_utils.html">Pretty_utils</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptmap_sig.S.html#TYPEshape">shape</a> [<a href="Hptmap_sig.S.html">Hptmap_sig.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptset.S.html#TYPEshape">shape</a> [<a href="Hptset.S.html">Hptset.S</a>]</td>
+<td><div class="info">
+<p>Shape of the set, ie.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Task.html#TYPEshared">shared</a> [<a href="Task.html">Task</a>]</td>
+<td><div class="info">
+<p>Shareable tasks.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Floating_point.html#TYPEsign">sign</a> [<a href="Floating_point.html">Floating_point</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEsingle_name">single_name</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Structural_descr.html#TYPEsingle_pack">single_pack</a> [<a href="Structural_descr.html">Structural_descr</a>]</td>
+<td></td></tr>
+<tr><td><a href="Offsetmap_lattice_with_isotropy.html#TYPEsize_widen_hint">size_widen_hint</a> [<a href="Offsetmap_lattice_with_isotropy.html">Offsetmap_lattice_with_isotropy</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.Location_Bytes.html#TYPEsize_widen_hint">size_widen_hint</a> [<a href="Locations.Location_Bytes.html">Locations.Location_Bytes</a>]</td>
+<td></td></tr>
+<tr><td><a href="Ival.html#TYPEsize_widen_hint">size_widen_hint</a> [<a href="Ival.html">Ival</a>]</td>
+<td></td></tr>
+<tr><td><a href="Int_val.html#TYPEsize_widen_hint">size_widen_hint</a> [<a href="Int_val.html">Int_val</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEslice_pragma">slice_pragma</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>Pragmas for the slicing plugin of Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEslice_pragma">slice_pragma</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Pragmas for the slicing plugin of Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEspec">spec</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>Function or statement contract.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEspec">spec</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Function or statement contract.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEspec_elem">spec_elem</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEspecifier">specifier</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cmdline.html#TYPEstage">stage</a> [<a href="Cmdline.html">Cmdline</a>]</td>
+<td><div class="info">
+<p>The different stages, from the first to be executed to the last one.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.html#TYPEstate">state</a> [<a href="Printer_api.html">Printer_api</a>]</td>
+<td></td></tr>
+<tr><td><a href="Pretty_source.Locs.html#TYPEstate">state</a> [<a href="Pretty_source.Locs.html">Pretty_source.Locs</a>]</td>
+<td><div class="info">
+<p>To call when the source buffer is about to be discarded</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_lexer.html#TYPEstate">state</a> [<a href="Logic_lexer.html">Logic_lexer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Value.html#TYPEstate">state</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<p>Internal state of the value analysis.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#TYPEstate_on_disk">state_on_disk</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEstatement">statement</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Task.html#TYPEstatus">status</a> [<a href="Task.html">Task</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property_status.html#TYPEstatus">status</a> [<a href="Property_status.html">Property_status</a>]</td>
+<td><div class="info">
+<p>Type of the local status of a property.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.RteGen.html#TYPEstatus_accessor">status_accessor</a> [<a href="Db.RteGen.html">Db.RteGen</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEstmt">stmt</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Statements.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ordered_stmt.html#TYPEstmt_to_ordered">stmt_to_ordered</a> [<a href="Ordered_stmt.html">Ordered_stmt</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dataflow2.html#TYPEstmtaction">stmtaction</a> [<a href="Dataflow2.html">Dataflow2</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEstmtkind">stmtkind</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEstorage">storage</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Storage-class information</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html#TYPEstorage">storage</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Unmarshal.html#TYPEstructure">structure</a> [<a href="Unmarshal.html">Unmarshal</a>]</td>
+<td></td></tr>
+<tr><td><a href="Structural_descr.html#TYPEstructure">structure</a> [<a href="Structural_descr.html">Structural_descr</a>]</td>
+<td><div class="info">
+<p>Description with details.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Widget.html#TYPEstyle">style</a> [<a href="Widget.html">Widget</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Sum.html#TYPEsum">sum</a> [<a href="Lattice_type.Lattice_Sum.html">Lattice_type.Lattice_Sum</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEsyntactic_scope">syntactic_scope</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Various syntactic scopes through which an identifier might be searched.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>T</div></td></tr>
+<tr><td><a href="Warning_manager.html#TYPEt">t</a> [<a href="Warning_manager.html">Warning_manager</a>]</td>
+<td><div class="info">
+<p>Type of the widget containing the warnings.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.html#TYPEt">t</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>How the visitor should behave in front of mutable fields: in
+    place modification or copy of the structure.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Vector.html#TYPEt">t</a> [<a href="Vector.html">Vector</a>]</td>
+<td></td></tr>
+<tr><td><a href="Unmarshal.html#TYPEt">t</a> [<a href="Unmarshal.html">Unmarshal</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Polymorphic4_input.html#TYPEt">t</a> [<a href="Type.Polymorphic4_input.html">Type.Polymorphic4_input</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Polymorphic3_input.html#TYPEt">t</a> [<a href="Type.Polymorphic3_input.html">Type.Polymorphic3_input</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Polymorphic2_input.html#TYPEt">t</a> [<a href="Type.Polymorphic2_input.html">Type.Polymorphic2_input</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Polymorphic_input.html#TYPEt">t</a> [<a href="Type.Polymorphic_input.html">Type.Polymorphic_input</a>]</td>
+<td><div class="info">
+<p>Static polymorphic type corresponding to its dynamic counterpart to
+      register.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Obj_tbl.html#TYPEt">t</a> [<a href="Type.Obj_tbl.html">Type.Obj_tbl</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Ty_tbl.html#TYPEt">t</a> [<a href="Type.Ty_tbl.html">Type.Ty_tbl</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Heterogeneous_table.html#TYPEt">t</a> [<a href="Type.Heterogeneous_table.html">Type.Heterogeneous_table</a>]</td>
+<td><div class="info">
+<p>Type of heterogeneous (hash)tables indexed by values of type Key.t.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Abstract.html#TYPEt">t</a> [<a href="Type.Abstract.html">Type.Abstract</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.html#TYPEt">t</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Type of type values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Tr_offset.html#TYPEt">t</a> [<a href="Tr_offset.html">Tr_offset</a>]</td>
+<td></td></tr>
+<tr><td><a href="Structural_descr.html#TYPEt">t</a> [<a href="Structural_descr.html">Structural_descr</a>]</td>
+<td><div class="info">
+<p>Type of internal representations of OCaml type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_topological.G.html#TYPEt">t</a> [<a href="State_topological.G.html">State_topological.G</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_selection.html#TYPEt">t</a> [<a href="State_selection.html">State_selection</a>]</td>
+<td><div class="info">
+<p>Type of a state selection.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Proxy.html#TYPEt">t</a> [<a href="State_builder.Proxy.html">State_builder.Proxy</a>]</td>
+<td><div class="info">
+<p>Proxy type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.Local.html#TYPEt">t</a> [<a href="State.Local.html">State.Local</a>]</td>
+<td><div class="info">
+<p>Type of the state to register.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Source_manager.html#TYPEt">t</a> [<a href="Source_manager.html">Source_manager</a>]</td>
+<td></td></tr>
+<tr><td><a href="Rgmap.html#TYPEt">t</a> [<a href="Rgmap.html">Rgmap</a>]</td>
+<td><div class="info">
+<p>The type of range maps, containing of collection of <code class="code"><span class="keywordsign">'</span>a&nbsp;entry</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Qstack.DATA.html#TYPEt">t</a> [<a href="Qstack.DATA.html">Qstack.DATA</a>]</td>
+<td></td></tr>
+<tr><td><a href="Qstack.Make.html#TYPEt">t</a> [<a href="Qstack.Make.html">Qstack.Make</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property_status.Consolidation_graph.html#TYPEt">t</a> [<a href="Property_status.Consolidation_graph.html">Property_status.Consolidation_graph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property_status.Feedback.html#TYPEt">t</a> [<a href="Property_status.Feedback.html">Property_status.Feedback</a>]</td>
+<td><div class="info">
+<p>Same constructor than Consolidation.t, without argument.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Project_skeleton.html#TYPEt">t</a> [<a href="Project_skeleton.html">Project_skeleton</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Collection_category.html#TYPEt">t</a> [<a href="Parameter_sig.Collection_category.html">Parameter_sig.Collection_category</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.S_no_parameter.html#TYPEt">t</a> [<a href="Parameter_sig.S_no_parameter.html">Parameter_sig.S_no_parameter</a>]</td>
+<td><div class="info">
+<p>Type of the parameter (an int, a string, etc).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_category.html#TYPEt">t</a> [<a href="Parameter_category.html">Parameter_category</a>]</td>
+<td><div class="info">
+<p><code class="code">\tau t</code> is the type of a category for the type \tau.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Map_lattice.MapSet_Lattice.html#TYPEt">t</a> [<a href="Map_lattice.MapSet_Lattice.html">Map_lattice.MapSet_Lattice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_typing.Lenv.html#TYPEt">t</a> [<a href="Logic_typing.Lenv.html">Logic_typing.Lenv</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.Zone.html#TYPEt">t</a> [<a href="Locations.Zone.html">Locations.Zone</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.Location_Bytes.M.html#TYPEt">t</a> [<a href="Locations.Location_Bytes.M.html">Locations.Location_Bytes.M</a>]</td>
+<td><div class="info">
+<p>Mapping from bases to bytes-expressed offsets</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Locations.Location_Bytes.html#TYPEt">t</a> [<a href="Locations.Location_Bytes.html">Locations.Location_Bytes</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Base.html#TYPEt">t</a> [<a href="Lattice_type.Lattice_Base.html">Lattice_type.Lattice_Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_UProduct.html#TYPEt">t</a> [<a href="Lattice_type.Lattice_UProduct.html">Lattice_type.Lattice_UProduct</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Product.html#TYPEt">t</a> [<a href="Lattice_type.Lattice_Product.html">Lattice_type.Lattice_Product</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Diff_One.html#TYPEt">t</a> [<a href="Lattice_type.With_Diff_One.html">Lattice_type.With_Diff_One</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Diff.html#TYPEt">t</a> [<a href="Lattice_type.With_Diff.html">Lattice_type.With_Diff</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Under_Approximation.html#TYPEt">t</a> [<a href="Lattice_type.With_Under_Approximation.html">Lattice_type.With_Under_Approximation</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Narrow.html#TYPEt">t</a> [<a href="Lattice_type.With_Narrow.html">Lattice_type.With_Narrow</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Top_Opt.html#TYPEt">t</a> [<a href="Lattice_type.With_Top_Opt.html">Lattice_type.With_Top_Opt</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_messages.html#TYPEt">t</a> [<a href="Lattice_messages.html">Lattice_messages</a>]</td>
+<td></td></tr>
+<tr><td><a href="Json.html#TYPEt">t</a> [<a href="Json.html">Json</a>]</td>
+<td></td></tr>
+<tr><td><a href="Ival.html#TYPEt">t</a> [<a href="Ival.html">Ival</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.Domain.html#TYPEt">t</a> [<a href="Interpreted_automata.Domain.html">Interpreted_automata.Domain</a>]</td>
+<td><div class="info">
+<p>States propagated by the dataflow analysis.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Integer.html#TYPEt">t</a> [<a href="Integer.html">Integer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Indexer.Elt.html#TYPEt">t</a> [<a href="Indexer.Elt.html">Indexer.Elt</a>]</td>
+<td></td></tr>
+<tr><td><a href="Indexer.Make.html#TYPEt">t</a> [<a href="Indexer.Make.html">Indexer.Make</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptset.S_Basic_Compare.html#TYPEt">t</a> [<a href="Hptset.S_Basic_Compare.html">Hptset.S_Basic_Compare</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptmap.Shape.html#TYPEt">t</a> [<a href="Hptmap.Shape.html">Hptmap.Shape</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hook.Comparable.html#TYPEt">t</a> [<a href="Hook.Comparable.html">Hook.Comparable</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fval.F.html#TYPEt">t</a> [<a href="Fval.F.html">Fval.F</a>]</td>
+<td></td></tr>
+<tr><td><a href="Float_sig.S.html#TYPEt">t</a> [<a href="Float_sig.S.html">Float_sig.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Float_interval_sig.S.html#TYPEt">t</a> [<a href="Float_interval_sig.S.html">Float_interval_sig.S</a>]</td>
+<td><div class="info">
+<p>Type of intervals.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Eva_lattice_type.With_Diff_One.html#TYPEt">t</a> [<a href="Eva_lattice_type.With_Diff_One.html">Eva_lattice_type.With_Diff_One</a>]</td>
+<td></td></tr>
+<tr><td><a href="Eva_lattice_type.With_Diff.html#TYPEt">t</a> [<a href="Eva_lattice_type.With_Diff.html">Eva_lattice_type.With_Diff</a>]</td>
+<td></td></tr>
+<tr><td><a href="Eva_lattice_type.With_Under_Approximation.html#TYPEt">t</a> [<a href="Eva_lattice_type.With_Under_Approximation.html">Eva_lattice_type.With_Under_Approximation</a>]</td>
+<td></td></tr>
+<tr><td><a href="Eva_lattice_type.With_Narrow.html#TYPEt">t</a> [<a href="Eva_lattice_type.With_Narrow.html">Eva_lattice_type.With_Narrow</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Widening.html#TYPEt">t</a> [<a href="Lattice_type.With_Widening.html">Lattice_type.With_Widening</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Cardinal_One.html#TYPEt">t</a> [<a href="Lattice_type.With_Cardinal_One.html">Lattice_type.With_Cardinal_One</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Enumeration.html#TYPEt">t</a> [<a href="Lattice_type.With_Enumeration.html">Lattice_type.With_Enumeration</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Intersects.html#TYPEt">t</a> [<a href="Lattice_type.With_Intersects.html">Lattice_type.With_Intersects</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.With_Top.html#TYPEt">t</a> [<a href="Lattice_type.With_Top.html">Lattice_type.With_Top</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dynamic.Parameter.Common.html#TYPEt">t</a> [<a href="Dynamic.Parameter.Common.html">Dynamic.Parameter.Common</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dotgraph.Map.html#TYPEt">t</a> [<a href="Dotgraph.Map.html">Dotgraph.Map</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dotgraph.Node.html#TYPEt">t</a> [<a href="Dotgraph.Node.html">Dotgraph.Node</a>]</td>
+<td></td></tr>
+<tr><td><a href="Descr.html#TYPEt">t</a> [<a href="Descr.html">Descr</a>]</td>
+<td><div class="info">
+<p>Type of a type descriptor.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.INOUTKF.html#TYPEt">t</a> [<a href="Db.INOUTKF.html">Db.INOUTKF</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Pdg.html#TYPEt">t</a> [<a href="Db.Pdg.html">Db.Pdg</a>]</td>
+<td><div class="info">
+<p>PDG type</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Properties.Interp.To_zone.html#TYPEt">t</a> [<a href="Db.Properties.Interp.To_zone.html">Db.Properties.Interp.To_zone</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Value.html#TYPEt">t</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<p>Internal representation of a value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Sub_caml_weak_hashtbl.html#TYPEt">t</a> [<a href="Datatype.Sub_caml_weak_hashtbl.html">Datatype.Sub_caml_weak_hashtbl</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Make_input.html#TYPEt">t</a> [<a href="Datatype.Make_input.html">Datatype.Make_input</a>]</td>
+<td><div class="info">
+<p>Type for this datatype</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Ty.html#TYPEt">t</a> [<a href="Datatype.Ty.html">Datatype.Ty</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.html#TYPEt">t</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Values associated to each datatype.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dataflows.JOIN_SEMILATTICE.html#TYPEt">t</a> [<a href="Dataflows.JOIN_SEMILATTICE.html">Dataflows.JOIN_SEMILATTICE</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dataflow2.BackwardsTransfer.html#TYPEt">t</a> [<a href="Dataflow2.BackwardsTransfer.html">Dataflow2.BackwardsTransfer</a>]</td>
+<td><div class="info">
+<p>The type of the data we compute for each block start.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dataflow2.ForwardsTransfer.html#TYPEt">t</a> [<a href="Dataflow2.ForwardsTransfer.html">Dataflow2.ForwardsTransfer</a>]</td>
+<td><div class="info">
+<p>The type of the data we compute for each block start.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cmdline.Group.html#TYPEt">t</a> [<a href="Cmdline.Group.html">Cmdline.Group</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Filepath.Normalized.html#TYPEt">t</a> [<a href="Filepath.Normalized.html">Filepath.Normalized</a>]</td>
+<td><div class="info">
+<p>The normalized (absolute) path.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Bitvector.html#TYPEt">t</a> [<a href="Bitvector.html">Bitvector</a>]</td>
+<td></td></tr>
+<tr><td><a href="Binary_cache.Result.html#TYPEt">t</a> [<a href="Binary_cache.Result.html">Binary_cache.Result</a>]</td>
+<td></td></tr>
+<tr><td><a href="Binary_cache.Cacheable.html#TYPEt">t</a> [<a href="Binary_cache.Cacheable.html">Binary_cache.Cacheable</a>]</td>
+<td></td></tr>
+<tr><td><a href="Bag.html#TYPEt">t</a> [<a href="Bag.html">Bag</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Set.html#TYPEt">t</a> [<a href="Lattice_type.Lattice_Set.html">Lattice_type.Lattice_Set</a>]</td>
+<td></td></tr>
+<tr><td><a href="Abstract_interp.Bool.html#TYPEt">t</a> [<a href="Abstract_interp.Bool.html">Abstract_interp.Bool</a>]</td>
+<td></td></tr>
+<tr><td><a href="Abstract_interp.Rel.html#TYPEt">t</a> [<a href="Abstract_interp.Rel.html">Abstract_interp.Rel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Abstract_interp.Comp.html#TYPEt">t</a> [<a href="Abstract_interp.Comp.html">Abstract_interp.Comp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Sum.html#TYPEt1">t1</a> [<a href="Lattice_type.Lattice_Sum.html">Lattice_type.Lattice_Sum</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_UProduct.html#TYPEt1">t1</a> [<a href="Lattice_type.Lattice_UProduct.html">Lattice_type.Lattice_UProduct</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Product.html#TYPEt1">t1</a> [<a href="Lattice_type.Lattice_Product.html">Lattice_type.Lattice_Product</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Sum.html#TYPEt2">t2</a> [<a href="Lattice_type.Lattice_Sum.html">Lattice_type.Lattice_Sum</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_UProduct.html#TYPEt2">t2</a> [<a href="Lattice_type.Lattice_UProduct.html">Lattice_type.Lattice_UProduct</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Product.html#TYPEt2">t2</a> [<a href="Lattice_type.Lattice_Product.html">Lattice_type.Lattice_Product</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Properties.Interp.To_zone.html#TYPEt_ctx">t_ctx</a> [<a href="Db.Properties.Interp.To_zone.html">Db.Properties.Interp.To_zone</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Properties.Interp.To_zone.html#TYPEt_decl">t_decl</a> [<a href="Db.Properties.Interp.To_zone.html">Db.Properties.Interp.To_zone</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Pdg.html#TYPEt_nodes_and_undef">t_nodes_and_undef</a> [<a href="Db.Pdg.html">Db.Pdg</a>]</td>
+<td><div class="info">
+<p>type for the return value of many <code class="code">find_xxx</code> functions when the
+            answer can be a list of <code class="code">(node,&nbsp;z_part)</code> and an <code class="code">undef&nbsp;zone</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Properties.Interp.To_zone.html#TYPEt_pragmas">t_pragmas</a> [<a href="Db.Properties.Interp.To_zone.html">Db.Properties.Interp.To_zone</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Properties.Interp.To_zone.html#TYPEt_zone_info">t_zone_info</a> [<a href="Db.Properties.Interp.To_zone.html">Db.Properties.Interp.To_zone</a>]</td>
+<td><div class="info">
+<p>list of zones at some program points.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Markdown.html#TYPEtable">table</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptmap.html#TYPEtag">tag</a> [<a href="Hptmap.html">Hptmap</a>]</td>
+<td></td></tr>
+<tr><td><a href="Task.html#TYPEtask">task</a> [<a href="Task.html">Task</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEterm">term</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Logic terms.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEterm_lhost">term_lhost</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>base address of an lvalue.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEterm_lval">term_lval</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>lvalue: base address and offset.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEterm_node">term_node</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>the various kind of terms.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEterm_offset">term_offset</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>offset of an lvalue.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEtermination_kind">termination_kind</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>kind of termination a post-condition applies to.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Markdown.html#TYPEtext">text</a> [<a href="Markdown.html">Markdown</a>]</td>
+<td><div class="info">
+<p>Inline elements separated by spaces</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.html#TYPEtheMachine">theMachine</a> [<a href="Cil.html">Cil</a>]</td>
+<td></td></tr>
+<tr><td><a href="Task.html#TYPEthread">thread</a> [<a href="Task.html">Task</a>]</td>
+<td></td></tr>
+<tr><td><a href="Command.html#TYPEtimer">timer</a> [<a href="Command.html">Command</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_parser.html#TYPEtoken">token</a> [<a href="Logic_parser.html">Logic_parser</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cparser.html#TYPEtoken">token</a> [<a href="Cparser.html">Cparser</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEtoplevel_predicate">toplevel_predicate</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEtoplevel_predicate">toplevel_predicate</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>main statement of an annotation.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEtransition">transition</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>Each transition can either be a skip (do nothing), a return, a guard
+    represented by a Cil expression, a Cil instruction, an ACSL annotation
+    or entering/leaving a block.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Abstract_interp.html#TYPEtruth">truth</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.html#TYPEty">ty</a> [<a href="Type.html">Type</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_types.html#TYPEtyp">typ</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabs.html#TYPEtypeSpecifier">typeSpecifier</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEtype_annot">type_annot</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>type invariant.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_typing.html#TYPEtype_namespace">type_namespace</a> [<a href="Logic_typing.html">Logic_typing</a>]</td>
+<td></td></tr>
+<tr><td><a href="Typed_parameter.html#TYPEtyped_accessor">typed_accessor</a> [<a href="Typed_parameter.html">Typed_parameter</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEtypedef">typedef</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>Concrete type definition.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEtypeinfo">typeinfo</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Information about a defined type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_typing.html#TYPEtyping_context">typing_context</a> [<a href="Logic_typing.html">Logic_typing</a>]</td>
+<td><div class="info">
+<p>Functions that can be called when type-checking an extension of ACSL.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>U</div></td></tr>
+<tr><td><a href="Cabs.html#TYPEunary_operator">unary_operator</a> [<a href="Cabs.html">Cabs</a>]</td>
+<td></td></tr>
+<tr><td><a href="Alpha.html#TYPEundoAlphaElement">undoAlphaElement</a> [<a href="Alpha.html">Alpha</a>]</td>
+<td><div class="info">
+<p>This is the type of the elements that are recorded by the alpha
+ conversion functions in order to be able to undo changes to the tables
+ they modify.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEunop">unop</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>unary operators.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEunop">unop</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Unary operators</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEupdate_term">update_term</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>V</div></td></tr>
+<tr><td><a href="Offsetmap_sig.html#TYPEv">v</a> [<a href="Offsetmap_sig.html">Offsetmap_sig</a>]</td>
+<td><div class="info">
+<p>Type of the values stored in the offsetmap</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Offsetmap_bitwise_sig.html#TYPEv">v</a> [<a href="Offsetmap_bitwise_sig.html">Offsetmap_bitwise_sig</a>]</td>
+<td><div class="info">
+<p>Type of the values stored in the offsetmap</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Map_lattice.MapSet_Lattice.html#TYPEv">v</a> [<a href="Map_lattice.MapSet_Lattice.html">Map_lattice.MapSet_Lattice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.MapSet_Lattice_with_cardinality.html#TYPEv">v</a> [<a href="Map_lattice.MapSet_Lattice_with_cardinality.html">Map_lattice.MapSet_Lattice_with_cardinality</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.Map_Lattice_with_cardinality.html#TYPEv">v</a> [<a href="Map_lattice.Map_Lattice_with_cardinality.html">Map_lattice.Map_Lattice_with_cardinality</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lmap_sig.html#TYPEv">v</a> [<a href="Lmap_sig.html">Lmap_sig</a>]</td>
+<td><div class="info">
+<p>type of the values associated to a location</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lmap_bitwise.Location_map_bitwise.html#TYPEv">v</a> [<a href="Lmap_bitwise.Location_map_bitwise.html">Lmap_bitwise.Location_map_bitwise</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptmap_sig.S.html#TYPEv">v</a> [<a href="Hptmap_sig.S.html">Hptmap_sig.S</a>]</td>
+<td><div class="info">
+<p>type of the values</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Base.html#TYPEvalidity">validity</a> [<a href="Base.html">Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Rangemap.S.html#TYPEvalue">value</a> [<a href="Rangemap.S.html">Rangemap.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Multiple_map.html#TYPEvalue">value</a> [<a href="Parameter_sig.Multiple_map.html">Parameter_sig.Multiple_map</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Map.html#TYPEvalue">value</a> [<a href="Parameter_sig.Map.html">Parameter_sig.Map</a>]</td>
+<td><div class="info">
+<p>Type of the values associated to the keys.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Base.html#TYPEvariable_validity">variable_validity</a> [<a href="Base.html">Base</a>]</td>
+<td><div class="info">
+<p>Validity for variables that might change size.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html#TYPEvariant">variant</a> [<a href="Logic_ptree.html">Logic_ptree</a>]</td>
+<td><div class="info">
+<p>variant of a loop or a recursive function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEvariant">variant</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>variant of a loop or a recursive function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html#TYPEvarinfo">varinfo</a> [<a href="Cil_types.html">Cil_types</a>]</td>
+<td><div class="info">
+<p>Information about a variable.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Service_graph.html#TYPEvertex">vertex</a> [<a href="Service_graph.html">Service_graph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEvertex">vertex</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil.html#TYPEvisitAction">visitAction</a> [<a href="Cil.html">Cil</a>]</td>
+<td><div class="info">
+<p>Different visiting actions.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>W</div></td></tr>
+<tr><td><a href="Log.Messages.html#TYPEwarn_category">warn_category</a> [<a href="Log.Messages.html">Log.Messages</a>]</td>
+<td><div class="info">
+<p>Same as above, but for warnings</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Log.html#TYPEwarn_status">warn_status</a> [<a href="Log.html">Log</a>]</td>
+<td><div class="info">
+<p>status of a warning category</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Escape.html#TYPEwchar">wchar</a> [<a href="Escape.html">Escape</a>]</td>
+<td></td></tr>
+<tr><td><a href="Menu_manager.html#TYPEwhere">where</a> [<a href="Menu_manager.html">Menu_manager</a>]</td>
+<td><div class="info">
+<p>Where to put a new entry.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Offsetmap_sig.html#TYPEwiden_hint">widen_hint</a> [<a href="Offsetmap_sig.html">Offsetmap_sig</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.Location_Bytes.html#TYPEwiden_hint">widen_hint</a> [<a href="Locations.Location_Bytes.html">Locations.Location_Bytes</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lmap_sig.html#TYPEwiden_hint">widen_hint</a> [<a href="Lmap_sig.html">Lmap_sig</a>]</td>
+<td><div class="info">
+<p>Bases that must be widening in priority, plus widening hints for each
+    base.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lattice_type.With_Widening.html#TYPEwiden_hint">widen_hint</a> [<a href="Lattice_type.With_Widening.html">Lattice_type.With_Widening</a>]</td>
+<td><div class="info">
+<p>hints for the widening</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lmap_sig.html#TYPEwiden_hint_base">widen_hint_base</a> [<a href="Lmap_sig.html">Lmap_sig</a>]</td>
+<td><div class="info">
+<p>widening hints for each base</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Float_sig.S.html#TYPEwiden_hints">widen_hints</a> [<a href="Float_sig.S.html">Float_sig.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Float_interval_sig.S.html#TYPEwiden_hints">widen_hints</a> [<a href="Float_interval_sig.S.html">Float_interval_sig.S</a>]</td>
+<td><div class="info">
+<p>Type of the widen hints.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Escape.html#TYPEwstring">wstring</a> [<a href="Escape.html">Escape</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wto_statement.html#TYPEwto">wto</a> [<a href="Wto_statement.html">Wto_statement</a>]</td>
+<td><div class="info">
+<p>A weak topological ordering where nodes are Cil statements</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEwto">wto</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>Weak Topological Order is given by a list (in topological order) of
+    components of the graph, which are themselves WTOs</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wto_statement.html#TYPEwto_index">wto_index</a> [<a href="Wto_statement.html">Wto_statement</a>]</td>
+<td><div class="info">
+<p>the position of a statement in a wto given as the list of 
+    component heads</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.html#TYPEwto_index">wto_index</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>the position of a statement in a wto given as the list of 
+    component heads</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.Compute.html#TYPEwto_index_table">wto_index_table</a> [<a href="Interpreted_automata.Compute.html">Interpreted_automata.Compute</a>]</td>
+<td></td></tr>
+</table>
+</body>
+</html>

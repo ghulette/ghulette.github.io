@@ -1,0 +1,14 @@
+digraph "Plugin architecture (postdominators)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Postdominators" [style=filled, color=darkturquoise];
+"Postdominators_parameters" [style=filled, color=darkturquoise];
+"Print" [style=filled, color=darkturquoise];
+"Print" -> "Postdominators_parameters";
+"Compute" [style=filled, color=darkturquoise];
+"Compute" -> "Print";
+"Compute" -> "Postdominators_parameters";
+}

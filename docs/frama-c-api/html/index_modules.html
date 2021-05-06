@@ -1,0 +1,3571 @@
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html"><title>Index of modules - Frama-C Kernel</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Index of modules</h1>
+<table>
+<tr><td align="left"><div>A</div></td></tr>
+<tr><td><a href="Kernel.AbsoluteValidRange.html">AbsoluteValidRange</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-absolute-valid-range"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Abstract.html">Abstract</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Apply this functor to access to the abstract type of the given name.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Abstract_interp.html">Abstract_interp</a> </td>
+<td><div class="info">
+<p>Functors for generic lattices implementations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Acsl_extension.html">Acsl_extension</a> </td>
+<td><div class="info">
+<p>ACSL extensions registration module</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Action.html">Action</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Value.AfterTable_By_Callstack.html">AfterTable_By_Callstack</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<p>Table containing the state of the value analysis after the evaluation
+        of each reachable and evaluable statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.AggressiveMerging.html">AggressiveMerging</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-aggressive-merging"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Alarms.html">Alarms</a> </td>
+<td><div class="info">
+<p>Alarms Database.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Allocates.html">Allocates</a> </td>
+<td><div class="info">
+<p>Generation of default <code class="code">allocates \nothing</code> clauses.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.AllowDuplication.html">AllowDuplication</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-allow-duplication".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Alpha.html">Alpha</a> </td>
+<td><div class="info">
+<p>Alpha conversion.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Analyses_manager.html">Analyses_manager</a> </td>
+<td><div class="info">
+<p>Nothing exported.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Annotations.html">Annotations</a> </td>
+<td><div class="info">
+<p>Annotations in the AST.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Binary_cache.Arity_One.html">Arity_One</a> [<a href="Binary_cache.html">Binary_cache</a>]</td>
+<td></td></tr>
+<tr><td><a href="Binary_cache.Arity_Three.html">Arity_Three</a> [<a href="Binary_cache.html">Binary_cache</a>]</td>
+<td></td></tr>
+<tr><td><a href="Binary_cache.Arity_Two.html">Arity_Two</a> [<a href="Binary_cache.html">Binary_cache</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Array.html">Array</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Array.html">Array</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Array_with_collections.html">Array_with_collections</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Collection.As_string.html">As_string</a> [<a href="Parameter_sig.Collection.html">Parameter_sig.Collection</a>]</td>
+<td><div class="info">
+<p>A collection is a standard string parameter</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.AsmContractsAutoValidate.html">AsmContractsAutoValidate</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-asm-contracts-auto-validate."</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.AsmContractsGenerate.html">AsmContractsGenerate</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-asm-contracts"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Asm_contracts.html">Asm_contracts</a> </td>
+<td><div class="info">
+<p>Code transformation for inferring contracts from information given
+    in GNU's extended assembly syntax.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ast.html">Ast</a> </td>
+<td><div class="info">
+<p>Access to the CIL AST which must be used from Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ast_info.html">Ast_info</a> </td>
+<td><div class="info">
+<p>AST manipulation utilities.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Attribute.html">Attribute</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_dependency_graph.Attributes.html">Attributes</a> [<a href="State_dependency_graph.html">State_dependency_graph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Attributes.html">Attributes</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.AutoLoadPlugins.html">AutoLoadPlugins</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-autoload-plugins"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.AutocompleteHelp.html">AutocompleteHelp</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-autocomplete"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.Automaton.html">Automaton</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>Datatype for automata</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>B</div></td></tr>
+<tr><td><a href="Dataflow2.Backwards.html">Backwards</a> [<a href="Dataflow2.html">Dataflow2</a>]</td>
+<td></td></tr>
+<tr><td><a href="Bag.html">Bag</a> </td>
+<td><div class="info">
+<p>List with constant-time concat operation.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Base.Base.html">Base</a> </td>
+<td></td></tr>
+<tr><td><a href="Base.html">Base</a> </td>
+<td><div class="info">
+<p>Abstraction of the base of an addressable memory zone, together with
+    the validity of the zone.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.BigIntsHex.html">BigIntsHex</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-hexadecimal-big-integers"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Binary_cache.Binary_Predicate.html">Binary_Predicate</a> [<a href="Binary_cache.html">Binary_cache</a>]</td>
+<td></td></tr>
+<tr><td><a href="Binary_cache.html">Binary_cache</a> </td>
+<td><div class="info">
+<p>Very low-level abstract functorial caches.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Journal.Binding.html">Binding</a> [<a href="Journal.html">Journal</a>]</td>
+<td></td></tr>
+<tr><td><a href="Bit_utils.html">Bit_utils</a> </td>
+<td><div class="info">
+<p>Some bit manipulations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Bitvector.html">Bitvector</a> </td>
+<td><div class="info">
+<p>Bitvectors.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Block.html">Block</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.Bool.html">Bool</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dynamic.Parameter.Bool.html">Bool</a> [<a href="Dynamic.Parameter.html">Dynamic.Parameter</a>]</td>
+<td><div class="info">
+<p>Boolean parameters.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Bool.html">Bool</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Abstract_interp.Bool.html">Bool</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Bool_ref.html">Bool_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a reference on a boolean.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Bottom.html">Bottom</a> </td>
+<td><div class="info">
+<p>Types, monads and utilitary functions for lattices in which the bottom is
+    managed separately from other values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Bottom.Bound_Lattice.html">Bound_Lattice</a> [<a href="Bottom.html">Bottom</a>]</td>
+<td><div class="info">
+<p>Bounds a semi-lattice.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hook.Build.html">Build</a> [<a href="Hook.html">Hook</a>]</td>
+<td><div class="info">
+<p>Make a new empty hook from a given type of parameters.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hook.Build_ordered.html">Build_ordered</a> [<a href="Hook.html">Hook</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil.Builtin_functions.html">Builtin_functions</a> [<a href="Cil.html">Cil</a>]</td>
+<td><div class="info">
+<p>A list of the built-in functions for the current compiler (GCC or
+ MSVC, depending on <code class="code">!msvcMode</code>).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Builtin_logic_info.html">Builtin_logic_info</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_env.Builtins.html">Builtins</a> [<a href="Logic_env.html">Logic_env</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>C</div></td></tr>
+<tr><td><a href="Kernel.C11.html">C11</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-c11"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs.html">Cabs</a> </td>
+<td><div class="info">
+<p>Untyped AST.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs2cil.html">Cabs2cil</a> </td>
+<td><div class="info">
+<p>Registers a new hook that will be applied each time a side-effect free
+    expression whose result is unused is dropped.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabs_debug.html">Cabs_debug</a> </td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Cabs_file.html">Cabs_file</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cabshelper.html">Cabshelper</a> </td>
+<td><div class="info">
+<p>Helper functions for Cabs</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabsvisit.html">Cabsvisit</a> </td>
+<td></td></tr>
+<tr><td><a href="Db.Value.Call_Type_Value_Callbacks.html">Call_Type_Value_Callbacks</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<p>Actions to perform at each treatment of a "call"
+      statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Value.Call_Value_Callbacks.html">Call_Value_Callbacks</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<span class="deprecated"><p>Actions to perform at each treatment of a "call"
+      statement.</p>
+
+</span></div>
+</td></tr>
+<tr><td><a href="Db.From.Callwise.html">Callwise</a> [<a href="Db.From.html">Db.From</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Caml_weak_hashtbl.html">Caml_weak_hashtbl</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a weak hashtbl over a datatype <code class="code"><span class="constructor">Data</span></code> by using <code class="code"><span class="constructor">Weak</span>.<span class="constructor">Make</span></code> provided
+    by the OCaml standard library.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Caml_weak_hashtbl.html">Caml_weak_hashtbl</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Collection.Category.html">Category</a> [<a href="Parameter_sig.Collection.html">Parameter_sig.Collection</a>]</td>
+<td><div class="info">
+<p>Categories for this collection.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cfg.html">Cfg</a> </td>
+<td><div class="info">
+<p>Code to compute the control-flow graph of a function or file.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Char.html">Char</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.Check.html">Check</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-check"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.html">Cil</a> </td>
+<td><div class="info">
+<p>CIL main API.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_const.html">Cil_const</a> </td>
+<td><div class="info">
+<p>Smart constructors for some CIL data types</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.html">Cil_datatype</a> </td>
+<td><div class="info">
+<p>Datatypes of some useful CIL types.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_descriptive_printer.html">Cil_descriptive_printer</a> </td>
+<td><div class="info">
+<p>Internal printer for Cabs2cil.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_printer.html">Cil_printer</a> </td>
+<td><div class="info">
+<p>Internal Cil printer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_state_builder.html">Cil_state_builder</a> </td>
+<td><div class="info">
+<p>Functors for building computations which use kernel datatypes.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types.html">Cil_types</a> </td>
+<td><div class="info">
+<p>The Abstract Syntax of CIL.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_types_debug.html">Cil_types_debug</a> </td>
+<td></td></tr>
+<tr><td><a href="Cilconfig.html">Cilconfig</a> </td>
+<td><div class="info">
+<p>Reading and storing configuration files from the filesystem.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Clexer.html">Clexer</a> </td>
+<td><div class="info">
+<p>The C Lexer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Clone.html">Clone</a> </td>
+<td></td></tr>
+<tr><td><a href="Cmdline.html">Cmdline</a> </td>
+<td><div class="info">
+<p>Command line parsing.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.CodeOutput.html">CodeOutput</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-ocode".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Code_annotation.html">Code_annotation</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Command.html">Command</a> </td>
+<td><div class="info">
+<p>Useful high-level system operations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cabshelper.Comments.html">Comments</a> [<a href="Cabshelper.html">Cabshelper</a>]</td>
+<td></td></tr>
+<tr><td><a href="Abstract_interp.Comp.html">Comp</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td><div class="info">
+<p>Signatures for comparison operators <code class="code">==,&nbsp;!=,&nbsp;&lt;,&nbsp;&gt;,&nbsp;&lt;=,&nbsp;&gt;=</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptmap.Comp_unused.html">Comp_unused</a> [<a href="Hptmap.html">Hptmap</a>]</td>
+<td><div class="info">
+<p>Default implementation for the <code class="code"><span class="constructor">Compositional_bool</span></code> argument of the functor
+  <a href="Hptmap.Make.html"><code class="code"><span class="constructor">Hptmap</span>.<span class="constructor">Make</span></code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Compinfo.html">Compinfo</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.Compute.html">Compute</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>This module defines the previous functions without memoization</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Value.Compute_Statement_Callbacks.html">Compute_Statement_Callbacks</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<p>Actions to perform whenever a statement is handled.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Plugin.S_no_log.Config.html">Config</a> [<a href="Plugin.S_no_log.html">Plugin.S_no_log</a>]</td>
+<td><div class="info">
+<p>Handle the specific `config' directory of the plug-in.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Config_dir.html">Config_dir</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Directory in which config files are searched.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_helper.Configuration.html">Configuration</a> [<a href="Gtk_helper.html">Gtk_helper</a>]</td>
+<td><div class="info">
+<p>Configuration module for the GUI: all magic visual constants should
+    use this mechanism (window width, ratios, ...).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property_status.Consolidation.html">Consolidation</a> [<a href="Property_status.html">Property_status</a>]</td>
+<td><div class="info">
+<p>Consolidation of a property status according to the (consolidated) status of
+    the hypotheses of the property.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property_status.Consolidation_graph.html">Consolidation_graph</a> [<a href="Property_status.html">Property_status</a>]</td>
+<td><div class="info">
+<p>See the consolidated status of a property in a graph, which all its
+    dependencies and their consolidated status.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Constant.html">Constant</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Constfold.html">Constfold</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-constfold"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.ContinueOnAnnotError.html">ContinueOnAnnotError</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.Copy.html">Copy</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-copy"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Counter.html">Counter</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Creates a projectified counter.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cparser.html">Cparser</a> </td>
+<td></td></tr>
+<tr><td><a href="Kernel.CppCommand.html">CppCommand</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-cpp-command"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.CppExtraArgs.html">CppExtraArgs</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-cpp-extra-args"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.CppExtraArgsPerFile.html">CppExtraArgsPerFile</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-cpp-extra-args-per-file"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.CppGnuLike.html">CppGnuLike</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-cpp-frama-c-compliant"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cprint.html">Cprint</a> </td>
+<td><div class="info">
+<p>Printers for the Cabs AST</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_const.CurrentLoc.html">CurrentLoc</a> [<a href="Cil_const.html">Cil_const</a>]</td>
+<td><div class="info">
+<p>forward reference to current location (see <a href="Cil.CurrentLoc.html"><code class="code"><span class="constructor">Cil</span>.<span class="constructor">CurrentLoc</span></code></a>)</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.CurrentLoc.html">CurrentLoc</a> [<a href="Cil.html">Cil</a>]</td>
+<td><div class="info">
+<p>A reference to the current location.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>D</div></td></tr>
+<tr><td><a href="Interpreted_automata.Dataflow.html">Dataflow</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>Builds a simple dataflow analysis over an input domain.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dataflow2.html">Dataflow2</a> </td>
+<td><div class="info">
+<p>Implementation of data flow analyses over user-supplied domains.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dataflows.html">Dataflows</a> </td>
+<td><div class="info">
+<p>Implementation of data flow analyses over user-supplied domains.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.S.Datatype.html">Datatype</a> [<a href="State_builder.S.html">State_builder.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Service_graph.S.Service_graph.Datatype.html">Datatype</a> [<a href="Service_graph.S.Service_graph.html">Service_graph.S.Service_graph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Project.Datatype.html">Datatype</a> [<a href="Project.html">Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Caml_weak_hashtbl.Datatype.html">Datatype</a> [<a href="Datatype.Caml_weak_hashtbl.html">Datatype.Caml_weak_hashtbl</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.html">Datatype</a> </td>
+<td><div class="info">
+<p>A datatype provides useful values for types.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.html">Db</a> </td>
+<td><div class="info">
+<p>Database in which static plugins are registered.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Plugin.S_no_log.Debug.html">Debug</a> [<a href="Plugin.S_no_log.html">Plugin.S_no_log</a>]</td>
+<td></td></tr>
+<tr><td><a href="Descr.html">Descr</a> </td>
+<td><div class="info">
+<p>Type descriptor for safe unmarshalling.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Description.html">Description</a> </td>
+<td><div class="info">
+<p>Describe items of Source and Properties.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.html">Design</a> </td>
+<td><div class="info">
+<p>The extensible GUI.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Destructors.html">Destructors</a> </td>
+<td><div class="info">
+<p>retrieve local variables with <code class="code">__fc_destructor</code> attribute and add
+    the appropriate calls to the corresponding destructor function when we
+    exit the scope of the variable.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dgraph_helper.html">Dgraph_helper</a> </td>
+<td><div class="info">
+<p>Create a new window displaying a graph.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.DoCollapseCallCast.html">DoCollapseCallCast</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-collapse-call-cast".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dominators.html">Dominators</a> </td>
+<td><div class="info">
+<p>Computation of dominators.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_dependency_graph.Dot.html">Dot</a> [<a href="State_dependency_graph.html">State_dependency_graph</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dotgraph.html">Dotgraph</a> </td>
+<td><div class="info">
+<p>Helper for Printing Dot-graphs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dump_config.html">Dump_config</a> </td>
+<td></td></tr>
+<tr><td><a href="Dynamic.html">Dynamic</a> </td>
+<td><div class="info">
+<p>Value accesses through dynamic typing.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>E</div></td></tr>
+<tr><td><a href="Interpreted_automata.Edge.html">Edge</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_const.Eid.html">Eid</a> [<a href="Cil_const.html">Cil_const</a>]</td>
+<td></td></tr>
+<tr><td><a href="Property_status.Emitted_status.html">Emitted_status</a> [<a href="Property_status.html">Property_status</a>]</td>
+<td></td></tr>
+<tr><td><a href="Emitter.html">Emitter</a> </td>
+<td><div class="info">
+<p>Emitter.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Empty_string.html">Empty_string</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Journal.Enable.html">Enable</a> [<a href="Kernel.Journal.html">Kernel.Journal</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-journal-enable"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Enuminfo.html">Enuminfo</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Enumitem.html">Enumitem</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.Enums.html">Enums</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-enums"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Errorloc.html">Errorloc</a> </td>
+<td><div class="info">
+<p>The module stores the current file,line, and working directory in a
+    hidden internal state, modified by the three following
+    functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Escape.html">Escape</a> </td>
+<td><div class="info">
+<p>OCaml types used to represent wide characters and strings</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Eva_lattice_type.html">Eva_lattice_type</a> </td>
+<td><div class="info">
+<p>Lattice signatures using the Bottom type:
+    these lattices do not include a bottom element, and return `Bottom instead
+    when needed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Exn_flow.html">Exn_flow</a> </td>
+<td><div class="info">
+<p>Manages information related to possible exceptions thrown by each
+    function in the AST.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Exp.html">Exp</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Note that the equality is based on eid.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.ExpStructEq.html">ExpStructEq</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_state_builder.Exp_hashtbl.html">Exp_hashtbl</a> [<a href="Cil_state_builder.html">Cil_state_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Extlib.html">Extlib</a> </td>
+<td><div class="info">
+<p>Useful operations.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>F</div></td></tr>
+<tr><td><a href="Fval.F.html">F</a> [<a href="Fval.html">Fval</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filter.F.html">F</a> [<a href="Filter.html">Filter</a>]</td>
+<td><div class="info">
+<p>Given a module that match the module type described above,
+ <code class="code"><span class="constructor">F</span>.build_cil_file</code> initializes a new project containing the slices</p>
+
+</div>
+</td></tr>
+<tr><td><a href="FCHashtbl.html">FCHashtbl</a> </td>
+<td><div class="info">
+<p>Extension of OCaml's <code class="code"><span class="constructor">Hashtbl</span></code> module.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.False.html">False</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="State_builder.False_ref.html">False_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a reference on a boolean, initialized with <code class="code"><span class="keyword">false</span></code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Fc_Filepath.html">Fc_Filepath</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fc_config.html">Fc_config</a> </td>
+<td><div class="info">
+<p>Information about version of Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fc_float.html">Fc_float</a> </td>
+<td><div class="info">
+<p>Implementation of floating-point values of different precision,
+    using the standard ocaml floating-point numbers in double precision.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property_status.Feedback.html">Feedback</a> [<a href="Property_status.html">Property_status</a>]</td>
+<td><div class="info">
+<p>Lighter version than Consolidation</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Design.Feedback.html">Feedback</a> [<a href="Design.html">Design</a>]</td>
+<td><div class="info">
+<p>Bullets in left-margins</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Fieldinfo.html">Fieldinfo</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="File.html">File</a> </td>
+<td><div class="info">
+<p>Frama-c preprocessing and Cil AST initialization.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.File.html">File</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Globals.FileIndex.html">FileIndex</a> [<a href="Globals.html">Globals</a>]</td>
+<td><div class="info">
+<p>Globals associated to filename.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="File_manager.html">File_manager</a> </td>
+<td><div class="info">
+<p>Nothing exported.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filecheck.html">Filecheck</a> </td>
+<td><div class="info">
+<p>This file performs various consistency checks over a cil file.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Filepath.html">Filepath</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filepath.html">Filepath</a> </td>
+<td><div class="info">
+<p>Functions manipulating filepaths.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dynamic.Parameter.Filepath.html">Filepath</a> [<a href="Dynamic.Parameter.html">Dynamic.Parameter</a>]</td>
+<td><div class="info">
+<p>Filepath parameters.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Filepath.html">Filepath</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Type-safe strings representing normalized filepaths.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Filepath_list.html">Filepath_list</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.Filepath_map.html">Filepath_map</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.Files.html">Files</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Analyzed files</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filetree.html">Filetree</a> </td>
+<td><div class="info">
+<p>The tree containing the list of modules and functions together with dynamic columns</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Filled_string_set.html">Filled_string_set</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Filter.html">Filter</a> </td>
+<td></td></tr>
+<tr><td><a href="Datatype.Float.html">Float</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.FloatHex.html">FloatHex</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-float-hex"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.FloatNormal.html">FloatNormal</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-float-normal"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.FloatRelative.html">FloatRelative</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-float-relative"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Float_interval.html">Float_interval</a> </td>
+<td><div class="info">
+<p>Builds a semantics of floating-point intervals for different precisions,
+    from a module providing the floating-point numbers used for the bounds
+    of the intervals.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Float_interval_sig.html">Float_interval_sig</a> </td>
+<td><div class="info">
+<p>Signature for the floating-point interval semantics.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Float_ref.html">Float_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a reference on a float.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Float_sig.html">Float_sig</a> </td>
+<td><div class="info">
+<p>Interface of floating-point numbers of different precisions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Floating_point.html">Floating_point</a> </td>
+<td><div class="info">
+<p>Floating-point operations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Fold.html">Fold</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Fold operations on table of a given type of AST elements.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hook.Fold.html">Fold</a> [<a href="Hook.html">Hook</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hook.Fold_ordered.html">Fold_ordered</a> [<a href="Hook.html">Hook</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Formatter.html">Formatter</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dataflow2.Forwards.html">Forwards</a> [<a href="Dataflow2.html">Dataflow2</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.FramaCStdLib.html">FramaCStdLib</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-frama-c-stdlib"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil.Frama_c_builtins.html">Frama_c_builtins</a> [<a href="Cil.html">Cil</a>]</td>
+<td><div class="info">
+<p>This module associates the name of a built-in function that might be used
+    during elaboration with the corresponding varinfo.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Frama_c_init.html">Frama_c_init</a> </td>
+<td><div class="info">
+<p>Setting global, platform-wide settings.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.From.html">From</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Functional dependencies between function inputs and function outputs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Frontc.html">Frontc</a> </td>
+<td><div class="info">
+<p>Signals that we are in MS VC mode</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Funbehavior.html">Funbehavior</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Function.html">Function</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Instance of <a href="Type.Polymorphic2.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic2</span></code></a> for functions: same signature than
+    <a href="Type.Polymorphic2.html"><code class="code"><span class="constructor">Type</span>.<span class="constructor">Polymorphic2</span></code></a> with possibility to specify a label for the function
+    parameter.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Function.html">Function</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Ast_info.Function.html">Function</a> [<a href="Ast_info.html">Ast_info</a>]</td>
+<td><div class="info">
+<p>Operations on cil function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Globals.Functions.html">Functions</a> [<a href="Globals.html">Globals</a>]</td>
+<td><div class="info">
+<p>Functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Fundec.html">Fundec</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Fundec_set.html">Fundec_set</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Funspec.html">Funspec</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fval.html">Fval</a> </td>
+<td><div class="info">
+<p>Floating-point intervals, used to construct arithmetic lattices.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>G</div></td></tr>
+<tr><td><a href="State_dependency_graph.S.G.html">G</a> [<a href="State_dependency_graph.S.html">State_dependency_graph.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.UnrollUnnatural.G.html">G</a> [<a href="Interpreted_automata.UnrollUnnatural.html">Interpreted_automata.UnrollUnnatural</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.G.html">G</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="GSourceView.html">GSourceView</a> </td>
+<td></td></tr>
+<tr><td><a href="Kernel.GeneralDebug.html">GeneralDebug</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-debug"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.GeneralVerbose.html">GeneralVerbose</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-verbose"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Get.html">Get</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Get operations on behaviors, allows to get the representative of an
+    AST element in the current state of the visitor.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Get_orig.html">Get_orig</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Get operations on behaviors, allows to get the original representative of
+    an element of the <b>new</b> AST in the curent state of the visitor.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ghost_accesses.html">Ghost_accesses</a> </td>
+<td><div class="info">
+<p>Checks that memory accesses are well-typed in the sense of the <code class="code">\ghost</code>
+    qualifier.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ghost_cfg.html">Ghost_cfg</a> </td>
+<td><div class="info">
+<p>Checks that normal cfg is not altered by ghost statements.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Global.html">Global</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Global_annotation.html">Global_annotation</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Globals.html">Globals</a> </td>
+<td><div class="info">
+<p>Operations on globals.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cmdline.Group.html">Group</a> [<a href="Cmdline.html">Cmdline</a>]</td>
+<td><div class="info">
+<p>Group of command line options.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_compat.html">Gtk_compat</a> </td>
+<td></td></tr>
+<tr><td><a href="Gtk_form.html">Gtk_form</a> </td>
+<td><div class="info">
+<p><b>DEPRECATED.</b></p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gtk_helper.html">Gtk_helper</a> </td>
+<td><div class="info">
+<p>Generic Gtk helpers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gui_init.html">Gui_init</a> </td>
+<td><div class="info">
+<p>Very early initialization step required by any GUI.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gui_parameters.html">Gui_parameters</a> </td>
+<td><div class="info">
+<p>GUI as a plug-in.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gui_printers.html">Gui_printers</a> </td>
+<td><div class="info">
+<p>Special pretty-printers for the GUI.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>H</div></td></tr>
+<tr><td><a href="State_builder.Hashcons.html">Hashcons</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Hashconsed version of an arbitrary datatype</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Hashconsing_tbl.html">Hashconsing_tbl</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Weak or non-weak hashconsing tables, depending on variable
+    <code class="code"><span class="constructor">Cmdline</span>.deterministic</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Hashconsing_tbl_not_weak.html">Hashconsing_tbl_not_weak</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Hash table for hashconsing, but the internal table is _not_ weak
+    (it is a regular hash table).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Hashconsing_tbl_weak.html">Hashconsing_tbl_weak</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Weak hashtbl dedicated to hashconsing.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Hashtbl.html">Hashtbl</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Hashtbl.html">Hashtbl</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.S_with_collections.Hashtbl.html">Hashtbl</a> [<a href="Datatype.S_with_collections.html">Datatype.S_with_collections</a>]</td>
+<td></td></tr>
+<tr><td><a href="Plugin.S_no_log.Help.html">Help</a> [<a href="Plugin.S_no_log.html">Plugin.S_no_log</a>]</td>
+<td><div class="info">
+<span class="deprecated"></span></div>
+</td></tr>
+<tr><td><a href="Help_manager.html">Help_manager</a> </td>
+<td><div class="info">
+<p>Nothing exported.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="History.html">History</a> </td>
+<td><div class="info">
+<p>Source code navigation history.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hook.html">Hook</a> </td>
+<td><div class="info">
+<p>Hook builder.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptmap.html">Hptmap</a> </td>
+<td><div class="info">
+<p>Efficient maps from hash-consed trees to values, implemented as
+    Patricia trees.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptmap_sig.html">Hptmap_sig</a> </td>
+<td><div class="info">
+<p>Signature for the <a href="Hptmap.html"><code class="code"><span class="constructor">Hptmap</span></code></a> module</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel_function.Hptset.html">Hptset</a> [<a href="Kernel_function.html">Kernel_function</a>]</td>
+<td><div class="info">
+<p>Set of kernel functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hptset.html">Hptset</a> </td>
+<td><div class="info">
+<p>Sets over ordered types.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Varinfo.Hptset.html">Hptset</a> [<a href="Cil_datatype.Varinfo.html">Cil_datatype.Varinfo</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Stmt.Hptset.html">Hptset</a> [<a href="Cil_datatype.Stmt.html">Cil_datatype.Stmt</a>]</td>
+<td></td></tr>
+<tr><td><a href="Base.Hptset.html">Hptset</a> [<a href="Base.html">Base</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>I</div></td></tr>
+<tr><td><a href="Gtk_helper.Icon.html">Icon</a> [<a href="Gtk_helper.html">Gtk_helper</a>]</td>
+<td><div class="info">
+<p>Some generic icon management tools.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Identified_predicate.html">Identified_predicate</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Identified_term.html">Identified_term</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.ImplicitFunctionDeclaration.html">ImplicitFunctionDeclaration</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Indexer.html">Indexer</a> </td>
+<td><div class="info">
+<p>Indexer implements ordered collection of items with 
+    random access.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Infer_annotations.html">Infer_annotations</a> </td>
+<td><div class="info">
+<p>Generation of possible assigns from the C prototype of a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.InitializedPaddingLocals.html">InitializedPaddingLocals</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-initialized-padding-locals"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Initinfo.html">Initinfo</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Inline.html">Inline</a> </td>
+<td></td></tr>
+<tr><td><a href="Db.Inputs.html">Inputs</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>State_builder.of read inputs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Instr.html">Instr</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.Int.html">Int</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Dynamic.Parameter.Int.html">Int</a> [<a href="Dynamic.Parameter.html">Dynamic.Parameter</a>]</td>
+<td><div class="info">
+<p>Integer parameters.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Int.html">Int</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Abstract_interp.Int.html">Int</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Int32.html">Int32</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Int64.html">Int64</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Int_Base.html">Int_Base</a> </td>
+<td><div class="info">
+<p>Big integers with an additional top element.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Int_Intervals.html">Int_Intervals</a> </td>
+<td><div class="info">
+<p>Sets of intervals with a lattice structure.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Int_Intervals_sig.html">Int_Intervals_sig</a> </td>
+<td><div class="info">
+<p>Sets of intervals with a lattice structure.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Int_hashtbl.html">Int_hashtbl</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Int_interval.html">Int_interval</a> </td>
+<td><div class="info">
+<p>Integer intervals with congruence.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Int_ref.html">Int_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a reference on an integer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Int_set.html">Int_set</a> </td>
+<td><div class="info">
+<p>Small sets of integers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Int_val.html">Int_val</a> </td>
+<td><div class="info">
+<p>Integer values abstractions: an abstraction represents a set of integers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Integer.html">Integer</a> </td>
+<td><div class="info">
+<p>Extension of <code class="code"><span class="constructor">Big_int</span></code> compatible with <code class="code"><span class="constructor">Zarith</span></code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Integer.html">Integer</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Properties.Interp.html">Interp</a> [<a href="Db.Properties.html">Db.Properties</a>]</td>
+<td><div class="info">
+<p>Interpretation of logic terms.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.html">Interpreted_automata</a> </td>
+<td></td></tr>
+<tr><td><a href="Kernel.InvalidBool.html">InvalidBool</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-invalid-bool"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.InvalidPointer.html">InvalidPointer</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-invalid-pointer"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Iter.html">Iter</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Iter operations on the table of a given type of AST elements.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ival.html">Ival</a> </td>
+<td><div class="info">
+<p>Arithmetic lattices.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>J</div></td></tr>
+<tr><td><a href="Kernel.Journal.html">Journal</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Kernel for journalization.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Journal.html">Journal</a> </td>
+<td><div class="info">
+<p>Journalization of functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Json.html">Json</a> </td>
+<td><div class="info">
+<p>Json Library</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.JsonCompilationDatabase.html">JsonCompilationDatabase</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-json-compilation-database"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Json_compilation_database.html">Json_compilation_database</a> </td>
+<td><div class="info">
+<p><code class="code">get_flags&nbsp;f</code> returns the preprocessing flags associated to file <code class="code">f</code>
+    in the JSON compilation database (when enabled), or the empty string
+    otherwise.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>K</div></td></tr>
+<tr><td><a href="Kernel.KeepSwitch.html">KeepSwitch</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-keep-switch"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Keep_unused_specified_functions.html">Keep_unused_specified_functions</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-keep-unused-specified-functions".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Keep_unused_types.html">Keep_unused_types</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-keep-unused-types".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.html">Kernel</a> </td>
+<td><div class="info">
+<p>Provided services for kernel developers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel_function.html">Kernel_function</a> </td>
+<td><div class="info">
+<p>Operations to get info from a kernel function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_state_builder.Kernel_function_hashtbl.html">Kernel_function_hashtbl</a> [<a href="Cil_state_builder.html">Cil_state_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.Kernel_function_map.html">Kernel_function_map</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+<p>As for Kernel_function_set, by default keys can only be defined functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Kernel_function_multiple_map.html">Kernel_function_multiple_map</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+<p>As for Kernel_function_set, by default keys can only be defined functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Kernel_function_set.html">Kernel_function_set</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Kernel_function_set.html">Kernel_function_set</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Hashtbl.Key.html">Key</a> [<a href="Datatype.Hashtbl.html">Datatype.Hashtbl</a>]</td>
+<td><div class="info">
+<p>Datatype for the keys of the hashtbl.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Map.Key.html">Key</a> [<a href="Datatype.Map.html">Datatype.Map</a>]</td>
+<td><div class="info">
+<p>Datatype for the keys of the map.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Kf.html">Kf</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Kinstr.html">Kinstr</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_state_builder.Kinstr_hashtbl.html">Kinstr_hashtbl</a> [<a href="Cil_state_builder.html">Cil_state_builder</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>L</div></td></tr>
+<tr><td><a href="Lmap_bitwise.Location_map_bitwise.LOffset.html">LOffset</a> [<a href="Lmap_bitwise.Location_map_bitwise.html">Lmap_bitwise.Location_map_bitwise</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Label.html">Label</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lattice_messages.html">Lattice_messages</a> </td>
+<td><div class="info">
+<p>Message and logging facility for abstract lattices.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lattice_type.html">Lattice_type</a> </td>
+<td><div class="info">
+<p>Lattice signatures.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Launcher.html">Launcher</a> </td>
+<td><div class="info">
+<p>The Frama-C launcher.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.LeftShiftNegative.html">LeftShiftNegative</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-left-shift-negative"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.LegacyNames.html">LegacyNames</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Logic_env.Lemmas.html">Lemmas</a> [<a href="Logic_env.html">Logic_env</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Logic_typing.Lenv.html">Lenv</a> [<a href="Logic_typing.html">Logic_typing</a>]</td>
+<td><div class="info">
+<p>Local logic environment</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lexerhack.html">Lexerhack</a> </td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Lexpr.html">Lexpr</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Beware: no pretty-printer is available.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.LibEntry.html">LibEntry</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-lib-entry".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gui_printers.LinkPrinter.html">LinkPrinter</a> [<a href="Gui_printers.html">Gui_printers</a>]</td>
+<td><div class="info">
+<p>Special pretty-printer that outputs tags <code class="code">link:vidN</code> around varinfos,
+    and <code class="code">link:typN</code> around types.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.List.html">List</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="State_builder.List_ref.html">List_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a reference on a list.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.List_with_collections.html">List_with_collections</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Lmap.html">Lmap</a> </td>
+<td><div class="info">
+<p>Maps from bases to memory maps.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lmap_bitwise.html">Lmap_bitwise</a> </td>
+<td><div class="info">
+<p>Functors making map indexed by zone.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lmap_sig.html">Lmap_sig</a> </td>
+<td><div class="info">
+<p>Signature for maps from bases to memory maps.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.LoadModule.html">LoadModule</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-load-module"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.LoadState.html">LoadState</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-load"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Localisation.html">Localisation</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_tag.Localizable.html">Localizable</a> [<a href="Printer_tag.html">Printer_tag</a>]</td>
+<td></td></tr>
+<tr><td><a href="Locations.Location.html">Location</a> [<a href="Locations.html">Locations</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Location.html">Location</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Cil locations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Origin.LocationLattice.html">LocationLattice</a> [<a href="Origin.html">Origin</a>]</td>
+<td><div class="info">
+<p>Lattice of source locations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Locations.Location_Bits.html">Location_Bits</a> [<a href="Locations.html">Locations</a>]</td>
+<td><div class="info">
+<p>Association between bases and offsets in bits.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Locations.Location_Bytes.html">Location_Bytes</a> [<a href="Locations.html">Locations</a>]</td>
+<td><div class="info">
+<p>Association between bases and offsets in byte.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Locations.html">Locations</a> </td>
+<td><div class="info">
+<p>Memory locations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Pretty_source.Locs.html">Locs</a> [<a href="Pretty_source.html">Pretty_source</a>]</td>
+<td></td></tr>
+<tr><td><a href="Log.html">Log</a> </td>
+<td><div class="info">
+<p>Logging Services for Frama-C Kernel and Plugins.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Value.Logic.html">Logic</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<p>Evaluation of logic terms and predicates</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_builtin.html">Logic_builtin</a> </td>
+<td></td></tr>
+<tr><td><a href="Logic_env.Logic_builtin_used.html">Logic_builtin_used</a> [<a href="Logic_env.html">Logic_env</a>]</td>
+<td><div class="info">
+<p>logic function/predicates that are effectively used in current project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_const.html">Logic_const</a> </td>
+<td><div class="info">
+<p>Smart constructors for logic annotations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Logic_constant.html">Logic_constant</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_env.Logic_ctor_info.html">Logic_ctor_info</a> [<a href="Logic_env.html">Logic_env</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Logic_ctor_info.html">Logic_ctor_info</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_env.html">Logic_env</a> </td>
+<td><div class="info">
+<p>Global Logic Environment</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_env.Logic_info.html">Logic_info</a> [<a href="Logic_env.html">Logic_env</a>]</td>
+<td><div class="info">
+<p>Global Tables</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Logic_info.html">Logic_info</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Logic_info_structural.html">Logic_info_structural</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Logic_info with structural comparison: name of the symbol, type of arguments
+    Note that polymorphism is ignored, in the sense that two symbols with
+    the same name and profile except for the name of their type variables
+    will compare unequal.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_interp.html">Logic_interp</a> </td>
+<td><div class="info">
+<p>All the interesting functions of this module are exported through
+    <code class="code"><span class="constructor">Db</span>.<span class="constructor">Interp</span></code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Logic_label.html">Logic_label</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_lexer.html">Logic_lexer</a> </td>
+<td></td></tr>
+<tr><td><a href="Logic_parser.html">Logic_parser</a> </td>
+<td></td></tr>
+<tr><td><a href="Logic_preprocess.html">Logic_preprocess</a> </td>
+<td><div class="info">
+<p>adds another pre-processing step in order to expand macros in
+    annotations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_print.html">Logic_print</a> </td>
+<td><div class="info">
+<p>Pretty-printing of a parsed logic tree.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_ptree.html">Logic_ptree</a> </td>
+<td><div class="info">
+<p>logic constants.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Logic_real.html">Logic_real</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Logic_type.html">Logic_type</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Logic_type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Logic_type_ByName.html">Logic_type_ByName</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Logic_type_NoUnroll.html">Logic_type_NoUnroll</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_env.Logic_type_info.html">Logic_type_info</a> [<a href="Logic_env.html">Logic_env</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Logic_type_info.html">Logic_type_info</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Logic_typing.html">Logic_typing</a> </td>
+<td><div class="info">
+<p>Logic typing and logic environment.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_utils.html">Logic_utils</a> </td>
+<td><div class="info">
+<p>Utilities for ACSL constructs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Logic_var.html">Logic_var</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.LogicalOperators.html">LogicalOperators</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of invisible option -keep-logical-operators:
+    Tries to avoid converting &amp;&amp; and || into conditional statements.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Loop.html">Loop</a> </td>
+<td><div class="info">
+<p>Operations on (natural) loops.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Lval.html">Lval</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Note that the equality is based on eid (for sub-expressions).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.LvalStructEq.html">LvalStructEq</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil_state_builder.Lval_hashtbl.html">Lval_hashtbl</a> [<a href="Cil_state_builder.html">Cil_state_builder</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>M</div></td></tr>
+<tr><td><a href="Locations.Location_Bytes.M.html">M</a> [<a href="Locations.Location_Bytes.html">Locations.Location_Bytes</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_helper.MAKE_CUSTOM_LIST.html">MAKE_CUSTOM_LIST</a> [<a href="Gtk_helper.html">Gtk_helper</a>]</td>
+<td><div class="info">
+<p>A functor to build custom Gtk lists.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Machdep.html">Machdep</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-machdep".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Machdeps.html">Machdeps</a> </td>
+<td><div class="info">
+<p>Some predefined <a href="Cil_types.html#TYPEmach"><code class="code"><span class="constructor">Cil_types</span>.mach</code></a> which specifies machine-dependent
+    data about C programs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Main.html">Main</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Frama-C main interface.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.MainFunction.html">MainFunction</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-main".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wto.Make.html">Make</a> [<a href="Wto.html">Wto</a>]</td>
+<td><div class="info">
+<p>This functor provides the partitioning algorithm constructing a WTO.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_topological.Make.html">Make</a> [<a href="State_topological.html">State_topological</a>]</td>
+<td><div class="info">
+<p>Functor providing topological iterators over a graph.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Service_graph.Make.html">Make</a> [<a href="Service_graph.html">Service_graph</a>]</td>
+<td><div class="info">
+<p>Generic functor implementing the services algorithm according to a graph
+    implementation.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Rangemap.Make.html">Make</a> [<a href="Rangemap.html">Rangemap</a>]</td>
+<td><div class="info">
+<p>Extension of the above signature, with specific functions acting
+    on range of values</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Qstack.Make.html">Make</a> [<a href="Qstack.html">Qstack</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_tag.Make.html">Make</a> [<a href="Printer_tag.html">Printer_tag</a>]</td>
+<td></td></tr>
+<tr><td><a href="Printer_builder.Make.html">Make</a> [<a href="Printer_builder.html">Printer_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_builder.Make.html">Make</a> [<a href="Parameter_builder.html">Parameter_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Offsetmap.Make.html">Make</a> [<a href="Offsetmap.html">Offsetmap</a>]</td>
+<td><div class="info">
+<p>Maps from intervals to values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_typing.Make.html">Make</a> [<a href="Logic_typing.html">Logic_typing</a>]</td>
+<td></td></tr>
+<tr><td><a href="Indexer.Make.html">Make</a> [<a href="Indexer.html">Indexer</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptset.Make.html">Make</a> [<a href="Hptset.html">Hptset</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptmap.Make.html">Make</a> [<a href="Hptmap.html">Hptmap</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hook.Make.html">Make</a> [<a href="Hook.html">Hook</a>]</td>
+<td><div class="info">
+<p>Make a new empty hook from <code class="code">unit</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Float_interval.Make.html">Make</a> [<a href="Float_interval.html">Float_interval</a>]</td>
+<td></td></tr>
+<tr><td><a href="FCHashtbl.Make.html">Make</a> [<a href="FCHashtbl.html">FCHashtbl</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Polymorphic4.Make.html">Make</a> [<a href="Datatype.Polymorphic4.html">Datatype.Polymorphic4</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Polymorphic3.Make.html">Make</a> [<a href="Datatype.Polymorphic3.html">Datatype.Polymorphic3</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Polymorphic2.Make.html">Make</a> [<a href="Datatype.Polymorphic2.html">Datatype.Polymorphic2</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Polymorphic.Make.html">Make</a> [<a href="Datatype.Polymorphic.html">Datatype.Polymorphic</a>]</td>
+<td><div class="info">
+<p>Create a datatype for a monomorphic instance of the polymorphic type.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Make.html">Make</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Generic datatype builder.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Hashtbl.Make.html">Make</a> [<a href="Datatype.Hashtbl.html">Datatype.Hashtbl</a>]</td>
+<td><div class="info">
+<p>Build a datatype of the hashtbl according to the datatype of values in the
+    hashtbl.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Map.Make.html">Make</a> [<a href="Datatype.Map.html">Datatype.Map</a>]</td>
+<td><div class="info">
+<p>Build a datatype of the map according to the datatype of values in the
+    map.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Bottom.Make_Datatype.html">Make_Datatype</a> [<a href="Bottom.html">Bottom</a>]</td>
+<td><div class="info">
+<p>Datatype constructor.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Abstract_interp.Make_Hashconsed_Lattice_Set.html">Make_Hashconsed_Lattice_Set</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td><div class="info">
+<p>See e.g.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lmap.Make_LOffset.html">Make_LOffset</a> [<a href="Lmap.html">Lmap</a>]</td>
+<td></td></tr>
+<tr><td><a href="Abstract_interp.Make_Lattice_Base.html">Make_Lattice_Base</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Abstract_interp.Make_Lattice_Product.html">Make_Lattice_Product</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td><div class="info">
+<p>If <code class="code"><span class="constructor">C</span>.collapse</code> then <code class="code"><span class="constructor">L1</span>.bottom,_</code> = <code class="code">_,<span class="constructor">L2</span>.bottom</code> = <code class="code">bottom</code></p>
+
+</div>
+</td></tr>
+<tr><td><a href="Abstract_interp.Make_Lattice_Set.html">Make_Lattice_Set</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Abstract_interp.Make_Lattice_Sum.html">Make_Lattice_Sum</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Abstract_interp.Make_Lattice_UProduct.html">Make_Lattice_UProduct</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td><div class="info">
+<p>Uncollapsed product.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Map_lattice.Make_MapSet_Lattice.html">Make_MapSet_Lattice</a> [<a href="Map_lattice.html">Map_lattice</a>]</td>
+<td><div class="info">
+<p>Builds a lattice mixing maps and sets, provided that each one has a lattice
+    structure.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Map_lattice.Make_Map_Lattice.html">Make_Map_Lattice</a> [<a href="Map_lattice.html">Map_lattice</a>]</td>
+<td><div class="info">
+<p>Equips an Hptmap with a lattice structure, provided that the values
+    have a lattice structure.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Offsetmap_sig.Make_Narrow.html">Make_Narrow</a> [<a href="Offsetmap_sig.html">Offsetmap_sig</a>]</td>
+<td></td></tr>
+<tr><td><a href="Lmap_sig.Make_Narrow.html">Make_Narrow</a> [<a href="Lmap_sig.html">Lmap_sig</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel_function.Make_Table.html">Make_Table</a> [<a href="Kernel_function.html">Kernel_function</a>]</td>
+<td><div class="info">
+<p>Hashtable indexed by kernel functions and dealing with project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Offsetmap.Make_bitwise.html">Make_bitwise</a> [<a href="Offsetmap.html">Offsetmap</a>]</td>
+<td><div class="info">
+<p>Maps from intervals to simple values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Lmap_bitwise.Make_bitwise.html">Make_bitwise</a> [<a href="Lmap_bitwise.html">Lmap_bitwise</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.Make_list.html">Make_list</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.Make_map.html">Make_map</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+<p>Parameter is a map where multibindings are **not** allowed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.Make_multiple_map.html">Make_multiple_map</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+<p>Parameter is a map where multibindings are allowed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Hook.Make_ordered.html">Make_ordered</a> [<a href="Hook.html">Hook</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Printer_builder.Make_pp.html">Make_pp</a> [<a href="Printer_builder.html">Printer_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.Make_set.html">Make_set</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Project_skeleton.Make_setter.html">Make_setter</a> [<a href="Project_skeleton.html">Project_skeleton</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Emitter.Make_table.html">Make_table</a> [<a href="Emitter.html">Emitter</a>]</td>
+<td><div class="info">
+<p>Table indexing: key -&gt; emitter (or equivalent data) -&gt; value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Make_tbl.html">Make_tbl</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Build an heterogeneous table associating keys to info.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Make_with_collections.html">Make_with_collections</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Generic comparable datatype builder: functions <code class="code">equal</code>, <code class="code">compare</code> and
+    <code class="code">hash</code> must not be <a href="Datatype.html#VALundefined"><code class="code"><span class="constructor">Datatype</span>.undefined</code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Map.html">Map</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.S_with_collections.Map.html">Map</a> [<a href="Datatype.S_with_collections.html">Datatype.S_with_collections</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.html">Map_lattice</a> </td>
+<td><div class="info">
+<p>Maps equipped with a lattice structure.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Markdown.html">Markdown</a> </td>
+<td><div class="info">
+<p>Markdown Document
+    Structured representation of Markdown content.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Memo.html">Memo</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Memo operations on behaviors, allows to get a binding in the new project
+    for the given AST element, creating one if it does not already exists.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Menu_manager.html">Menu_manager</a> </td>
+<td><div class="info">
+<p>Handle the menubar and the toolbar.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Mergecil.html">Mergecil</a> </td>
+<td><div class="info">
+<p>Merge a number of CIL files</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Messages.html">Messages</a> </td>
+<td><div class="info">
+<p>Stored messages for persistence between sessions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_env.Model_info.html">Model_info</a> [<a href="Logic_env.html">Logic_env</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Model_info.html">Model_info</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td align="left"><div>N</div></td></tr>
+<tr><td><a href="Kernel.Journal.Name.html">Name</a> [<a href="Kernel.Journal.html">Kernel.Journal</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-journal-name"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.Names.html">Names</a> [<a href="Property.html">Property</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Nativeint.html">Nativeint</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dotgraph.Node.html">Node</a> [<a href="Dotgraph.html">Dotgraph</a>]</td>
+<td><div class="info">
+<p>Lazily associates a node to any element.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Filepath.Normalized.html">Normalized</a> [<a href="Filepath.html">Filepath</a>]</td>
+<td><div class="info">
+<p>The <code class="code"><span class="constructor">Normalized</span></code> module is simply a wrapper that ensures that paths are
+    always normalized.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>O</div></td></tr>
+<tr><td><a href="Lattice_type.Lattice_Set.O.html">O</a> [<a href="Lattice_type.Lattice_Set.html">Lattice_type.Lattice_Set</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Obj_tbl.html">Obj_tbl</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Heterogeneous table for the keys, but polymorphic for the values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Offset.html">Offset</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Same remark as for Lval.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.OffsetStructEq.html">OffsetStructEq</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Offsetmap.html">Offsetmap</a> </td>
+<td><div class="info">
+<p>Maps from intervals to values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Offsetmap_bitwise_sig.html">Offsetmap_bitwise_sig</a> </td>
+<td><div class="info">
+<p>Signature for <code class="code"><span class="constructor">Offsetmap_bitwise</span></code> module, that implement efficient maps
+    from intervals to values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Offsetmap_lattice_with_isotropy.html">Offsetmap_lattice_with_isotropy</a> </td>
+<td><div class="info">
+<p>Type of the arguments of functor <a href="Offsetmap.Make.html"><code class="code"><span class="constructor">Offsetmap</span>.<span class="constructor">Make</span></code></a></p>
+
+</div>
+</td></tr>
+<tr><td><a href="Offsetmap_sig.html">Offsetmap_sig</a> </td>
+<td><div class="info">
+<p>Signature for <a href="Offsetmap.html"><code class="code"><span class="constructor">Offsetmap</span></code></a> module, that implement efficient maps from
+    intervals to arbitrary values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Oneret.html">Oneret</a> </td>
+<td></td></tr>
+<tr><td><a href="Db.Operational_inputs.html">Operational_inputs</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>State_builder.of operational inputs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Option.html">Option</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Option_ref.html">Option_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a reference on an option.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Option_with_collections.html">Option_with_collections</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Ordered_stmt.html">Ordered_stmt</a> </td>
+<td></td></tr>
+<tr><td><a href="Kernel.Orig_name.html">Orig_name</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-orig-name"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Origin.html">Origin</a> </td>
+<td><div class="info">
+<p>The datastructures of this module can be used to track the origin
+    of a major imprecision in the values of an abstract domain.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Project_skeleton.Output.html">Output</a> [<a href="Project_skeleton.html">Project_skeleton</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Db.Outputs.html">Outputs</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>State_builder.of outputs.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>P</div></td></tr>
+<tr><td><a href="Datatype.Pair.html">Pair</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Pair_with_collections.html">Pair_with_collections</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gtk_compat.Pango.html">Pango</a> [<a href="Gtk_compat.html">Gtk_compat</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dynamic.Parameter.html">Parameter</a> [<a href="Dynamic.html">Dynamic</a>]</td>
+<td><div class="info">
+<p>Module to use for accessing parameters of plug-ins.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_builder.html">Parameter_builder</a> </td>
+<td><div class="info">
+<p>Functors for implementing new command line options.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_category.html">Parameter_category</a> </td>
+<td><div class="info">
+<p>Category for parameter collections.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_customize.html">Parameter_customize</a> </td>
+<td><div class="info">
+<p>Configuration of command line options.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.html">Parameter_sig</a> </td>
+<td><div class="info">
+<p>Signatures for command line options.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_state.html">Parameter_state</a> </td>
+<td><div class="info">
+<p>Handling groups of parameters</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Pdg.html">Pdg</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Program Dependence Graph.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Permissive.html">Permissive</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-permissive"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Plugin.html">Plugin</a> </td>
+<td><div class="info">
+<p>Special signature for Kernel services, whose messages are handled in
+    an ad'hoc manner.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PointerDowncast.html">PointerDowncast</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-pointer-downcast"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Poly_array.html">Poly_array</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Poly_list.html">Poly_list</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Poly_option.html">Poly_option</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Poly_pair.html">Poly_pair</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Poly_queue.html">Poly_queue</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Poly_ref.html">Poly_ref</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Type.Polymorphic.html">Polymorphic</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Generic implementation of polymorphic type value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Polymorphic.html">Polymorphic</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Functor for polymorphic types with only 1 type variable.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Polymorphic2.html">Polymorphic2</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Generic implementation of polymorphic type value with two type variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Polymorphic2.html">Polymorphic2</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Functor for polymorphic types with 2 type variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Polymorphic3.html">Polymorphic3</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Generic implementation of polymorphic type value with three type
+    variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Polymorphic3.html">Polymorphic3</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Functor for polymorphic types with 3 type variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Polymorphic4.html">Polymorphic4</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Generic implementation of polymorphic type value with four type
+    variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Polymorphic4.html">Polymorphic4</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Functor for polymorphic types with 4 type variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Position.html">Position</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Single position in a file.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Postdominators.html">Postdominators</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Syntactic postdominators plugin.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.PostdominatorsTypes.html">PostdominatorsTypes</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Declarations common to the various postdominators-computing modules</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.PostdominatorsValue.html">PostdominatorsValue</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Postdominators using value analysis results.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Predicate.html">Predicate</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.PreprocessAnnot.html">PreprocessAnnot</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-pp-annot"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Pretty_source.html">Pretty_source</a> </td>
+<td><div class="info">
+<p>Utilities to pretty print source with located elements in a Gtk
+    TextBuffer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Pretty_utils.html">Pretty_utils</a> </td>
+<td><div class="info">
+<p>Pretty-printer utilities.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintCode.html">PrintCode</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintComments.html">PrintComments</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-keep-comments"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintConfig.html">PrintConfig</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-config"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintConfigJson.html">PrintConfigJson</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-config-json"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintCppCommands.html">PrintCppCommands</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-cpp-commands"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintLib.html">PrintLib</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-lib-path"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintLibc.html">PrintLibc</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-libc"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintMachdep.html">PrintMachdep</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-machdep"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintPluginPath.html">PrintPluginPath</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-plugin-path"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintReturn.html">PrintReturn</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-return"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintShare.html">PrintShare</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-share-path"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.PrintVersion.html">PrintVersion</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-print-version"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer.html">Printer</a> </td>
+<td><div class="info">
+<p>AST's pretty-printer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_api.html">Printer_api</a> </td>
+<td><div class="info">
+<p>Type of AST's extensible printers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_builder.html">Printer_builder</a> </td>
+<td><div class="info">
+<p>Build a dynamic printer that bind all pretty-printers to the
+    object obtained by (P())</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Printer_tag.html">Printer_tag</a> </td>
+<td><div class="info">
+<p>Utilities to pretty print source with located Ast elements</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Project.html">Project</a> </td>
+<td><div class="info">
+<p>Projects management.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Project_manager.html">Project_manager</a> </td>
+<td><div class="info">
+<p>No function is exported.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Gui_parameters.Project_name.html">Project_name</a> [<a href="Gui_parameters.html">Gui_parameters</a>]</td>
+<td><div class="info">
+<p>Option -gui-project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Project_skeleton.html">Project_skeleton</a> </td>
+<td><div class="info">
+<p>This module should not be used outside of the Project library.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Properties.html">Properties</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Dealing with logical properties.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property.html">Property</a> </td>
+<td><div class="info">
+<p>ACSL comparable property.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property_navigator.html">Property_navigator</a> </td>
+<td><div class="info">
+<p>Extension of the GUI in order to navigate in ACSL properties.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Property_status.html">Property_status</a> </td>
+<td><div class="info">
+<p>Status of properties.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Proxy.html">Proxy</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>State proxy.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>Q</div></td></tr>
+<tr><td><a href="Qstack.html">Qstack</a> </td>
+<td><div class="info">
+<p>Mutable stack in which it is possible to add data at the end (like a queue)
+    and to handle non top elements.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Quadruple.html">Quadruple</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Quadruple_with_collections.html">Quadruple_with_collections</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Queue.html">Queue</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Queue.html">Queue</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.Quiet.html">Quiet</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-quiet"</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>R</div></td></tr>
+<tr><td><a href="Rangemap.html">Rangemap</a> </td>
+<td><div class="info">
+<p>Association tables over ordered types.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.ReadAnnot.html">ReadAnnot</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-read-annot"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dotgraph.Record.html">Record</a> [<a href="Dotgraph.html">Dotgraph</a>]</td>
+<td><div class="info">
+<p>Complex node layout.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.From.Record_From_Callbacks.html">Record_From_Callbacks</a> [<a href="Db.From.html">Db.From</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Value.Record_Value_After_Callbacks.html">Record_Value_After_Callbacks</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Value.Record_Value_Callbacks.html">Record_Value_Callbacks</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Value.Record_Value_Superposition_Callbacks.html">Record_Value_Superposition_Callbacks</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td></td></tr>
+<tr><td><a href="Structural_descr.Recursive.html">Recursive</a> [<a href="Structural_descr.html">Structural_descr</a>]</td>
+<td><div class="info">
+<p>Use this module for handling a (possibly recursive) structural descriptor
+    <code class="code">d</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Ref.html">Ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Ref.html">Ref</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Register.html">Register</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p><code class="code"><span class="constructor">Register</span>(<span class="constructor">Datatype</span>)(<span class="constructor">State</span>)(<span class="constructor">Info</span>)</code> registers a new state.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Plugin.Register.html">Register</a> [<a href="Plugin.html">Plugin</a>]</td>
+<td><div class="info">
+<p>Functors for registering a new plug-in.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Log.Register.html">Register</a> [<a href="Log.html">Log</a>]</td>
+<td><div class="info">
+<p>Each plugin has its own channel to output messages.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Abstract_interp.Rel.html">Rel</a> [<a href="Abstract_interp.html">Abstract_interp</a>]</td>
+<td><div class="info">
+<p>"Relative" integers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.RemoveExn.html">RemoveExn</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-remove-exn"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Reset.html">Reset</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Reset operations on behaviors, allows to reset the tables associated to a given
+    kind of AST elements.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Journal.Reverse_binding.html">Reverse_binding</a> [<a href="Journal.html">Journal</a>]</td>
+<td></td></tr>
+<tr><td><a href="Rgmap.html">Rgmap</a> </td>
+<td><div class="info">
+<p>Associative maps for _ranges_ to _values_ with overlapping.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Rich_text.html">Rich_text</a> </td>
+<td><div class="info">
+<p>Text with Tags</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.RightShiftNegative.html">RightShiftNegative</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-right-shift-negative"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Rmtmps.html">Rmtmps</a> </td>
+<td></td></tr>
+<tr><td><a href="Db.RteGen.html">RteGen</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Runtime Error Annotation Generation plugin.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>S</div></td></tr>
+<tr><td><a href="Kernel.SafeArrays.html">SafeArrays</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-safe-arrays".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Sanitizer.html">Sanitizer</a> </td>
+<td><div class="info">
+<p>Sanitizer</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.SaveState.html">SaveState</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-save"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Security.html">Security</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>Security analysis.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Serializable_undefined.html">Serializable_undefined</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Same as <a href="Datatype.Undefined.html"><code class="code"><span class="constructor">Datatype</span>.<span class="constructor">Undefined</span></code></a>, but the type is supposed to be marshallable by the
+    standard OCaml way (in particular, no hash-consing or projects inside
+    the type).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Service_graph.S.Service_graph.html">Service_graph</a> [<a href="Service_graph.S.html">Service_graph.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Service_graph.html">Service_graph</a> </td>
+<td><div class="info">
+<p>Compute services from a callgraph.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Plugin.S_no_log.Session.html">Session</a> [<a href="Plugin.S_no_log.html">Plugin.S_no_log</a>]</td>
+<td><div class="info">
+<p>Handle the specific `session' directory of the plug-in.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Session_dir.html">Session_dir</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Directory in which session files are searched.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Set.html">Set</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Set operations on behaviors, allows to change the representative of a
+    given AST element in the current state of the visitor.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Set.html">Set</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.S_with_collections.Set.html">Set</a> [<a href="Datatype.S_with_collections.html">Datatype.S_with_collections</a>]</td>
+<td></td></tr>
+<tr><td><a href="Base.SetLattice.html">SetLattice</a> [<a href="Base.html">Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Visitor_behavior.Set_orig.html">Set_orig</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Set operations on behaviors related to original representatives, allows to
+    change the reference of an element of the <b>new</b> AST in the current state
+    of the visitor.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Set_project_as_default.html">Set_project_as_default</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Undocumented.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Set_ref.html">Set_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Hptmap.Shape.html">Shape</a> [<a href="Hptmap.html">Hptmap</a>]</td>
+<td><div class="info">
+<p>This functor exports the <i>shape</i> of the maps indexed by keys <code class="code"><span class="constructor">Key</span></code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Plugin.S_no_log.Share.html">Share</a> [<a href="Plugin.S_no_log.html">Plugin.S_no_log</a>]</td>
+<td><div class="info">
+<p>Handle the specific `share' directory of the plug-in.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.SharedCounter.html">SharedCounter</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Creates a counter that is shared among all projects, but which is
+    marshalling-compliant.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_const.Sid.html">Sid</a> [<a href="Cil_const.html">Cil_const</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.SignedDowncast.html">SignedDowncast</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-signed-downcast"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.SignedOverflow.html">SignedOverflow</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-signed-overflow"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dataflows.Simple_backward.html">Simple_backward</a> [<a href="Dataflows.html">Dataflows</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dataflows.Simple_forward.html">Simple_forward</a> [<a href="Dataflows.html">Dataflows</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.SimplifyCfg.html">SimplifyCfg</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-simplify-cfg"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.SimplifyTrivialLoops.html">SimplifyTrivialLoops</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-simplify-trivial-loops".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Source_manager.html">Source_manager</a> </td>
+<td><div class="info">
+<p>The source viewer multi-tabs widget window.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Source_viewer.html">Source_viewer</a> </td>
+<td><div class="info">
+<p>The Frama-C source viewer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.SpecialFloat.html">SpecialFloat</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-special-float"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Special_hooks.html">Special_hooks</a> </td>
+<td><div class="info">
+<p>Nothing is exported: just register some special hooks for Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dataflow2.StartData.html">StartData</a> [<a href="Dataflow2.html">Dataflow2</a>]</td>
+<td><div class="info">
+<p>This module can be used to instantiate the <code class="code"><span class="constructor">StmtStartData</span></code> components
+    of the functors below.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html">State</a> </td>
+<td><div class="info">
+<p>A state is a project-compliant mutable value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.html">State_builder</a> </td>
+<td><div class="info">
+<p>State builders.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_dependency_graph.html">State_dependency_graph</a> </td>
+<td><div class="info">
+<p>State Dependency Graph.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_selection.html">State_selection</a> </td>
+<td><div class="info">
+<p>A state selection is a set of states with operations for easy handling of
+    state dependencies.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_topological.html">State_topological</a> </td>
+<td><div class="info">
+<p>Topological ordering over states.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State_builder.States.html">States</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="State_selection.Static.html">Static</a> [<a href="State_selection.html">State_selection</a>]</td>
+<td><div class="info">
+<span class="deprecated"><p>Operations over selections which depend on
+    <code class="code"><span class="constructor">State_dependency_graph</span>.graph</code>.</p>
+
+</span></div>
+</td></tr>
+<tr><td><a href="Statuses_by_call.html">Statuses_by_call</a> </td>
+<td><div class="info">
+<p>Statuses of preconditions specialized at a given call-point.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Stmt.html">Stmt</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Dataflow2.BackwardsTransfer.StmtStartData.html">StmtStartData</a> [<a href="Dataflow2.BackwardsTransfer.html">Dataflow2.BackwardsTransfer</a>]</td>
+<td><div class="info">
+<p>For each block id, the data at the start.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dataflow2.ForwardsTransfer.StmtStartData.html">StmtStartData</a> [<a href="Dataflow2.ForwardsTransfer.html">Dataflow2.ForwardsTransfer</a>]</td>
+<td><div class="info">
+<p>For each statement id, the data at the start.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Stmt_Id.html">Stmt_Id</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_state_builder.Stmt_hashtbl.html">Stmt_hashtbl</a> [<a href="Cil_state_builder.html">Cil_state_builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil_state_builder.Stmt_set_ref.html">Stmt_set_ref</a> [<a href="Cil_state_builder.html">Cil_state_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Stmts_graph.html">Stmts_graph</a> </td>
+<td><div class="info">
+<p>Statements graph.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.String.html">String</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Dynamic.Parameter.String.html">String</a> [<a href="Dynamic.Parameter.html">Dynamic.Parameter</a>]</td>
+<td><div class="info">
+<p>String parameters.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.String.html">String</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Dynamic.Parameter.StringList.html">StringList</a> [<a href="Dynamic.Parameter.html">Dynamic.Parameter</a>]</td>
+<td><div class="info">
+<p>List of string parameters.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Dynamic.Parameter.StringSet.html">StringSet</a> [<a href="Dynamic.Parameter.html">Dynamic.Parameter</a>]</td>
+<td><div class="info">
+<p>Set of string parameters.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.String_list.html">String_list</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.String_map.html">String_map</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.String_multiple_map.html">String_multiple_map</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.String_set.html">String_set</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Type.String_tbl.html">String_tbl</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Heterogeneous tables indexed by string.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Structural_descr.html">Structural_descr</a> </td>
+<td><div class="info">
+<p>Internal representations of OCaml type as first class values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Substitute_const_globals.html">Substitute_const_globals</a> </td>
+<td><div class="info">
+<p>A visitor that substitutes globals, defined with the attribute 'const', with
+    respective initializers.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.SymbolicPath.html">SymbolicPath</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-add-symbolic-path"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Binary_cache.Symmetric_Binary.html">Symmetric_Binary</a> [<a href="Binary_cache.html">Binary_cache</a>]</td>
+<td></td></tr>
+<tr><td><a href="Binary_cache.Symmetric_Binary_Predicate.html">Symmetric_Binary_Predicate</a> [<a href="Binary_cache.html">Binary_cache</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Syntactic_scope.html">Syntactic_scope</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Globals.Syntactic_search.html">Syntactic_search</a> [<a href="Globals.html">Globals</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>T</div></td></tr>
+<tr><td><a href="Service_graph.S.TP.html">TP</a> [<a href="Service_graph.S.html">Service_graph.S</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Db.Value.Table_By_Callstack.html">Table_By_Callstack</a> [<a href="Db.Value.html">Db.Value</a>]</td>
+<td><div class="info">
+<p>Table containing the results of the value analysis, ie.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Task.html">Task</a> </td>
+<td><div class="info">
+<p>High Level Interface to Command.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Term.html">Term</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Term_lhost.html">Term_lhost</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Term_lval.html">Term_lval</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Term_offset.html">Term_offset</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.Time.html">Time</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-time"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_interp.To_zone.html">To_zone</a> [<a href="Logic_interp.html">Logic_interp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Properties.Interp.To_zone.html">To_zone</a> [<a href="Db.Properties.Interp.html">Db.Properties.Interp</a>]</td>
+<td></td></tr>
+<tr><td><a href="Bottom.Top.html">Top</a> [<a href="Bottom.html">Bottom</a>]</td>
+<td><div class="info">
+<p>Lattices in which both top and bottom are managed separately</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Db.Toplevel.html">Toplevel</a> [<a href="Db.html">Db</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Toplevel_predicate.html">Toplevel_predicate</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Tr_offset.html">Tr_offset</a> </td>
+<td><div class="info">
+<p>Reduction of a location (expressed as an Ival.t and a size)
+    by a base validity.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Transitioning.html">Transitioning</a> </td>
+<td><div class="info">
+<p>This file contains functions that uses features that are deprecated in
+    current OCaml version, but whose replacing feature is not available in
+    the oldest OCaml version officially supported by Frama-C.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Translate_lightweight.html">Translate_lightweight</a> </td>
+<td><div class="info">
+<p>Annotate files interpreting lightweight annotations.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Triple.html">Triple</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Triple_with_collections.html">Triple_with_collections</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Builder.True.html">True</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="State_builder.True_ref.html">True_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a reference on a boolean, initialized with <code class="code"><span class="keyword">true</span></code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.Ty_tbl.html">Ty_tbl</a> [<a href="Type.html">Type</a>]</td>
+<td><div class="info">
+<p>Heterogeneous tables indexed by type value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Typ.html">Typ</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Types, with comparison over struct done by key and unrolling of typedefs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.TypByName.html">TypByName</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Types, with comparison over struct done by name and no unrolling.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.TypNoUnroll.html">TypNoUnroll</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+<p>Types, with comparison over struct done by key and no unrolling</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Type.html">Type</a> </td>
+<td><div class="info">
+<p>Type value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Bottom.Type.html">Type</a> [<a href="Bottom.html">Bottom</a>]</td>
+<td></td></tr>
+<tr><td><a href="Kernel.TypeCheck.html">TypeCheck</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-typecheck"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Logic_typing.Type_namespace.html">Type_namespace</a> [<a href="Logic_typing.html">Logic_typing</a>]</td>
+<td></td></tr>
+<tr><td><a href="Typed_parameter.html">Typed_parameter</a> </td>
+<td><div class="info">
+<p>Parameter settable through a command line option.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Typeinfo.html">Typeinfo</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Globals.Types.html">Types</a> [<a href="Globals.html">Globals</a>]</td>
+<td><div class="info">
+<p>Types, or type-related information.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>U</div></td></tr>
+<tr><td><a href="Datatype.Undefined.html">Undefined</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Each values in these modules are undefined.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Undefined_sequence.html">Undefined_sequence</a> </td>
+<td></td></tr>
+<tr><td><a href="Project.Undo.html">Undo</a> [<a href="Project.html">Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="Gui_parameters.Undo.html">Undo</a> [<a href="Gui_parameters.html">Gui_parameters</a>]</td>
+<td><div class="info">
+<p>Option -undo.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Unicode.html">Unicode</a> </td>
+<td><div class="info">
+<p>Handling unicode string.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.Unicode.html">Unicode</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-unicode".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Unit.html">Unit</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Unmarshal.html">Unmarshal</a> </td>
+<td><div class="info">
+<p>Provides a function <code class="code">input_val</code>, similar in
+functionality to the standard library function <code class="code"><span class="constructor">Marshal</span>.from_channel</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Unmarshal_z.html">Unmarshal_z</a> </td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.UnrollUnnatural.html">UnrollUnnatural</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Unroll_loops.html">Unroll_loops</a> </td>
+<td><div class="info">
+<p>Syntactic loop unrolling.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.UnrollingForce.html">UnrollingForce</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-ulevel-force"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.UnrollingLevel.html">UnrollingLevel</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-ulevel"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Unset.html">Unset</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Operations to remove the entry associated to a given AST element in the
+    current state of the visitor.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.Unset_orig.html">Unset_orig</a> [<a href="Visitor_behavior.html">Visitor_behavior</a>]</td>
+<td><div class="info">
+<p>Operations to remove the entry associated to a given element of the <b>new</b>
+    AST in the current state of the visitor.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.UnsignedDowncast.html">UnsignedDowncast</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-unsigned-downcast"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.UnsignedOverflow.html">UnsignedOverflow</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-warn-unsigned-overflow"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.UnspecifiedAccess.html">UnspecifiedAccess</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<p>Behavior of option "-unspecified-access"</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Ast.UntypedFiles.html">UntypedFiles</a> [<a href="Ast.html">Ast</a>]</td>
+<td></td></tr>
+<tr><td><a href="Emitter.Usable_emitter.html">Usable_emitter</a> [<a href="Emitter.html">Emitter</a>]</td>
+<td><div class="info">
+<p>Usable emitters are the ones which can really emit something.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.UseUnicode.html">UseUnicode</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td><div class="info">
+<span class="deprecated"><p>Behavior of option "-unicode"</p>
+
+</span></div>
+</td></tr>
+<tr><td><a href="Utf8_logic.html">Utf8_logic</a> </td>
+<td><div class="info">
+<p>UTF-8 string for logic symbols.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.UtilsFilepath.html">UtilsFilepath</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>V</div></td></tr>
+<tr><td><a href="Base.Validity.html">Validity</a> [<a href="Base.html">Base</a>]</td>
+<td></td></tr>
+<tr><td><a href="Db.Value.html">Value</a> [<a href="Db.html">Db</a>]</td>
+<td><div class="info">
+<p>The Value analysis itself.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Varinfo.html">Varinfo</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Cil_datatype.Varinfo_Id.html">Varinfo_Id</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_state_builder.Varinfo_hashtbl.html">Varinfo_hashtbl</a> [<a href="Cil_state_builder.html">Cil_state_builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Globals.Vars.html">Vars</a> [<a href="Globals.html">Globals</a>]</td>
+<td><div class="info">
+<p>Globals variables.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Vector.html">Vector</a> </td>
+<td><div class="info">
+<p>Extensible Arrays</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Plugin.S_no_log.Verbose.html">Verbose</a> [<a href="Plugin.S_no_log.html">Plugin.S_no_log</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.UnrollUnnatural.Version.html">Version</a> [<a href="Interpreted_automata.UnrollUnnatural.html">Interpreted_automata.UnrollUnnatural</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.Vertex.html">Vertex</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>Datatype for vertices</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.UnrollUnnatural.Vertex_Set.html">Vertex_Set</a> [<a href="Interpreted_automata.UnrollUnnatural.html">Interpreted_automata.UnrollUnnatural</a>]</td>
+<td></td></tr>
+<tr><td><a href="Cil_const.Vid.html">Vid</a> [<a href="Cil_const.html">Cil_const</a>]</td>
+<td></td></tr>
+<tr><td><a href="Visitor.html">Visitor</a> </td>
+<td><div class="info">
+<p>Frama-C visitors dealing with projects.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Visitor_behavior.html">Visitor_behavior</a> </td>
+<td><div class="info">
+<p>Operations on visitor behaviors.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>W</div></td></tr>
+<tr><td><a href="Wto_statement.WTO.html">WTO</a> [<a href="Wto_statement.html">Wto_statement</a>]</td>
+<td><div class="info">
+<p>The datatype for statement WTOs</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.UnrollUnnatural.WTO.html">WTO</a> [<a href="Interpreted_automata.UnrollUnnatural.html">Interpreted_automata.UnrollUnnatural</a>]</td>
+<td></td></tr>
+<tr><td><a href="Interpreted_automata.WTO.html">WTO</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td></td></tr>
+<tr><td><a href="Wto_statement.WTOIndex.html">WTOIndex</a> [<a href="Wto_statement.html">Wto_statement</a>]</td>
+<td><div class="info">
+<p>Datatype for  wto_index</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Interpreted_automata.WTOIndex.html">WTOIndex</a> [<a href="Interpreted_automata.html">Interpreted_automata</a>]</td>
+<td><div class="info">
+<p>Datatype for wto_index</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Kernel.WarnDecimalFloat.html">WarnDecimalFloat</a> [<a href="Kernel.html">Kernel</a>]</td>
+<td></td></tr>
+<tr><td><a href="Warning_manager.html">Warning_manager</a> </td>
+<td><div class="info">
+<p>Handle Frama-C warnings in the GUI.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wbox.html">Wbox</a> </td>
+<td><div class="info">
+<p>Box Layouts.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Weak.html">Weak</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td></td></tr>
+<tr><td><a href="State_builder.Weak_hashtbl.html">Weak_hashtbl</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a weak hashtbl over a datatype <code class="code"><span class="constructor">Data</span></code> from a reference implementation
+    <code class="code"><span class="constructor">W</span></code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wfile.html">Wfile</a> </td>
+<td></td></tr>
+<tr><td><a href="Cil_datatype.Wide_string.html">Wide_string</a> [<a href="Cil_datatype.html">Cil_datatype</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Ival.Widen_Hints.html">Widen_Hints</a> [<a href="Ival.html">Ival</a>]</td>
+<td></td></tr>
+<tr><td><a href="Int_val.Widen_Hints.html">Widen_Hints</a> [<a href="Int_val.html">Int_val</a>]</td>
+<td></td></tr>
+<tr><td><a href="Float_sig.S.Widen_Hints.html">Widen_Hints</a> [<a href="Float_sig.S.html">Float_sig.S</a>]</td>
+<td></td></tr>
+<tr><td><a href="Widget.html">Widget</a> </td>
+<td><div class="info">
+<p>Simple Widgets</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Builder.WithOutput.html">WithOutput</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.Make_MapSet_Lattice.With_Cardinality.html">With_Cardinality</a> [<a href="Map_lattice.Make_MapSet_Lattice.html">Map_lattice.Make_MapSet_Lattice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Map_lattice.Make_Map_Lattice.With_Cardinality.html">With_Cardinality</a> [<a href="Map_lattice.Make_Map_Lattice.html">Map_lattice.Make_Map_Lattice</a>]</td>
+<td><div class="info">
+<p>Adds cardinality functions for maps, according to a notion of
+        cardinality on the values.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.With_collections.html">With_collections</a> [<a href="Datatype.html">Datatype</a>]</td>
+<td><div class="info">
+<p>Add sets, maps and hashtables modules to an existing datatype, provided the
+    <code class="code">equal</code>, <code class="code">compare</code> and <code class="code">hash</code> functions are not <a href="Datatype.html#VALundefined"><code class="code"><span class="constructor">Datatype</span>.undefined</code></a>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wpalette.html">Wpalette</a> </td>
+<td></td></tr>
+<tr><td><a href="Wpane.html">Wpane</a> </td>
+<td><div class="info">
+<p>Panels</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtable.html">Wtable</a> </td>
+<td><div class="info">
+<p>Table Views</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wtext.html">Wtext</a> </td>
+<td><div class="info">
+<p>Rich Text Renderer</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wto.html">Wto</a> </td>
+<td><div class="info">
+<p>Weak topological orderings (WTOs) are a hierarchical decomposition of the
+    a graph where each layer is topologically ordered and strongly connected
+    components are aggregated and ordered recursively.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wto_statement.html">Wto_statement</a> </td>
+<td><div class="info">
+<p>Specialization of WTO for the CIL statement graph.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wutil.html">Wutil</a> </td>
+<td><div class="info">
+<p>Wtoolkit - Utilities</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Wutil_once.html">Wutil_once</a> </td>
+<td><div class="info">
+<p><code class="code">once&nbsp;f</code> returns a function that will only be applied once per
+    execution of the program and returns the same value afterwards.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>Z</div></td></tr>
+<tr><td><a href="Parameter_sig.Builder.Zero.html">Zero</a> [<a href="Parameter_sig.Builder.html">Parameter_sig.Builder</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="State_builder.Zero_ref.html">Zero_ref</a> [<a href="State_builder.html">State_builder</a>]</td>
+<td><div class="info">
+<p>Build a reference on an integer, initialized with <code class="code">0</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Locations.Zone.html">Zone</a> [<a href="Locations.html">Locations</a>]</td>
+<td><div class="info">
+<p>Association between bases and ranges of bits.</p>
+
+</div>
+</td></tr>
+</table>
+</body>
+</html>

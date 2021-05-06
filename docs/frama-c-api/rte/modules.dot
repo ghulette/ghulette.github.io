@@ -1,0 +1,27 @@
+digraph "Plugin architecture (rte)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"RteGen" [style=filled, color=darkturquoise];
+"RteGen" -> "Generator";
+"RteGen" -> "Flags";
+"Options" [style=filled, color=darkturquoise];
+"Generator" [style=filled, color=darkturquoise];
+"Generator" -> "Options";
+"Rte" [style=filled, color=darkturquoise];
+"Rte" -> "Options";
+"Flags" [style=filled, color=darkturquoise];
+"Flags" -> "Options";
+"Visit" [style=filled, color=darkturquoise];
+"Visit" -> "Generator";
+"Visit" -> "Options";
+"Visit" -> "Rte";
+"Visit" -> "Flags";
+"Register" [style=filled, color=darkturquoise];
+"Register" -> "Visit";
+"Register" -> "Options";
+"Register" -> "Generator";
+"Register" -> "Flags";
+}

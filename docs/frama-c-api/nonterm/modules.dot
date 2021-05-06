@@ -1,0 +1,9 @@
+digraph "Plugin architecture (nonterm)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Nonterm" [style=filled, color=darkturquoise];
+"Nonterm_run" [style=filled, color=darkturquoise];
+}

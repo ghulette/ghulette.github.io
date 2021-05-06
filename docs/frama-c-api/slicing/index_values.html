@@ -1,0 +1,1875 @@
+<html>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css">
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Abstract_interp" rel="Chapter" href="Abstract_interp.html">
+<link title="Acsl_extension" rel="Chapter" href="Acsl_extension.html">
+<link title="Alarms" rel="Chapter" href="Alarms.html">
+<link title="Allocates" rel="Chapter" href="Allocates.html">
+<link title="Alpha" rel="Chapter" href="Alpha.html">
+<link title="Analyses_manager" rel="Chapter" href="Analyses_manager.html">
+<link title="Annotations" rel="Chapter" href="Annotations.html">
+<link title="Array" rel="Chapter" href="Array.html">
+<link title="Asm_contracts" rel="Chapter" href="Asm_contracts.html">
+<link title="Ast" rel="Chapter" href="Ast.html">
+<link title="Ast_info" rel="Chapter" href="Ast_info.html">
+<link title="Bag" rel="Chapter" href="Bag.html">
+<link title="Base" rel="Chapter" href="Base.html">
+<link title="Binary_cache" rel="Chapter" href="Binary_cache.html">
+<link title="Bit_utils" rel="Chapter" href="Bit_utils.html">
+<link title="Bitvector" rel="Chapter" href="Bitvector.html">
+<link title="Bottom" rel="Chapter" href="Bottom.html">
+<link title="Buffer" rel="Chapter" href="Buffer.html">
+<link title="Bytes" rel="Chapter" href="Bytes.html">
+<link title="Cabs" rel="Chapter" href="Cabs.html">
+<link title="Cabs2cil" rel="Chapter" href="Cabs2cil.html">
+<link title="Cabs_debug" rel="Chapter" href="Cabs_debug.html">
+<link title="Cabshelper" rel="Chapter" href="Cabshelper.html">
+<link title="Cabsvisit" rel="Chapter" href="Cabsvisit.html">
+<link title="Cfg" rel="Chapter" href="Cfg.html">
+<link title="Char" rel="Chapter" href="Char.html">
+<link title="Cil" rel="Chapter" href="Cil.html">
+<link title="Cil_const" rel="Chapter" href="Cil_const.html">
+<link title="Cil_datatype" rel="Chapter" href="Cil_datatype.html">
+<link title="Cil_descriptive_printer" rel="Chapter" href="Cil_descriptive_printer.html">
+<link title="Cil_printer" rel="Chapter" href="Cil_printer.html">
+<link title="Cil_state_builder" rel="Chapter" href="Cil_state_builder.html">
+<link title="Cil_types" rel="Chapter" href="Cil_types.html">
+<link title="Cil_types_debug" rel="Chapter" href="Cil_types_debug.html">
+<link title="Cilconfig" rel="Chapter" href="Cilconfig.html">
+<link title="Clexer" rel="Chapter" href="Clexer.html">
+<link title="Clone" rel="Chapter" href="Clone.html">
+<link title="Cmdline" rel="Chapter" href="Cmdline.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="Cparser" rel="Chapter" href="Cparser.html">
+<link title="Cprint" rel="Chapter" href="Cprint.html">
+<link title="Dataflow2" rel="Chapter" href="Dataflow2.html">
+<link title="Dataflows" rel="Chapter" href="Dataflows.html">
+<link title="Datatype" rel="Chapter" href="Datatype.html">
+<link title="Db" rel="Chapter" href="Db.html">
+<link title="Descr" rel="Chapter" href="Descr.html">
+<link title="Description" rel="Chapter" href="Description.html">
+<link title="Design" rel="Chapter" href="Design.html">
+<link title="Destructors" rel="Chapter" href="Destructors.html">
+<link title="Dgraph_helper" rel="Chapter" href="Dgraph_helper.html">
+<link title="Dominators" rel="Chapter" href="Dominators.html">
+<link title="Dotgraph" rel="Chapter" href="Dotgraph.html">
+<link title="Dump_config" rel="Chapter" href="Dump_config.html">
+<link title="Dynamic" rel="Chapter" href="Dynamic.html">
+<link title="Emitter" rel="Chapter" href="Emitter.html">
+<link title="Ephemeron" rel="Chapter" href="Ephemeron.html">
+<link title="Errorloc" rel="Chapter" href="Errorloc.html">
+<link title="Escape" rel="Chapter" href="Escape.html">
+<link title="Eva_lattice_type" rel="Chapter" href="Eva_lattice_type.html">
+<link title="Exn_flow" rel="Chapter" href="Exn_flow.html">
+<link title="Extlib" rel="Chapter" href="Extlib.html">
+<link title="FCHashtbl" rel="Chapter" href="FCHashtbl.html">
+<link title="Fc_config" rel="Chapter" href="Fc_config.html">
+<link title="Fc_float" rel="Chapter" href="Fc_float.html">
+<link title="File" rel="Chapter" href="File.html">
+<link title="File_manager" rel="Chapter" href="File_manager.html">
+<link title="Filecheck" rel="Chapter" href="Filecheck.html">
+<link title="Filepath" rel="Chapter" href="Filepath.html">
+<link title="Filetree" rel="Chapter" href="Filetree.html">
+<link title="Filter" rel="Chapter" href="Filter.html">
+<link title="Float_interval" rel="Chapter" href="Float_interval.html">
+<link title="Float_interval_sig" rel="Chapter" href="Float_interval_sig.html">
+<link title="Float_sig" rel="Chapter" href="Float_sig.html">
+<link title="Floating_point" rel="Chapter" href="Floating_point.html">
+<link title="Format" rel="Chapter" href="Format.html">
+<link title="Frama_c_init" rel="Chapter" href="Frama_c_init.html">
+<link title="Frontc" rel="Chapter" href="Frontc.html">
+<link title="Fval" rel="Chapter" href="Fval.html">
+<link title="GSourceView" rel="Chapter" href="GSourceView.html">
+<link title="Ghost_accesses" rel="Chapter" href="Ghost_accesses.html">
+<link title="Ghost_cfg" rel="Chapter" href="Ghost_cfg.html">
+<link title="Globals" rel="Chapter" href="Globals.html">
+<link title="Gtk_compat" rel="Chapter" href="Gtk_compat.html">
+<link title="Gtk_form" rel="Chapter" href="Gtk_form.html">
+<link title="Gtk_helper" rel="Chapter" href="Gtk_helper.html">
+<link title="Gui_init" rel="Chapter" href="Gui_init.html">
+<link title="Gui_parameters" rel="Chapter" href="Gui_parameters.html">
+<link title="Gui_printers" rel="Chapter" href="Gui_printers.html">
+<link title="Hashtbl" rel="Chapter" href="Hashtbl.html">
+<link title="Help_manager" rel="Chapter" href="Help_manager.html">
+<link title="History" rel="Chapter" href="History.html">
+<link title="Hook" rel="Chapter" href="Hook.html">
+<link title="Hptmap" rel="Chapter" href="Hptmap.html">
+<link title="Hptmap_sig" rel="Chapter" href="Hptmap_sig.html">
+<link title="Hptset" rel="Chapter" href="Hptset.html">
+<link title="Indexer" rel="Chapter" href="Indexer.html">
+<link title="Infer_annotations" rel="Chapter" href="Infer_annotations.html">
+<link title="Inline" rel="Chapter" href="Inline.html">
+<link title="Int64" rel="Chapter" href="Int64.html">
+<link title="Int_Base" rel="Chapter" href="Int_Base.html">
+<link title="Int_Intervals" rel="Chapter" href="Int_Intervals.html">
+<link title="Int_Intervals_sig" rel="Chapter" href="Int_Intervals_sig.html">
+<link title="Int_interval" rel="Chapter" href="Int_interval.html">
+<link title="Int_set" rel="Chapter" href="Int_set.html">
+<link title="Int_val" rel="Chapter" href="Int_val.html">
+<link title="Integer" rel="Chapter" href="Integer.html">
+<link title="Interpreted_automata" rel="Chapter" href="Interpreted_automata.html">
+<link title="Ival" rel="Chapter" href="Ival.html">
+<link title="Journal" rel="Chapter" href="Journal.html">
+<link title="Json" rel="Chapter" href="Json.html">
+<link title="Json_compilation_database" rel="Chapter" href="Json_compilation_database.html">
+<link title="Kernel" rel="Chapter" href="Kernel.html">
+<link title="Kernel_function" rel="Chapter" href="Kernel_function.html">
+<link title="Lattice_messages" rel="Chapter" href="Lattice_messages.html">
+<link title="Lattice_type" rel="Chapter" href="Lattice_type.html">
+<link title="Launcher" rel="Chapter" href="Launcher.html">
+<link title="Lexerhack" rel="Chapter" href="Lexerhack.html">
+<link title="List" rel="Chapter" href="List.html">
+<link title="Lmap" rel="Chapter" href="Lmap.html">
+<link title="Lmap_bitwise" rel="Chapter" href="Lmap_bitwise.html">
+<link title="Lmap_sig" rel="Chapter" href="Lmap_sig.html">
+<link title="Locations" rel="Chapter" href="Locations.html">
+<link title="Log" rel="Chapter" href="Log.html">
+<link title="Logic_builtin" rel="Chapter" href="Logic_builtin.html">
+<link title="Logic_const" rel="Chapter" href="Logic_const.html">
+<link title="Logic_env" rel="Chapter" href="Logic_env.html">
+<link title="Logic_interp" rel="Chapter" href="Logic_interp.html">
+<link title="Logic_lexer" rel="Chapter" href="Logic_lexer.html">
+<link title="Logic_parser" rel="Chapter" href="Logic_parser.html">
+<link title="Logic_preprocess" rel="Chapter" href="Logic_preprocess.html">
+<link title="Logic_print" rel="Chapter" href="Logic_print.html">
+<link title="Logic_ptree" rel="Chapter" href="Logic_ptree.html">
+<link title="Logic_typing" rel="Chapter" href="Logic_typing.html">
+<link title="Logic_utils" rel="Chapter" href="Logic_utils.html">
+<link title="Loop" rel="Chapter" href="Loop.html">
+<link title="Machdeps" rel="Chapter" href="Machdeps.html">
+<link title="Map" rel="Chapter" href="Map.html">
+<link title="Map_lattice" rel="Chapter" href="Map_lattice.html">
+<link title="Markdown" rel="Chapter" href="Markdown.html">
+<link title="Marshal" rel="Chapter" href="Marshal.html">
+<link title="Menu_manager" rel="Chapter" href="Menu_manager.html">
+<link title="Mergecil" rel="Chapter" href="Mergecil.html">
+<link title="Messages" rel="Chapter" href="Messages.html">
+<link title="Obj" rel="Chapter" href="Obj.html">
+<link title="Offsetmap" rel="Chapter" href="Offsetmap.html">
+<link title="Offsetmap_bitwise_sig" rel="Chapter" href="Offsetmap_bitwise_sig.html">
+<link title="Offsetmap_lattice_with_isotropy" rel="Chapter" href="Offsetmap_lattice_with_isotropy.html">
+<link title="Offsetmap_sig" rel="Chapter" href="Offsetmap_sig.html">
+<link title="Oneret" rel="Chapter" href="Oneret.html">
+<link title="Ordered_stmt" rel="Chapter" href="Ordered_stmt.html">
+<link title="Origin" rel="Chapter" href="Origin.html">
+<link title="Parameter_builder" rel="Chapter" href="Parameter_builder.html">
+<link title="Parameter_category" rel="Chapter" href="Parameter_category.html">
+<link title="Parameter_customize" rel="Chapter" href="Parameter_customize.html">
+<link title="Parameter_sig" rel="Chapter" href="Parameter_sig.html">
+<link title="Parameter_state" rel="Chapter" href="Parameter_state.html">
+<link title="Parsing" rel="Chapter" href="Parsing.html">
+<link title="Plugin" rel="Chapter" href="Plugin.html">
+<link title="Pretty_source" rel="Chapter" href="Pretty_source.html">
+<link title="Pretty_utils" rel="Chapter" href="Pretty_utils.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Printer_api" rel="Chapter" href="Printer_api.html">
+<link title="Printer_builder" rel="Chapter" href="Printer_builder.html">
+<link title="Printer_tag" rel="Chapter" href="Printer_tag.html">
+<link title="Printf" rel="Chapter" href="Printf.html">
+<link title="Project" rel="Chapter" href="Project.html">
+<link title="Project_manager" rel="Chapter" href="Project_manager.html">
+<link title="Project_skeleton" rel="Chapter" href="Project_skeleton.html">
+<link title="Property" rel="Chapter" href="Property.html">
+<link title="Property_navigator" rel="Chapter" href="Property_navigator.html">
+<link title="Property_status" rel="Chapter" href="Property_status.html">
+<link title="Qstack" rel="Chapter" href="Qstack.html">
+<link title="Queue" rel="Chapter" href="Queue.html">
+<link title="Rangemap" rel="Chapter" href="Rangemap.html">
+<link title="Rgmap" rel="Chapter" href="Rgmap.html">
+<link title="Rich_text" rel="Chapter" href="Rich_text.html">
+<link title="Rmtmps" rel="Chapter" href="Rmtmps.html">
+<link title="Sanitizer" rel="Chapter" href="Sanitizer.html">
+<link title="Scanf" rel="Chapter" href="Scanf.html">
+<link title="Service_graph" rel="Chapter" href="Service_graph.html">
+<link title="Set" rel="Chapter" href="Set.html">
+<link title="Source_manager" rel="Chapter" href="Source_manager.html">
+<link title="Source_viewer" rel="Chapter" href="Source_viewer.html">
+<link title="Special_hooks" rel="Chapter" href="Special_hooks.html">
+<link title="Stack" rel="Chapter" href="Stack.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="State_builder" rel="Chapter" href="State_builder.html">
+<link title="State_dependency_graph" rel="Chapter" href="State_dependency_graph.html">
+<link title="State_selection" rel="Chapter" href="State_selection.html">
+<link title="State_topological" rel="Chapter" href="State_topological.html">
+<link title="Statuses_by_call" rel="Chapter" href="Statuses_by_call.html">
+<link title="Stmts_graph" rel="Chapter" href="Stmts_graph.html">
+<link title="String" rel="Chapter" href="String.html">
+<link title="Structural_descr" rel="Chapter" href="Structural_descr.html">
+<link title="Substitute_const_globals" rel="Chapter" href="Substitute_const_globals.html">
+<link title="Sys" rel="Chapter" href="Sys.html">
+<link title="Task" rel="Chapter" href="Task.html">
+<link title="Tr_offset" rel="Chapter" href="Tr_offset.html">
+<link title="Transitioning" rel="Chapter" href="Transitioning.html">
+<link title="Translate_lightweight" rel="Chapter" href="Translate_lightweight.html">
+<link title="Type" rel="Chapter" href="Type.html">
+<link title="Typed_parameter" rel="Chapter" href="Typed_parameter.html">
+<link title="Undefined_sequence" rel="Chapter" href="Undefined_sequence.html">
+<link title="Unicode" rel="Chapter" href="Unicode.html">
+<link title="Unmarshal" rel="Chapter" href="Unmarshal.html">
+<link title="Unmarshal_z" rel="Chapter" href="Unmarshal_z.html">
+<link title="Unroll_loops" rel="Chapter" href="Unroll_loops.html">
+<link title="Utf8_logic" rel="Chapter" href="Utf8_logic.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="Visitor" rel="Chapter" href="Visitor.html">
+<link title="Visitor_behavior" rel="Chapter" href="Visitor_behavior.html">
+<link title="Warning_manager" rel="Chapter" href="Warning_manager.html">
+<link title="Wbox" rel="Chapter" href="Wbox.html">
+<link title="Weak" rel="Chapter" href="Weak.html">
+<link title="Wfile" rel="Chapter" href="Wfile.html">
+<link title="Widget" rel="Chapter" href="Widget.html">
+<link title="Wpalette" rel="Chapter" href="Wpalette.html">
+<link title="Wpane" rel="Chapter" href="Wpane.html">
+<link title="Wtable" rel="Chapter" href="Wtable.html">
+<link title="Wtext" rel="Chapter" href="Wtext.html">
+<link title="Wto" rel="Chapter" href="Wto.html">
+<link title="Wto_statement" rel="Chapter" href="Wto_statement.html">
+<link title="Wutil" rel="Chapter" href="Wutil.html">
+<link title="Wutil_once" rel="Chapter" href="Wutil_once.html">
+<link title="Slicing" rel="Chapter" href="Slicing.html">
+<link title="SlicingInternals" rel="Chapter" href="SlicingInternals.html">
+<link title="SlicingTypes" rel="Chapter" href="SlicingTypes.html">
+<link title="SlicingParameters" rel="Chapter" href="SlicingParameters.html">
+<link title="SlicingState" rel="Chapter" href="SlicingState.html">
+<link title="SlicingMacros" rel="Chapter" href="SlicingMacros.html">
+<link title="SlicingMarks" rel="Chapter" href="SlicingMarks.html">
+<link title="SlicingActions" rel="Chapter" href="SlicingActions.html">
+<link title="Fct_slice" rel="Chapter" href="Fct_slice.html">
+<link title="PrintSlice" rel="Chapter" href="PrintSlice.html">
+<link title="SlicingProject" rel="Chapter" href="SlicingProject.html">
+<link title="SlicingTransform" rel="Chapter" href="SlicingTransform.html">
+<link title="SlicingSelect" rel="Chapter" href="SlicingSelect.html">
+<link title="SlicingCmds" rel="Chapter" href="SlicingCmds.html">
+<link title="Api" rel="Chapter" href="Api.html">
+<link title="Register_gui" rel="Chapter" href="Register_gui.html"><title>Index of values - Slicing plugin</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Index of values</h1>
+<table>
+<tr><td align="left"><div></div></td></tr>
+<tr><td><a href="SlicingSelect.html#VAL_check_fi_db_select">_check_fi_db_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>A</div></td></tr>
+<tr><td><a href="Api.Request.html#VALadd_call_fun">add_call_fun</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALadd_call_fun">add_call_fun</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to change every call to any <code class="code">to_call</code> source or specialisation
+        in order to call the source function <code class="code">to_call</code> in <code class="code">caller</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALadd_call_min_fun">add_call_min_fun</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALadd_call_min_fun">add_call_min_fun</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to change each call to <code class="code">to_call</code> in <code class="code">caller</code> such that, at least, it
+        will be visible at the end, ie.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALadd_call_slice">add_call_slice</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALadd_call_slice">add_call_slice</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to change every call to any <code class="code">to_call</code> source or specialisation in order
+        to call <code class="code">to_call</code> in <code class="code">caller</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALadd_crit_ff_change_call">add_crit_ff_change_call</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALadd_fct_ff_filter">add_fct_ff_filter</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALadd_fct_src_filter">add_fct_src_filter</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td><div class="info">
+<p>Add an action to the action list to filter the function <code class="code">fct_id</code> with
+  the given criterion.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALadd_ff_selection">add_ff_selection</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALadd_fi_selection">add_fi_selection</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td><div class="info">
+<p>add a persistent selection to the function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingProject.html#VALadd_filter">add_filter</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALadd_marks_to_fi">add_marks_to_fi</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>add the marks to the persistent marks to be used when new slices will be
+ created.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALadd_persistent_cmdline">add_persistent_cmdline</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALadd_persistent_cmdline">add_persistent_cmdline</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing request function:
+    Add selections that will be applied to all the slices of the function
+    (already existing or created later)
+    Note: the function begins by applying the remaining internal requests., the requests added for the last kernel function are not applied.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALadd_persistent_cmdline">add_persistent_cmdline</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>Add persistent selection from the command line.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALadd_persistent_selection">add_persistent_selection</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALadd_persistent_selection">add_persistent_selection</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing request function:
+    Add selections that will be applied to all the slices of the function
+    (already existing or created later)
+    Note: the function begins by applying the remaining internal requests., the requests added for the last kernel function are not applied.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALadd_persistent_selection">add_persistent_selection</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>Add a persistent selection request to all slices (already existing or
+        created later) of a function to the project requests.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALadd_selection">add_selection</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALadd_selection">add_selection</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing request function:
+    Add selections to all concerned slices, as slicing requests and apply them,
+    kernel function by kernel function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALadd_selection">add_selection</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>Add a selection request to all (existing) slices
+          of a function to the project requests.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALadd_selection_internal">add_selection_internal</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALadd_selection_internal">add_selection_internal</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to add a selection request to the project requests.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALadd_slice_selection_internal">add_slice_selection_internal</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALadd_slice_selection_internal">add_slice_selection_internal</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to add a selection request for a function slice
+        to the project requests.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.Selections.html#VALadd_to_selects">add_to_selects</a> [<a href="SlicingSelect.Selections.html">SlicingSelect.Selections</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALadd_to_selects_internal">add_to_selects_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALadd_to_selects_internal">add_to_selects_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALadd_top_mark_to_fi">add_top_mark_to_fi</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALapply_add_marks">apply_add_marks</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>main function to build or modify a slice.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALapply_all">apply_all</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALapply_all">apply_all</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALapply_all">apply_all</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>Apply all slicing requests.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingCmds.html#VALapply_all_actions">apply_all_actions</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALapply_all_actions">apply_all_actions</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Request.html#VALapply_all_internal">apply_all_internal</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALapply_all_internal">apply_all_internal</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to apply all slicing requests.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fct_slice.html#VALapply_change_call">apply_change_call</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>check if <code class="code">f_to_call</code> is ok for this call, and if so,
+ change the function call and propagate missing marks in the inputs
+ if needed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fct_slice.html#VALapply_choose_call">apply_choose_call</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>Choose the function (slice or source) to call according to the
+   slicing level of the called function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fct_slice.html#VALapply_examine_calls">apply_examine_calls</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALapply_missing_inputs">apply_missing_inputs</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p><code class="code">ff</code> calls a slice <code class="code">g</code> that needs more inputs than those computed by <code class="code">ff</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fct_slice.html#VALapply_missing_outputs">apply_missing_outputs</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p><code class="code">ff</code> calls a slice <code class="code">g</code> that doesn't compute enough outputs for the <code class="code">call</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingCmds.html#VALapply_next_action">apply_next_action</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALapply_next_action">apply_next_action</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Request.html#VALapply_next_internal">apply_next_internal</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALapply_next_internal">apply_next_internal</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to apply the first slicing request of the project list
+        and remove it from the list.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>B</div></td></tr>
+<tr><td><a href="SlicingSelect.html#VALbasic_add_select">basic_add_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALbottom_mark">bottom_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALbottom_msg">bottom_msg</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALbuild_addr_dpds_selection">build_addr_dpds_selection</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td><div class="info">
+<p>Only the control dependencies of the nodes will be marked</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingActions.html#VALbuild_ctrl_dpds_selection">build_ctrl_dpds_selection</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td><div class="info">
+<p>Only the control dependencies of the nodes will be marked</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingActions.html#VALbuild_data_dpds_selection">build_data_dpds_selection</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td><div class="info">
+<p>Only the control dependencies of the nodes will be marked</p>
+
+</div>
+</td></tr>
+<tr><td><a href="PrintSlice.html#VALbuild_dot_project">build_dot_project</a> [<a href="PrintSlice.html">PrintSlice</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALbuild_node_and_dpds_selection">build_node_and_dpds_selection</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td><div class="info">
+<p>Build a description to tell how the selected PDG nodes and their
+ dependencies will have to be marked
+ (see <code class="code"><span class="constructor">SlicingTypes</span>.<span class="constructor">Internals</span>.node_or_dpds</code>).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingActions.html#VALbuild_simple_node_selection">build_simple_node_selection</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td><div class="info">
+<p>Build a description to tell that the associated nodes have to be marked
+ with the given mark, and than the same one will be propagated through
+ their dependencies.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>C</div></td></tr>
+<tr><td><a href="SlicingSelect.html#VALcall_ff_in_caller">call_ff_in_caller</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td><div class="info">
+<p>change the call to call the given slice.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALcall_fsrc_in_caller">call_fsrc_in_caller</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALcall_min_f_in_caller">call_min_f_in_caller</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALchange_fi_slicing_level">change_fi_slicing_level</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Project.html#VALchange_slicing_level">change_slicing_level</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALchange_slicing_level">change_slicing_level</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALchange_slicing_level">change_slicing_level</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>Change the slicing level of this function (see the <code class="code">-slicing-level</code>
+        option documentation to know the meaning of the number).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALcheck_call">check_call</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALcheck_db_select">check_db_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALcheck_ff_db_select">check_ff_db_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALcheck_kf_db_select">check_kf_db_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALcheck_outputs_before_change_call">check_outputs_before_change_call</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>When the user wants to make a <code class="code">change_call</code> to a function that doesn't
+ compute enough outputs, he can call <code class="code">check_outputs_before_change_call</code> in
+ order to build the action the add those outputs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingParameters.html#VALclear">clear</a> [<a href="SlicingParameters.html">SlicingParameters</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALclear_ff">clear_ff</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p><code class="code">ff</code> has to be removed.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALcombine_marks">combine_marks</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td><div class="info">
+<p><code class="code">combine_marks</code> add a new information to the old value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Mark.html#VALcompare">compare</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALcompare">compare</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>A total ordering function similar to the generic structural
+        comparison function <code class="code">compare</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingInternals.html#VALcompare_mark">compare_mark</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALcompare_marks">compare_marks</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingInternals.html#VALcompare_pdg_mark">compare_pdg_mark</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.S.html#VALcopy">copy</a> [<a href="Datatype.S.html">Datatype.S</a>]</td>
+<td><div class="info">
+<p>Deep copy: no possible sharing between <code class="code">x</code> and <code class="code">copy&nbsp;x</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Request.html#VALcopy_slice">copy_slice</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.html#VALcopy_slice">copy_slice</a> [<a href="Api.html">Api</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALcopy_slice">copy_slice</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALcopy_slice">copy_slice</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to copy the input slice.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALcreate">create</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALcreate">create</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Used to get an empty slice (nothing selected) related to a
+        function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingProject.html#VALcreate_slice">create_slice</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td><div class="info">
+<p>Add a new slice for the function.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>D</div></td></tr>
+<tr><td><a href="Api.Project.html#VALdefault_slice_names">default_slice_names</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingTransform.html#VALdefault_slice_names">default_slice_names</a> [<a href="SlicingTransform.html">SlicingTransform</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALdefault_slice_names">default_slice_names</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>Default function used for the optional <code class="code">?f_slice_names</code> argument of
+        <code class="code">extract</code> function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingInternals.html#VALdummy_fct_info">dummy_fct_info</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingInternals.html#VALdummy_fct_slice">dummy_fct_slice</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingInternals.html#VALdummy_fct_user_crit">dummy_fct_user_crit</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingInternals.html#VALdummy_ff_marks">dummy_ff_marks</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingInternals.html#VALdummy_marks_index">dummy_marks_index</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingInternals.html#VALdummy_pdg_mark">dummy_pdg_mark</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td><div class="info">
+<p>For the journalization of these internals types</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingInternals.html#VALdummy_project">dummy_project</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td><div class="info">
+<p>The whole project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALdyn_set">dyn_set</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALdyn_set">dyn_set</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>For dynamic type checking and journalization.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingTypes.html#VALdyn_sl_fct_slice">dyn_sl_fct_slice</a> [<a href="SlicingTypes.html">SlicingTypes</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingTypes.html#VALdyn_sl_mark">dyn_sl_mark</a> [<a href="SlicingTypes.html">SlicingTypes</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Slice.html#VALdyn_t">dyn_t</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALdyn_t">dyn_t</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Mark.html#VALdyn_t">dyn_t</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALdyn_t">dyn_t</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>For dynamic type checking and journalization.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALdyn_t">dyn_t</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>For dynamic type checking and journalization.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALdyn_t">dyn_t</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>For dynamic type checking and journalization.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>E</div></td></tr>
+<tr><td><a href="SlicingSelect.html#VALempty_db_select">empty_db_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALempty_selects">empty_selects</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALempty_selects">empty_selects</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>Empty selection.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALempty_sig">empty_sig</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALequal_ff">equal_ff</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALequal_fi">equal_fi</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.Set.html#VALexists">exists</a> [<a href="Parameter_sig.Set.html">Parameter_sig.Set</a>]</td>
+<td><div class="info">
+<p>Is there some element satisfying the given predicate?</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Project.html#VALextract">extract</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingTransform.html#VALextract">extract</a> [<a href="SlicingTransform.html">SlicingTransform</a>]</td>
+<td><div class="info">
+<p>Apply the actions still waiting in the project
+ and transform the program (CIL AST) using slicing results
+ Can optionally specify how to name the sliced functions using <code class="code">f_slice_names</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALextract">extract</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>Build a new <code class="code"><span class="constructor">Db</span>.<span class="constructor">Project</span>.t</code> from all <code class="code"><span class="constructor">Slice</span>.t</code> of a project.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>F</div></td></tr>
+<tr><td><a href="SlicingMacros.html#VALf_name">f_name</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALff_name">ff_name</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td><div class="info">
+<p>get the name of the function corresponding to that slice.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMacros.html#VALff_slicing_level">ff_slicing_level</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALff_src_name">ff_src_name</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALff_svar">ff_svar</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALfi_has_persistent_selection">fi_has_persistent_selection</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALfi_name">fi_name</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALfi_slices">fi_slices</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALfi_svar">fi_svar</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALfilter_already_in">filter_already_in</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>a function that doesn't modify anything but test if the <code class="code">nodes_marks</code>
+ are already in the slice or not.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMacros.html#VALfold_fi">fold_fi</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALfold_selects_internal">fold_selects_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.Selections.html#VALfold_selects_internal">fold_selects_internal</a> [<a href="SlicingSelect.Selections.html">SlicingSelect.Selections</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALfold_selects_internal">fold_selects_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Slice.html#VALfrom_num_id">from_num_id</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALfrom_num_id">from_num_id</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>G</div></td></tr>
+<tr><td><a href="SlicingState.html#VALget">get</a> [<a href="SlicingState.html">SlicingState</a>]</td>
+<td><div class="info">
+<p>Get the state of the slicing project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALget_all">get_all</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_all">get_all</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Get all slices related to a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALget_all_input_marks">get_all_input_marks</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Slice.html#VALget_called_funcs">get_called_funcs</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_called_funcs">get_called_funcs</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>To get the source functions called by the statement of a slice.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALget_called_slice">get_called_slice</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALget_called_slice">get_called_slice</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>Inform about the called slice or else calls to source functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_called_slice">get_called_slice</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>To get the slice directly called by the statement of a slice.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALget_callers">get_callers</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_callers">get_callers</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Get the slices having direct calls to a slice.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_default_level_option">get_default_level_option</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_ff_id">get_ff_id</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td><div class="info">
+<p>getting num id</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_ff_kf">get_ff_kf</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_ff_pdg">get_ff_pdg</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_fi_call">get_fi_call</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td><div class="info">
+<p>get the <code class="code">fct_info</code> of the called function, if we know it</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_fi_kf">get_fi_kf</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_fi_pdg">get_fi_pdg</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Mark.html#VALget_from_src_func">get_from_src_func</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALget_from_src_func">get_from_src_func</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>The mark <code class="code">m</code> related to all statements of a source function <code class="code">kf</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALget_function">get_function</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALget_function">get_function</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_function">get_function</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>To get the function related to a slice</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALget_function">get_function</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to get the function related to an internal selection.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.String.html#VALget_function_name">get_function_name</a> [<a href="Parameter_sig.String.html">Parameter_sig.String</a>]</td>
+<td><div class="info">
+<p>returns the given argument only if it is a valid function name
+      (see <a href="Parameter_customize.html#VALget_c_ified_functions"><code class="code"><span class="constructor">Parameter_customize</span>.get_c_ified_functions</code></a> for more information),
+      and abort otherwise.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALget_in_ctrl_mark">get_in_ctrl_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALget_input_loc_under_mark">get_input_loc_under_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALget_input_loc_under_mark">get_input_loc_under_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALget_input_mark">get_input_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_kf_fi">get_kf_fi</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td><div class="info">
+<p>Get the fct_info if it exists or build a new fct_info.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fct_slice.html#VALget_label_mark">get_label_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALget_local_var_mark">get_local_var_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Slice.html#VALget_mark_from_formal">get_mark_from_formal</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_mark_from_formal">get_mark_from_formal</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Get the mark from the formal of a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALget_mark_from_label">get_mark_from_label</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_mark_from_label">get_mark_from_label</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Get the mark value of a label.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALget_mark_from_local_var">get_mark_from_local_var</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_mark_from_local_var">get_mark_from_local_var</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Get the mark value of local variable.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fct_slice.html#VALget_mark_from_src_fun">get_mark_from_src_fun</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>The mark <code class="code">m</code> related to all statements of a source function <code class="code">kf</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALget_mark_from_stmt">get_mark_from_stmt</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_mark_from_stmt">get_mark_from_stmt</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Get the mark value of a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALget_marked_out_zone">get_marked_out_zone</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALget_matching_input_marks">get_matching_input_marks</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALget_node_key_mark">get_node_key_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALget_node_mark">get_node_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Slice.html#VALget_num_id">get_num_id</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_num_id">get_num_id</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALget_param_mark">get_param_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALget_pdg_kf">get_pdg_kf</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.String.html#VALget_plain_string">get_plain_string</a> [<a href="Parameter_sig.String.html">Parameter_sig.String</a>]</td>
+<td><div class="info">
+<p>always return the argument, even if the argument is not a function name.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.String.html#VALget_possible_values">get_possible_values</a> [<a href="Parameter_sig.String.html">Parameter_sig.String</a>]</td>
+<td><div class="info">
+<p>What are the acceptable values for this parameter.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Int.html#VALget_range">get_range</a> [<a href="Parameter_sig.Int.html">Parameter_sig.Int</a>]</td>
+<td><div class="info">
+<p>What is the possible range of values for this parameter.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingCmds.html#VALget_select_kf">get_select_kf</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALget_select_kf">get_select_kf</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALget_slice_callers">get_slice_callers</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALget_slices">get_slices</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALget_stmt_mark">get_stmt_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALget_top_input_mark">get_top_input_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Slice.html#VALget_user_mark_from_inputs">get_user_mark_from_inputs</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALget_user_mark_from_inputs">get_user_mark_from_inputs</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Get a mark that is the merged user inputs marks of the slice</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>H</div></td></tr>
+<tr><td><a href="Api.Project.html#VALhas_persistent_selection">has_persistent_selection</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALhas_persistent_selection">has_persistent_selection</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALhas_persistent_selection">has_persistent_selection</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>Return <code class="code"><span class="keyword">true</span></code> iff the source function has persistent selection</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>I</div></td></tr>
+<tr><td><a href="Parameter_sig.Int.html#VALincr">incr</a> [<a href="Parameter_sig.Int.html">Parameter_sig.Int</a>]</td>
+<td><div class="info">
+<p>Increment the integer.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALinter_marks">inter_marks</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Mark.html#VALis_addr">is_addr</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALis_addr">is_addr</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>The element is used to compute the address of a selected data.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALis_addr_mark">is_addr_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALis_already_selected">is_already_selected</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Mark.html#VALis_bottom">is_bottom</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALis_bottom">is_bottom</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p><code class="code"><span class="keyword">true</span></code> iff the mark is empty: it is the only case where the
+        associated element is invisible.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALis_bottom_mark">is_bottom_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALis_call_stmt">is_call_stmt</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Project.html#VALis_called">is_called</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALis_called">is_called</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>Return <code class="code"><span class="keyword">true</span></code> iff the source function is called (even indirectly via
+        transitivity) from a <code class="code"><span class="constructor">Slice</span>.t</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Mark.html#VALis_ctrl">is_ctrl</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALis_ctrl">is_ctrl</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>The element is used to control the program point of a selected
+        data.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALis_ctrl_mark">is_ctrl_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Mark.html#VALis_data">is_data</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALis_data">is_data</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>The element is used to compute selected data.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALis_data_mark">is_data_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Project.html#VALis_directly_called_internal">is_directly_called_internal</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALis_directly_called_internal">is_directly_called_internal</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>Return <code class="code"><span class="keyword">true</span></code> if the source function is directly (even via pointer
+        function) called from a <code class="code"><span class="constructor">Slice</span>.t</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingParameters.html#VALis_on">is_on</a> [<a href="SlicingParameters.html">SlicingParameters</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALis_request_empty">is_request_empty</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Request.html#VALis_request_empty_internal">is_request_empty_internal</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALis_request_empty_internal">is_request_empty_internal</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to know if internal requests are pending.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Mark.html#VALis_spare">is_spare</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALis_spare">is_spare</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>Smallest visible mark.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALis_spare_mark">is_spare_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALis_src_fun_called">is_src_fun_called</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>Return <code class="code"><span class="keyword">true</span></code> if the source function is called
+ (even indirectly via transitivity) from a <code class="code"><span class="constructor">Slice</span>.t</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMacros.html#VALis_src_fun_called">is_src_fun_called</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALis_src_fun_visible">is_src_fun_visible</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>Return <code class="code"><span class="keyword">true</span></code> if the source function is visible
+ (even indirectly via transitivity) from a <code class="code"><span class="constructor">Slice</span>.t</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMacros.html#VALis_src_fun_visible">is_src_fun_visible</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALis_top_mark">is_top_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALis_topin_visible">is_topin_visible</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALiter_selects_internal">iter_selects_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.Selections.html#VALiter_selects_internal">iter_selects_internal</a> [<a href="SlicingSelect.Selections.html">SlicingSelect.Selections</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALiter_selects_internal">iter_selects_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>M</div></td></tr>
+<tr><td><a href="Api.Mark.html#VALmake">make</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALmake">make</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>To construct a mark such as
+        <code class="code">(is_ctrl&nbsp;result,&nbsp;is_data&nbsp;result,&nbsp;isaddr&nbsp;result)&nbsp;=<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(~ctrl,&nbsp;~data,&nbsp;~addr)</code>,
+        <code class="code">(is_bottom&nbsp;result)&nbsp;=&nbsp;<span class="keyword">false</span></code> and
+        <code class="code">(is_spare&nbsp;result)&nbsp;=&nbsp;not&nbsp;(~ctrl&nbsp;<span class="keywordsign">||</span>&nbsp;~data&nbsp;<span class="keywordsign">||</span>&nbsp;~addr)</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fct_slice.html#VALmake_new_ff">make_new_ff</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>build a new empty slice in the given <code class="code">fct_info</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Datatype.Hashtbl.html#VALmake_type">make_type</a> [<a href="Datatype.Hashtbl.html">Datatype.Hashtbl</a>]</td>
+<td><div class="info">
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALmark_to_string">mark_to_string</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingState.html#VALmay">may</a> [<a href="SlicingState.html">SlicingState</a>]</td>
+<td><div class="info">
+<p>apply the given closure if the slicing project has been initialized through
+    <code class="code"><span class="constructor">Db</span>.<span class="constructor">Slicing</span>.reset_slice</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingState.html#VALmay_map">may_map</a> [<a href="SlicingState.html">SlicingState</a>]</td>
+<td><div class="info">
+<p>apply the given closure if the slicing project has been initialized through
+    <code class="code"><span class="constructor">Db</span>.<span class="constructor">Slicing</span>.reset_slice</code>, or else return the default value.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Set.html#VALmem">mem</a> [<a href="Parameter_sig.Set.html">Parameter_sig.Set</a>]</td>
+<td><div class="info">
+<p>Does the given element belong to the set?</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALmerge_db_select">merge_db_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALmerge_inputs_m1_mark">merge_inputs_m1_mark</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALmerge_inputs_m1_mark">merge_inputs_m1_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALmerge_internal">merge_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALmerge_internal">merge_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALmerge_marks">merge_marks</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALmerge_select">merge_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Request.html#VALmerge_slices">merge_slices</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.html#VALmerge_slices">merge_slices</a> [<a href="Api.html">Api</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALmerge_slices">merge_slices</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td><div class="info">
+<p>Build a new slice <code class="code">ff</code> which contains the marks of <code class="code">ff1</code> and <code class="code">ff2</code>
+ and generate everything that is needed to choose the calls in <code class="code">ff</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Fct_slice.html#VALmerge_slices">merge_slices</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td><div class="info">
+<p>Build a new slice which marks are a join between <code class="code">ff1</code> marks and <code class="code">ff2</code>
+ marks.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALmerge_slices">merge_slices</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to build a new slice which marks is a merge of the two given slices.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALminus_marks">minus_marks</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALmissing_input_mark">missing_input_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALmissing_output_mark">missing_output_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_appli_select_calls">mk_appli_select_calls</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_add_output_marks">mk_crit_add_output_marks</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_change_call">mk_crit_change_call</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_choose_call">mk_crit_choose_call</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_examines_calls">mk_crit_examines_calls</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_fct_top">mk_crit_fct_top</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_fct_user_select">mk_crit_fct_user_select</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_mark_calls">mk_crit_mark_calls</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_missing_inputs">mk_crit_missing_inputs</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_missing_outputs">mk_crit_missing_outputs</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_crit_prop_persit_marks">mk_crit_prop_persit_marks</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_fct_crit">mk_fct_crit</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td><div class="info">
+<p>build an action to apply the criteria to the persistent selection of the
+ function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingActions.html#VALmk_ff_user_select">mk_ff_user_select</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALmk_gen_spare">mk_gen_spare</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td><div class="info">
+<p>generated <code class="code">spare</code> = the smallest visible mark</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALmk_select">mk_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALmk_user_mark">mk_user_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALmk_user_spare">mk_user_spare</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>N</div></td></tr>
+<tr><td><a href="Datatype.Set.html#VALnearest_elt_ge">nearest_elt_ge</a> [<a href="Datatype.Set.html">Datatype.Set</a>]</td>
+<td></td></tr>
+<tr><td><a href="Datatype.Set.html#VALnearest_elt_le">nearest_elt_le</a> [<a href="Datatype.Set.html">Datatype.Set</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>O</div></td></tr>
+<tr><td><a href="Parameter_sig.Bool.html#VALoff">off</a> [<a href="Parameter_sig.Bool.html">Parameter_sig.Bool</a>]</td>
+<td><div class="info">
+<p>Set the boolean to <code class="code"><span class="keyword">false</span></code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Bool.html#VALon">on</a> [<a href="Parameter_sig.Bool.html">Parameter_sig.Bool</a>]</td>
+<td><div class="info">
+<p>Set the boolean to <code class="code"><span class="keyword">true</span></code>.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>P</div></td></tr>
+<tr><td><a href="SlicingInternals.html#VALpdg_mark_packed_descr">pdg_mark_packed_descr</a> [<a href="SlicingInternals.html">SlicingInternals</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingTypes.html#VALpp_sl_fct_slice">pp_sl_fct_slice</a> [<a href="SlicingTypes.html">SlicingTypes</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingTypes.html#VALpp_sl_mark">pp_sl_mark</a> [<a href="SlicingTypes.html">SlicingTypes</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingTypes.html#VALpp_sl_project">pp_sl_project</a> [<a href="SlicingTypes.html">SlicingTypes</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Request.html#VALpretty">pretty</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Slice.html#VALpretty">pretty</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALpretty">pretty</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Mark.html#VALpretty">pretty</a> [<a href="Api.Mark.html">Api.Mark</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Project.html#VALpretty">pretty</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALpretty">pretty</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used for debugging...</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALpretty">pretty</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>May be used for debugging...</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALpretty">pretty</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used for debugging...</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Mark.html#VALpretty">pretty</a> [<a href="Slicing.Api.Mark.html">Slicing.Api.Mark</a>]</td>
+<td><div class="info">
+<p>May be used for debugging...</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALpretty">pretty</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>May be used for debugging...</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALpretty_mark">pretty_mark</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALpretty_sig">pretty_sig</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALpretty_slice">pretty_slice</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALprint_crit">print_crit</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Project.html#VALprint_dot">print_dot</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALprint_dot">print_dot</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>May be used to for debugging...</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingActions.html#VALprint_f_crit">print_f_crit</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="PrintSlice.html#VALprint_fct_from_pdg">print_fct_from_pdg</a> [<a href="PrintSlice.html">PrintSlice</a>]</td>
+<td></td></tr>
+<tr><td><a href="PrintSlice.html#VALprint_fct_stmts">print_fct_stmts</a> [<a href="PrintSlice.html">PrintSlice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.PrintSlice.html#VALprint_fct_stmts">print_fct_stmts</a> [<a href="Slicing.PrintSlice.html">Slicing.PrintSlice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Fct_slice.html#VALprint_ff_sig">print_ff_sig</a> [<a href="Fct_slice.html">Fct_slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALprint_list_crit">print_list_crit</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="PrintSlice.html#VALprint_marked_ff">print_marked_ff</a> [<a href="PrintSlice.html">PrintSlice</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALprint_nd_and_mark_list">print_nd_and_mark_list</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td><div class="info">
+<p>Printing</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingActions.html#VALprint_nodes">print_nodes</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="PrintSlice.html#VALprint_original_glob">print_original_glob</a> [<a href="PrintSlice.html">PrintSlice</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALprint_proj_worklist">print_proj_worklist</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALprint_project_and_worklist">print_project_and_worklist</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingActions.html#VALprint_sel_marks_list">print_sel_marks_list</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALprint_select">print_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Request.html#VALpropagate_user_marks">propagate_user_marks</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALpropagate_user_marks">propagate_user_marks</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to apply pending request then propagate user marks to callers
+        recursively then apply pending requests</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>R</div></td></tr>
+<tr><td><a href="Api.Slice.html#VALremove">remove</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALremove">remove</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Remove the slice from the project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingProject.html#VALremove_ff">remove_ff</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td><div class="info">
+<p>Delete <code class="code">ff_to_remove</code> if it is not called.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Slice.html#VALremove_uncalled">remove_uncalled</a> [<a href="Api.Slice.html">Api.Slice</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Slice.html#VALremove_uncalled">remove_uncalled</a> [<a href="Slicing.Api.Slice.html">Slicing.Api.Slice</a>]</td>
+<td><div class="info">
+<p>Remove the uncalled slice from the project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingProject.html#VALremove_uncalled_slices">remove_uncalled_slices</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Project.html#VALreset_slicing">reset_slicing</a> [<a href="Api.Project.html">Api.Project</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingState.html#VALreset_slicing">reset_slicing</a> [<a href="SlicingState.html">SlicingState</a>]</td>
+<td><div class="info">
+<p>Function that can be used for: initializing the slicing tool before starting a slicing project;, removing all computed slices and all internal pending requests
+      of the current slicing project.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Project.html#VALreset_slicing">reset_slicing</a> [<a href="Slicing.Api.Project.html">Slicing.Api.Project</a>]</td>
+<td><div class="info">
+<p>Function that can be used for: initializing the slicing tool before starting a slicing project;, removing all computed slices and all internal pending requests
+          of the current slicing project.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>S</div></td></tr>
+<tr><td><a href="SlicingMacros.html#VALsame_ff_call">same_ff_call</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_decl_var">select_decl_var</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_decl_var_internal">select_decl_var_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_decl_var_internal">select_decl_var_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_entry_point">select_entry_point</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_entry_point_internal">select_entry_point_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_entry_point_internal">select_entry_point_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_func_annots">select_func_annots</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_func_annots">select_func_annots</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of the annotations related to a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_func_annots">select_func_annots</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select the annotations related to a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_func_calls_into">select_func_calls_into</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_func_calls_into">select_func_calls_into</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of calls to a <code class="code">kf</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_func_calls_into">select_func_calls_into</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select every calls to the given function without the selection of
+        its inputs/outputs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_func_calls_to">select_func_calls_to</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_func_calls_to">select_func_calls_to</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of calls to a <code class="code">kf</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_func_calls_to">select_func_calls_to</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select every calls to the given function, i.e.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_func_lval">select_func_lval</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_func_lval">select_func_lval</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add selection of function outputs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_func_lval">select_func_lval</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select lvalues (given as a string) related to a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_func_lval_rw">select_func_lval_rw</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_func_lval_rw">select_func_lval_rw</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of data relative to read/write accesses.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_func_lval_rw">select_func_lval_rw</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select rw accesses to lvalues (given as a string) related to a
+        function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_func_return">select_func_return</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_func_return">select_func_return</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of the <code class="code">kf</code> return statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_func_return">select_func_return</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select the function result (returned value).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_func_zone">select_func_zone</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_func_zone">select_func_zone</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add selection of function outputs.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_func_zone">select_func_zone</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select an output zone related to a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_in_out_zone">select_in_out_zone</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td><div class="info">
+<p>this one is similar to <code class="code">select_stmt_zone</code> with the return statement
+ when the function is defined, but it can also be used for undefined functions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_label">select_label</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_label_internal">select_label_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_label_internal">select_label_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select a label.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_min_call_internal">select_min_call_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_min_call_internal">select_min_call_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select a statement call without its
+        inputs/outputs so that it doesn't select the statements computing the
+        inputs of the called function as <code class="code">select_stmt_internal</code> would do.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_minimal_call">select_minimal_call</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td><div class="info">
+<p>marking a call node means that a <code class="code">choose_call</code> will have to decide that to
+ call according to the slicing-level, but anyway, the call will be visible.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_modified_output_zone">select_modified_output_zone</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_modified_output_zone_internal">select_modified_output_zone_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_modified_output_zone_internal">select_modified_output_zone_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select the statements that modify the
+        given zone considered as in output.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_pdg_nodes">select_pdg_nodes</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_pdg_nodes">select_pdg_nodes</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of the pdg nodes.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_pdg_nodes">select_pdg_nodes</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_pdg_nodes">select_pdg_nodes</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select nodes of the PDG if <code class="code">is_ctrl_mark&nbsp;m</code>,
+         propagate ctrl_mark on ctrl dependencies, if <code class="code">is_addr_mark&nbsp;m</code>,
+         propagate addr_mark on addr dependencies, if <code class="code">is_data_mark&nbsp;m</code>,
+         propagate data_mark on data dependencies, mark the node with a spare_mark and propagate so that
+         the dependencies that were not selected yet will be marked spare.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_pdg_nodes_internal">select_pdg_nodes_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_pdg_nodes_internal">select_pdg_nodes_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select PDG nodes.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_return">select_return</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_return_internal">select_return_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_return_internal">select_return_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt">select_stmt</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt">select_stmt</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of the statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt">select_stmt</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_annot">select_stmt_annot</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt_annot">select_stmt_annot</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add selection of the annotations related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_annot">select_stmt_annot</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select the annotations related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_annots">select_stmt_annots</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt_annots">select_stmt_annots</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add selection of the annotations related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_annots">select_stmt_annots</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select the annotations related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_stmt_computation">select_stmt_computation</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_ctrl">select_stmt_ctrl</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt_ctrl">select_stmt_ctrl</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of the statement reachability.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_stmt_ctrl">select_stmt_ctrl</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_ctrl">select_stmt_ctrl</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select a statement reachability.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_ctrl_internal">select_stmt_ctrl_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_ctrl_internal">select_stmt_ctrl_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select a statement reachability :
+        Only propagate a ctrl_mark on the statement control dependencies.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_internal">select_stmt_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_internal">select_stmt_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select a statement : if <code class="code">is_ctrl_mark&nbsp;m</code>,
+          propagates ctrl_mark on ctrl dependencies of the statement, if <code class="code">is_addr_mark&nbsp;m</code>,
+          propagates addr_mark on addr dependencies of the statement, if <code class="code">is_data_mark&nbsp;m</code>,
+          propagates data_mark on data dependencies of the statement, otherwise, marks the node with a spare_mark and propagate so that
+          the dependencies that were not selected yet will be marked spare.
+        When the statement is a call, its functional inputs/outputs are
+        also selected (The call is still selected even it has no output).
+        When the statement is a composed one (block, if, etc...),
+        all the sub-statements are selected.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_lval">select_stmt_lval</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt_lval">select_stmt_lval</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of data relative to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_lval">select_stmt_lval</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select lvalues (given as string) related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_lval_rw">select_stmt_lval_rw</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt_lval_rw">select_stmt_lval_rw</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of rw accesses to lvalues relative to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_lval_rw">select_stmt_lval_rw</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select rw accesses to lvalues (given as a string) related to a
+        statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_pred">select_stmt_pred</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt_pred">select_stmt_pred</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add selection of the annotations related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_pred">select_stmt_pred</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select a predicate value related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_term">select_stmt_term</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt_term">select_stmt_term</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add selection of the annotations related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_term">select_stmt_term</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select a predicate value related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_zone">select_stmt_zone</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALselect_stmt_zone">select_stmt_zone</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Registered as a slicing selection function:
+    Add a selection of data relative to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_stmt_zone">select_stmt_zone</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_zone">select_stmt_zone</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>To select a zone value related to a statement.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.Select.html#VALselect_stmt_zone_internal">select_stmt_zone_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_stmt_zone_internal">select_stmt_zone_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select a zone value at a program point.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_zone_at_end">select_zone_at_end</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_zone_at_end_internal">select_zone_at_end_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_zone_at_end_internal">select_zone_at_end_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select a zone value at the end of a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALselect_zone_at_entry">select_zone_at_entry</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Select.html#VALselect_zone_at_entry_point_internal">select_zone_at_entry_point_internal</a> [<a href="Api.Select.html">Api.Select</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Select.html#VALselect_zone_at_entry_point_internal">select_zone_at_entry_point_internal</a> [<a href="Slicing.Api.Select.html">Slicing.Api.Select</a>]</td>
+<td><div class="info">
+<p>May be used to select a zone value at the beginning of a function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.html#VALself">self</a> [<a href="Api.html">Api</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingState.html#VALself">self</a> [<a href="SlicingState.html">SlicingState</a>]</td>
+<td><div class="info">
+<p>Internal state of the slicing tool from project viewpoints.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Slicing.Api.html#VALself">self</a> [<a href="Slicing.Api.html">Slicing.Api</a>]</td>
+<td><div class="info">
+<p>Internal state of the slicing tool from project viewpoints.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Api.html#VALset_modes">set_modes</a> [<a href="Api.html">Api</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.html#VALset_modes">set_modes</a> [<a href="Slicing.Api.html">Slicing.Api</a>]</td>
+<td><div class="info">
+<p>Sets slicing parameters related to command line options
+      <code class="code">-slicing-level</code>, <code class="code">-slice-callers</code>, <code class="code">-slice-undef-functions</code>,
+      <code class="code">-slicing-keep-annotations</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingParameters.html#VALset_off">set_off</a> [<a href="SlicingParameters.html">SlicingParameters</a>]</td>
+<td></td></tr>
+<tr><td><a href="Parameter_sig.String.html#VALset_possible_values">set_possible_values</a> [<a href="Parameter_sig.String.html">Parameter_sig.String</a>]</td>
+<td><div class="info">
+<p>Set what are the acceptable values for this parameter.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Parameter_sig.Int.html#VALset_range">set_range</a> [<a href="Parameter_sig.Int.html">Parameter_sig.Int</a>]</td>
+<td><div class="info">
+<p>Set what is the possible range of values for this parameter.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingMarks.html#VALsome_visible_out">some_visible_out</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMarks.html#VALsomething_visible">something_visible</a> [<a href="SlicingMarks.html">SlicingMarks</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.Request.html#VALsplit_slice">split_slice</a> [<a href="Api.Request.html">Api.Request</a>]</td>
+<td></td></tr>
+<tr><td><a href="Api.html#VALsplit_slice">split_slice</a> [<a href="Api.html">Api</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingProject.html#VALsplit_slice">split_slice</a> [<a href="SlicingProject.html">SlicingProject</a>]</td>
+<td></td></tr>
+<tr><td><a href="Slicing.Api.Request.html#VALsplit_slice">split_slice</a> [<a href="Slicing.Api.Request.html">Slicing.Api.Request</a>]</td>
+<td><div class="info">
+<p>May be used to copy the input slice to have one slice for each call of the original
+        slice and generate requests in order to call them.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingSelect.html#VALstmt_nodes_to_select">stmt_nodes_to_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingMacros.html#VALstr_level_option">str_level_option</a> [<a href="SlicingMacros.html">SlicingMacros</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>T</div></td></tr>
+<tr><td><a href="SlicingSelect.html#VALtop_db_select">top_db_select</a> [<a href="SlicingSelect.html">SlicingSelect</a>]</td>
+<td></td></tr>
+<tr><td><a href="SlicingCmds.html#VALtopologic_propagation">topologic_propagation</a> [<a href="SlicingCmds.html">SlicingCmds</a>]</td>
+<td><div class="info">
+<p>Topologically propagate user marks to callers in whole project</p>
+
+</div>
+</td></tr>
+<tr><td><a href="SlicingActions.html#VALtranslate_crit_to_select">translate_crit_to_select</a> [<a href="SlicingActions.html">SlicingActions</a>]</td>
+<td></td></tr>
+<tr><td align="left"><div>W</div></td></tr>
+<tr><td><a href="SlicingParameters.html#VALwkey_cmdline">wkey_cmdline</a> [<a href="SlicingParameters.html">SlicingParameters</a>]</td>
+<td></td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,13 @@
+digraph "Plugin architecture (occurrence)" { node [href="\N.html"];
+  size="10,7.5";
+  ratio="fill";
+  
+  fontsize="12pt";
+  rankdir = TB ;
+"Occurrence" [style=filled, color=darkturquoise];
+"Options" [style=filled, color=darkturquoise];
+"Register" [style=filled, color=darkturquoise];
+"Register" -> "Options";
+"Register_gui" [style=filled, color=darkturquoise];
+"Register_gui" -> "Register";
+}
